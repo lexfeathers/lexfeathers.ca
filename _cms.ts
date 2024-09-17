@@ -9,8 +9,8 @@ const password = Deno.env.get("PASSWORD");
 // 1. Create the cms instance
 const cms = lumeCMS({
   site: {
-    name: "Void Femmes",
-    url: "https://voidfemmes.ca",
+    name: "Lex Feathers",
+    url: "https://lexfeathers.ca",
   }, 
   auth: {
     method: "basic",
@@ -74,7 +74,7 @@ cms.storage(
   new GitHub({
     client: new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") }),
     owner: "lexfeathers",
-    repo: "voidfemmes",
+    repo: "lexfeathers.ca",
   }),
 );
 
