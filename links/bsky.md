@@ -1,4 +1,4 @@
 ---
-title: Portfolip
-link: https://gameaudio.ca
+title: Bsky
+link: https://bsky.app/profile/gameaudio.ca
 ---

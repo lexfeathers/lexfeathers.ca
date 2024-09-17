@@ -1,4 +1,4 @@
 ---
-title: Bsky
-link: https://bsky.app/profile/gameaudio.ca
+title: Instagram
+link: https://instagram.com/lex.feathers
 ---

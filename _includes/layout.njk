@@ -43,7 +43,7 @@
 				{% ifAsync type == 'posts' %}
 					{% ifAsync image %}
 						<figure>
-							<img src="{{ image }}" alt="{{ title }}">
+							<img src="{{ image }}" alt="{{ title }}" loading="lazy">
 						</figure>
 
 						{% ifAsync image_caption %}

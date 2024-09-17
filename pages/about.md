@@ -1,18 +1,29 @@
 ---
 title: about
 description: This is a page... that tells you about me.
+image: /uploads/headshot.jpg
 order: 3
 ---
-### Void Femmes is an electronic music project by [Lex Feathers.](https://lexfeathers.ca)
 
-The music heavily features breakbeats, weird distorted synths, occasionally guitars, and spacey vocals. The intent is to sound aggressive, playful and sensual.
+# Lex Feathers (she/they)
 
-Void Femmes releases so far, from newest to oldest:
-- [Seen](https://voidfemmes.bandcamp.com/track/seen)
-- [All Fours (EP)](https://voidfemmes.bandcamp.com/album/all-fours)
-- [I Need To Know Your Form (with Erin Corbett)](https://voidfemmes.bandcamp.com/track/i-need-to-know-your-form)
-- [A Mouth Will Suffice](https://voidfemmes.bandcamp.com/track/a-mouth-will-suffice)
+I make music! Sometimes for games, and sometimes for myself.
 
-Lex's other projects include:
-- [Waxlimbs](https://waxlimbs.com)
-- [Feyla](https://feyla.bandcamp.com)
+<figure>
+  <img src="/uploads/headshot.jpg" alt="Lex Feathers" loading="lazy" />
+</figure>
+
+## Here's where you can find me online:
+
+- [Bsky (probably where I will mainly be posting)](https://bsky.app/profile/gameaudio.ca)
+- [Instagram (personal stuff and gig-posting mainly)](https://instagram.com/lex.feathers)
+- [Mastodon (I want to like this more than I do)](https://octodon.social/@lexfeathers)
+- [My portfolio website](https://gameaudio.ca)
+
+## my Bandcamp pages:
+
+(ie, where you can hear my music)
+
+- [Waxlimbs (my band)](https://waxlimbs.bandcamp.com/)
+- [Void Femmes (my electronic music)](https://voidfemmes.bandcamp.com/)
+
