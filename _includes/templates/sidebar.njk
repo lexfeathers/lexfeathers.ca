@@ -1,0 +1,33 @@
+<div class="directory">
+  <h3>Nav</h3>
+  <div>
+    <ul class="page-list">
+      {% include "/templates/mainmenu.njk" %}
+    </ul>
+  </div>
+</div>
+
+<h4>Latest posts:</h4>
+<div id="post-dir">
+  <div class="margin-bar"></div>
+  <menu>
+    <ul class="post-list">
+      {# Get posts that aren't drafts #}
+      {% set posts = search.pages("type=posts draft=false", "published=desc", 5) %}
+      {% asyncEach post in posts %}
+      {% include "/templates/post-item.njk" %}
+      {% endeach %}
+    </ul>
+  </menu>
+</div>
+<a href="/pages/directory/" class="button">All posts</a>
+
+<div class="footer-container-sidebar">
+  <h4>Links</h4>
+  {% include "/templates/footer.njk" %}
+</div>
+{# <a href="/pages/about" id="sidebar-character" alt="about">
+  <div>
+    <img src="/assets/images/pinkcircle.png">
+  </div>
+</a> #}
