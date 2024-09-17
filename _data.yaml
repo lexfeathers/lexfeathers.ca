@@ -1,6 +1,7 @@
 layout: layout.njk
 metas:
   site: Lex Feathers
+  title: =site
   description: music and ideas by Lex Feathers
   excerpt: music and ideas by Lex Feathers
   icon: assets/favicon.ico
@@ -9,3 +10,6 @@ metas:
   keywords: ["music", "lex feathers", "game audio", "electronic music"]
   lang: en
   generator: true
+  "twitter:card": =image
+  "twitter:title": =title
+  "twitter:description": =excerpt
