@@ -1,9 +1,10 @@
 layout: layout.njk
 metas:
   site: Lex Feathers
+  description: music and ideas by Lex Feathers
   excerpt: music and ideas by Lex Feathers
   icon: assets/favicon.ico
-  image: assets/images/I need to know your form.jpg
+  image: assets/images/banner.png
   "twitter:image:src": assets/images/banner.png
   keywords: ["music", "lex feathers", "game audio", "electronic music"]
   lang: en
