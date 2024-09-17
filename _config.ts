@@ -32,9 +32,9 @@ site.use(feed({
   sort: "date=desc",
 
   info: {
-    title: "Void Femmes",
+    title: "Lex Feathers",
     description:
-      "music and ideas by Lex Feathers",
+      "music and ideas",
     lang: "en",
     generator: false,
   },
