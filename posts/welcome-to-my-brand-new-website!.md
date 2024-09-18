@@ -2,7 +2,7 @@
 title: Welcome to my brand new website!
 author: Lex Feathers
 draft: false
-published: 2024-09-17T17:10:00.000Z
+published: 2024-09-17T13:10:00.000Z
 image: /uploads/oldwood.jpeg
 tags:
   - audio
@@ -10,6 +10,7 @@ tags:
 excerpt: >
   I'll start by posting a demo I wrote when I was house-sitting for my partner
   when she was out of town:
+image_caption: An old weather-stained plank with bright spots of lichen on it
 ---
 I'll start by posting a demo I wrote when I was house-sitting for my partner when she was out of town:
 
