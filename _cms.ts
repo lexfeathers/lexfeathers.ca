@@ -62,6 +62,13 @@ const cms = lumeCMS({
       border-radius: 4px;
       font-weight: bold;
     }
+    #logoutButton {
+      background: var(--color-code-e);
+      color: white;
+    }
+    .app-footer {
+      justify-content: space-evenly;
+    }
   </style>
     `,
 });
