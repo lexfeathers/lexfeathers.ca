@@ -1,8 +1,9 @@
 layout: layout.njk
 metas:
-  site: Lex Feathers
+  site: $ h1
+  title: $ h1
   description: music and ideas by Lex Feathers
-  excerpt: music and ideas by Lex Feathers
+  author: Lex Feathers
   icon: assets/favicon.ico
   image: assets/images/linkpreview.jpg
   "twitter:image:src": assets/images/linkpreview.jpg
