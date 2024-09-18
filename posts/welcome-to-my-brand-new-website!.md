@@ -1,5 +1,5 @@
 ---
-title: Welcome to my brand new /website/!
+title: Welcome to my brand new _website_!
 author: Lex Feathers
 draft: false
 published: 2024-09-17T17:10:00.000Z
