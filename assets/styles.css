@@ -448,6 +448,25 @@ header h1 a {
   text-decoration: none;
 }
 
+/* Tag list that appears at the bottom of a post */
+div.tags {
+  margin-top: 4rem;
+  font-size: 12pt;
+}
+
+ul.taglist {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.taglist li {
+  display: inline;
+}
+
+.taglist li:not(:last-child)::after {
+  content: ',';
+}
+
 /* Nav menu */
 .menu {
   display: flex;
