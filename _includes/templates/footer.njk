@@ -27,11 +27,11 @@
   </ul> #}
 
   <p class="copyright">&copy; {% include "/templates/name.njk" %} <span id="currentyear">{{ date | date('yyyy') }}</span></p>
-  <script>
+  {# <script>
     date = new Date();
     year = date.getFullYear();
 
     document.getElementById("currentyear").innerHTML = year;
-  </script>
+  </script> #}
   <a class="rss" href="/feed.rss" class="button">RSS</a>
 </footer>
