@@ -4,8 +4,8 @@ metas:
   description: music and ideas by Lex Feathers
   excerpt: music and ideas by Lex Feathers
   icon: assets/favicon.ico
-  # image: assets/images/banner.png
-  "twitter:image:src": assets/images/banner.png
+  image: assets/images/linkpreview.jpg
+  "twitter:image:src": assets/images/linkpreview.jpg
   keywords: ["music", "lex feathers", "game audio", "electronic music"]
   lang: en
   generator: true
