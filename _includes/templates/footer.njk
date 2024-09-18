@@ -26,7 +26,7 @@
     </li>
   </ul> #}
 
-  <p class="copyright">&copy; {% include "/templates/name.njk" %} <span id="currentyear"></span></p>
+  <p class="copyright">&copy; {% include "/templates/name.njk" %} <span id="currentyear">{{ date | date('yyyy') }}</span></p>
   <script>
     date = new Date();
     year = date.getFullYear();
