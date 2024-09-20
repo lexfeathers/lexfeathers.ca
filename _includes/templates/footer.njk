@@ -1,6 +1,6 @@
 <footer>
   <ul class="menu">
-    {% set footerLinks = menu_links %}
+    {% set footerLinks = footer_links %}
     {% asyncEach item in footerLinks %}
     <li class="menu-item">
       <a href="{{ item.url }}" target="_blank" class="external">{{ item.title }}</a>

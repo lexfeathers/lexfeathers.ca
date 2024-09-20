@@ -11,7 +11,7 @@ metas:
     - game audio
     - electronic music
   generator: false
-menu_links:
+footer_links:
   - title: Bsky
     url: "https://bsky.app/profile/gameaudio.ca"
   - title: Bandcamp

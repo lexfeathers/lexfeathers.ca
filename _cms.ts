@@ -165,7 +165,7 @@ cms.document(
       ],
     },
     {
-      name: "menu_links",
+      name: "footer_links",
       type: "object-list",
       description: "Links that appear in the footer",
       fields: [
