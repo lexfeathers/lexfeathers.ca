@@ -154,6 +154,7 @@ cms.document(
     {
       name: "website",
       type: "object",
+      description: "Key details about this site",
       fields: [
         {
           name: "site_title",
