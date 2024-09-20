@@ -149,7 +149,7 @@ cms.collection({
 // Site settings
 cms.document(
   "settings: Global settings for the site",
-  "src:_data.yml",
+  "my_fs:_data.yml",
   [
     {
       name: "home",
