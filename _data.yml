@@ -1,0 +1,22 @@
+layout: layout.njk
+home:
+  site_title: Lex Feathers
+metas:
+  author: Lex Feathers
+  icon: assets/favicon.ico
+  'twitter:image:src': assets/images/linkpreview.jpg
+  keywords:
+    - music
+    - lex feathers
+    - game audio
+    - electronic music
+  generator: false
+menu_links:
+  - title: Bsky
+    url: 'https://bsky.app/profile/gameaudio.ca'
+  - title: Bandcamp
+    url: 'https://voidfemmes.bandcamp.com'
+  - title: Portfolio
+    url: 'https://gameaudio.ca'
+  - title: Instagram
+    url: 'https://instagram.com/lex.feathers'

@@ -19,8 +19,20 @@
   --text-medium: 18pt;
   --text-large: 24pt;
 
-  /* Title/logo symbol flourish */
   --sig-symbol: ' :';
+
+  /* Pagefind search bar styles */
+  --pagefind-ui-scale: 0.8;
+  --pagefind-ui-primary: var(--colour-secondary);
+  --pagefind-ui-text: var(--colour-text);
+  --pagefind-ui-background: var(--colour-light-background);
+  --pagefind-ui-border: var(--colour-text-faded);
+  --pagefind-ui-tag: var(--colour-text);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 4px;
+  --pagefind-ui-image-border-radius: 4px;
+  --pagefind-ui-image-box-ratio: 3 / 2;
+  --pagefind-ui-font: 'Fira Code', monospace;
 }
 
 /* Fonts */
@@ -96,6 +108,32 @@ a:hover {
 
 .name::after {
   content: var(--sig-symbol);
+}
+
+
+/* Pagefind search box */
+#search {
+  margin-top: 2rem;
+}
+
+.pagefind-ui__search-input,
+.pagefind-ui__result-title {
+  font-weight: 300 !important;
+}
+
+.pagefind-ui__result {
+  background-color: var(--colour-background);
+  border: var(--pagefind-ui-border-width) solid var(--colour-text-faded) !important;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.pagefind-ui__result-inner {
+  margin: auto 2rem;
+}
+
+.pagefind-ui__result mark {
+  background-color: var(--colour-secondary);
 }
 
 /* This is where the page content and the sidebar go. */

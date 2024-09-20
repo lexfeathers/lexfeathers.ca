@@ -77,6 +77,7 @@
       "npm:meriyah@4.5.0": "npm:meriyah@4.5.0",
       "npm:nunjucks@3.2.4": "npm:nunjucks@3.2.4",
       "npm:octokit": "npm:octokit@3.2.0_@octokit+core@5.2.0",
+      "npm:pagefind@1.1.0": "npm:pagefind@1.1.0",
       "npm:sharp@0.33.5": "npm:sharp@0.33.5",
       "npm:svg2png-wasm@1.4.1": "npm:svg2png-wasm@1.4.1"
     },
@@ -590,6 +591,26 @@
           "aggregate-error": "aggregate-error@3.1.0"
         }
       },
+      "@pagefind/darwin-arm64@1.1.0": {
+        "integrity": "sha512-SLsXNLtSilGZjvqis8sX42fBWsWAVkcDh1oerxwqbac84HbiwxpxOC2jm8hRwcR0Z55HPZPWO77XeRix/8GwTg==",
+        "dependencies": {}
+      },
+      "@pagefind/darwin-x64@1.1.0": {
+        "integrity": "sha512-QjQSE/L5oS1C8N8GdljGaWtjCBMgMtfrPAoiCmINTu9Y9dp0ggAyXvF8K7Qg3VyIMYJ6v8vg2PN7Z3b+AaAqUA==",
+        "dependencies": {}
+      },
+      "@pagefind/linux-arm64@1.1.0": {
+        "integrity": "sha512-8zjYCa2BtNEL7KnXtysPtBELCyv5DSQ4yHeK/nsEq6w4ToAMTBl0K06khqxdSGgjMSwwrxvLzq3so0LC5Q14dA==",
+        "dependencies": {}
+      },
+      "@pagefind/linux-x64@1.1.0": {
+        "integrity": "sha512-4lsg6VB7A6PWTwaP8oSmXV4O9H0IHX7AlwTDcfyT+YJo/sPXOVjqycD5cdBgqNLfUk8B9bkWcTDCRmJbHrKeCw==",
+        "dependencies": {}
+      },
+      "@pagefind/windows-x64@1.1.0": {
+        "integrity": "sha512-OboCM76BcMKT9IoSfZuFhiqMRgTde8x4qDDvKulFmycgiJrlL5WnIqBHJLQxZq+o2KyZpoHF97iwsGAm8c32sQ==",
+        "dependencies": {}
+      },
       "@types/aws-lambda@8.10.137": {
         "integrity": "sha512-YNFwzVarXAOXkjuFxONyDw1vgRNzyH8AuyN19s0bM+ChSu/bzxb5XPxYFLXoqoM+tvgzwR3k7fXcEOW125yJxg==",
         "dependencies": {}
@@ -859,6 +880,16 @@
         "integrity": "sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==",
         "dependencies": {
           "wrappy": "wrappy@1.0.2"
+        }
+      },
+      "pagefind@1.1.0": {
+        "integrity": "sha512-1nmj0/vfYcMxNEQj0YDRp6bTVv9hI7HLdPhK/vBBYlrnwjATndQvHyicj5Y7pUHrpCFZpFnLVQXIF829tpFmaw==",
+        "dependencies": {
+          "@pagefind/darwin-arm64": "@pagefind/darwin-arm64@1.1.0",
+          "@pagefind/darwin-x64": "@pagefind/darwin-x64@1.1.0",
+          "@pagefind/linux-arm64": "@pagefind/linux-arm64@1.1.0",
+          "@pagefind/linux-x64": "@pagefind/linux-x64@1.1.0",
+          "@pagefind/windows-x64": "@pagefind/windows-x64@1.1.0"
         }
       },
       "punycode.js@2.3.1": {
@@ -1347,6 +1378,7 @@
     "https://deno.land/x/lume@v2.3.0/deps/log.ts": "0ef5f568e1629ed1a56946c88c7cbcdae17f04390134da9588bc00c1014af072",
     "https://deno.land/x/lume@v2.3.0/deps/markdown_it.ts": "f68bb28890f77347ac7bc980026ea52e3cf0940278a3930428f5900be9e6491f",
     "https://deno.land/x/lume@v2.3.0/deps/nunjucks.ts": "55e88a22192b3d87ac4cde3dcb3fe23db610bc4f7e373c1ca6df9610aa2ac632",
+    "https://deno.land/x/lume@v2.3.0/deps/pagefind.ts": "40b6146948b211a2d171121d8de808a69c57e004a354daba334f858dd95ceee0",
     "https://deno.land/x/lume@v2.3.0/deps/path.ts": "5ea8b07f77c743478db9c67142408a9b2a598938d1bd46ffc8f481645b4a8fe8",
     "https://deno.land/x/lume@v2.3.0/deps/sharp.ts": "5aea21c8de4d6e4a8ecaf157012b0dce08c17a63d444b945737deba9e9d95840",
     "https://deno.land/x/lume@v2.3.0/deps/svg2png.ts": "d761fb39c37e5c5ba4ac2db25768cf0c2ff34643d3d1847a9fe736449175d5ec",
@@ -1371,6 +1403,7 @@
     "https://deno.land/x/lume@v2.3.0/plugins/metas.ts": "76db58c6ec7740e905240bba98685b7abb9a524f8204a1c683dfce3baa199ab2",
     "https://deno.land/x/lume@v2.3.0/plugins/modules.ts": "e64197315d930e462aca24e444d0cfcefb37bfea168b2306122b892a1e1c5b8e",
     "https://deno.land/x/lume@v2.3.0/plugins/nunjucks.ts": "ab2c5bfb8d09d2182fb91a5827daf6570b7a07d491e883b15264af48ac744f73",
+    "https://deno.land/x/lume@v2.3.0/plugins/pagefind.ts": "62b112506555ca1eb77b933e289d8f06cd623ace1ae0306a7070964dd5455ea7",
     "https://deno.land/x/lume@v2.3.0/plugins/paginate.ts": "7dfee977a205dfe0af33a3e406f73017badd2d4593cf27e5bd897da7ab12ba8a",
     "https://deno.land/x/lume@v2.3.0/plugins/search.ts": "ff570560c6ca95598a1cbfb3a77611477ee7dbb53300bcc3ba14d18c9e5eba79",
     "https://deno.land/x/lume@v2.3.0/plugins/sitemap.ts": "a8f7ce33eb4b5fe480d170bb0b69bc219f5a8612ea31ca5b8643d68a3e5531ad",

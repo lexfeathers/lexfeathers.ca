@@ -6,7 +6,7 @@ import date from "lume/plugins/date.ts";
 import metas from "lume/plugins/metas.ts";
 import feed from "lume/plugins/feed.ts";
 import _cleancss from 'https://deno.land/x/lume_cleancss@v0.2.0/mod.ts';
-// import { underline } from "lume/deps/colors.ts";
+import pagefind from "lume/plugins/pagefind.ts";
 
 const site = lume({
   location: new URL("https://lexfeathers.ca"),
@@ -48,7 +48,18 @@ site.use(feed({
     image: "=image", // The image of the item
   },
 }));
-
+site.use(pagefind({
+  ui: {
+    containerId: "search",
+    showImages: false,
+    showEmptyFilters: true,
+    resetStyles: true,
+  },
+  indexing: {
+    rootSelector: "#content",
+    verbose: false,
+  },
+}));
 
 site.copy("/assets/"); // Iclude assets in the build
 site.copy("/uploads/"); // Iclude assets in the build

@@ -1,0 +1,18 @@
+
+{% set allTags = search.values('tags') %}
+{# <ul>
+  {% for tag in allTags %}
+    {% set pages = search.pages(tag) %}
+      <li>
+        <a href="{{ tag }}">{{ tag }}</a>
+      </li>
+  {% endfor %}
+</ul> #}
+<ul>
+  {% for tag in allTags %}
+    {% set pages = search.pages(tag) %}
+      <li>
+        {{ tag }}
+      </li>
+  {% endfor %}
+</ul>
