@@ -21,27 +21,34 @@
 			{% include "/templates/sidebar.njk" %}
 		</aside>
 
-		<section id="content">
+		<section id="content" data-pagefind-body>
 			{# Basic breadcrumbs #}
-			{% if title != 'home' and type != 'posts' %}
-				<a href="/" alt="Back to home" class="button"><- home</a>
-			{% elif type == 'posts' %}
-				<a href="/pages/directory" alt="Back to directory" class="button"><- directory</a>
-			{% endif %}
+			<div data-pagefind-ignore="all">
+				{% if title != 'home' and type != 'posts' %}
+					<a href="/" alt="Back to home" class="button"><- home</a>
+				{% elif type == 'posts' %}
+					<a href="/pages/directory" alt="Back to directory" class="button"><- directory</a>
+				{% endif %}
+			</div>
 
 			{# Page title #}
-			{% if title != 'home' %}
-				<h2>{{ title }}</h2>
-				<hr class="faded">
-			{% endif %}
+			<div data-pagefind-ignore>
+				{% if title != 'home' %}
+					<h1>{{ title }}</h1>
+					<hr class="faded">
+				{% endif %}
 
-			{% if author %}
-				<h3 class="faded author">
-					{{ author }}<span class="faded date">{{ published | date('HUMAN_DATE') }}</span>
-				</h3>
-			{% endif %}
+				{% if author %}
+					<h3 class="faded author">
+						{{ author }}<span class="faded date">{{ published | date('HUMAN_DATE') }}</span>
+					</h3>
+				{% endif %}
+			</div>
 
 			<article>
+				{% if title and type == "posts" %}
+					<h1 class="visually-hidden">{{ title }}</h1>
+				{% endif %}
 				{% if type == 'posts' %}
 					{% if image %}
 						<figure>

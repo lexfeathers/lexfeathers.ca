@@ -3,40 +3,41 @@ title: home
 type: pages
 order: 1
 ---
-
-<div class="banner">
-  <img src="/assets/images/banner.png" alt="Lex Feathers's personal blog" loading="lazy">
-</div>
-
-<h1>Lex's personal blog</h1>
-<p>HTML scratchpad and general idea sharing repository. What I can't put on a microblogging site goes here.</p>
-
-<h1 class="faded" style="margin-bottom: 0;">Latest post:</h1>
-
-<article class="homepage-excerpt">
-  {# Get the latest post #}
-  {% set latestPost = search.pages("type=posts draft=false", "published=desc", 1) %}
-  {% asyncEach post in latestPost %}
-  <div class="homepage-excerpt-container">
-    <div class="margin-bar"></div>
-    <div>
-      <h3>{{ post.title }}</h3>
-
-      <a href="{{ post.url }}">
-        <span class="homepage-excerpt-date">
-          Posted {% include "/templates/date.njk" %} by {{ post.author }}
-        </span>
-      </a>
-      <figure>
-        {% ifAsync post.excerpt %}
-        {{ post.excerpt | safe }}
-        {% else %}
-        {{ post.content | safe }}
-        {% endif %}
-      </figure>
-    </div>
+<div data-pagefind-ignore>
+  <div class="banner">
+    <img src="/assets/images/banner.png" alt="Lex Feathers's personal blog" loading="lazy">
   </div>
 
-  <a href="{{ post.url }}" class="button" style="text-align: right;">Read more -></a>
-  {% endeach %}
-</article>
+  <h1>Lex's personal blog</h1>
+  <p>HTML scratchpad and general idea sharing repository. What I can't put on a microblogging site goes here.</p>
+
+  <h1 class="faded" style="margin-bottom: 0;">Latest post:</h1>
+
+  <article class="homepage-excerpt">
+    {# Get the latest post #}
+    {% set latestPost = search.pages("type=posts draft=false", "published=desc", 1) %}
+    {% asyncEach post in latestPost %}
+    <div class="homepage-excerpt-container">
+      <div class="margin-bar"></div>
+      <div>
+        <h3>{{ post.title }}</h3>
+
+        <a href="{{ post.url }}">
+          <span class="homepage-excerpt-date">
+            Posted {% include "/templates/date.njk" %} by {{ post.author }}
+          </span>
+        </a>
+        <figure>
+          {% ifAsync post.excerpt %}
+          {{ post.excerpt | safe }}
+          {% else %}
+          {{ post.content | safe }}
+          {% endif %}
+        </figure>
+      </div>
+    </div>
+
+    <a href="{{ post.url }}" class="button" style="text-align: right;">Read more -></a>
+    {% endeach %}
+  </article>
+</div>

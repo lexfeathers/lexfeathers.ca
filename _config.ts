@@ -51,7 +51,7 @@ site.use(feed({
 site.use(pagefind({
   ui: {
     containerId: "search",
-    showImages: false,
+    showImages: true,
     showEmptyFilters: true,
     resetStyles: true,
   },
