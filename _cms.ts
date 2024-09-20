@@ -152,7 +152,7 @@ cms.document(
   "my_fs:_data.yml",
   [
     {
-      name: "site",
+      name: "website",
       type: "object",
       fields: [
         {
