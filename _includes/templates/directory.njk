@@ -5,7 +5,7 @@
   {% ifAsync posts %}
     <ul class="directory">
       {% asyncEach post in posts %}
-        {% include "/templates/post-item.njk" %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         <span class="faded date">
           {% include "/templates/date.njk" %}
         </span>

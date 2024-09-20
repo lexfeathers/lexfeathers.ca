@@ -22,12 +22,14 @@
 		</aside>
 
 		<section id="content">
+			{# Basic breadcrumbs #}
 			{% if title != 'home' and type != 'posts' %}
 				<a href="/" alt="Back to home" class="button"><- home</a>
 			{% elif type == 'posts' %}
 				<a href="/pages/directory" alt="Back to directory" class="button"><- directory</a>
 			{% endif %}
 
+			{# Page title #}
 			{% if title != 'home' %}
 				<h2>{{ title }}</h2>
 				<hr class="faded">

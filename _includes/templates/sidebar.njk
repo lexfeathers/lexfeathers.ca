@@ -15,7 +15,7 @@
       {# Get posts that aren't drafts #}
       {% set posts = search.pages("type=posts draft=false", "published=desc", 5) %}
       {% asyncEach post in posts %}
-      {% include "/templates/post-item.njk" %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endeach %}
     </ul>
   </menu>
