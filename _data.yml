@@ -1,10 +1,10 @@
 layout: layout.njk
-home:
+website:
   site_title: Lex Feathers
 metas:
   author: Lex Feathers
   icon: assets/favicon.ico
-  'twitter:image:src': assets/images/linkpreview.jpg
+  "twitter:image:src": assets/images/linkpreview.jpg
   keywords:
     - music
     - lex feathers
@@ -13,10 +13,10 @@ metas:
   generator: false
 menu_links:
   - title: Bsky
-    url: 'https://bsky.app/profile/gameaudio.ca'
+    url: "https://bsky.app/profile/gameaudio.ca"
   - title: Bandcamp
-    url: 'https://voidfemmes.bandcamp.com'
+    url: "https://voidfemmes.bandcamp.com"
   - title: Portfolio
-    url: 'https://gameaudio.ca'
+    url: "https://gameaudio.ca"
   - title: Instagram
-    url: 'https://instagram.com/lex.feathers'
+    url: "https://instagram.com/lex.feathers"
