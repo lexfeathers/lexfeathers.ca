@@ -142,6 +142,7 @@ I make music! Sometimes for games, and sometimes for myself.
         alt="Lex Feathers"
         title="Lex Feathers"
         src="https://lexfeathers.ca/uploads/lexfeathers.png"
+        style="image-rendering: pixelated;"
       />
     </a> 
     <p>Embed code:</p>
