@@ -44,6 +44,24 @@ I make music! Sometimes for games, and sometimes for myself.
 ### harken to the days of eld:
 
 <div class="cool-links">
+  <a href="https://blog.radicaldream.land" target="_blank">
+    <img
+      width="88"
+      height="31"
+      alt="Radicaldreamland"
+      title="Radicaldreamland"
+      src="https://i.postimg.cc/QxhG798p/dispatchblog-banner.gif"      
+    />
+  </a>
+  <a href="https://blog.aurahack.jp" target="_blank">
+    <img
+      width="88"
+      height="31"
+      alt="Aurahack"
+      title="Aurahack"
+      src="https://aurahack.neocities.org/88x31.gif"  
+    />
+  </a>
   <a href="https://erysdren.me/" target="_blank">
     <img
       width="88"
