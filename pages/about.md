@@ -144,7 +144,7 @@ I make music! Sometimes for games, and sometimes for myself.
   <a href="https://kokoscript.com" target="_blank">
     <img width="88" height="31" alt="Kokoscript" title="Kokoscript" src="/uploads/kokoscript.gif" />
   </a>
-  <a href="https://auratriolo.com" target="_blank">
+  <a href="https://auratriolo.com/blog" target="_blank">
     <img width="88" height="31" alt="Aura" title="Aura" src="/uploads/aura-pixelbanner.gif" />
   </a>
   <a href="https://suricrasia.online" target="_blank">
