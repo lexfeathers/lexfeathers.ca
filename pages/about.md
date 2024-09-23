@@ -137,6 +137,7 @@ I make music! Sometimes for games, and sometimes for myself.
     <p>Add me to your links <3</p>
     <a href="https://lexfeathers.ca" target="_blank">
       <img
+        class="my-88x31"
         width="88"
         height="31"
         alt="Lex Feathers"

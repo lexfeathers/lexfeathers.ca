@@ -570,7 +570,7 @@ footer a {
   text-decoration: none;
 }
 
-.cool-links img:not(:last-child) {
+.cool-links img:not(.my-88x31) {
   image-rendering: pixelated;
   width: 178px;
   height: 62px;
