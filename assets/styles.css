@@ -572,6 +572,8 @@ footer a {
 
 .cool-links img {
   image-rendering: pixelated;
+  width: 178px;
+  height: 62px;
 }
 
 /* Mobile styling */
