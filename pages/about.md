@@ -35,3 +35,4 @@ I make music! Sometimes for games, and sometimes for myself.
 - [Aurahack - days and wonder](https://blog.aurahack.jp)
 - [Dispatch from The Radical Dreamland](https://blog.radicaldream.land/)
 - [Erysdren](https://erysdren.me)
+- [ZandraVandra](https://zandravandra.com)
