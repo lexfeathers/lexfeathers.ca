@@ -48,6 +48,7 @@ I make music! Sometimes for games, and sometimes for myself.
 <a href="https://ruby.gay" target="_blank">
   <img src="https://ruby.gay/88x31/gif.gif"/>
 </a>
-<a href="www.wavebeem.com" target="_blank">
+<a href="https://www.wavebeem.com" target="_blank">
   <img src="https://www.wavebeem.com/button.gif"/>
 </a>
+<img src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png"/>
