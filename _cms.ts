@@ -148,9 +148,8 @@ cms.collection({
 // Expose assets folder to CMS
 cms.collection({
   name: "assets",
-  store: "my_fs:assets/",
+  store: "my_fs:assets/*",
   fields: [
-    "title: text",
     {
       name: "image",
       type: "file",
