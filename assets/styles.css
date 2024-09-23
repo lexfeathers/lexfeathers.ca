@@ -586,6 +586,12 @@ textarea {
   resize: none;
 }
 
+:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--colour-secondary);
+  transition: box-shadow 0.1s ease;
+}
+
 /* Mobile styling */
 @media screen and (max-width:749px) {
   * {
