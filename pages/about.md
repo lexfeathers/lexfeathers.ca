@@ -145,7 +145,7 @@ I make music! Sometimes for games, and sometimes for myself.
       />
     </a> 
     <p>Embed code:</p>
-    <code>
+    ```
       <a href="https://lexfeathers.ca" target="_blank">
         <img
           width="88"
@@ -155,6 +155,6 @@ I make music! Sometimes for games, and sometimes for myself.
           src="https://lexfeathers.ca/uploads/lexfeathers.png"
         />
       </a> 
-    </code>
+    ```
   </p>
 </div>
