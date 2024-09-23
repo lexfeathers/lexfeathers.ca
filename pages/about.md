@@ -162,12 +162,9 @@ I make music! Sometimes for games, and sometimes for myself.
     <img class="my-88x31" width="88" height="31" alt="Lex Feathers" title="Lex Feathers"
       src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" />
   </a>
-  <details>
-    <summary>Embed code:</summary>
-    <textarea name="buttoncode" class="center" aria-label="Button code"
-      style="width: 100%; height: 100px; resize: none; margin-top: 1rem;"><a href="https://lexfeathers.ca" target="_blank"><img width="88" height="31" alt="Lex Feathers" title="Lex Feathers" src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif"/></a></textarea>
-  </details>
-  </p>
+  <p>Embed code:</p>
+  <textarea name="buttoncode" class="center" aria-label="Button code"
+    style="width: 100%; height: 100px; resize: none; margin-top: 1rem;"><a href="https://lexfeathers.ca" target="_blank"><img width="88" height="31" alt="Lex Feathers" title="Lex Feathers" src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif"/></a></textarea>
 </div>
 
 ## other sites I like:
@@ -176,3 +173,10 @@ I make music! Sometimes for games, and sometimes for myself.
 - [Ghoulnoise](https://ghoulnoise.com/)
 - [ZandraVandra](https://zandravandra.com)
 - [Damien Erambert](https://damien.zone)
+
+<hr class="faded">
+
+<p style="margin-bottom: 0;">
+  This website was built with
+  <a href="https://lume.land">a static site generator called Lume.</a>
+</p>
