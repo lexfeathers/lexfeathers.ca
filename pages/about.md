@@ -146,15 +146,7 @@ I make music! Sometimes for games, and sometimes for myself.
     </a> 
     <p>Embed code:</p>
       <textarea name="buttoncode" class="center" aria-label="Button code" style="resize: none;">
-<a href="https://lexfeathers.ca" target="_blank">
-  <img
-    width="88"
-    height="31"
-    alt="Lex Feathers"
-    title="Lex Feathers"
-    src="https://lexfeathers.ca/uploads/lexfeathers.png"
-  />
-</a> 
+<a href="https://lexfeathers.ca" target="_blank"><img width="88" height="31" alt="Lex Feathers" title="Lex Feathers" src="https://lexfeathers.ca/uploads/lexfeathers.png"/></a> 
       </textarea>
   </p>
 </div>
