@@ -82,7 +82,7 @@ I make music! Sometimes for games, and sometimes for myself.
       <li>Teengage Engineering PO-12</li>
       <li>Modular synthesizer</li>
       <ul>
-        <li>...this list would be too long if I wrote down every module.</li>
+        <li>...too much flux to keep track.</li>
       </ul>
       <li>Remington Remette (March 1939)</li>
     </ul>
