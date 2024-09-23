@@ -20,12 +20,14 @@ I make music! Sometimes for games, and sometimes for myself.
 - [Mastodon (I want to like this more than I do)](https://octodon.social/@lexfeathers)
 - [My portfolio website](https://gameaudio.ca)
 
-## my Bandcamp pages:
+## my bandcamp pages:
 
 (ie, where you can hear my music)
 
 - [Waxlimbs (my band)](https://waxlimbs.bandcamp.com/)
 - [Void Femmes (my electronic music)](https://voidfemmes.bandcamp.com/)
+
+---
 
 ## sites I like:
 
@@ -36,3 +38,16 @@ I make music! Sometimes for games, and sometimes for myself.
 - [Dispatch from The Radical Dreamland](https://blog.radicaldream.land/)
 - [Erysdren](https://erysdren.me)
 - [ZandraVandra](https://zandravandra.com)
+- [Ruby.gay](https://ruby.gay/)
+
+### harken to the days of eld:
+
+<div class="cool-links">
+  [![Erysdren](/uploads/erysdren_88x31.png)](https://erysdren.me/)
+  [![Ruby.gay](/uploads/ruby.gay.gif)](https://ruby.gay)
+  [![Wavebeem](/uploads/wavebeem.gif)](https://www.wavebeem.com)
+  [![PlatinumTulip](/uploads/tulip88x31.gif)](https://platinumtulip.garden/about)
+  [![Renkotsuban](/uploads/renkotsuban.com.gif)](https://renkotsuban.com)
+  [![Image](/uploads/kokoscript.gif)](https://kokoscript.com/)
+  ![We're gonna miss you eggbug](/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png)
+</div>
