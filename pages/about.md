@@ -37,3 +37,12 @@ I make music! Sometimes for games, and sometimes for myself.
 - [Erysdren](https://erysdren.me)
 - [ZandraVandra](https://zandravandra.com)
 - [Ruby.gay](https://ruby.gay/)
+
+### fun buttons that harken to the days of eld:
+
+<a href="https://erysdren.me/" target="_blank">
+  <img src="https://erysdren.me/images/erysdren_88x31.png"/>
+</a>
+<a href="https://ruby.gay" target="_blank">
+  <img src="https://ruby.gay/88x31/gif.gif"/>
+</a>
