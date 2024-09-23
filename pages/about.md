@@ -51,4 +51,6 @@ I make music! Sometimes for games, and sometimes for myself.
 <a href="https://www.wavebeem.com" target="_blank">
   <img src="https://www.wavebeem.com/button.gif"/>
 </a>
+[![Image](/uploads/tulip88x31.gif)](https://platinumtulip.garden/about)
+[![Image](/uploads/renkotsuban.com.gif)](https://renkotsuban.com)
 <img src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png"/>
