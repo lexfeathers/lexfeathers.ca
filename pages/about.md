@@ -20,7 +20,7 @@ I make music! Sometimes for games, and sometimes for myself.
 - [Mastodon (I want to like this more than I do)](https://octodon.social/@lexfeathers)
 - [My portfolio website](https://gameaudio.ca)
 
-## my Bandcamp pages:
+## my bandcamp pages:
 
 (ie, where you can hear my music)
 
