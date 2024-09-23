@@ -42,12 +42,15 @@ I make music! Sometimes for games, and sometimes for myself.
 
 ### harken to the days of eld:
 
+[![Image](/uploads/erysdren_88x31.png)](https://erysdren.me/)
 <a href="https://erysdren.me/" target="_blank">
   <img src="https://erysdren.me/images/erysdren_88x31.png"/>
 </a>
+[![Image](/uploads/ruby.gay.gif)](https://ruby.gay)
 <a href="https://ruby.gay" target="_blank">
   <img src="https://ruby.gay/88x31/gif.gif"/>
 </a>
+[![Image](/uploads/wavebeem.gif)](https://www.wavebeem.com)
 <a href="https://www.wavebeem.com" target="_blank">
   <img src="https://www.wavebeem.com/button.gif"/>
 </a>
