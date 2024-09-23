@@ -673,4 +673,9 @@ footer a {
   .footer-container .menu {
     display: block;
   }
+
+  .cool-links img {
+    width: 88px;
+    height: 31px;
+  }
 }
