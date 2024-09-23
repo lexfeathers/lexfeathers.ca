@@ -22,8 +22,6 @@ I make music! Sometimes for games, and sometimes for myself.
 
 ## my bandcamp pages:
 
-(ie, where you can hear my music)
-
 - [Waxlimbs (my band)](https://waxlimbs.bandcamp.com/)
 - [Void Femmes (my electronic music)](https://voidfemmes.bandcamp.com/)
 
