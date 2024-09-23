@@ -145,6 +145,20 @@ cms.collection({
   ],
   nameField: "title",
 });
+// Expose assets folder to CMS
+cms.collection({
+  name: "assets",
+  store: "my_fs:assets/",
+  fields: [
+    "title: text",
+    {
+      name: "image",
+      type: "file",
+      uploads: "assets",
+    },
+  ],
+  delete: false,
+});
 
 // Site settings
 cms.document(
