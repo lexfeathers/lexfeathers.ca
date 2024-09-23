@@ -125,6 +125,24 @@ I make music! Sometimes for games, and sometimes for myself.
       src="/uploads/kokoscript.gif"
     />
   </a> 
+  <a href="https://auratriolo.com" target="_blank">
+    <img
+      width="88"
+      height="31"
+      alt="Aura"
+      title="Aura"
+      src="/uploads/aura-pixelbanner.gif"
+    />
+  </a>   
+  <a href="https://queercomputerclub.ca" target="_blank">
+    <img
+      width="88"
+      height="31"
+      alt="Queer Computer Club"
+      title="Queer Computer Club"
+      src="/uploads/qcc_88x31.png"
+    />
+  </a>   
   <!-- Eggbug badge -->
   <img
     width="88"
