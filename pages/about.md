@@ -62,6 +62,15 @@ I make music! Sometimes for games, and sometimes for myself.
       src="https://aurahack.neocities.org/88x31.gif"  
     />
   </a>
+  <a href="https://blog.someplace-else.xyz/" target="_blank">
+    <img 
+      width="88"
+      height="31"
+      alt="Someplace elsewhere - Nat Clayton"
+      title="Someplace elsewhere - Nat Clayton"
+      src="https://natclayton.uk/wp-content/uploads/2024/09/elsewhere.gif"
+    />
+  </a>  
   <a href="https://erysdren.me/" target="_blank">
     <img
       width="88"
