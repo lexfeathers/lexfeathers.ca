@@ -27,6 +27,7 @@ I make music! Sometimes for games, and sometimes for myself.
 - [Waxlimbs (my band)](https://waxlimbs.bandcamp.com/)
 - [Void Femmes (my electronic music)](https://voidfemmes.bandcamp.com/)
 
+
 <hr class="faded">
 
 ## sites I like:
@@ -43,7 +44,34 @@ I make music! Sometimes for games, and sometimes for myself.
 ### harken to the days of eld:
 
 <div class="cool-links">
-  <a href="https://erysdren.me/">
+  <a href="https://blog.radicaldream.land" target="_blank">
+    <img
+      width="88"
+      height="31"
+      alt="Radicaldreamland"
+      title="Radicaldreamland"
+      src="https://i.postimg.cc/QxhG798p/dispatchblog-banner.gif"      
+    />
+  </a>
+  <a href="https://blog.aurahack.jp" target="_blank">
+    <img
+      width="88"
+      height="31"
+      alt="Aurahack"
+      title="Aurahack"
+      src="https://aurahack.neocities.org/88x31.gif"  
+    />
+  </a>
+  <a href="https://blog.someplace-else.xyz/" target="_blank">
+    <img 
+      width="88"
+      height="31"
+      alt="Someplace elsewhere - Nat Clayton"
+      title="Someplace elsewhere - Nat Clayton"
+      src="https://natclayton.uk/wp-content/uploads/2024/09/elsewhere.gif"
+    />
+  </a>  
+  <a href="https://erysdren.me/" target="_blank">
     <img
       width="88"
       height="31"
@@ -52,7 +80,7 @@ I make music! Sometimes for games, and sometimes for myself.
       src="/uploads/erysdren_88x31.png"
     />
   </a>
-  <a href="https://ruby.gay">
+  <a href="https://ruby.gay" target="_blank">
     <img
       width="88"
       height="31"
@@ -61,16 +89,16 @@ I make music! Sometimes for games, and sometimes for myself.
       src="/uploads/ruby.gay.gif"
     />
   </a>
-  <a href="https://wavebeem.com">
+  <a href="https://wavebeem.com" target="_blank">
     <img
       width="88"
       height="31"
-      alt="wavebeem.com"
-      title="wavebeem.com"
-      src="uploads/wavebeem.gif"
+      alt="wavebeem"
+      title="wavebeem"
+      src="/uploads/wavebeem.gif"
     />
   </a>
-  <a href="https://platinumtulip.garden">
+  <a href="https://platinumtulip.garden" target="_blank">
     <img
       width="88"
       height="31"
@@ -79,7 +107,7 @@ I make music! Sometimes for games, and sometimes for myself.
       src="/uploads/tulip88x31.gif"
     />
   </a> 
-  <a href="https://renkotsuban.com">
+  <a href="https://renkotsuban.com" target="_blank">
     <img
       width="88"
       height="31"
@@ -88,7 +116,7 @@ I make music! Sometimes for games, and sometimes for myself.
       src="/uploads/renkotsuban.com.gif"
     />
   </a> 
-  <a href="https://kokoscript.com">
+  <a href="https://kokoscript.com" target="_blank">
     <img
       width="88"
       height="31"
