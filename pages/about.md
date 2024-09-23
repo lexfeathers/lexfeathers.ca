@@ -134,6 +134,15 @@ I make music! Sometimes for games, and sometimes for myself.
       src="/uploads/aura-pixelbanner.gif"
     />
   </a>   
+  <a href="https://suricrasia.online" target="_blank">
+    <img
+      width="88"
+      height="31"
+      alt="Suricrasia Online"
+      title="Suricrasia Online"
+      src="/uploads/suricrasia.gif"
+    />
+  </a>  
   <a href="https://queercomputerclub.ca" target="_blank">
     <img
       width="88"
