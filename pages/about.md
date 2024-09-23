@@ -42,9 +42,12 @@ I make music! Sometimes for games, and sometimes for myself.
 
 ### harken to the days of eld:
 
-[![Erysdren](/uploads/erysdren_88x31.png)](https://erysdren.me/)
-[![Ruby.gay](/uploads/ruby.gay.gif)](https://ruby.gay)
-[![Wavebeem](/uploads/wavebeem.gif)](https://www.wavebeem.com)
-[![PlatinumTulip](/uploads/tulip88x31.gif)](https://platinumtulip.garden/about)
-[![Renkotsuban](/uploads/renkotsuban.com.gif)](https://renkotsuban.com)
-![We're gonna miss you eggbug](/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png)
+<div class="cool-links">
+  [![Erysdren](/uploads/erysdren_88x31.png)](https://erysdren.me/)
+  [![Ruby.gay](/uploads/ruby.gay.gif)](https://ruby.gay)
+  [![Wavebeem](/uploads/wavebeem.gif)](https://www.wavebeem.com)
+  [![PlatinumTulip](/uploads/tulip88x31.gif)](https://platinumtulip.garden/about)
+  [![Renkotsuban](/uploads/renkotsuban.com.gif)](https://renkotsuban.com)
+  [![Image](/uploads/kokoscript.gif)](https://kokoscript.com/)
+  ![We're gonna miss you eggbug](/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png)
+</div>
