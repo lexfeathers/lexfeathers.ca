@@ -40,6 +40,7 @@ I make music! Sometimes for games, and sometimes for myself.
 - [Erysdren](https://erysdren.me)
 - [ZandraVandra](https://zandravandra.com)
 - [Ruby.gay](https://ruby.gay/)
+- [Damien Erambert](https://damien.zone)
 
 ### harken to the days of eld:
 
