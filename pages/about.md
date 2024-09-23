@@ -153,10 +153,6 @@ I make music! Sometimes for games, and sometimes for myself.
   <a href="https://queercomputerclub.ca" target="_blank">
     <img width="88" height="31" alt="Queer Computer Club" title="Queer Computer Club" src="/uploads/qcc_88x31.png" />
   </a>
-  <!-- Eggbug badge -->
-  <img width="88" height="31" alt="We're gonna miss you eggbug" title="We're gonna miss you eggbug"
-    src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png" />
-  <p>
   <p>Add me to your site 🤍</p>
   <a href="https://lexfeathers.ca" target="_blank">
     <img class="my-88x31" width="88" height="31" alt="Lex Feathers" title="Lex Feathers"
@@ -176,7 +172,14 @@ I make music! Sometimes for games, and sometimes for myself.
 
 <hr class="faded">
 
-<p style="margin-bottom: 0;">
+<p>
   This website was built with
   <a href="https://lume.land" target="_blank">a static site generator called Lume.</a>
 </p>
+
+<!-- Eggbug badge -->
+<div class="cool-links">
+  <img style="float: right; filter: sepia(0.5); border-radius: 2px; box-shadow: 0 6px 4px black;" width="88" height="31"
+    alt="We're gonna miss you eggbug" title="We're gonna miss you eggbug"
+    src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png" />
+</div>
