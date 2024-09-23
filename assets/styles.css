@@ -576,6 +576,11 @@ footer a {
   height: 62px;
 }
 
+.cool-links a:hover {
+  border-bottom: 2px solid var(--colour-secondary);
+  text-decoration: none;
+}
+
 textarea {
   padding: 12px 20px;
   box-sizing: border-box;
