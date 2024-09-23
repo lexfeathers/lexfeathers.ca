@@ -13,7 +13,7 @@ I make music! Sometimes for games, and sometimes for myself.
   <img src="/uploads/headshot.jpg" alt="Lex Feathers" loading="lazy" />
 </figure>
 
-## here's where you can find me online:
+## find me online:
 
 - [Bsky (probably where I will mainly be posting)](https://bsky.app/profile/gameaudio.ca)
 - [Instagram (personal stuff and gig-posting mainly)](https://instagram.com/lex.feathers)
