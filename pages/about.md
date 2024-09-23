@@ -178,5 +178,5 @@ I make music! Sometimes for games, and sometimes for myself.
 
 <p style="margin-bottom: 0;">
   This website was built with
-  <a href="https://lume.land">a static site generator called Lume.</a>
+  <a href="https://lume.land" target="_blank">a static site generator called Lume.</a>
 </p>
