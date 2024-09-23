@@ -570,6 +570,10 @@ footer a {
   text-decoration: none;
 }
 
+.cool-links img {
+  image-rendering: pixelated;
+}
+
 /* Mobile styling */
 @media screen and (max-width:749px) {
   * {
