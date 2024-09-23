@@ -133,4 +133,28 @@ I make music! Sometimes for games, and sometimes for myself.
     title="We're gonna miss you eggbug"
     src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png"
   />
+  <p>
+    <p>Add me to your links <3</p>
+    <a href="https://lexfeathers.ca" target="_blank">
+      <img
+        width="88"
+        height="31"
+        alt="Lex Feathers"
+        title="Lex Feathers"
+        src="https://lexfeathers.ca/uploads/lexfeathers.png"
+      />
+    </a> 
+    <p>Embed code:</p>
+    <code>
+      <a href="https://lexfeathers.ca" target="_blank">
+        <img
+          width="88"
+          height="31"
+          alt="Lex Feathers"
+          title="Lex Feathers"
+          src="https://lexfeathers.ca/uploads/lexfeathers.png"
+        />
+      </a> 
+    </code>
+  </p>
 </div>
