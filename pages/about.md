@@ -67,7 +67,7 @@ I make music! Sometimes for games, and sometimes for myself.
       height="31"
       alt="wavebeem.com"
       title="wavebeem.com"
-      src="uploads/wavebeem.gif"
+      src="/uploads/wavebeem.gif"
     />
   </a>
   <a href="https://platinumtulip.garden">
