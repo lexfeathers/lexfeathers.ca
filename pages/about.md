@@ -43,11 +43,65 @@ I make music! Sometimes for games, and sometimes for myself.
 ### harken to the days of eld:
 
 <div class="cool-links">
-  [![Erysdren](/uploads/erysdren_88x31.png)](https://erysdren.me/)
-  [![Ruby.gay](/uploads/ruby.gay.gif)](https://ruby.gay)
-  [![Wavebeem](/uploads/wavebeem.gif)](https://www.wavebeem.com)
-  [![PlatinumTulip](/uploads/tulip88x31.gif)](https://platinumtulip.garden/about)
-  [![Renkotsuban](/uploads/renkotsuban.com.gif)](https://renkotsuban.com)
-  [![Image](/uploads/kokoscript.gif)](https://kokoscript.com/)
-  ![We're gonna miss you eggbug](/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png)
+  <a href="https://erysdren.me/">
+    <img
+      width="88"
+      height="31"
+      alt="Erysdren"
+      title="Erysdren"
+      src="/uploads/erysdren_88x31.png"
+    />
+  </a>
+  <a href="https://ruby.gay">
+    <img
+      width="88"
+      height="31"
+      alt="Ruby.gay"
+      title="Ruby.gay"
+      src="/uploads/ruby.gay.gif"
+    />
+  </a>
+  <a href="https://wavebeem.com">
+    <img
+      width="88"
+      height="31"
+      alt="wavebeem.com"
+      title="wavebeem.com"
+      src="uploads/wavebeem.gif"
+    />
+  </a>
+  <a href="https://platinumtulip.garden">
+    <img
+      width="88"
+      height="31"
+      alt="PlatinumTulip"
+      title="PlatinumTulip"
+      src="/uploads/tulip88x31.gif"
+    />
+  </a> 
+  <a href="https://renkotsuban.com">
+    <img
+      width="88"
+      height="31"
+      alt="Renkotsuban"
+      title="Renkotsuban"
+      src="/uploads/renkotsuban.com.gif"
+    />
+  </a> 
+  <a href="https://kokoscript.com">
+    <img
+      width="88"
+      height="31"
+      alt="Kokoscript"
+      title="Kokoscript"
+      src="/uploads/kokoscript.gif"
+    />
+  </a> 
+  <img
+    width="88"
+    height="31"
+    alt="We're gonna miss you eggbug"
+    title="We're gonna miss you eggbug"
+    src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png"
+  />
 </div>
