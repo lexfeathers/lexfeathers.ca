@@ -44,7 +44,7 @@ I make music! Sometimes for games, and sometimes for myself.
 ### harken to the days of eld:
 
 <div class="cool-links">
-  <a href="https://erysdren.me/">
+  <a href="https://erysdren.me/" target="_blank">
     <img
       width="88"
       height="31"
@@ -53,7 +53,7 @@ I make music! Sometimes for games, and sometimes for myself.
       src="/uploads/erysdren_88x31.png"
     />
   </a>
-  <a href="https://ruby.gay">
+  <a href="https://ruby.gay" target="_blank">
     <img
       width="88"
       height="31"
@@ -62,7 +62,7 @@ I make music! Sometimes for games, and sometimes for myself.
       src="/uploads/ruby.gay.gif"
     />
   </a>
-  <a href="https://wavebeem.com">
+  <a href="https://wavebeem.com" target="_blank">
     <img
       width="88"
       height="31"
@@ -71,7 +71,7 @@ I make music! Sometimes for games, and sometimes for myself.
       src="/uploads/wavebeem.gif"
     />
   </a>
-  <a href="https://platinumtulip.garden">
+  <a href="https://platinumtulip.garden" target="_blank">
     <img
       width="88"
       height="31"
@@ -80,7 +80,7 @@ I make music! Sometimes for games, and sometimes for myself.
       src="/uploads/tulip88x31.gif"
     />
   </a> 
-  <a href="https://renkotsuban.com">
+  <a href="https://renkotsuban.com" target="_blank">
     <img
       width="88"
       height="31"
@@ -89,7 +89,7 @@ I make music! Sometimes for games, and sometimes for myself.
       src="/uploads/renkotsuban.com.gif"
     />
   </a> 
-  <a href="https://kokoscript.com">
+  <a href="https://kokoscript.com" target="_blank">
     <img
       width="88"
       height="31"
