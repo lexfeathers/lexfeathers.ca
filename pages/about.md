@@ -27,7 +27,7 @@ I make music! Sometimes for games, and sometimes for myself.
 - [Waxlimbs (my band)](https://waxlimbs.bandcamp.com/)
 - [Void Femmes (my electronic music)](https://voidfemmes.bandcamp.com/)
 
----
+<hr class="faded">
 
 ## sites I like:
 
@@ -97,6 +97,7 @@ I make music! Sometimes for games, and sometimes for myself.
       src="/uploads/kokoscript.gif"
     />
   </a> 
+  <!-- Eggbug badge -->
   <img
     width="88"
     height="31"
