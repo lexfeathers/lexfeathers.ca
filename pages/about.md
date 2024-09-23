@@ -64,10 +64,10 @@ I make music! Sometimes for games, and sometimes for myself.
   </a>
   <a href="https://wavebeem.com">
     <img
-      <!-- width="88"
-      height="31" -->
-      alt="wavebeem.com"
-      title="wavebeem.com"
+      width="88"
+      height="31"
+      alt="wavebeem"
+      title="wavebeem"
       src="/uploads/wavebeem.gif"
     />
   </a>
