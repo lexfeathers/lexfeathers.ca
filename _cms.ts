@@ -210,8 +210,8 @@ cms.document(
 
 // Configure a folder to upload files
 cms.upload("uploads", "my_fs:uploads");
-cms.upload("assets", "my_fs:assets");
-cms.upload("assets/images", "my_fs:assets/images");
+cms.upload("assets", "my_fs:assets/*");
+
 
 // 6. Export the cms configuration
 export default cms;
