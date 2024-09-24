@@ -5,7 +5,7 @@ image: /uploads/headshot.jpg
 order: 3
 draft: false
 ---
-# Lex Feathers (she/they)
+<h1>Lex Feathers <span class="faded">(she/they)</span></h1>
 
 I make music! Sometimes for games, and sometimes for myself.
 
