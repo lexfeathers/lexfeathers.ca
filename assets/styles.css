@@ -241,6 +241,7 @@ article.homepage-excerpt {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   min-width: 100%;
+  text-align: left;
 }
 
 /* 
