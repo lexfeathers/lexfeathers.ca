@@ -1,5 +1,5 @@
 ---
-title: be kind to bugs
+title: be kind to bugs (CSS crime)
 author: Lex Feathers
 draft: false
 published: 2022-11-02T13:10:00.000Z
