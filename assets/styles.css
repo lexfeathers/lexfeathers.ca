@@ -116,6 +116,7 @@ a:hover {
   /* border-radius: 16px; */
   rotate: 45deg;
   margin-right: 1rem;
+  margin-left: 4px;
 }
 
 .name::after {
