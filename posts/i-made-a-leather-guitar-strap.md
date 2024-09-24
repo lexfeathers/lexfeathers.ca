@@ -8,4 +8,6 @@ image_caption: A black leather guitar strap with a shoulder pad and gold rivets
 tags:
   - crafting
 ---
-![A black leather strap on a wooden table-top](/uploads/leatherguitarstrap1.jpeg)
+<figure>
+  <img src="/uploads/leatherguitarstrap1.jpeg" loading="lazy" alt="A black leather strap on a wooden table-top" />
+</figure>
