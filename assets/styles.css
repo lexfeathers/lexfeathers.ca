@@ -457,6 +457,7 @@ figure.hero-img {
 
 figure.hero-img img {
   border: none;
+  max-width: 100%;
 }
 
 figure.right {
