@@ -2,7 +2,7 @@
 title: Austra // Ottawa Pride 2022 Recap
 author: Lex Feathers
 draft: false
-published: 2022-08-29T05:05:00.000Z
+published: 2022-08-29T01:05:00.000Z
 image: /uploads/Austra_Home_Aug272022.jpg
 image_caption: 'Austra performing "Home" at Captial Pride, August 2022'
 tags:
@@ -29,34 +29,34 @@ padding: 4px;
 background-color: rgba(10,10,10,255);
 color: rgb(239, 239, 239);">
     <div id="image-page" style="display: inline-block;">
-        <img src="https://staging.cohostcdn.org/attachment/aa1e573c-e3f4-4f26-b498-c19c8bc7b896/IMG_6334.JPG"
+        <img src="/uploads/austra_bassriseraug272022.jpg"
             style="border: none #000;margin-bottom:4px;" title="My bass with the drum kit, patiently waiting for our set that night.">
         <p style="margin-top:4px;">My bass with the drum kit, patiently waiting for our set that night.</p>
     </div>
     <div id="image-page" style="display: inline-block;">
-        <img src="https://staging.cohostcdn.org/attachment/a7f087df-0d85-4ea1-ac89-0ad85757e260/IMG_6327.JPG"
+        <img src="/uploads/austra_lexaug272022.jpg"
             style="border: none #000;margin-bottom:4px;" title="Waiting for my turn to line-check.">
         <p style="margin-top:4px;">Waiting for my turn to line-check.</p>
     </div>    
     <div id="image-page" style="display: inline-block;">
-        <img src="https://staging.cohostcdn.org/attachment/2c5f9365-8ca6-4d0c-80e1-6b520f686ce2/IMG_6353.JPG"
+        <img src="/uploads/austra_lex2aug272022.jpg"
             style="border: none #000;margin-bottom:4px;" title="My show makeup before hitting the stage.">
         <p style="margin-top:4px;">My show makeup before hitting the stage.</p>
     </div>   
     <div id="image-page" style="display: inline-block;">
-        <img src="https://staging.cohostcdn.org/attachment/6b85937f-4d52-42da-9dde-1126ca74cf55/IMG_6366.JPG"
+        <img src="/uploads/austra_stageaug272022.jpg"
             style="border: none #000;margin-bottom: 13px;" title="The stage, waiting for us to play.">            
-        <img src="https://staging.cohostcdn.org/attachment/5a65c82a-fb8a-4778-b64b-e81abfc6f8c0/Austra_Home_Aug272022.jpg"
+        <img src="/uploads/Austra_Home_Aug272022.jpg"
             style="border: none #000; margin-top: 4px;margin-bottom:4px;" title="A still from an audience member's phone. We were playing 'Home'.">
         <p style="margin-top:4px;">A still from an audience member's phone. We were playing 'Home'.</p>
     </div>          
     <div id="image-page" style="display: inline-block;">
-        <img src="https://staging.cohostcdn.org/attachment/54c52fe8-e199-41ec-b02e-a4da63af3e6e/IMG_6376.JPG"
+        <img src="/uploads/Austra_Home_Aug272022.jpg"
             style="border: none #000;margin-bottom:4px;" title="Visiting parliament the next day">
         <p style="margin-top:4px;">Visiting parliament the next day</p>
     </div>       
     <div id="image-page" style="display: inline-block;">
-        <img src="https://staging.cohostcdn.org/attachment/13e79993-96a5-4ac0-9c79-ff12ce3ed99a/IMG_6379.JPG"
+        <img src="/uploads/austra_rideaucanal.jpg"
             style="border: none #000;margin-bottom:4px;" title="The Rideau Canal">
         <p style="margin-top:4px;">The Rideau Canal</p>
     </div>      
