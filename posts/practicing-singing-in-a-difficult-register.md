@@ -2,7 +2,7 @@
 title: Practicing singing in a difficult register
 author: Lex Feathers
 draft: false
-published: 2023-03-29T12:12:00.000Z
+published: 2023-03-29T08:12:00.000Z
 image: /uploads/20470014_editcrop.JPG
 image_caption: ...a very old photo
 tags:
