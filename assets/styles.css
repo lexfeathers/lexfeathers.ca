@@ -446,8 +446,16 @@ figure img {
 
 figure {
   margin: auto;
-  max-width: 69%;
+  max-width: 80%;
   margin: 1rem auto;
+}
+
+figure.hero-img {
+  max-width: 100%;
+}
+
+figure.hero-img img {
+  border: none;
 }
 
 figure.right {
