@@ -209,9 +209,14 @@ cms.document(
 );
 
 // Configure a folder to upload files
-cms.upload("uploads", "my_fs:uploads");
-cms.upload("assets", "my_fs:assets/*");
-
+cms.upload(
+  "uploads: upload to this for use in posts/pages", 
+  "my_fs:uploads",
+);
+cms.upload(
+  "assets: core site assets",
+  "my_fs:assets/*/",
+);
 
 // 6. Export the cms configuration
 export default cms;
