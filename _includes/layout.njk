@@ -53,7 +53,7 @@
 				{% if type == 'posts' %}
 					{% if image %}
 						<figure class="hero-img">
-							<img src="{{ image }}" alt="{{ title }}">
+							<img src="{{ image }}" alt="{{ title }}" loading="lazy">
 								{% if image_caption %}
 									<figcaption>{{ image_caption }}</figcaption>
 								{% endif %}

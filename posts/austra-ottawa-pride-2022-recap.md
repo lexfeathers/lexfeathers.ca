@@ -24,38 +24,38 @@ The weather in Ottawa this weekend couldn't have been nicer, so I took some time
 sights and have coffee with an old friend. I'm feeling very spoiled right now ♥️
 
 <figure>
-    <img src="/uploads/austra_bassriseraug272022.jpg"
+    <img src="/uploads/austra_bassriseraug272022.jpg" loading="lazy"
         title="My bass with the drum kit, patiently waiting for our set that night." />
     <figcaption>My bass with the drum kit, patiently waiting for our set that night.</figcaption>
 </figure>
 
 <figure>
-    <img src="/uploads/austra_lexaug272022.jpg" title="Waiting for my turn to line-check." />
+    <img src="/uploads/austra_lexaug272022.jpg" loading="lazy" title="Waiting for my turn to line-check." />
     <figcaption>Waiting for my turn to line-check.</figcaption>
 </figure>
 
 <figure>
-    <img src="/uploads/austra_lex2aug272022.jpg" title="My show makeup before hitting the stage." />
+    <img src="/uploads/austra_lex2aug272022.jpg" loading="lazy" title="My show makeup before hitting the stage." />
     <figcaption>My show makeup before hitting the stage.</figcaption>
 </figure>
 
 <figure>
-    <img src="/uploads/austra_stageaug272022.jpg" title="The stage, waiting for us to play." />
+    <img src="/uploads/austra_stageaug272022.jpg" loading="lazy" title="The stage, waiting for us to play." />
     <figcaption>The stage, waiting for us to play.</figcaption>
 </figure>
 
 <figure>
-    <img src="/uploads/Austra_Home_Aug272022.jpg"
+    <img src="/uploads/Austra_Home_Aug272022.jpg" loading="lazy"
         title="A still from an audience member's phone. We were playing 'Home'." />
     <figcaption>A still from an audience member's phone. We were playing 'Home'.</figcaption>
 </figure>
 
 <figure>
-    <img src="/uploads/Austra_parliament2022.jpg" title="Visiting parliament the next day" />
+    <img src="/uploads/Austra_parliament2022.jpg" loading="lazy" title="Visiting parliament the next day" />
     <figcaption>Visiting parliament the next day</figcaption>
 </figure>
 
 <figure>
-    <img src="/uploads/austra_rideaucanal.jpg" title="The Rideau Canal" />
+    <img src="/uploads/austra_rideaucanal.jpg" loading="lazy" title="The Rideau Canal" />
     <figcaption>The Rideau Canal</figcaption>
 </figure>
