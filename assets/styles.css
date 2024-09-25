@@ -622,6 +622,13 @@ textarea:focus {
   transition: box-shadow 0.1s ease;
 }
 
+iframe[title="YouTube video player"] {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 425px;
+}
+
 /* Mobile styling */
 @media screen and (max-width:749px) {
   * {
