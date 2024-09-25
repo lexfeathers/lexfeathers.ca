@@ -30,6 +30,6 @@ The melodic progression is controlled by Mutable Instruments Marbles, which is t
 
 ## So, I forgot this video existed.
 
-I remember this camera being set up and being asked if I was ok with being filmed (I was), but I had no idea the video had ever [ended up online.](https://www.youtube.com/watch?v=kPHvYGXmHmY) It was such a lovely surprise to stumble across it this evening!
+I remember this camera being set up and being asked if I was ok with being filmed (I was), but I had no idea the video had ever [ended up online.](https://www.youtube.com/watch?v=kPHvYGXmHmY) It was such a lovely surprise to stumble across it this evening! I know that you typically should avoid youtube comment sections, but I did find it quite funny to see a couple people saying this was piano music, to some effect.
 
 If you want to know what I was writing during this performance, you can hear the resulting text in [Erin Corbett's set from the same show,](https://www.youtube.com/watch?v=ScNfa3Q16NU) where she did a cold-reading of it in an improvised song of her own.
