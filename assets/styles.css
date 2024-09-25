@@ -658,8 +658,8 @@ iframe[title="YouTube video player"] {
     vertical-align: middle;
   }
 
-  h2,
   h1,
+  h2,
   h3 {
     font-size: revert;
   }
