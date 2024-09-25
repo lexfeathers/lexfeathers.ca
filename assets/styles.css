@@ -35,6 +35,14 @@
   --pagefind-ui-font: 'Fira Code', monospace;
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --colour-background: #fff6e0;
+    --colour-text: #141414;
+    --colour-secondary: #a90060;
+  }
+}
+
 /* Fonts */
 @font-face {
   font-family: "Fira Code", monospace;
