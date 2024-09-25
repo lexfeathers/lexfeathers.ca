@@ -703,7 +703,7 @@ iframe[title="YouTube video player"] {
   }
 
   footer a {
-    font-size: 14pt;
+    font-size: var(--text-small);
   }
 
   .menu {
