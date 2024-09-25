@@ -209,13 +209,13 @@ main * {
 }
 
 article img:not(.banner > img, .cool-links img) {
-  max-width: 80%;
+  max-width: 100%;
   border-radius: 4px;
 }
 
 audio {
   display: block;
-  margin: 1rem auto;
+  margin: 2rem auto;
   width: 100%;
   border-radius: 4px;
   filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
