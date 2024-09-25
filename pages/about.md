@@ -110,8 +110,6 @@ I make music! Sometimes for games, and sometimes for myself.
   </ul>
 </details>
 
-{# <hr class="faded"> #}
-
 ## those who harken to the days of eld:
 
 <div class="cool-links">
