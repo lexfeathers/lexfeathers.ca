@@ -160,14 +160,18 @@ I make music! Sometimes for games, and sometimes for myself.
   <a href="https://neuroknives.com" title="neuroknives.com" target="_blank">
     <img src="/uploads/neuroknives_88_31_Button_005.png" title="Neuroknives" alt="Neuroknives" />
   </a>
+  <a href="https://damien.zone" title="damien dot zone">
+    <img src="https://files.damien.zone/88x31_damien.png" alt="damien dot zone" style="image-rendering:pixelated;" />
+  </a>
 
+  <!-- My 88x31 link -->
   <p>add me to your site 🤍</p>
   <a href="https://lexfeathers.ca" target="_blank">
     <img class="my-88x31" width="88" height="31" alt="Lex Feathers" title="Lex Feathers"
       src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" />
   </a>
   <p>Embed code:</p>
-  <textarea name="buttoncode" class="center" aria-label="Button code"
+  <textarea name="buttoncode" class="center" aria-label="Button code" onclick="this.select()"
     style="width: 100%; height: 100px; resize: none;"><a href="https://lexfeathers.ca" target="_blank"><img width="88" height="31" alt="Lex Feathers" title="Lex Feathers" src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif"/></a></textarea>
 </div>
 
