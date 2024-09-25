@@ -157,6 +157,9 @@ I make music! Sometimes for games, and sometimes for myself.
   <a href="https://danateagle.com/alt" title="torontopubliclibra.com" target="_blank">
     <img src="/uploads/torontopubliclibra-88x31.gif" title="Toronto Public Libra" alt="Toronto Public Libra" />
   </a>
+  <a href="https://neuroknives.com" title="neuroknives.com" target="_blank">
+    <img src="/uploads/neuroknives_88_31_Button_005.png" title="Neuroknives" alt="Neuroknives" />
+  </a>
 
   <p>add me to your site 🤍</p>
   <a href="https://lexfeathers.ca" target="_blank">
