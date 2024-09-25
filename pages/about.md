@@ -165,9 +165,9 @@ I make music! Sometimes for games, and sometimes for myself.
   </a>
 
   <!-- My 88x31 link -->
-  <p>add me to your site 🤍</p>
+  <p style="text-align: center;">add me to your site 🤍</p>
   <a href="https://lexfeathers.ca" target="_blank">
-    <img class="my-88x31" width="88" height="31" alt="Lex Feathers" title="Lex Feathers"
+    <img class="my-88x31" width="88" height="31" alt="Lex Feathers" title="Lex Feathers" style="display: block; margin: auto;"
       src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" />
   </a>
   <p>Embed code:</p>
