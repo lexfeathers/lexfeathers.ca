@@ -160,7 +160,7 @@ I make music! Sometimes for games, and sometimes for myself.
   <a href="https://neuroknives.com" title="neuroknives.com" target="_blank">
     <img src="/uploads/neuroknives_88_31_Button_005.png" title="Neuroknives" alt="Neuroknives" />
   </a>
-  <a href="https://damien.zone" title="damien dot zone">
+  <a href="https://damien.zone" title="damien dot zone" target="_blank">
     <img src="https://files.damien.zone/88x31_damien.png" alt="damien dot zone" />
   </a>
   <a href="https://algometric.pink" title="Algometric.pink" target="_blank">
