@@ -1,5 +1,5 @@
 ---
-title: Keening live at See Scape, August 20th 2024
+title: Keening live at See Scape (Toronto, ON) -  August 20th, 2024
 author: Lex Feathers
 draft: false
 published: 2024-09-26T02:12:00.000Z
