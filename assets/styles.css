@@ -603,7 +603,9 @@ footer a {
 
 .cool-links a:hover {
   border-bottom: 2px solid var(--colour-secondary);
+  opacity: 0.9;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 textarea {
