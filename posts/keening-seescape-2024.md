@@ -14,7 +14,7 @@ excerpt: >-
   In late August, I played my last show with Toronto screamo outfit Keening. 
 ---
 
-In late August, I played my last show with Toronto screamo outfit [Keening.](https://wearekeening.bandcamp.com) We were fortunate enough to have [videogirl95](https://www.youtube.com/@VIDEOGIRL95) record our set, which you can see below.
+In late August, I played my last show with Toronto screamo outfit [Keening.](https://wearekeening.bandcamp.com) We were fortunate enough to have [videogirl95](https://www.youtube.com/@VIDEOGIRL95) record our set, which you can watch below.
 
 I joined this band back in January of 2024 when my friend Jazz asked me to play bass for a new screamo project she had started with a couple friends. I listened to their demos and accepted because of how fun it sounded- I had always wanted to be in a heavy band!
 
