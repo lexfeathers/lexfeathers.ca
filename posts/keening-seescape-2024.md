@@ -3,7 +3,7 @@ title: Keening live at See Scape, August 20th 2024
 author: Lex Feathers
 draft: false
 published: 2024-09-26T02:12:00.000Z
-image: uploads/Keening_seescape2024_2.JPEG
+image: /uploads/keening_seescape2024.png
 image_caption: Keening performing in Toronto
 tags:
   - keening
