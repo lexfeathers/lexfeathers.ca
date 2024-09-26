@@ -154,6 +154,11 @@ a:hover {
   margin: auto 2rem;
 }
 
+.pagefind-ui__result-image {
+  padding: 0.25rem;
+  margin: auto 1.5rem;
+}
+
 .pagefind-ui__result mark {
   background-color: var(--colour-text-highlight);
   color: var(--colour-text);
