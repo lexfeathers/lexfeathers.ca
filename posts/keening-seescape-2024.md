@@ -24,9 +24,9 @@ Our second gig together was in a vintage shop/skate park (depending on the day),
 
 Shortly after that, I began to feel the strain of my day-to-day workload affecting my ability to commit enough time to a second(!) band, and had to make the decision to leave. Our last gig together was on August 20th at See Scape. 
 
-For some reason, we got the idea that our second guitarist and my girlfriend, Erin, should propose to me on-stage, and I would turn her down (don't worry, we love each other very much). We'd then launch right into the next song- it would be so funny!
+For some reason, we got the idea that our second guitarist and my girlfriend, Erin, who I love very much, should propose to me on-stage, and I would turn her down. We'd then launch right into the next song. It would be so awkward and funny, right?
 
-So the problem with bits that have vague payoffs like this is that... people don't realize they're bits. In a wonderful messy moment, I forgot that we were going to have Jazz _also_ propose to me to hammer home the "this is a bit" part, and I queued our drummer Lukas to start the next song right away after my rejection. The uh... the awkwardness in the room was _physical._ It was delicious.
+So the problem with bits that have vague payoffs like this is that... people don't realize they're bits. In a wonderfully messy moment, I forgot that we were going to have Jazz _also_ propose to me to hammer home the "this is a bit" part, and I queued our drummer Lukas to start the next song right away after my rejection. The uh... the awkwardness in the room was _physical._ It was delicious.
 
 Keening was such a fun band to be a part of. This group of musicians made me feel so comfortable and at home as a bassist, and it was amazing to get to play and write music with them. 
 
