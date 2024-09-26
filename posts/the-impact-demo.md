@@ -34,5 +34,3 @@ Musically, I really like how the guitars are kind of adding to the story textura
 I might bring this one up at the next band meeting as something we should develop.
 
 Also, I found these cool pitcher plants (pictured above) in a swamp on that trip. I'm so taken by how alien they feel and figured they'd be a nice image to pair with this demo.
-
-[test](https://google.com)
