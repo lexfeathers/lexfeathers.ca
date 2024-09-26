@@ -161,7 +161,10 @@ I make music! Sometimes for games, and sometimes for myself.
     <img src="/uploads/neuroknives_88_31_Button_005.png" title="Neuroknives" alt="Neuroknives" />
   </a>
   <a href="https://damien.zone" title="damien dot zone">
-    <img src="https://files.damien.zone/88x31_damien.png" alt="damien dot zone" style="image-rendering:pixelated;" />
+    <img src="https://files.damien.zone/88x31_damien.png" alt="damien dot zone" />
+  </a>
+  <a href="https://algometric.pink" title="Algometric.pink" target="_blank">
+    <img src="https://algometric.pink/algobutton.gif" alt="algometric" title="algometric" />
   </a>
 
   <!-- My 88x31 link -->
