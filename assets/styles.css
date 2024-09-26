@@ -42,7 +42,7 @@
     --colour-secondary: #a90060;
   }
 
-  * {
+  *:not(.name) {
     font-weight: 400;
   }
 }
