@@ -16,18 +16,20 @@ excerpt: >-
 
 In late August, I played my last show with Toronto screamo outfit Keening. We were fortunate enough to have [videogirl95](https://www.youtube.com/@VIDEOGIRL95) record our set, which you can see below.
 
-I joined this band back in January of 2024 when my friend Jazz asked me to play bass for her new screamo project she had started with a couple friends. I listened to their demos and accepted because of how fun it sounded- I had always wanted to be in a heavy band!
+I joined this band back in January of 2024 when my friend Jazz asked me to play bass for a new screamo project she had started with a couple friends. I listened to their demos and accepted because of how fun it sounded- I had always wanted to be in a heavy band!
 
-We spent a couple of months rehearsing and writing a new tune together, and learning to cover All Is Full Of Love by Björk (a song hold close to my heart). We played our first show in May, and it was such a blast. In fact it was so fun that I tore some tissue around my rotator cuff and needed physiotherapy for a month or two. Welcome to being 30.
+We spent a couple of months rehearsing and writing a new tune together, and learning to cover All Is Full Of Love by Björk (a song close to my heart). We played our first show in May, and it was such a blast. In fact it was so fun that I tore some tissue around my rotator cuff and needed physiotherapy for a month or two. Welcome to being 30.
 
-Our second gig together was in a vintage shop/skate park (depending on the day), and we had the pleasure of opening for bands like Hirs Collective, Jetsam and Basque. It reminded me of the shows I would go see when I was 18, sweaty and in some improvised space with bands that made the hair on the back of your neck stand up (affirming). The feeling was intoxicating.
+Our second gig together was in a vintage shop/skate park (depending on the day), and we had the pleasure of opening for bands like Hirs Collective, Jetsam and Basque. It reminded me of the shows I would go see when I was 18, sweaty and in some improvised space with bands that made the hair on the back of your neck stand up. The feeling was intoxicating.
 
-Shortly after that, I began to feel the strain of my day-to-day workload affecting my ability to commit enough time to a second(!) band, and had to make the decision to leave. Our last gig together was on August 20th at See Scape. For some reason, we got the idea that our second guitarist and my girlfriend, Erin, should propose to me on-stage, and I would turn her down (don't worry, we love each other very much). We'd then launch right into the next song- it would be so funny!
+Shortly after that, I began to feel the strain of my day-to-day workload affecting my ability to commit enough time to a second(!) band, and had to make the decision to leave. Our last gig together was on August 20th at See Scape. 
 
-Well the problem with bits that have vague payoffs like this is that... people don't realize they're bits. In a wonderful messy moment, I forgot that we were going to have Jazz _also_ propose to me to hammer the "this is a bit" part home, and I queued our drummer Lukas to start the next song right away after my rejection. The uh... the awkwardness in the room was _physical._ It was delicious.
+For some reason, we got the idea that our second guitarist and my girlfriend, Erin, should propose to me on-stage, and I would turn her down (don't worry, we love each other very much). We'd then launch right into the next song- it would be so funny!
 
-Keening was such a fun band to be a part of. This group of musicians made me feel so comfortable and at home as a bassist, and it was amazing to get to play with them. 
+So the problem with bits that have vague payoffs like this is that... people don't realize they're bits. In a wonderful messy moment, I forgot that we were going to have Jazz _also_ propose to me to hammer home the "this is a bit" part, and I queued our drummer Lukas to start the next song right away after my rejection. The uh... the awkwardness in the room was _physical._ It was delicious.
 
-And now we have this record of what it was like with me in the band! I hope you enjoy it :)
+Keening was such a fun band to be a part of. This group of musicians made me feel so comfortable and at home as a bassist, and it was amazing to get to play and write music with them. 
+
+And, now we have this record of what it was like with me in the band! I hope you enjoy it :)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2ZZ7io-PI0Y?si=erIO7Ej5CxftBz0C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
