@@ -183,7 +183,6 @@ I make music! Sometimes for games, and sometimes for myself.
 - [Nex3](https://nex-3.com/)
 - [Ghoulnoise](https://ghoulnoise.com/)
 - [ZandraVandra](https://zandravandra.com)
-- [Damien Erambert](https://damien.zone)
 
 <hr class="faded">
 
