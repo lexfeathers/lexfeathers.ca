@@ -744,4 +744,8 @@ iframe[title="YouTube video player"] {
     width: 88px;
     height: 31px;
   }
+
+  .pagefind-ui__result-image {
+    padding: 0rem;
+  }
 }
