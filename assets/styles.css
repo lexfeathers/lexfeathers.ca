@@ -41,6 +41,10 @@
     --colour-text: #141414;
     --colour-secondary: #a90060;
   }
+
+  * {
+    font-weight: 400;
+  }
 }
 
 /* Fonts */
