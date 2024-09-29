@@ -108,7 +108,7 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
           <li>zsh</li>
           <li>Obsidian</li>
           <li>Firefox Developer Edition</li>
-          <li>Static site generator: Lume (this site)</li>
+          <li>Static site generator: <a href="https://lume.land" target="_blank">Lume</a> (this site)</li>
         </ul>
     </ul>
   </div>
