@@ -634,7 +634,7 @@ textarea:focus {
 }
 
 #eggbug-bye {
-  box-shadow: 0px 4px 4px var(--colour-background);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
   float: right;
   filter: sepia(0.5);
   border-radius: 2px;
