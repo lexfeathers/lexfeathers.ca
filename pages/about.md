@@ -173,6 +173,10 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
   <a href="https://estrogenandspite.neocities.org" title="Estrogen and Spite Neocities" target="_blank">
     <img src="https://estrogenandspite.neocities.org/easbutton.png" alt="Estrogen and Spite" />
   </a>
+  <a href="https://ghoulnoise.com" title="Ghoulnoise">
+    <img src="https://i.postimg.cc/Gh1kB857/ghoulnoise-button.gif" alt="Ghoulnoise" />
+  </a>
+
 
   <!-- My 88x31 link -->
   <p style="text-align: center;">add me to your site 🤍</p>
