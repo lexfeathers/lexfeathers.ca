@@ -763,6 +763,10 @@ iframe[title="YouTube video player"] {
     display: block;
   }
 
+  .cool-links {
+    text-align: center;
+  }
+
   .cool-links img {
     width: 88px;
     height: 31px;

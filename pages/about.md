@@ -10,7 +10,8 @@ draft: false
 I make music! Sometimes for games, and sometimes for myself.
 
 <figure>
-  <img src="/uploads/headshot.jpg" alt="Lex Feathers" loading="lazy" />
+  <img src="/uploads/Lex_by_JennaLedger_2024.jpg" alt="Lex Feathers" loading="lazy" />
+  <figcaption>photo by <a href="https://www.jenna-ledger.com/">Jenna Ledger</a></figcaption>
 </figure>
 
 ## find me online:
