@@ -633,6 +633,13 @@ textarea:focus {
   transition: box-shadow 0.1s ease;
 }
 
+#eggbug-bye {
+  box-shadow: 0px 4px 4px var(--colour-background);
+  float: right;
+  filter: sepia(0.5);
+  border-radius: 2px;
+}
+
 iframe[title="YouTube video player"] {
   display: block;
   margin: 0 auto;

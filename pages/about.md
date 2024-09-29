@@ -190,13 +190,12 @@ I make music! Sometimes for games, and sometimes for myself.
 <hr class="faded">
 
 <p>
-  This website was built with
-  <a href="https://lume.land" target="_blank">a static site generator called Lume.</a>
+  This website was built with <a href="https://lume.land" target="_blank">a static site generator called Lume.</a>
 </p>
 
 <!-- Eggbug badge -->
 <div class="cool-links">
-  <img style="float: right; filter: sepia(0.5); border-radius: 2px; box-shadow: 0 6px 4px black;" width="88" height="31"
+  <img id="eggbug-bye" width="88" height="31"
     alt="We're gonna miss you eggbug" title="We're gonna miss you eggbug"
     src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png" />
 </div>
