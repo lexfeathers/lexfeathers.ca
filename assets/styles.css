@@ -448,7 +448,7 @@ a {
   color: var(--colour-text);
 }
 
-a.external::after {
+a.external:not(a:has(img)):after {
   content: '↗';
   font-family: 'Fira Code', monospace;
   color: var(--colour-text);
