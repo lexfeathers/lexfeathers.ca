@@ -166,6 +166,9 @@ I make music! Sometimes for games, and sometimes for myself.
   <a href="https://algometric.pink" title="Algometric.pink" target="_blank">
     <img src="https://algometric.pink/algobutton.gif" alt="algometric" title="algometric" />
   </a>
+  <a href="https://estrogenandspite.neocities.org" title="Estrogen and Spite Neocities" target="_blank">
+    <img src="https://estrogenandspite.neocities.org/easbutton.png" alt="Estrogen and Spite" />
+  </a>
 
   <!-- My 88x31 link -->
   <p style="text-align: center;">add me to your site 🤍</p>
