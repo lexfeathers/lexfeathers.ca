@@ -11,6 +11,7 @@
 
   /* Mixed colours */
   --colour-light-background: color-mix(in srgb, var(--colour-background) 98%, var(--colour-text) 2%);
+  --colour-lighter-background: color-mix(in srgb, var(--colour-background), var(--colour-text) 5%);
   --colour-text-highlight: color-mix(in srgb, var(--colour-background) 85%, var(--colour-text) 15%);
   --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
 
@@ -316,10 +317,24 @@ header nav {
 }
 
 #sidebar,
-#content {
+#content,
+.content-box {
   border-radius: 8px;
   padding: 2rem;
   box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.4);
+}
+
+.content-box {
+  padding: 1rem 0;
+}
+
+.content-box,
+.content-box * {
+  background-color: var(--colour-lighter-background);
+}
+
+.content-box ul {
+  padding: 0 1rem;
 }
 
 #sidebar {

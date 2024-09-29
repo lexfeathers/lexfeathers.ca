@@ -54,62 +54,64 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
   <summary>/uses</summary>
   <p>Here's a non-exhaustive list of tools I use.</p>
 
-  <ul>
-  <h2>Music software and gear</h2>
-    <h3>Studio and recording:</h3>
+  <div class="content-box">
     <ul>
-      <li>Ableton Live 11</li>
-      <li>Arturia Audiofuse Studio</li>
-      <li>Revv G20</li>
-      <li>Shure sm7b</li>
-      <li>Lindell 6x500 mic preamp</li>
-      <li>Neumann KH 120 A's</li>
-      <li>Audio Technica ATH-M50x</li>
-    </ul>
-    <h3>Instruments:</h3>
+    <h2>Music software and gear</h2>
+      <h3>Studio and recording:</h3>
       <ul>
-        <li>Dingwall NG2 bass guitar - Ducati Pearl White</li>
-        <li>EVH Wolfgang Special - Stealth</li>
+        <li>Ableton Live 11</li>
+        <li>Arturia Audiofuse Studio</li>
+        <li>Revv G20</li>
+        <li>Shure sm7b</li>
+        <li>Lindell 6x500 mic preamp</li>
+        <li>Neumann KH 120 A's</li>
+        <li>Audio Technica ATH-M50x</li>
+      </ul>
+      <h3>Instruments:</h3>
         <ul>
-          <li>Neck: Dimarzio PAF Pro</li>
-          <li>Bridge: Dimarzio X2N</li>
-          <li>Mods: Dual coil split</li>
-        </ul>
-        <li>Ibanez S561 - pink</li>
-        <li>Squire Classic Vibe Starcaster - Sunburst</li>
-        <li>Moog Sub 37 Tribute</li>
-        <li>Expressive E Osmose</li>
-        <li>Arturia Minibrute</li>
-        <li>Teengage Engineering PO-12</li>
-        <li>Modular synthesizer</li>
+          <li>Dingwall NG2 bass guitar - Ducati Pearl White</li>
+          <li>EVH Wolfgang Special Stealth</li>
           <ul>
-            <li>...too much flux to keep track.</li>
+            <li>Neck: Dimarzio PAF Pro</li>
+            <li>Bridge: Dimarzio X2N</li>
+            <li>Mods: Dual coil split</li>
           </ul>
-        <li><a href="/posts/voidfemmes-sixninehaus-2024/">Remington Remette (March 1939)</a></li>
-      </ul>
-    <h2>Other</h2>
-    <h3>Peripherals:</h3>
-      <ul>
-        <li>Keyboard: Mode Sonnet (r1)</li>
-        <ul>
-          <li>Switches: lubed ergo clears</li>
-          <li>Caps: Toshi Industrial GSA Retro High-light Legendless</li>
-          <li>Top: crema</li>
-          <li>Bottom: white</li>
-          <li>Accent: black</li>
-          <li>Setup: stack-mount</li>
+          <li>Ibanez S561, pink</li>
+          <li>Squire Classic Vibe Starcaster, Sunburst</li>
+          <li>Moog Sub 37 Tribute</li>
+          <li>Expressive E Osmose</li>
+          <li>Arturia Minibrute</li>
+          <li>Teengage Engineering PO-12</li>
+          <li>Modular synthesizer</li>
+            <ul>
+              <li>...too much flux to keep track.</li>
+            </ul>
+          <li><a href="/posts/voidfemmes-sixninehaus-2024/">Remington Remette (March 1939)</a></li>
         </ul>
-        <li>Mouse: Logitech MX Vertical</li>
-      </ul>
-    <h3>Misc software:</h3>
-      <ul>
-        <li>VS Code</li>
-        <li>zsh</li>
-        <li>Obsidian</li>
-        <li>Firefox Developer Edition</li>
-        <li>Static site generator: Lume (this site)</li>
-      </ul>
-  </ul>
+      <h2>Other</h2>
+      <h3>Peripherals:</h3>
+        <ul>
+          <li>Keyboard: Mode Sonnet (r1)</li>
+          <ul>
+            <li>Switches: lubed ergo clears</li>
+            <li>Caps: Toshi Industrial GSA Retro High-light Legendless</li>
+            <li>Top: crema</li>
+            <li>Bottom: white</li>
+            <li>Accent: black</li>
+            <li>Setup: stack-mount</li>
+          </ul>
+          <li>Mouse: Logitech MX Vertical</li>
+        </ul>
+      <h3>Misc software:</h3>
+        <ul>
+          <li>VS Code</li>
+          <li>zsh</li>
+          <li>Obsidian</li>
+          <li>Firefox Developer Edition</li>
+          <li>Static site generator: Lume (this site)</li>
+        </ul>
+    </ul>
+  </div>
 </details>
 
 ## those who harken to the days of eld:
@@ -189,11 +191,12 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
 - [Ghoulnoise](https://ghoulnoise.com/)
 - [ZandraVandra](https://zandravandra.com)
 
+<!--
 <hr class="faded">
-
 <p>
   This website was built with <a href="https://lume.land" target="_blank">a static site generator called Lume.</a>
 </p>
+-->
 
 <!-- Eggbug badge -->
 <div class="cool-links">
