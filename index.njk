@@ -25,9 +25,8 @@ order: 1
     <div class="homepage-excerpt-container">
       <div class="margin-bar"></div>
       <div class="homepage-excerpt-content">
-        <h3>{{ post.title }}</h3>
-
         <a href="{{ post.url }}">
+          <h3>{{ post.title }}</h3>
           <span class="homepage-excerpt-date">
             Posted {% include "/templates/date.njk" %} by {{ post.author }}
           </span>
