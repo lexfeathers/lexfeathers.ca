@@ -7,7 +7,7 @@ draft: false
 ---
 <h1>Lex Feathers <span class="faded">(she/they)</span></h1>
 
-I make music! Sometimes for games, and sometimes for myself.
+I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for myself.
 
 <figure>
   <img src="/uploads/Lex_by_JennaLedger_2024.jpg" alt="Lex Feathers" loading="lazy" />
