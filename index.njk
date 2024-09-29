@@ -24,7 +24,7 @@ order: 1
     {% asyncEach post in latestPost %}
     <div class="homepage-excerpt-container">
       <div class="margin-bar"></div>
-      <div>
+      <div class="homepage-excerpt-content">
         <h3>{{ post.title }}</h3>
 
         <a href="{{ post.url }}">
@@ -42,7 +42,7 @@ order: 1
       </div>
     </div>
 
-    <a href="{{ post.url }}" class="button" style="text-align: right;">Read more -></a>
+    <a href="{{ post.url }}" class="button read-more" style="text-align: right;"><span>Read more -></span></a>
     {% endeach %}
   </article>
 </div>

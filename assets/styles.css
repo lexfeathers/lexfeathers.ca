@@ -288,6 +288,17 @@ article.homepage-excerpt {
   display: none;
 }
 
+.homepage-excerpt-content {
+  width: 100%;
+}
+
+.read-more span {
+  padding: 8px;
+  background-color: var(--colour-secondary);
+  color: var(--colour-background);
+  border-radius: 4px;
+}
+
 .directory .date {
   margin-left: 2rem;
 }
