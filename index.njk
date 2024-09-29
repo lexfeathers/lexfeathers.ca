@@ -33,9 +33,9 @@ order: 1
         </a>
         <figure>
           {% ifAsync post.excerpt %}
-          {{ post.excerpt | safe }}
+            {{ post.excerpt | safe }}
           {% else %}
-          {{ post.content | safe }}
+            {{ post.content | safe }}
           {% endif %}
         </figure>
       </div>
