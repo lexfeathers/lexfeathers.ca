@@ -103,6 +103,10 @@ cms.collection({
       type: "checkbox",
     },
     {
+      name: "comments",
+      type: "checkbox",
+    },    
+    {
       name: "published",
       type: "datetime",
       mode: "create"
