@@ -2,6 +2,7 @@
 title: 'Void Femmes live at SIXNINEHAUS (Toronto, ON) - July 7th, 2024'
 author: Lex Feathers
 draft: false
+comments: true
 published: 2024-09-24T21:10:00.000Z
 image: /uploads/Sixninehaus_July72024.png
 tags:

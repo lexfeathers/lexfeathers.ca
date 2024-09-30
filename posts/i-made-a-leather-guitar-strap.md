@@ -2,6 +2,7 @@
 title: I made a leather guitar strap
 author: Lex Feathers
 draft: false
+comments: true
 published: 2023-06-19T12:12:00.000Z
 image: /uploads/leatherguitarstrap2.jpeg
 image_caption: A black leather guitar strap with a shoulder pad and gold rivets

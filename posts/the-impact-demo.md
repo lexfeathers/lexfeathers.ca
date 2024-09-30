@@ -2,6 +2,7 @@
 title: The Impact, a Waxlimbs demo
 author: Lex Feathers
 draft: false
+comments: true
 published: 2023-07-30T15:14:00.000Z
 image: /uploads/The_Impact.webp
 image_caption: A black and white photo of some strange pitcher plants among dry leaves and moss

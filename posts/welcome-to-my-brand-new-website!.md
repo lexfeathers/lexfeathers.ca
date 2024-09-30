@@ -2,6 +2,7 @@
 title: Welcome to my brand new website!
 author: Lex Feathers
 draft: false
+comments: true
 published: 2024-09-17T13:10:00.000Z
 image: /uploads/oldwood.jpeg
 tags:
