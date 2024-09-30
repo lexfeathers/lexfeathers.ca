@@ -34,19 +34,6 @@
   --pagefind-ui-image-border-radius: 4px;
   --pagefind-ui-image-box-ratio: 3 / 2;
   --pagefind-ui-font: 'Fira Code', monospace;
-
-  /* Chirpy accent colour overrides */
-  .bg-primary-900 {
-    background-color: var(--colour-secondary) !important;
-  }
-
-  .text-whitea-1200 {
-    color: var(--colour-background) !important;
-  }
-
-  a.relative.text-violet-900 {
-    filter: grayscale(1);
-  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -243,10 +230,6 @@ audio {
   border-radius: 4px;
   filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
   max-width: 80%;
-}
-
-#chirpy-comment {
-  color: var(--colour-text) !important;
 }
 
 article:has(.homepage-excerpt) {
