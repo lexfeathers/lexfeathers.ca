@@ -40,8 +40,12 @@
     background-color: var(--colour-secondary) !important;
   }
 
+  .text-whitea-1200 {
+    color: var(--colour-background) !important;
+  }
+
   .text-gray-1200 {
-    color: var(--colour-text);
+    color: var(--colour-text) !important;
   }
 }
 
@@ -239,6 +243,10 @@ audio {
   border-radius: 4px;
   filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
   max-width: 80%;
+}
+
+#chirpy-comment {
+  color: var(--colour-text) !important;
 }
 
 article:has(.homepage-excerpt) {
