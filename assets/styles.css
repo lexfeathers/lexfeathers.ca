@@ -43,6 +43,10 @@
   .text-whitea-1200 {
     color: var(--colour-background) !important;
   }
+
+  a.relative.text-violet-900 {
+    filter: grayscale(1);
+  }
 }
 
 @media (prefers-color-scheme: light) {
