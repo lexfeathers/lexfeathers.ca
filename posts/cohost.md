@@ -5,7 +5,7 @@ draft: false
 comments: true
 published: 2024-9-30T13:31:00.000Z
 image: /uploads/cohost_introduction_post.gif
-image_caption: My Cohost introduction post
+image_caption: My Cohost introduction post from 2022
 tags:
   - cohost
 excerpt: I don't want to be consumed. I want to put myself out there in a way that feels right, like I have agency and dignity. 
