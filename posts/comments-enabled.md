@@ -4,8 +4,6 @@ author: Lex Feathers
 draft: false
 comments: true
 published: 2024-9-29T22:31:00.000Z
-image: 
-image_caption: 
 tags:
   - misc
   - website meta
