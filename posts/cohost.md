@@ -4,6 +4,8 @@ author: Lex Feathers
 draft: false
 comments: true
 published: 2024-9-30T13:31:00.000Z
+image: /uploads/cohost_introduction_post.gif
+image_caption: My Cohost introduction post
 tags:
   - cohost
 excerpt: I don't want to be consumed. I want to put myself out there in a way that feels right, like I have agency and dignity. 
@@ -22,9 +24,6 @@ The level of expression I was exposed to really changed the way I thought about 
 Years later, I saw @aurahack post about this new site called Cohost which was just opening up to registrations beyond family and friends of the devs. I made an account and started lurking. The moment I got the ability to post, I lost myself in my code editor. I could use HTML and CSS as a form of expression, and in a social way! I remember losing so many hours to designing [my introduction post](https://cohost.org/Lexfeathers/post/25497-hi-i-m-lex) and realizing how funny and wonderful it was that my posting interface now looked like this:
 
 ![A screenshot of a code editor full of html with inline CSS. It is a mess.](/uploads/cohost_posting_2022-07-01.png)
-
-![A screenshot of my cohost introduction post](/uploads/cohost_introduction_post.gif)
-<figcaption>The finished post</figcaption>
 
 From that point on, I learned so much about basic HTML expression and deeply built out my understanding of information hierarchy. It wasn't some frustrating experience to open up documentation to learn a new trick- it was fun! The web in and of itself was <span style="padding: 4px; background-color: #ff7ac3; color: #1a1a1a; font-weight: bold; border-radius: 4px;">fun!</span>
 
