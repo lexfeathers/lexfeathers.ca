@@ -34,6 +34,15 @@
   --pagefind-ui-image-border-radius: 4px;
   --pagefind-ui-image-box-ratio: 3 / 2;
   --pagefind-ui-font: 'Fira Code', monospace;
+
+  /* Chirpy accent colour overrides */
+  .bg-primary-900 {
+    background-color: var(--colour-secondary) !important;
+  }
+
+  .text-gray-1200 {
+    color: var(--colour-text);
+  }
 }
 
 @media (prefers-color-scheme: light) {
