@@ -43,10 +43,6 @@
   .text-whitea-1200 {
     color: var(--colour-background) !important;
   }
-
-  .text-gray-1200 {
-    color: var(--colour-text) !important;
-  }
 }
 
 @media (prefers-color-scheme: light) {
