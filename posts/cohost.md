@@ -9,7 +9,7 @@ tags:
 excerpt: I don't want to be consumed. I want to put myself out there in a way that feels right, like I have agency and dignity. 
 ---
 
-_This post was originally written for cohost.org on it's final day of posting._
+_This post was originally written for cohost.org on its final day of posting._
 
 In 2016 I took an "intro to web design" class, and what it _really_ was under the hood was a class on the [net.art movement.](https://en.wikipedia.org/wiki/Net.art) I was there out of mild curiosity (and a need to fill an elective), but this course swept me right off my feet. 
 
