@@ -74,6 +74,21 @@
 						</ul>
 					</div>
 				{% endif %}
+
+				<!-- Comments -->
+				{% if type == "posts" %}
+					<!--
+						The widget follows "system" settings for light/dark mode
+						by default, but you can manually select "light" or "dark"
+						mode for a consistent display
+					-->
+					<div
+						data-chirpy-theme="system"
+						data-chirpy-comment="true"
+						id="chirpy-comment"
+					></div>
+				{% endif %}
+
 			</article>
 		</section>
 	</main>
@@ -84,6 +99,8 @@
 	
 	<!-- Load main scripts file -->
 	<script src="/assets/scripts.js"></script>
+	<!-- Load comments script -->
+	<script defer src="https://chirpy.dev/bootstrapper.js" data-chirpy-domain="lexfeathers.ca"></script>
 </body>
 
 </html>
