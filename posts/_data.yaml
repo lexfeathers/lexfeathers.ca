@@ -1,4 +1,5 @@
 type: posts
+layout: /templates/post.njk
 metas:
   title: =title
   author: =author
