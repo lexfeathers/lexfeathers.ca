@@ -26,14 +26,21 @@
 						<a href="/" alt="Back to home" class="button"><- home</a>
 					{% endif %}
 				</div>
+
+				{% if title != 'home' and type != 'posts' %}
+					<h1>{{ title }}</h1>
+					<hr class="faded">
+				{% endif %}
+				
 				{{ content | safe }}
+				
 			</section>
 		</main>
 
 		<div class="footer-container">
 			{% include "templates/footer.njk" %}
 		</div>
-		
+
 		<!-- Load main scripts file -->
 		<script src="/assets/scripts.js"></script>
 		<!-- Load comments script -->
