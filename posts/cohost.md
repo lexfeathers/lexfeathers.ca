@@ -3,14 +3,15 @@ title: Cohost
 author: Lex Feathers
 draft: false
 comments: true
-published: 2024-9-30T13:31:00.000Z
+published: 2024-09-30T09:31:00.000Z
 image: /uploads/cohost_introduction_post.gif
 image_caption: My Cohost introduction post from 2022
 tags:
   - cohost
-excerpt: I don't want to be consumed. I want to put myself out there in a way that feels right, like I have agency and dignity. 
+excerpt: >-
+  I don't want to be consumed. I want to put myself out there in a way that
+  feels right, like I have agency and dignity.
 ---
-
 _This post was originally written for cohost.org on its final day of posting._
 
 In 2016 I took an "intro to web design" class, and what it _really_ was under the hood was a class on the [net.art movement.](https://en.wikipedia.org/wiki/Net.art) I was there out of mild curiosity (and a need to fill an elective), but this course swept me right off my feet. 
@@ -21,7 +22,7 @@ It was so exciting and frustrating, but in a way that got me excited about disco
 A lot of the net.art stuff we looked at was eye-opening. It was incredible to me that people had been using websites as canvases to such an extent so far back in time. It felt "old" but also like... a really interesting potential fork in time that got abandoned in the pursuit of capital. 
 The level of expression I was exposed to really changed the way I thought about how the internet worked, or how it _could_ work. I was starting to realize just how much the websites I was using in my day-to-day had become vessels for "products," and _I_ was the product. 
 
-Years later, I saw @aurahack post about this new site called Cohost which was just opening up to registrations beyond family and friends of the devs. I made an account and started lurking. The moment I got the ability to post, I lost myself in my code editor. I could use HTML and CSS as a form of expression, and in a social way! I remember losing so many hours to designing [my introduction post](https://cohost.org/Lexfeathers/post/25497-hi-i-m-lex) and realizing how funny and wonderful it was that my posting interface now looked like this:
+Years later, I saw [@aurahack](https://blog.aurahack.jp/) post about this new site called Cohost which was just opening up to registrations beyond family and friends of the devs. I made an account and started lurking. The moment I got the ability to post, I lost myself in my code editor. I could use HTML and CSS as a form of expression, and in a social way! I remember losing so many hours to designing [my introduction post](https://cohost.org/Lexfeathers/post/25497-hi-i-m-lex) and realizing how funny and wonderful it was that my posting interface now looked like this:
 
 ![A screenshot of a code editor full of html with inline CSS. It is a mess.](/uploads/cohost_posting_2022-07-01.png)
 
@@ -37,4 +38,4 @@ I suppose my blog kind of allows for that, but I can't help but feel the void wh
 
 I don't have a good way to end this. I'm just trying to lay out some very general feelings about things, and to explore how I've changed as a product of this place.
 
-I'm going to miss you all. 
+I'm going to miss you all.
