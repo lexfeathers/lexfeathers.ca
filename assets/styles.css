@@ -676,13 +676,14 @@ iframe[title="YouTube video player"] {
 
 /* Mobile styling */
 @media screen and (max-width:749px) {
-  * {
-    font-size: 12pt;
-  }
-
   body {
     width: auto;
     padding: 0 1rem;
+    font-size: 12pt;
+  }
+
+  header h1 a {
+    text-decoration: none;
   }
 
   header nav {
