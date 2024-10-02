@@ -9,7 +9,7 @@ const password = Deno.env.get("PASSWORD");
 
 // Set site time zone
 // Timezone codes can be found at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-Deno.env.set("US", "US/Eastern");
+Deno.env.set("TZ", "US/Eastern");
 
 // Create the cms instance
 const cms = lumeCMS({
