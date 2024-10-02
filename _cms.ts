@@ -109,7 +109,7 @@ cms.collection({
     {
       name: "published",
       type: "datetime",
-      mode: "create"
+      mode: "create",
     },
     {
       name: "image",
