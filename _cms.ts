@@ -3,9 +3,12 @@ import GitHub from "lume/cms/storage/github.ts";
 import { Octokit } from "npm:octokit";
 import _fields from "lume/cms/fields/core.ts";
 
+// Create authentication environment variables
 const username = Deno.env.get("USERNAME");
 const password = Deno.env.get("PASSWORD");
 
+// Set site time zone
+// Timezone codes can be found at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 Deno.env.set("TZ", "US/Eastern");
 
 // Create the cms instance
