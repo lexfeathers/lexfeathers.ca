@@ -6,6 +6,8 @@ import _fields from "lume/cms/fields/core.ts";
 const username = Deno.env.get("USERNAME");
 const password = Deno.env.get("PASSWORD");
 
+Deno.env.set("TZ", "US/Eastern");
+
 // Create the cms instance
 const cms = lumeCMS({
   site: {
