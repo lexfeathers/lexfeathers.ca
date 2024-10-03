@@ -195,7 +195,6 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
 ## other sites I like:
 
 - [Nex3](https://nex-3.com/)
-- [Ghoulnoise](https://ghoulnoise.com/)
 - [ZandraVandra](https://zandravandra.com)
 
 <!--
