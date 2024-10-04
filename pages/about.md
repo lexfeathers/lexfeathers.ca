@@ -179,6 +179,9 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
   <a href="https://websiteleague.org" title="Website League">
     <img src="https://websiteleague.org/images/wl-88x31.png" alt="Website League" />
   </a>
+  <a href="https://blog.curiousquail.com" title="Curious Quail">
+    <img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/curiousquail/quailblog_8831.png" width="88" height="31" alt="small icon that reads QUAILBLOG with an image of a character with a beak">
+  </a>
 
 
   <!-- My 88x31 link -->
