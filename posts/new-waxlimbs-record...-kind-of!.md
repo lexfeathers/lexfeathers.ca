@@ -27,4 +27,4 @@ In a few weeks, we'll add it to streaming services to make it a bit easier for p
 
 Thanks for the support, and I hope you enjoy the music!
 
-<iframe style="border: 0; width: 700px; height: 820px;" src="https://bandcamp.com/EmbeddedPlayer/album=1759496786/size=large/bgcol=333333/linkcol=e99708/tracklist=false/transparent=true/" seamless><a href="https://waxlimbs.bandcamp.com/album/where-lilies-grew">Where Lilies Grew by Waxlimbs</a></iframe>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1759496786/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://waxlimbs.bandcamp.com/album/where-lilies-grew">Where Lilies Grew by Waxlimbs</a></iframe>
