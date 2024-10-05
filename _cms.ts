@@ -11,7 +11,7 @@ const password = Deno.env.get("PASSWORD");
 // Timezone codes can be found at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 Deno.env.set("TZ", "US/Eastern");
 
-// Get current date in YYYYMMDD format
+// Get current date in YYYY-MM-DD format
 const humanDate = new Date();
 const formattedDate = humanDate.toISOString().split('T')[0].replace(/-/g, '-');
 
@@ -124,9 +124,9 @@ cms.collection({
       label: "Published date",
       value: new Date(),
       description: "Set a future date if you want to publish it later",
-      attributes: {
-        placeholder: "For example: 2024-01-01 00:00:01",
-      },
+      // attributes: {
+      //   placeholder: "For example: 2024-01-01 00:00:01",
+      // },
     },
     {
       name: "image",
