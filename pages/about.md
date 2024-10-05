@@ -182,6 +182,9 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
   <a href="https://blog.curiousquail.com" title="Curious Quail">
     <img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/curiousquail/quailblog_8831.png" width="88" height="31" alt="small icon that reads QUAILBLOG with an image of a character with a beak">
   </a>
+  <a href="https://theworksofegan.net/" title="The Works of Egan">
+    <img src="https://theworksofegan.net/img/twoe-button.gif" width="88" height="31" alt="The Works of Egan">
+  </a>
 
 
   <!-- My 88x31 link -->
