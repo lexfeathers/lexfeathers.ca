@@ -95,13 +95,16 @@ cms.collection({
   name: "posts",
   store: "my_fs:posts/*.md",
   fields: [
-    "title: text",
+    {
+      name: "title",
+      type: "text",
+      description: "Leave blank to use published date",
+      value: new Date() + " - Untitled",
+    },
     {
       name: "author",
       type: "text",
-      options: [
-        "Lex Feathers",
-      ],
+      value: "Lex Feathers"
     },
     {
       name: "draft",
