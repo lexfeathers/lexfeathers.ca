@@ -103,7 +103,7 @@ cms.collection({
       name: "title",
       type: "text",
       description: "Leave blank to use published date",
-      value: formattedDate + ": Untitled",
+      value: formattedDate,
     },
     {
       name: "author",
