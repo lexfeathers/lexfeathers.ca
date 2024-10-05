@@ -13,7 +13,7 @@ Deno.env.set("TZ", "US/Eastern");
 
 // Get current date in YYYYMMDD format
 const humanDate = new Date();
-const formattedDate = humanDate.toISOString().split('T')[0].replace(/-/g, ' ');
+const formattedDate = humanDate.toISOString().split('T')[0].replace(/-/g, '-');
 
 // Create the cms instance
 const cms = lumeCMS({
