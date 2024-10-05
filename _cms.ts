@@ -11,6 +11,10 @@ const password = Deno.env.get("PASSWORD");
 // Timezone codes can be found at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 Deno.env.set("TZ", "US/Eastern");
 
+// Get current date in YYYYMMDD format
+const humanDate = new Date();
+const formattedDate = humanDate.toISOString().split('T')[0].replace(/-/g, ' ');
+
 // Create the cms instance
 const cms = lumeCMS({
   site: {
@@ -99,7 +103,7 @@ cms.collection({
       name: "title",
       type: "text",
       description: "Leave blank to use published date",
-      value: new Date("YYYY-mm-dd") + " - Untitled",
+      value: formattedDate + " - Untitled",
     },
     {
       name: "author",
