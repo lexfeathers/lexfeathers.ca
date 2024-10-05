@@ -99,7 +99,7 @@ cms.collection({
       name: "title",
       type: "text",
       description: "Leave blank to use published date",
-      value: new Date() + " - Untitled",
+      value: new Date("YYYY-mm-dd") + " - Untitled",
     },
     {
       name: "author",
