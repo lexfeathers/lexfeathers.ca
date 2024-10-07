@@ -16,7 +16,7 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
 
 ## find me online:
 
-- [Bsky (probably where I will mainly be posting)](https://bsky.app/profile/gameaudio.ca)
+- [Bsky (probably where I will mainly be posting)](https://bsky.app/profile/lexfeathers.ca)
 - [Instagram (personal stuff and gig-posting mainly)](https://instagram.com/lex.feathers)
 - [Mastodon (I want to like this more than I do)](https://octodon.social/@lexfeathers)
 - [My portfolio website](https://gameaudio.ca)
