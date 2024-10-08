@@ -493,11 +493,12 @@ figure img {
   max-width: 100%;
 }
 
-figure {
+/* Removing figure styles */
+/* figure {
   max-width: 80%;
-  /* margin: 1rem auto;
-  text-align: center; */
-}
+  margin: 1rem auto;
+  text-align: center;
+} */
 
 figure.hero-img {
   max-width: 100%;
