@@ -185,6 +185,9 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
   <a href="https://theworksofegan.net/" title="The Works of Egan">
     <img src="https://theworksofegan.net/img/twoe-button.gif" width="88" height="31" alt="The Works of Egan">
   </a>
+  <a href="https://nex-3.com" title="House of Nettles">
+    <img src="/uploads/house-of-nettles.gif" width="88" height="31" alt="House of Nettles">
+  </a>
 
 
   <!-- My 88x31 link -->
