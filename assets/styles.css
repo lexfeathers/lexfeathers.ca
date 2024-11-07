@@ -262,6 +262,11 @@ article.homepage-excerpt {
   text-align: left;
 }
 
+summary {
+  cursor: pointer;
+  padding-left: 1.5rem !important;
+}
+
 /* 
 .homepage-excerpt-container div:nth-child(2)::after {
   content: '[...]';
