@@ -1,7 +1,8 @@
 ---
 title: about
 description: This is a page... that tells you about me.
-image: /uploads/headshot.jpg
+image: /uploads/lex_autumn.jpg
+image_caption: 
 order: 3
 draft: false
 ---
@@ -10,8 +11,8 @@ draft: false
 I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for myself.
 
 <figure>
-  <img src="/uploads/Lex_by_JennaLedger_2024.jpg" alt="Lex Feathers" loading="lazy" />
-  <figcaption>photo by <a href="https://www.jenna-ledger.com/">Jenna Ledger</a></figcaption>
+  <img src="/uploads/lex_autumn.jpg" alt="Lex Feathers" loading="lazy" />
+  <!-- <figcaption>{{ image_caption }}</figcaption> -->
 </figure>
 
 ## find me online:
