@@ -8,12 +8,12 @@ draft: false
 ---
 <h1>Lex Feathers <span class="faded">(she/they)</span></h1>
 
-I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for myself.
-
 <figure>
   <img src="/uploads/lex_autumn.jpg" alt="Lex Feathers" loading="lazy" />
   <!-- <figcaption>{{ image_caption }}</figcaption> -->
 </figure>
+
+I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for myself.
 
 ## find me online:
 
