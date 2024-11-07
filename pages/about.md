@@ -34,15 +34,24 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
 
   summary {
     font-size: 20pt;
-    background-color: var(--colour-secondary);
-    color: var(--colour-background);
+    background-color: var(--colour-background);
+    color: var(--colour-secondary);
     box-shadow: 0px 6px 4px var(--colour-background) !important;
+    border: 2px solid var(--colour-secondary);
     border-radius: 4px;
-    padding: 1rem 1rem 1rem 1.5rem;
+    padding: 1rem;
   }
 
   summary::marker {
     content: '→ ';
+  }
+
+  summary::after {
+    content: " ...";
+  }
+
+  details[open] summary::after {
+    content: none;
   }
 
   details[open] summary::marker {
@@ -52,7 +61,7 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
 
 {# Uses list #}
 <details>
-  <summary>/uses ...</summary>
+  <summary>/uses</summary>
   <p>Here's a non-exhaustive list of tools I use.</p>
 
   <div class="content-box">
