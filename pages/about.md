@@ -51,7 +51,7 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
 
 {# Uses list #}
 <details>
-  <summary>/uses</summary>
+  <summary>/uses ...</summary>
   <p>Here's a non-exhaustive list of tools I use.</p>
 
   <div class="content-box">
