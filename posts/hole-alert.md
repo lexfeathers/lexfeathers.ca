@@ -8,8 +8,7 @@ image: /uploads/newhole.jpg
 image_caption: Challenger approaching!
 tags:
   - misc
+  - surgery
 excerpt: Happy new birthday to me <3
 ---
 That's it. That's the post. 
-
-Surgery achieved.
