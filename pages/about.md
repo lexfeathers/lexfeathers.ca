@@ -37,7 +37,7 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
     color: var(--colour-background);
     box-shadow: 0px 6px 4px var(--colour-background) !important;
     border-radius: 4px;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 1.5rem;
   }
 
   summary::marker {
