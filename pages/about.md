@@ -34,7 +34,7 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
 
   summary {
     font-size: 20pt;
-    background-color: var(--colour-background);
+    background-color: var(--colour-lighter-background);
     color: var(--colour-secondary);
     box-shadow: 0px 6px 4px var(--colour-background) !important;
     border: 2px solid var(--colour-secondary);
