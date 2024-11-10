@@ -5,7 +5,7 @@ metas:
   author: Lex Feathers
   icon: assets/favicon.ico
   image: assets/images/linkpreview.jpg
-  "twitter:image:src": assets/images/linkpreview.jpg
+  'twitter:image:src': assets/images/linkpreview.jpg
   keywords:
     - music
     - lex feathers
@@ -14,10 +14,12 @@ metas:
   generator: false
 footer_links:
   - title: Bsky
-    url: "https://bsky.app/profile/lexfeathers.ca"
+    url: 'https://bsky.app/profile/lexfeathers.ca'
   - title: Bandcamp
-    url: "https://voidfemmes.bandcamp.com"
+    url: 'https://voidfemmes.bandcamp.com'
   - title: Portfolio
-    url: "https://gameaudio.ca"
+    url: 'https://gameaudio.ca'
   - title: Instagram
-    url: "https://instagram.com/lex.feathers"
+    url: 'https://instagram.com/lex.feathers'
+  - title: Mastodon
+    url: 'https://tenforward.social/@lexfeathers'
