@@ -16,8 +16,8 @@
   --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
 
   /* Font sizing */
-  --text-small: 12pt;
-  --text-medium: 18pt;
+  --text-small: 14pt;
+  --text-medium: 16pt;
   --text-large: 24pt;
 
   --sig-symbol: ' :';
@@ -95,7 +95,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-size: 16pt;
+  font-size: var(--text-medium);
   max-width: var(--page-width);
   margin: auto;
   padding: 0 2rem;
@@ -198,7 +198,7 @@ main * {
 }
 
 .date {
-  font-size: 12pt;
+  font-size: var(--text-small);
 }
 
 .banner {
@@ -280,7 +280,7 @@ summary {
 
 .homepage-excerpt-date {
   color: var(--colour-secondary);
-  font-size: 12pt;
+  font-size: var(--text-small);
 }
 
 .homepage-excerpt-container {
@@ -362,7 +362,7 @@ header nav {
 }
 
 #sidebar ul li {
-  font-size: 12pt;
+  font-size: var(--text-small);
   line-height: 1.6rem;
   max-width: calc(100% - calc(1rem + 4px));
   white-space: nowrap;
@@ -470,7 +470,7 @@ a {
 
 .button {
   margin: 2rem 0;
-  font-size: 12pt;
+  font-size: var(--text-small);
 }
 
 #sidebar .button::before {
@@ -568,7 +568,7 @@ header h1 a {
 /* Tag list that appears at the bottom of a post */
 div.tags {
   margin-top: 4rem;
-  font-size: 12pt;
+  font-size: var(--text-small);
 }
 
 ul.taglist {
@@ -618,7 +618,7 @@ ul.taglist {
 
 footer {
   padding: 2rem 0;
-  font-size: 12pt;
+  font-size: var(--text-small);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -683,7 +683,7 @@ iframe[title="YouTube video player"] {
   body {
     width: auto;
     padding: 0 1rem;
-    font-size: 12pt;
+    font-size: var(--text-small);
   }
 
   header h1 a {
@@ -704,7 +704,7 @@ iframe[title="YouTube video player"] {
   }
 
   header * {
-    font-size: 14pt;
+    font-size: var(--text-medium);
     vertical-align: middle;
   }
 
@@ -719,7 +719,7 @@ iframe[title="YouTube video player"] {
   }
 
   header .menu a {
-    font-size: 12pt;
+    font-size: var(--text-small);
   }
 
   header .name {
