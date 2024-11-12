@@ -1,5 +1,5 @@
 ---
-title: contact
+title: ask
 order: 5
 ---
 <style>
@@ -14,6 +14,9 @@ order: 5
     }
     .control {
         margin: 0.5rem 0 1rem;
+    }
+    label {
+        font-size: var(--text-small);
     }
     .control>input, .control>textarea {
         min-width: 100%;
@@ -44,6 +47,8 @@ order: 5
         }
     }
 </style>
+
+### Feel free to reach out with questions or comments!
 
 <div class="form-container">
   <div class="columns">
