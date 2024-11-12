@@ -5,10 +5,18 @@
   {% ifAsync posts %}
     <ul class="directory">
       {% asyncEach post in posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        <span class="faded date">
-          {% include "/templates/date.njk" %}
-        </span>
+        <li class="directory-card">
+          <div>
+            <a class="directory-card__link" href="{{ post.url }}">
+              <span>
+                {{ post.title }}
+              </span><br>
+              <span class="faded date">
+                {% include "/templates/date.njk" %}
+              </span>
+            </a>
+          </div>
+        </li>
       {% endeach %}
     </ul>
   {% else %}
