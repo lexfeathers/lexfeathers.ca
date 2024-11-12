@@ -637,7 +637,7 @@ ul.taglist {
 }
 
 .menu-item {
-  margin-right: 2rem;
+  margin-right: 1.5rem;
   list-style: none;
 }
 
@@ -738,6 +738,7 @@ iframe[title="YouTube video player"] {
 
   header nav {
     display: block;
+    margin-left: 4px;
   }
 
   .directory-card::before {
