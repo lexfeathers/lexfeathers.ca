@@ -237,7 +237,7 @@ audio {
   font-size: var(--text-small);
 }
 .footnote-item, .footnote-item p {
-  font-weight: 200; 
+  font-weight: 250; 
   line-height: 1.5;
 }
 
