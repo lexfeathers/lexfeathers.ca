@@ -542,13 +542,6 @@ figure img {
   max-width: 100%;
 }
 
-/* Removing figure styles */
-/* figure {
-  max-width: 80%;
-  margin: 1rem auto;
-  text-align: center;
-} */
-
 figure.hero-img {
   max-width: 100%;
 }
@@ -567,14 +560,6 @@ figcaption {
   opacity: 0.6;
   margin: 0.5rem 0 2rem 0;
 }
-
-/* figcaption::before {
-  content: '"';
-}
-
-figcaption::after {
-  content: '"';
-} */
 
 /* For floating images in a body of text, magazine-style. 
    Generally, we want to apply this to a <figure> element. */
