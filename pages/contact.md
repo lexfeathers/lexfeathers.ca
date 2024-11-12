@@ -57,7 +57,7 @@ order: 5
         <div class="field is-half">
           <label class="label">Name</label>
           <div class="control">
-            <input class="input" type="text" name="name" placeholder="Enter Your Name" required>
+            <input class="input" type="text" name="name" placeholder="Egg Bug" required>
           </div>
         </div>
         <div class="field is-half">
