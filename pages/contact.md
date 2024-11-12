@@ -23,9 +23,14 @@ order: 5
         padding: .5rem !important;
         border: 1px solid var(--colour-text-faded);
     }
-    .control>input:focus {
+    .control>input:focus, button.button:focus {
         outline: none;
         box-shadow: 0 0 0 3px var(--colour-secondary);
+        transition: box-shadow 0.1s ease;
+    }
+    button.button:focus {
+        outline: none;
+        box-shadow: 0 0 0 4px var(--colour-text);
         transition: box-shadow 0.1s ease;
     }
     textarea {
