@@ -15,4 +15,4 @@ Setup was simple, and for now this should work. Quite annoyed that I can't tweak
 
 If you have any tips, tricks, or suggestions for other implementations, please let me know ...in the comments! :)
 
-[^1]: I don't get a ton of comments, but I was dismayed when chirpy dumped the few I had (some very nice messages from friends!). I've moved to using Github Discussions via the [Giscus app.]([Link](https://giscus.app/)) This way, I can store my comments on the same repository as the site, and I have some moderation tools in what Github gives me.
+[^1]: I don't get a ton of comments, but I was dismayed when chirpy dumped the few I had (some very nice messages from friends!). I've moved to using Github Discussions via the [Giscus app.](https://giscus.app/) This way, I can store my comments on the same repository as the site, and I have some moderation tools in what Github gives me.
