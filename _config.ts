@@ -7,10 +7,20 @@ import metas from "lume/plugins/metas.ts";
 import feed from "lume/plugins/feed.ts";
 import _cleancss from 'https://deno.land/x/lume_cleancss@v0.2.0/mod.ts';
 import pagefind from "lume/plugins/pagefind.ts";
+import footnote from "npm:markdown-it-footnote";
+
+// Pass options to markdown-it plugins
+const markdown = {
+  plugins: [
+    footnote,
+  ],
+};
 
 const site = lume({
   location: new URL("https://lexfeathers.ca"),
-});
+}, 
+{ markdown }
+);
 site.use(nunjucks());
 site.use(favicon({
   input: "/assets/favicon.ico",

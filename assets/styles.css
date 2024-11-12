@@ -232,6 +232,15 @@ audio {
   max-width: 80%;
 }
 
+/* Footnotes */
+.footnotes-list {
+  font-size: var(--text-small);
+}
+.footnote-item, .footnote-item p {
+  font-weight: 200;
+  line-height: 1.5;
+}
+
 article:has(.homepage-excerpt) {
   display: flex;
   flex-direction: column;
