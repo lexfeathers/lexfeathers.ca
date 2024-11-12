@@ -19,10 +19,10 @@ With that in mind, I took it upon myself to play around with this website tonigh
 
 Here's what's changed as of today:
 
-1. I now have [a contact form on the contact page!](https://lexfeathers.ca/pages/contact) [^2]
-2. Comments have been replaced with github discussions. [^3]
-3. I redesigned how individual entries look in [the directory](https://lexfeathers.ca/pages/directory)
-4. I added footnotes! [^4]
+- I now have [a contact form on the contact page!](https://lexfeathers.ca/pages/contact) [^2]
+- Comments have been replaced with github discussions. [^3]
+- I redesigned how individual entries look in [the directory](https://lexfeathers.ca/pages/directory)
+- I added footnotes! [^4]
 
 Somewhere in all of these changes, I broke the deno.lock file this site uses to track versions for dependencies. I don't know how it happened. I don't know why it happened. Somehow I fixed it by changing the version number from '4' to '3' based on a screenshot I found in a discord server. No, I do not understand why this worked. :|
 
