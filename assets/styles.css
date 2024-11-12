@@ -319,11 +319,22 @@ summary {
   margin: 0.5rem 1rem;
   border-radius: 8px;
   box-shadow: 0px 4px 8px var(--colour-background);
-  border: 1px solid var(--colour-secondary);
+  border: 1px solid var(--colour-background);
   flex-grow: 1  ;
 }
+.directory-card div:hover {
+  background-color: color-mix(
+    in hsl, 
+    var(--colour-lighter-background) 90%, 
+    var(--colour-text-faded) 10%
+  );
+  transition: 50ms;
+}
 .directory-card a, .directory-card .date {
-  background-color: var(--colour-lighter-background);
+  background-color: inherit;
+}
+.directory-card div a:hover .date {
+  text-decoration: none;
 }
 .directory-card__link {
   width: 100%;
