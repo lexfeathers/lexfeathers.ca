@@ -88,6 +88,8 @@ order: 5
             <textarea class="textarea" name="message" placeholder="Enter Your Message" required></textarea>
           </div>
         </div>
+        <!-- If we receive data in this field submission will be ignored -->
+        <input type="text" name="honeypot" style="display: none;">
         <button class="button is-primary" type="Submit">Submit</button>
       </form>
     </div>
