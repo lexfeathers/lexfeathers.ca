@@ -69,7 +69,7 @@ order: 5
         <div class="field is-half">
             <label class="label">Your website</label>
             <div class="control">
-              <input class="input" type="text" name="name" placeholder="Add this if you want me to check your site out :)">
+              <input class="input" type="text" name="name" placeholder="Optional">
             </div>
           </div>        
         <div class="field">
