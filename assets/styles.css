@@ -879,41 +879,41 @@ iframe[title="YouTube video player"] {
   --color-btn-border: var(--colour-background);
   --color-btn-shadow: 0 0 var(--colour-background);
   --color-btn-inset-shadow: 0 0 var(--colour-background);
-  --color-btn-hover-bg: #444c56;
-  --color-btn-hover-border: #768390;
-  --color-btn-active-bg: var(--colour-light-background);
+  --color-btn-hover-bg: var(--colour-text-faded);
+  --color-btn-hover-border: var(--colour-text-highlight);
+  --color-btn-active-bg: var(--colour-lighter-background);
   --color-btn-active-border: var(--colour-text-faded);
-  --color-btn-selected-bg: var(--colour-light-background);
+  --color-btn-selected-bg: var(--colour-lighter-background);
   --color-btn-primary-text: var(--colour-background);
   --color-btn-primary-bg: var(--colour-secondary);
   --color-btn-primary-border: var(--colour-text-faded);
   --color-btn-primary-shadow: 0 0 var(--colour-background);
   --color-btn-primary-inset-shadow: 0 0 var(--colour-background);
   --color-btn-primary-hover-bg: var(--colour-secondary);
-  --color-btn-primary-hover-border: #cdd9e51a;
+  --color-btn-primary-hover-border: var(--colour-text-highlight);
   --color-btn-primary-selected-bg: var(--colour-secondary);
-  --color-btn-primary-selected-shadow: 0 0 #0000;
-  --color-btn-primary-disabled-text: var(--colour-lighter-background);
-  --color-btn-primary-disabled-bg: var(--colour-background);
-  --color-btn-primary-disabled-border: #cdd9e51a;
-  --color-action-list-item-default-hover-bg: #909dab1f;
-  --color-segmented-control-bg: #636e7b1a;
-  --color-segmented-control-button-bg: #22272e;
-  --color-segmented-control-button-selected-border: #636e7b;
-  --color-fg-default: #adbac7;
-  --color-fg-muted: #768390;
-  --color-fg-subtle: #545d68;
-  --color-canvas-default: #192734;
-  --color-canvas-overlay: #161b22;
-  --color-canvas-inset: #15202b;
-  --color-canvas-subtle: #253341;
-  --color-border-default: #444c56;
-  --color-border-muted: #373e47;
-  --color-neutral-muted: #636e7b66;
-  --color-accent-fg: #539bf5;
-  --color-accent-emphasis: #316dca;
-  --color-accent-muted: #4184e466;
-  --color-accent-subtle: #388bfd1a;
+  --color-btn-primary-selected-shadow: 0 0 var(--colour-background);
+  --color-btn-primary-disabled-text: var(--colour-background);
+  --color-btn-primary-disabled-bg: var(--colour-text-faded);
+  --color-btn-primary-disabled-border: var(--colour-background);
+  --color-action-list-item-default-hover-bg: var(--colour-text-highlight);
+  --color-segmented-control-bg: var(--colour-text-highlight);
+  --color-segmented-control-button-bg: var(--colour-lighter-background);
+  --color-segmented-control-button-selected-border: var(--colour-text-faded);
+  --color-fg-default: var(--colour-text);
+  --color-fg-muted: var(--colour-text-faded);
+  --color-fg-subtle: var(--colour-text-highlight);
+  --color-canvas-default: var(--colour-light-background);
+  --color-canvas-overlay: var(--colour-background);
+  --color-canvas-inset: var(--colour-background);
+  --color-canvas-subtle: var(--colour-lighter-background);
+  --color-border-default: var(--colour-text-faded);
+  --color-border-muted: var(--colour-text-faded);
+  --color-neutral-muted: var(--colour-lighter-background);
+  --color-accent-fg: var(--colour-secondary);
+  --color-accent-emphasis: var(--colour-secondary);
+  --color-accent-muted: var(--colour-text-faded);
+  --color-accent-subtle: var(--colour-text-highlight);
   --color-success-fg: #57ab5a;
   --color-attention-fg: #c69026;
   --color-attention-muted: #ae7c1466;
@@ -921,8 +921,8 @@ iframe[title="YouTube video player"] {
   --color-danger-fg: #e5534b;
   --color-danger-muted: #e5534b66;
   --color-danger-subtle: #e5534b1a;
-  --color-primer-shadow-inset: 0 0 #0000;
-  --color-scale-gray-7: #373e47;
+  --color-primer-shadow-inset: 0 0 var(--colour-background);
+  --color-scale-gray-7: var(--colour-lighter-background);
   --color-scale-blue-8: var(--colour-secondary);
 
   /*! Extensions from @primer/css/alerts/flash.scss */
@@ -942,6 +942,7 @@ main .pagination-loader-container {
 }
 .gsc-header {
   padding-bottom: 1rem;
+  margin-top: 4rem;
 }
 .gsc-comments > .gsc-header {
   order: 1;
@@ -950,16 +951,19 @@ main .pagination-loader-container {
   margin-bottom: 1rem;
   order: 2;
 }
+.gsc-comment-box-textarea::placeholder {
+  color: var(--colour-text-faded);
+} 
 .gsc-comments > .gsc-timeline {
   order: 3;
 }
 .gsc-homepage-bg {
-  background-color: #15202b;
+  background-color: var(--colour-background);
 }
 main .gsc-loading-image {
   background-image: url(https://github.githubassets.com/images/mona-loading-dimmed.gif);
 }
 body:has(#__next) {
-  margin: 0;
+  padding: 0;
 }
 /* End of giscus colours */
