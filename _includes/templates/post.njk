@@ -42,14 +42,20 @@ layout: /layout.njk
 
   <!-- Comments -->
   {% if comments == true %}
-    <!--
-      The widget follows "system" settings for light/dark mode
-      by default, but you can manually select "light" or "dark"
-      mode for a consistent display
-    -->
-    <div
-      data-chirpy-theme="system"
-      data-chirpy-comment="true"
-      id="chirpy-comment"
-    ></div>
+    <script src="https://giscus.app/client.js"
+            data-repo="lexfeathers/lexfeathers.ca"
+            data-repo-id="R_kgDOMyvSzw"
+            data-category="General"
+            data-category-id="DIC_kwDOMyvSz84CkL45"
+            data-mapping="url"
+            data-strict="0"
+            data-reactions-enabled="0"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="preferred_color_scheme"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+    </script>
   {% endif %}
