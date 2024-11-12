@@ -325,6 +325,9 @@ summary {
 .directory-card a, .directory-card .date {
   background-color: var(--colour-lighter-background);
 }
+.directory-card__link {
+  width: 100%;
+}
 .directory-card__link *:not(.date) {
   color: inherit;
   background-color: inherit;
