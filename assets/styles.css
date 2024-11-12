@@ -319,7 +319,7 @@ summary {
   margin: 0.5rem 1rem;
   border-radius: 8px;
   box-shadow: 0px 4px 8px var(--colour-background);
-  /* border: 2px solid var(--colour-text-faded); */
+  border: 1px solid var(--colour-secondary);
   flex-grow: 1  ;
 }
 .directory-card a, .directory-card .date {
