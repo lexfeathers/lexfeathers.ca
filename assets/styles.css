@@ -8,6 +8,14 @@
   --colour-background: #141414;
   --colour-text: #fff0cc;
   --colour-secondary: #ff993a;
+    /* Dark theme - make sure to update this as well if changing the main theme! */
+      --colour-background-darkmode: #141414;
+      --colour-text-darkmode: #fff0cc;
+      --colour-secondary-darkmode: #ff993a;
+    /* Light theme */
+      --colour-background-lightmode: #fff6e0;
+      --colour-text-lightmode: #141414; 
+      --colour-secondary-lightmode: #a90060;
 
   /* Mixed colours */
   --colour-light-background: color-mix(in srgb, var(--colour-background) 98%, var(--colour-text) 2%);
@@ -38,15 +46,36 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --colour-background: #fff6e0;
-    --colour-text: #141414;
-    --colour-secondary: #a90060;
+    --colour-background: var(--colour-background-lightmode);
+    --colour-text: var(--colour-text-lightmode);
+    --colour-secondary: var(--colour-secondary-lightmode);
   }
 
   *:not(.name) {
     font-weight: 400;
   }
 }
+
+/* Theme selector usage */
+  /* Styles for before the component has loaded */
+  :root,
+  /* Styles for after the component has loaded */
+  :root[data-theme="light"] {
+    --colour-background: var(--colour-background-lightmode);
+    --colour-text: var(--colour-text-lightmode);
+    --colour-secondary: var(--colour-secondary-lightmode);
+
+    background-color: var(--colour-background);
+    color: var(--colour-text);
+  }
+
+  /* Styles when dark mode set by JS */
+  :root[data-theme="dark"] {
+    --colour-background: var(--colour-background-darkmode);
+    --colour-text: var(--colour-text-darkmode);
+    --colour-secondary: var(--colour-secondary-darkmode);
+  }
+/* End theme selector */
 
 /* Fonts */
 @font-face {
@@ -122,8 +151,8 @@ a:hover {
 #monogram {
   display: inline-block;
   /* margin-right: 1rem; */
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   /* vertical-align: middle; */
   border: 2px solid var(--colour-secondary);
   /* border-radius: 16px; */
@@ -274,6 +303,14 @@ article.homepage-excerpt {
 summary {
   cursor: pointer;
 }
+
+/* Theme selector, but also all selectors. */
+select, select option {
+  background-color: var(--colour-background);
+  border: 2px solid var(--colour-secondary);
+  border-radius: 8px;
+  height: 2rem;
+} 
 
 /* 
 .homepage-excerpt-container div:nth-child(2)::after {
@@ -505,6 +542,30 @@ a {
   color: var(--colour-secondary);
 }
 
+.icon {
+  align-items: center;
+  display: inline-flex;
+  /* font-size: 24px; */
+  height: 24px;
+  justify-content: center;
+  line-height: 0;
+  width: 24px;
+}
+
+/* Theme selector basic styling */
+#theme-selector {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+#theme-selector .icon {
+  color: var(--colour-secondary);
+  font-size: 2.5rem;
+}
+footer #theme-select-container {
+  display: none;
+}
+
 .excerpt {
   padding-bottom: 1rem;
 }
@@ -579,8 +640,8 @@ figcaption {
 
 /* Markdown code elements */
 code {
-  padding: 2px 4px;
-  border-radius: 4px;
+  padding: 0 4px;
+  /* border-radius: 4px; */
   background-color: var(--colour-text-highlight);
   font-family: "Fira Code", monospace;
   font-optical-sizing: auto;
@@ -598,6 +659,7 @@ code {
 header {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 header h1 a {
@@ -729,6 +791,11 @@ iframe[title="YouTube video player"] {
   header h1 a {
     text-decoration: none;
   }
+  
+  #monogram {
+    width: 20px;
+    height: 20px;
+  }
 
   header nav {
     display: block;
@@ -773,6 +840,15 @@ iframe[title="YouTube video player"] {
 
   header .name {
     font-size: 20pt;
+  }
+
+  header div#theme-select-container {
+    display: none;
+  }
+
+  footer div#theme-select-container {
+    display: block;
+    /* margin: auto; */
   }
 
   .menu {

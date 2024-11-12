@@ -11,6 +11,8 @@
     </li>
   </ul>
 
+  {% include "/templates/theme-selector.njk" %}
+
   <p class="copyright">&copy; {{ website.site_title }} <span id="currentyear">{{ date | date('yyyy') }}</span></p>
   <a class="rss" href="/feed.rss" class="button">RSS</a>
 </footer>
