@@ -2,12 +2,12 @@
   /* Global variables */
 
   /* Layout */
-  --page-width: 72rem;
+    --page-width: 72rem;
 
   /* Key Colours */
-  --colour-background: #141414;
-  --colour-text: #fff0cc;
-  --colour-secondary: #ff993a;
+    --colour-background: #141414;
+    --colour-text: #fff0cc;
+    --colour-secondary: #ff993a;
     /* Dark theme - make sure to update this as well if changing the main theme! */
       --colour-background-darkmode: #141414;
       --colour-text-darkmode: #fff0cc;
@@ -18,30 +18,30 @@
       --colour-secondary-lightmode: #a90060;
 
   /* Mixed colours */
-  --colour-light-background: color-mix(in srgb, var(--colour-background) 98%, var(--colour-text) 2%);
-  --colour-lighter-background: color-mix(in srgb, var(--colour-background), var(--colour-text) 5%);
-  --colour-text-highlight: color-mix(in srgb, var(--colour-background) 85%, var(--colour-text) 15%);
-  --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
+    --colour-light-background: color-mix(in srgb, var(--colour-background) 98%, var(--colour-text) 2%);
+    --colour-lighter-background: color-mix(in srgb, var(--colour-background), var(--colour-text) 5%);
+    --colour-text-highlight: color-mix(in srgb, var(--colour-background) 85%, var(--colour-text) 15%);
+    --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
 
   /* Font sizing */
-  --text-small: 14pt;
-  --text-medium: 16pt;
-  --text-large: 24pt;
+    --text-small: 14pt;
+    --text-medium: 16pt;
+    --text-large: 24pt;
 
   --sig-symbol: ' :';
 
   /* Pagefind search bar styles */
-  --pagefind-ui-scale: 0.8;
-  --pagefind-ui-primary: var(--colour-secondary);
-  --pagefind-ui-text: var(--colour-text);
-  --pagefind-ui-background: var(--colour-light-background);
-  --pagefind-ui-border: var(--colour-text-faded);
-  --pagefind-ui-tag: var(--colour-text);
-  --pagefind-ui-border-width: 1px;
-  --pagefind-ui-border-radius: 4px;
-  --pagefind-ui-image-border-radius: 4px;
-  --pagefind-ui-image-box-ratio: 3 / 2;
-  --pagefind-ui-font: 'Fira Code', monospace;
+    --pagefind-ui-scale: 0.8;
+    --pagefind-ui-primary: var(--colour-secondary);
+    --pagefind-ui-text: var(--colour-text);
+    --pagefind-ui-background: var(--colour-light-background);
+    --pagefind-ui-border: var(--colour-text-faded);
+    --pagefind-ui-tag: var(--colour-text);
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 4px;
+    --pagefind-ui-image-border-radius: 4px;
+    --pagefind-ui-image-box-ratio: 3 / 2;
+    --pagefind-ui-font: 'Fira Code', monospace;
 }
 
 @media (prefers-color-scheme: light) {
@@ -62,7 +62,7 @@
     * Copyright (c) 2018 GitHub Inc.
     * https://github.com/primer/primitives/blob/main/LICENSE
     */
-    main {
+    /* main {
       --color-prettylights-syntax-comment: #768390;
       --color-prettylights-syntax-constant: #6cb6ff;
       --color-prettylights-syntax-entity: #dcbdfb;
@@ -142,18 +142,18 @@
       --color-danger-subtle: #e5534b1a;
       --color-primer-shadow-inset: 0 0 var(--colour-background);
       --color-scale-gray-7: var(--colour-lighter-background);
-      --color-scale-blue-8: var(--colour-secondary);
+      --color-scale-blue-8: var(--colour-secondary); */
 
       /*! Extensions from @primer/css/alerts/flash.scss */
-      --color-social-reaction-bg-hover: var(--color-scale-gray-7);
+      /* --color-social-reaction-bg-hover: var(--color-scale-gray-7);
       --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
     }
     main .pagination-loader-container {
       background-image: url(https://github.com/images/modules/pulls/progressive-disclosure-line-dark.svg);
-    }
+    } */
 
     /*! Custom CSS */
-    .gsc-reactions-count {
+    /* .gsc-reactions-count {
       display: none;
     }
     .gsc-timeline {
@@ -187,7 +187,7 @@
     }
     .giscus-frame {
       border-radius: 8px;
-    }
+    } */
     /* End of giscus colours */    
 
 /* Theme selector usage */
@@ -198,6 +198,7 @@
     --colour-background: var(--colour-background-lightmode);
     --colour-text: var(--colour-text-lightmode);
     --colour-secondary: var(--colour-secondary-lightmode);
+    /* transition: .2s; */
 
     background-color: var(--colour-background);
     color: var(--colour-text);
@@ -208,6 +209,7 @@
     --colour-background: var(--colour-background-darkmode);
     --colour-text: var(--colour-text-darkmode);
     --colour-secondary: var(--colour-secondary-darkmode);
+    /* transition: .2s; */
   }
 /* End theme selector */
 
@@ -709,10 +711,11 @@ a {
   color: var(--colour-secondary);
 }
 .icon-lightbulb__div {
-  scale: 1.6;
+  scale: 1.2;
   background-color: var(--colour-secondary);
-  -webkit-mask: url(/assets/images/lightbulb.svg) no-repeat center / contain;
-  mask: url(/assets/images/lightbulb.svg) no-repeat center / contain;
+  -webkit-mask: url(/assets/images/contrast.svg) no-repeat center / contain;
+  mask: url(/assets/images/contrast.svg) no-repeat center / contain;
+  transition: .25s;
 }
 #icon-lightbulb path {
   scale: 1.4;
