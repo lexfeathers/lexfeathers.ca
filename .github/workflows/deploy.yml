@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-   steps:
+    steps:
       - name: Clone repository
         # Git clone the repository
         uses: actions/checkout@v4
