@@ -696,7 +696,7 @@ a {
 #theme-selector .icon {
   color: var(--colour-secondary);
   font-size: 2.5rem;
-  font-family: 'Fira Code', monospace !important;
+  font-family: monospace !important;
 }
 footer #theme-select-container {
   display: none;
