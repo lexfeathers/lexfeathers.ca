@@ -698,6 +698,24 @@ a {
   font-size: 2.5rem;
   font-family: monospace !important;
 }
+.icon-lightbulb {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: var(--colour-secondary);
+  fill: var(--colour-secondary);
+  color: var(--colour-secondary);
+}
+.icon-lightbulb__div {
+  scale: 1.6;
+  background-color: var(--colour-secondary);
+  -webkit-mask: url(/assets/images/lightbulb.svg) no-repeat center / contain;
+  mask: url(/assets/images/lightbulb.svg) no-repeat center / contain;
+}
+#icon-lightbulb path {
+  scale: 1.4;
+}
 footer #theme-select-container {
   display: none;
 }

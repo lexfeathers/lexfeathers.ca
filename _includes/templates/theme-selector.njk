@@ -11,7 +11,10 @@
         document.documentElement.dataset.theme = theme;
       }
     </script>
-    <button id="theme-selector" onclick="changeTheme()" alt="Theme selector">
-        <span aria-hidden="true" class="icon">🌤&#x1F324;</span>
+    
+    <button id="theme-selector" onclick="changeTheme()" alt="Toggle light or dark theme">
+      <span aria-hidden="true" class="icon">
+        <div class="icon icon-lightbulb icon-lightbulb__div"></div>
+      </span>
     </button>
-  </div>
+  </div> 
