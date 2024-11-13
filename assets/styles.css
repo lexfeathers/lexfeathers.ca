@@ -258,7 +258,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-size: var(--text-medium);
+  font-size: var(--text-small);
   max-width: var(--page-width);
   margin: auto;
   padding: 0 2rem;
