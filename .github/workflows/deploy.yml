@@ -13,14 +13,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
+   steps:
       - name: Clone repository
+        # Git clone the repository
         uses: actions/checkout@v4
 
       - name: Setup Deno environment
-        uses: denoland/setup-deno@v1
+        # Downloads deno and caches it
+        uses: denoland/setup-deno@v2
         with:
-          deno-version: v1.x
+          # Latest Deno 2.x version
+          deno-version: v2.x
 
       - name: Build site
         run: deno task build
