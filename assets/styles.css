@@ -678,7 +678,7 @@ a {
 
 .icon {
   align-items: center;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Fira Code', monospace !important;
   display: inline-flex;
   /* font-size: 24px; */
   height: 24px;
