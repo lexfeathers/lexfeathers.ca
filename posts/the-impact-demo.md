@@ -9,7 +9,7 @@ image_caption: A black and white photo of some strange pitcher plants among dry 
 tags:
   - demo
   - audio
-  - waxlimbs
+  - Waxlimbs
   - cohost posts
   - backdated
 excerpt: >-
