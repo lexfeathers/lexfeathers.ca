@@ -15,6 +15,7 @@ export default function *({ search }) {
             url: `../tag/${encodedTag}/`,
             pages: pages,
             tag: `${tag}`,
+            type: "tag",
             layout: "/templates/tag.njk",
         }
     }
