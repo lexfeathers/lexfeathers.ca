@@ -398,6 +398,14 @@ audio {
 }
 
 /* Footnotes */
+.footnotes-sep {
+  display: none;
+}
+.footnotes {
+  border: 2px solid var(--colour-text-highlight);
+  border-radius: 4px;
+  padding-right: 1rem;
+}
 .footnotes-list {
   font-size: var(--text-small);
 }
