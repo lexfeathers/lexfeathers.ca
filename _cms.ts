@@ -138,7 +138,10 @@ cms.collection({
       type: "text",
       label: "Image caption",
     },
-    "content: markdown",
+    {
+      name: "content",
+      type: "markdown",
+    },
     {
       name: "tags",
       type: "list",
