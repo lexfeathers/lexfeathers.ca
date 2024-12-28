@@ -6,7 +6,7 @@ comments: true
 published: 2024-09-29T22:31:00.000Z
 tags:
   - misc
-  - website meta
+  - website-meta
 excerpt: Comments are now a thing on this site! Try them out on this post~
 image: ''
 ---

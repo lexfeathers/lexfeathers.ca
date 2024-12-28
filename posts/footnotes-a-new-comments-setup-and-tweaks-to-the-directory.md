@@ -7,8 +7,8 @@ published: 2024-11-12T05:43:53.454Z
 image: /uploads/The directory as of nov 11 2024.png
 image_caption: The directory as of writing this
 tags:
-  - social media
-  - website meta
+  - social-media
+  - website-meta
 excerpt: A short update and changelog for the site's latest modifications.
 ---
 It's been a while since I've posted anything. The very short cliff notes are: I'm so tired. I'm ok though. I just need a year off.
