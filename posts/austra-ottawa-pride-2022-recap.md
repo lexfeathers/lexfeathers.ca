@@ -7,6 +7,7 @@ published: 2022-08-29T01:05:00.000Z
 image: /uploads/Austra_Home_Aug272022.jpg
 image_caption: 'Austra performing "Home" at Captial Pride, August 2022'
 tags:
+  - austra
   - live-performance
   - music
   - tour
