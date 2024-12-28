@@ -7,7 +7,7 @@ export default function *({ search }) {
         const pages = search.pages(tag);
         // Replace spaces in tags with hyphens
         let encodedTag = tag;
-        encodedTag = encodedTag.trim().replace(/\s+/g, '-').toLowerCase();
+        encodedTag = encodedTag.replace(/\s+/g, '-').toLowerCase();
             
         // Return the data of the new page.
         yield {

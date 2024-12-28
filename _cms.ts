@@ -145,11 +145,7 @@ cms.collection({
     {
       name: "tags",
       type: "list",
-      init(field, { data }) {
-        const site = data.site;
-        const allTags = site.search.values("tags");
-        field.options = allTags;
-      }
+      description: "Separate words with hyphens",
     },
     {
       name: "excerpt",
