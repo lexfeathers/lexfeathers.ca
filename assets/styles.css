@@ -8,6 +8,9 @@
     --colour-background: #141414;
     --colour-text: #fff0cc;
     --colour-secondary: #ff993a;
+    --colour-cw-background: #7c2447;
+    --colour-cw-text: #fff0cc;
+
     /* Dark theme - make sure to update this as well if changing the main theme! */
       --colour-background-darkmode: #141414;
       --colour-text-darkmode: #fff0cc;
@@ -768,6 +771,51 @@ a.external:not(a:has(img)):after {
   vertical-align: top;
   opacity: 0.4;
 }
+
+/* Content Warnings */
+.content-warnings {
+  padding: 1rem;
+  border-radius: 6px;
+  border: 2px solid var(--colour-lighter-background);
+}
+details[open].content-warnings {
+  border-radius: 6px;
+  border: 2px solid var(--colour-cw-background);
+}
+.content-warnings, .content-warnings > * {
+  background: var(--colour-background) !important;
+  margin: .5rem 0;
+}
+.content-warnings ul {
+  list-style: none;
+  padding-left: 0;
+}
+.content-warnings li {
+  display: inline;
+}
+.content-warnings li:not(:last-child)::after {
+  content: ',';
+}
+details.content-warnings {
+  margin: 2rem auto;
+}
+.content-warnings>summary {
+  font-size: 18pt;
+  border-radius: 4px;
+}
+.content-warnings>summary::marker {
+  content: none;
+}
+.content-warnings>summary::after {
+  content: " ...";
+}
+details[open] summary::after {
+  content: ' ↴';
+}
+details.content-warnings[open] summary::marker {
+  content: none;
+}
+/* End content warnings */
 
 /* Image handling */
 figure img {

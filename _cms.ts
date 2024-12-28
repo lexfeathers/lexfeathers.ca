@@ -139,6 +139,10 @@ cms.collection({
       label: "Image caption",
     },
     {
+      name: "content_warnings",
+      type: "list",
+    },
+    {
       name: "content",
       type: "markdown",
     },

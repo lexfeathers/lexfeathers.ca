@@ -15,6 +15,17 @@ layout: /layout.njk
 </div>
 
 <article>
+  {% if content_warnings %}
+    <details class="content-warnings" open="">
+      <summary>Content warning</summary>
+      <ul>
+        {% for cw in content_warnings %}
+          <li>{{ cw }}</li>
+        {% endfor %}
+      </ul>
+    </details>
+  {% endif %}
+
   <h1 class="visually-hidden" aria-hidden="true">{{ title }}</h1>
 
   {% if image %}
@@ -29,7 +40,7 @@ layout: /layout.njk
   {{ content | safe }}
 
   {# Loop through tags and display them inline, if there are any #}
-  {% if tags != false %}
+  {% if tags %}
     <div class="tags faded">
       <h3>Tags:</h3>
       <ul class="taglist">
