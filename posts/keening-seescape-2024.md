@@ -8,7 +8,7 @@ image: /uploads/keening_seescape2024.png
 image_caption: Keening performing in Toronto
 tags:
   - keening
-  - live
+  - live-performance
   - music
   - audio
   - video
