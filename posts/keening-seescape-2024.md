@@ -9,6 +9,7 @@ image_caption: Keening performing in Toronto
 tags:
   - keening
   - live
+  - music
   - audio
   - video
 excerpt: >-

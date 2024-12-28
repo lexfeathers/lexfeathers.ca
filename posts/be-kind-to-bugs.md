@@ -7,7 +7,8 @@ published: 2022-11-02T13:10:00.000Z
 tags:
   - misc
   - backdated
-  - cohost css crimes
+  - cohost
+  - css crimes
 excerpt: >-
   One of my very first attempts at a cohost CSS crime.
 ---

@@ -8,7 +8,7 @@ image: /uploads/Sixninehaus_July72024.png
 tags:
   - audio
   - video
-  - live
+  - live performance
 excerpt: >
   I performed a show in a Toronto backyard on July 7th, 2024. For this set, I
   "played" a typewriter I found in a small town near Parry Sound, Ontario.

@@ -9,7 +9,7 @@ image_caption: ...a very old photo
 tags:
   - backdated
   - demo
-  - cohost posts
+  - cohost
 excerpt: >-
   This was the first thing I've done in a long time where I felt excited about
   the potential in my voice, like I unlocked something really important.

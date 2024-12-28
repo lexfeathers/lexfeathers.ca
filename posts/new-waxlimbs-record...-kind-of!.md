@@ -9,7 +9,7 @@ image_caption: 'Where Lilies Grew, by Waxlimbs (artwork by Emma Embur)'
 tags:
   - releases
   - music
-  - Waxlimbs
+  - waxlimbs
 excerpt: >-
   Hi all, I'm so so so happy to announce that my band Waxlimbs has finally
   compiled all of our 2020-2021 singles into an album!
