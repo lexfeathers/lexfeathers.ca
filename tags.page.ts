@@ -11,6 +11,7 @@ export default function *({ search }) {
         title: `Pages tagged as ${tag}`,
         url: `../tag/${tag}/`,
         pages: pages,
+        tag: `${tag}`,
         layout: "/templates/tag.njk"
       }
     }

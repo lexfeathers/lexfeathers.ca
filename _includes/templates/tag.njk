@@ -1,10 +1,30 @@
 ---
 layout: /layout.njk
 ---
-<a href="../../pages/taglist">All tags</a>
+<div class="post-directory">
+  {% set posts = search.pages("type=posts draft=false", "tags=tag", "published=desc") %}
+  {% ifAsync pages %}
+    <ul class="directory">
+      {% asyncEach page in pages %}
+        <li class="directory-card">
+          <div>
+            <a class="directory-card__link" href="{{ page.url }}">
+              <span>
+                {{ page.title }}
+              </span><br>
+              <span class="faded date">
+                <span aria-hidden="true" class="icon">&#9993;</span> {{ page.published | date('HUMAN_DATE') }}
+              </span><br>
+            </a>
+          </div>
+        </li>
+      {% endeach %}
+    </ul>
+  {% else %}
+    <p>There are no posts to display.</p>
+  {% endif %}
+</div>
 
-<ul>
-  {% for page in pages %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-  {% endfor %}
-</ul>
+<div style="margin-top:2rem;">
+  <a href="../../pages/taglist">All tags</a>
+</div>
