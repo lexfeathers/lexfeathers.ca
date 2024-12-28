@@ -9,7 +9,7 @@ export default function *({ search }) {
       // Return the data of the new page.
       yield {
         title: `Pages tagged as ${tag}`,
-        url: `/tag/${tag}/`,
+        url: `../tag/${tag}/`,
         pages: pages,
         layout: "/templates/tag.njk"
       }
