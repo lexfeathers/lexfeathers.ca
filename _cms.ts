@@ -139,7 +139,15 @@ cms.collection({
       label: "Image caption",
     },
     "content: markdown",
-    "tags: list",
+    {
+      name: "tags",
+      type: "list",
+      init(field, { data }) {
+        const site = data.site;
+        const allTags = site.search.values("tags");
+        field.options = allTags;
+      }
+    },
     {
       name: "excerpt",
       type: "textarea",

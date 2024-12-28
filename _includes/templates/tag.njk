@@ -2,8 +2,7 @@
 layout: /layout.njk
 ---
 <div class="post-directory">
-  {% set posts = search.pages("type=posts draft=false", "tags=tag", "published=desc") %}
-  {% ifAsync pages %}
+  {% ifAsync pages.length %}
     <ul class="directory">
       {% asyncEach page in pages %}
         <li class="directory-card">
