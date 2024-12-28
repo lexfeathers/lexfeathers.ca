@@ -792,6 +792,7 @@ details[open].content-warnings {
 }
 .content-warnings li {
   display: inline;
+  background: var(--colour-background) !important;
 }
 .content-warnings li:not(:last-child)::after {
   content: ',';
