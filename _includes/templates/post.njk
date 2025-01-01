@@ -15,7 +15,7 @@ layout: /layout.njk
 </div>
 
 <article>
-  {% if content_warnings %}
+  {% if content_warnings|length %}
     <details class="content-warnings" open="">
       <summary>Content warning</summary>
       <ul>
