@@ -1,4 +1,4 @@
-import lumeCMS from "https://cdn.jsdelivr.net/gh/lumeland/cms@v0.8.0/mod.ts";
+import lumeCMS from "lume/cms/mod.ts";
 import GitHub from "lume/cms/storage/github.ts";
 import { Octokit } from "npm:octokit";
 import _fields from "lume/cms/fields/core.ts";
