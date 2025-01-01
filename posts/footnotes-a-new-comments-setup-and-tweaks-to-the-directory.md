@@ -7,7 +7,7 @@ published: 2024-11-12T05:43:53.454Z
 image: /uploads/The directory as of nov 11 2024.png
 image_caption: The directory as of writing this
 tags:
-  - social-media 'social media'
+  - "social media"
   - website-meta
 excerpt: A short update and changelog for the site's latest modifications.
 ---
