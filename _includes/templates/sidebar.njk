@@ -8,17 +8,17 @@
     </div>
   </div>
 
-  <h4>Latest posts:</h4>
+  <h3>Recent posts:</h3>
   <div id="post-dir">
     <div class="margin-bar"></div>
     <menu>
       <ul class="post-list">
         {# Get posts that aren't drafts #}
-        {% set posts = search.pages("type=posts draft=false", "published=desc", 5) %}
+        {% set posts = search.pages("type=posts draft=false", "published=desc", 8) %}
         {% asyncEach post in posts %}
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endeach %}
-        <li><a href="/pages/directory/" title="All posts" alt="All posts">...</a></li>
+        {# <li><a href="/pages/directory/" title="All posts" alt="All posts">...</a></li> #}
       </ul>
     </menu>
   </div>
