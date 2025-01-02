@@ -8,7 +8,7 @@ image: /uploads/Austra_Home_Aug272022.jpg
 image_caption: 'Austra performing "Home" at Captial Pride, August 2022'
 tags:
   - austra
-  - live-performance
+  - live performance
   - music
   - tour
   - backdated

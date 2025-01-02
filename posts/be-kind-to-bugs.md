@@ -8,7 +8,7 @@ tags:
   - misc
   - backdated
   - cohost
-  - css-crimes
+  - css crimes
 excerpt: >-
   One of my very first attempts at a cohost CSS crime.
 image: ''

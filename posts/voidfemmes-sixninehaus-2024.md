@@ -8,7 +8,7 @@ image: /uploads/Sixninehaus_July72024.png
 tags:
   - audio
   - video
-  - live-performance
+  - live performance
 excerpt: >
   I "played" a typewriter I found in a small town near Parry Sound, Ontario.
 image_caption: 'Void Femmes performing in Toronto, July 2024'
