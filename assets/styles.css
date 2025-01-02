@@ -410,7 +410,7 @@ select, select option {
   background-color: inherit;
 }
 
-.date::before {
+.date::before:not(.excerpt-date) {
   content: ' - ';
 }
 
