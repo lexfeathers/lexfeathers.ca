@@ -16,12 +16,12 @@ order: 1
     Ideally, we'll both learn something new!
   </p>
 
-  <h1 class="faded" style="margin-bottom: 0;">Latest post:</h1>
+  <h2 class="faded" style="margin-bottom: 0;">Latest post:</h2>
 
   <article class="homepage-excerpt">
     {# Get the latest post #}
     {% set latestPost = search.pages("type=posts draft=false", "published=desc", 1) %}
-    {% asyncEach post in latestPost %}
+    {# {% for post in latestPost %}
     <div class="homepage-excerpt-container">
       <div class="margin-bar"></div>
       <div class="homepage-excerpt-content">
@@ -32,17 +32,42 @@ order: 1
           </span>
         </a>
         <figure>
-          {% ifAsync post.excerpt %}
+          {% if post.excerpt %}
             {{ post.excerpt | safe }}
           {% else %}
             {{ post.content | safe }}
           {% endif %}
         </figure>
       </div>
-    </div>
+    </div> #}
 
-    <a href="{{ post.url }}" class="button read-more" style="text-align: right;"><span>Read more -></span></a>
-    {% endeach %}
+    {% for post in latestPost %}
+      <div class="homepage-excerpt-container">
+        <div class="directory-card" style="width:100%">
+          <div style="margin:0;">
+            <a class="directory-card__link" href="{{ post.url }}">
+              <span>
+                {{ post.title }}
+              </span><br>
+                <span aria-hidden="true" class="icon">&#9993;</span> 
+              <span class="date">
+                Posted {% include "/templates/date.njk" %} by {{ post.author }}
+              </span>
+              <figure>
+                {% if post.excerpt %}
+                  {{ post.excerpt | safe }}
+                {% else %}
+                  {{ post.content | safe }}
+                {% endif %}
+              </figure>
+            </a>
+            <a href="{{ post.url }}" class="button read-more">
+              <span style="font-weight:300;">Read&nbsp;more-></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
   </article>
 </div>
 
