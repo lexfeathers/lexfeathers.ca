@@ -8,7 +8,7 @@
     </div>
   </div>
 
-<!--
+{% ifAsync title != 'home' and title != 'directory' %}
   <h3>Recent posts:</h3>
   <div id="post-dir">
     <div class="margin-bar"></div>
@@ -23,10 +23,12 @@
       </ul>
     </menu>
   </div>
--->
+{% endif %}
+
 <a href="/pages/directory/" class="button">All posts</a>
 
 {# Goofy divs #}
+{% ifAsync title == 'home' or title == 'directory' %}
 <div class="fundivs">
   <div style="height:200px;" class="fundiv">&nbsp;</div>
   <div style="height:100px;" class="fundiv">&nbsp;</div>
@@ -39,6 +41,7 @@
   <div class="fundiv" style="height:2px;opacity:0.6"></div>  
   <div class="fundiv" style="height:2px;opacity:0.4"></div>  
 </div>
+{% endif %}
 
 <style>
   /* .fundivs {
