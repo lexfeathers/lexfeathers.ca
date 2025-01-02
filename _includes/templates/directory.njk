@@ -1,5 +1,5 @@
 <div class="post-directory">
-  <h1>All posts<span class="faded"> (newest to oldest):</span></h1>
+  <h2>All posts<span class="faded"> (newest to oldest):</span></h2>
 
   {% set posts = search.pages("type=posts draft=false", "published=desc") %}
   {% ifAsync posts %}
@@ -41,6 +41,12 @@
 
 {# Styling for the directory and NOWHERE ELSE #}
 <style>
+  .directory-card {
+    margin: 0 0 1rem 0;
+  }
+  .directory-card>div {
+    margin: 0;
+  }
   .card-image__link {
     display: flex;
     justify-content: center;
