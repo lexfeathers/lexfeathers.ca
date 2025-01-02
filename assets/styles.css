@@ -27,8 +27,8 @@
     --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
 
   /* Font sizing */
-    --text-small: 16pt;
-    --text-medium: 18pt;
+    --text-small: 14pt;
+    --text-medium: 16pt;
     --text-large: 24pt;
 
   --sig-symbol: ' :';
@@ -306,9 +306,10 @@ article.homepage-excerpt {
   margin: 1rem 0 0 0;
   max-height: 24ch;
   overflow: hidden;
-  background: -webkit-linear-gradient(var(--colour-text), var(--colour-text), var(--colour-text), var(--colour-text), rgba(0, 0, 0, 0.0));
+  /* background: -webkit-linear-gradient(var(--colour-text), var(--colour-text), var(--colour-text), var(--colour-text), rgba(0, 0, 0, 0.0));
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  color: var(--colour-text) !important;
   min-width: 100%;
   text-align: left;
 }
@@ -480,8 +481,7 @@ header nav {
   text-decoration: underline;
 }
 
-#sidebar .directory li::before,
-.directory li::before {
+#sidebar .directory li::before {
   content: '⟣';
   color: var(--colour-text);
   margin-right: 1rem;
@@ -554,7 +554,7 @@ header nav {
 }
 
 /* Do not apply bottom padding to the homepage */
-#content article:not(:has(.homepage-excerpt)) {
+#content article:not(.homepage-excerpt) {
   padding: 0 0 2rem 0;
 }
 

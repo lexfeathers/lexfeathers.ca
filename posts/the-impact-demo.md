@@ -13,7 +13,7 @@ tags:
   - cohost
   - backdated
 excerpt: >-
-  Ever find an old project and think "wow I have to finish that" ? Liv (Waxlimbs vocals/keys) and I took a trip into the woods in late 2020 and apparently made this.
+  Ever find an old project and think "wow I have to finish that"?
 ---
 
 Ever find an old project and think "wow I have to finish that"?
