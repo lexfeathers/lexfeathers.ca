@@ -5,14 +5,11 @@ export default function *({ search }) {
     for (const tag of allTags) {
         // Search all pages with this tag
         const pages = search.pages(tag);
-        // Replace spaces in tags with hyphens
-        let encodedTag = tag;
-        encodedTag = encodedTag.replace(/\s+/g, '-').toLowerCase();
             
         // Return the data of the new page.
         yield {
             title: `Posts tagged with \"${tag}\"`,
-            url: `../tag/${encodedTag}/`,
+            url: `../tag/${encodeURI(tag)}/`,
             pages: pages,
             tag: `${tag}`,
             type: "tag",
