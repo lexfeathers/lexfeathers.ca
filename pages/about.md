@@ -9,7 +9,7 @@ draft: false
 <h1>Lex Feathers <span class="faded">(she/they)</span></h1>
 
 <figure>
-  <img src="/uploads/lex_autumn.jpg" alt="Lex Feathers" loading="lazy" />
+  <img src="/uploads/lex_autumn.jpg" alt="Lex Feathers" loading="lazy" style="border-radius: 340px;"/>
   <!-- <figcaption>{{ image_caption }}</figcaption> -->
 </figure>
 
