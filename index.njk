@@ -41,7 +41,7 @@ order: 1
       </div>
     </div> #}
 
-    {% for post in latestPost %}
+    {% asyncEach post in latestPost %}
       <div class="homepage-excerpt-container">
         <div class="directory-card" style="width:100%">
           <div style="margin:0;">
@@ -54,7 +54,7 @@ order: 1
                 Posted {% include "/templates/date.njk" %} by {{ post.author }}
               </span>
               <figure>
-                {% if post.excerpt %}
+                {% ifAsync post.excerpt %}
                   {{ post.excerpt | safe }}
                 {% else %}
                   {{ post.content | safe }}
@@ -67,7 +67,7 @@ order: 1
           </div>
         </div>
       </div>
-    {% endfor %}
+    {% endeach %}
   </article>
 </div>
 
