@@ -763,7 +763,7 @@ div.tags {
 }
 
 ul.taglist {
-  padding-left: 0px;
+  padding-left: 2rem;
   list-style: none;
   margin-bottom: 0;
 }
@@ -968,6 +968,10 @@ iframe[title="YouTube video player"] {
 
   .menu-item .rss {
     display: block;
+  }
+
+  ul.taglist {
+    padding-left: 1rem;
   }
 
   footer a {
