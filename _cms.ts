@@ -29,7 +29,7 @@ const cms = lumeCMS({
   },
   extraHead: `
     <style>
-      .cm-content[contenteditable="true"] {
+      .cs1 .cm-content[contenteditable="true"] {
         min-height: 12rem !important;
       }
       /* 
