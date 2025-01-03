@@ -10,6 +10,7 @@ tags:
   - music
   - studio
 excerpt: A quick update on setting up my new studio space.
+published: 2025-01-03T21:28:00.000Z
 ---
 Up until recently, I had a large studio space separate from my bedroom. It was awesome, and I made detailed use of every square inch of the room. I had a big window with a couch, all my guitars hanging on the walls, and a whole lot of space to walk around while recording.
 
