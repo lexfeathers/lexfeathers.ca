@@ -8,6 +8,8 @@ import feed from "lume/plugins/feed.ts";
 import _cleancss from 'https://deno.land/x/lume_cleancss@v0.2.0/mod.ts';
 import pagefind from "lume/plugins/pagefind.ts";
 import footnote from "npm:markdown-it-footnote";
+import picture from "lume/plugins/picture.ts";
+import transformImages from "lume/plugins/transform_images.ts";
 
 // Pass options to markdown-it plugins
 const markdown = {
@@ -57,6 +59,10 @@ site.use(feed({
     lang: "en",
     image: "=image", // The image of the item
   },
+}));
+site.use(picture());
+site.use(transformImages({
+  extensions: [".jpg", ".jpeg", ".png", ".webp"]
 }));
 site.use(pagefind({
   ui: {
