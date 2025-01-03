@@ -4,7 +4,7 @@ export default function* ({ search }) {
     // Generate a page dynamically per tag
     for (const tag of allTags) {
         // Search all pages with this tag        
-        const pages = search.pages(`'${tag}'`); // Put quotes around tag to account for spaces.
+        const pages = search.pages(`'${tag}'`, "published=desc"); // Put quotes around tag to account for spaces.
 
         // Return the data of the new page.
         yield {

@@ -21,14 +21,15 @@
       --colour-secondary-lightmode: #a90060;
 
   /* Mixed colours */
+    --colour-dark-background: color-mix(in srgb, var(--colour-background), black 20%);
     --colour-light-background: color-mix(in srgb, var(--colour-background) 98%, var(--colour-text) 2%);
     --colour-lighter-background: color-mix(in srgb, var(--colour-background), var(--colour-text) 5%);
     --colour-text-highlight: color-mix(in srgb, var(--colour-background) 85%, var(--colour-text) 15%);
     --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
 
   /* Font sizing */
-    --text-small: 16pt;
-    --text-medium: 18pt;
+    --text-small: 14pt;
+    --text-medium: 16pt;
     --text-large: 24pt;
 
   --sig-symbol: ' :';
@@ -71,6 +72,7 @@
 
     background-color: var(--colour-background);
     color: var(--colour-text);
+    font-weight: 600;
   }
 
   /* Styles when dark mode set by JS */
@@ -94,10 +96,9 @@
   color: var(--colour-text);
   font-family: 'Inter', sans-serif;
   /* Not sure why, but the font doesn't seem to _actually_ import with a font-weight of 300, so we're declaring it here. */
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.6;
 }
-
 /* Helpers */
 
 .text-small {
@@ -306,9 +307,10 @@ article.homepage-excerpt {
   margin: 1rem 0 0 0;
   max-height: 24ch;
   overflow: hidden;
-  background: -webkit-linear-gradient(var(--colour-text), var(--colour-text), var(--colour-text), var(--colour-text), rgba(0, 0, 0, 0.0));
+  /* background: -webkit-linear-gradient(var(--colour-text), var(--colour-text), var(--colour-text), var(--colour-text), rgba(0, 0, 0, 0.0));
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  color: var(--colour-text) !important;
   min-width: 100%;
   text-align: left;
 }
@@ -360,7 +362,11 @@ select, select option {
   padding: 8px;
   background-color: var(--colour-secondary);
   color: var(--colour-background);
-  border-radius: 4px;
+  border-radius: 24px;
+  text-align: right;
+  word-break: keep-all;
+  align-self: center;
+  line-height: 54px;
 }
 
 /* .directory .date {
@@ -384,8 +390,8 @@ select, select option {
 .directory-card div:hover {
   background-color: color-mix(
     in hsl, 
-    var(--colour-lighter-background) 90%, 
-    var(--colour-text-faded) 10%
+    var(--colour-lighter-background) 85%, 
+    var(--colour-text-faded) 15%
   );
   transition: 50ms;
 }
@@ -398,12 +404,15 @@ select, select option {
 .directory-card__link {
   width: 100%;
 }
+.directory-card__link:hover {
+  text-decoration: none;
+}
 .directory-card__link *:not(.date) {
   color: inherit;
   background-color: inherit;
 }
 
-.date::before {
+.date:not(.excerpt-date)::before {
   content: ' - ';
 }
 
@@ -473,8 +482,7 @@ header nav {
   text-decoration: underline;
 }
 
-#sidebar .directory li::before,
-.directory li::before {
+#sidebar .directory li::before {
   content: '⟣';
   color: var(--colour-text);
   margin-right: 1rem;
@@ -547,7 +555,7 @@ header nav {
 }
 
 /* Do not apply bottom padding to the homepage */
-#content article:not(:has(.homepage-excerpt)) {
+#content article:not(.homepage-excerpt) {
   padding: 0 0 2rem 0;
 }
 
@@ -756,7 +764,7 @@ div.tags {
 }
 
 ul.taglist {
-  padding-left: 0px;
+  padding-left: 2rem;
   list-style: none;
   margin-bottom: 0;
 }
@@ -884,6 +892,10 @@ iframe[title="YouTube video player"] {
     margin-left: 4px;
   }
 
+  .read-more {
+    display: none;
+  }
+
   .directory-card::before {
     display: none;
   }
@@ -957,6 +969,10 @@ iframe[title="YouTube video player"] {
 
   .menu-item .rss {
     display: block;
+  }
+
+  ul.taglist {
+    padding-left: 1rem;
   }
 
   footer a {

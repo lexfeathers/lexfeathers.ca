@@ -8,9 +8,10 @@ tags:
   - misc
   - backdated
   - cohost
-  - css-crimes
+  - css crimes
 excerpt: >-
   One of my very first attempts at a cohost CSS crime.
+image: ''
 ---
 
 In an effort to port over some of my favourite posts from cohost, here's an old, simple CSS crime from November 2022.

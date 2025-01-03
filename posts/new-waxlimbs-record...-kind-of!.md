@@ -11,8 +11,7 @@ tags:
   - music
   - waxlimbs
 excerpt: >-
-  Hi all, I'm so so so happy to announce that my band Waxlimbs has finally
-  compiled all of our 2020-2021 singles into an album!
+  Waxlimbs has finally compiled all of our 2020-2021 singles into an album!
 ---
 Hi all, I'm so so so happy to announce that my band [Waxlimbs](https://waxlimbs.com) has finally compiled all of our 2020-2021 singles into [an album.](https://waxlimbs.bandcamp.com/album/where-lilies-grew)
 

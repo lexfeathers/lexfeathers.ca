@@ -8,21 +8,55 @@
     </div>
   </div>
 
-  <h4>Latest posts:</h4>
+{% ifAsync title != 'home' and title != 'directory' %}
+  <h3>Recent posts:</h3>
   <div id="post-dir">
     <div class="margin-bar"></div>
     <menu>
       <ul class="post-list">
         {# Get posts that aren't drafts #}
-        {% set posts = search.pages("type=posts draft=false", "published=desc", 5) %}
+        {% set posts = search.pages("type=posts draft=false", "published=desc", 8) %}
         {% asyncEach post in posts %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
         {% endeach %}
-        <li><a href="/pages/directory/" title="All posts" alt="All posts">...</a></li>
+        {# <li><a href="/pages/directory/" title="All posts" alt="All posts">...</a></li> #}
       </ul>
     </menu>
   </div>
-  <a href="/pages/directory/" class="button">All posts</a>
+{% endif %}
+
+<a href="/pages/directory/" class="button">All posts</a>
+
+{# Goofy divs #}
+{% ifAsync title == 'home' or title == 'directory' %}
+<div class="fundivs">
+  <div style="height:200px;" class="fundiv">&nbsp;</div>
+  <div style="height:100px;" class="fundiv">&nbsp;</div>
+  <div style="height:50px;" class="fundiv">&nbsp;</div>
+  <div style="height:25px;" class="fundiv">&nbsp;</div>
+  <div style="height:15px;" class="fundiv">&nbsp;</div>
+  <div style="height:7px;" class="fundiv">&nbsp;</div>
+  <div style="height:3px;" class="fundiv">&nbsp;</div>
+  <div class="fundiv" style="height:2px;"></div>  
+  <div class="fundiv" style="height:2px;opacity:0.6"></div>  
+  <div class="fundiv" style="height:2px;opacity:0.4"></div>  
+</div>
+{% endif %}
+
+<style>
+  {# .fundivs {
+    min-width: 250px; /* Use this to keep the sidebar from changing widths when the post list isn't visible */
+  } #}
+  .fundiv {
+    color: var(--colour-background);
+    max-width: 100%;
+    margin-bottom: 1rem;
+    /* border: 6px solid var(--colour-background); */
+    border-radius: 250px;
+    background-color: var(--colour-background);
+    box-shadow: 0px 4px 4px var(--colour-dark-background) inset;
+  }
+</style>
 
 
   <div class="footer-container-sidebar">

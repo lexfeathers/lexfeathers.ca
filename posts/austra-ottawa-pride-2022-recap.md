@@ -8,14 +8,12 @@ image: /uploads/Austra_Home_Aug272022.jpg
 image_caption: 'Austra performing "Home" at Captial Pride, August 2022'
 tags:
   - austra
-  - live-performance
+  - live performance
   - music
   - tour
   - backdated
 excerpt: >-
-  Playing a stage this big has always been a dream of mine, and to get to play
-  Katie's songs with her was the cherry on top. I've been a fan of the music for
-  a decade now so getting to be a part of this was surreal, to say the least.
+  Playing a stage this big has always been a dream of mine.
 ---
 I played my first gig with [Austra](https://Austra.fyi) this weekend, handling bass guitar and synths. We headlined
 Ottawa Pride, which was a wild experience.

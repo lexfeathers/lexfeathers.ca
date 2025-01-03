@@ -1,5 +1,5 @@
 <div class="post-directory">
-  <h1>All posts<span class="faded"> (newest to oldest):</span></h1>
+  <h2>All posts<span class="faded"> (newest to oldest):</span></h2>
 
   {% set posts = search.pages("type=posts draft=false", "published=desc") %}
   {% ifAsync posts %}
@@ -7,14 +7,29 @@
       {% asyncEach post in posts %}
         <li class="directory-card">
           <div>
+            <a class="card-image__link{% if post.image == false %} card-image__link____noimage{% endif %}" href="{{ post.url }}">
+              <img 
+                class="card-image" 
+                src="{% if post.image %}{{post.image}}{% else %}/assets/images/placeholder.png{% endif %}" 
+                alt="{% if post.image_caption %}{{post.image_caption}}{% else %}No image{% endif %}"
+              >
+            </a>
             <a class="directory-card__link" href="{{ post.url }}">
-              <span>
+              <span class="card-title">
                 {{ post.title }}
               </span><br>
               <span class="faded date">
-                <span aria-hidden="true" class="icon">&#9993;</span> {% include "/templates/date.njk" %}
+                <span aria-hidden="true" class="icon icon-letter">&#9993;</span> {% include "/templates/date.njk" %}
               </span>
-            </a>
+              <br>
+              <figure class="card-excerpt faded">
+                {% ifAsync post.excerpt %}
+                  {{ post.excerpt | safe }}
+                {% else %}
+                  {{ post.content | safe }}
+                {% endif %}
+              </figure>              
+            </a>  
           </div>
         </li>
       {% endeach %}
@@ -23,3 +38,58 @@
     <p>There are no posts to display.</p>
   {% endif %}
 </div>
+
+{# Styling for the directory and NOWHERE ELSE #}
+<style>
+  .directory-card {
+    margin: 0 0 1rem 0;
+  }
+  .directory-card>div {
+    margin: 0;
+  }
+  .card-image__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: auto 1rem auto 0;
+    border-radius: 8px;
+  }
+  .card-image__link____noimage {
+    border: 2px solid var(--colour-background);
+  }
+  .card-image {
+    width: 320px;
+    height: auto;
+    background-color: var(--colour-lighter-background);
+  }
+  .card-excerpt {
+    color: var(--colour-text)!important;
+    margin: 1rem 0 0;
+  }
+  .icon-letter {
+    margin-left: -3px;
+  }
+
+  @media screen and (max-width: 750px) {
+    .card-title {
+      font-size: 14pt;
+    }
+    .card-excerpt, .date {
+      font-size: 12pt;
+    }
+    .card-excerpt {
+      margin: .25rem 0 0;
+    }
+    .card-image__link {
+      max-width: 60px;
+      height: 60px;
+    }
+    .card-image {
+      border-radius: 8px;
+      width: 124px;
+    }
+  }
+</style>

@@ -16,34 +16,113 @@ order: 1
     Ideally, we'll both learn something new!
   </p>
 
-  <h1 class="faded" style="margin-bottom: 0;">Latest post:</h1>
-
   <article class="homepage-excerpt">
-    {# Get the latest post #}
-    {% set latestPost = search.pages("type=posts draft=false", "published=desc", 1) %}
-    {% asyncEach post in latestPost %}
-    <div class="homepage-excerpt-container">
-      <div class="margin-bar"></div>
-      <div class="homepage-excerpt-content">
-        <a href="{{ post.url }}">
-          <h3>{{ post.title }}</h3>
-          <span class="homepage-excerpt-date">
-            Posted {% include "/templates/date.njk" %} by {{ post.author }}
-          </span>
-        </a>
-        <figure>
-          {% ifAsync post.excerpt %}
-            {{ post.excerpt | safe }}
-          {% else %}
-            {{ post.content | safe }}
-          {% endif %}
-        </figure>
-      </div>
+    <div class="homepage-latest">
+      <h2 class="faded">Latest posts:</h2>
+      {# Get the latest 3 posts #}
+      {% set latestPost = search.pages("type=posts draft=false", "published=desc", 3) %}
+      {# Loop through those posts #}
+      {% asyncEach post in latestPost %}
+        <div class="homepage-excerpt-container">
+          <div class="directory-card">
+            <div>
+              <a class="card-image__link{% if post.image == false %} card-image__link____noimage{% endif %}" href="{{ post.url }}">
+                <img 
+                  class="card-image" 
+                  src="{% if post.image %}{{post.image}}{% else %}/assets/images/placeholder.png{% endif %}" 
+                  alt="{% if post.image_caption %}{{post.image_caption}}{% else %}No image{% endif %}"
+                >
+              </a>            
+              <a class="directory-card__link" href="{{ post.url }}">
+                <span>
+                  {{ post.title }}
+                </span><br>
+                  <span aria-hidden="true" class="icon">&#9993;</span> 
+                <span class="date excerpt-date">
+                  Posted {% include "/templates/date.njk" %} by {{ post.author }}
+                </span>
+                <figure>
+                  {% ifAsync post.excerpt %}
+                    {{ post.excerpt | safe }}
+                  {% else %}
+                    {{ post.content | safe }}
+                  {% endif %}
+                </figure>
+              </a>
+              {# <a href="{{ post.url }}" class="button read-more">
+                <span style="font-weight:300;">Read&nbsp;more-></span>
+              </a> #}
+            </div>
+          </div>
+        </div>
+      {% endeach %}
     </div>
 
-    <a href="{{ post.url }}" class="button read-more" style="text-align: right;"><span>Read more -></span></a>
-    {% endeach %}
   </article>
 </div>
 
 <a class="visually-hidden" aria-hidden="true" rel="me" href="https://tenforward.social/@lexfeathers">Mastodon</a>
+
+<style>
+  .homepage-latest {
+    margin-top: 2rem;
+  }
+  .directory-card {
+    margin: 0 0 1rem 0 !important;
+    width: 100%;
+  }
+  .directory-card:last-child {
+    margin: 0;
+  }
+  .directory-card>div {
+    margin: 0;
+  }
+  .card-image__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: auto 1rem auto 0;
+    border-radius: 8px;
+  }
+  .card-image__link____noimage {
+    border: 2px solid var(--colour-background);
+  }
+  .card-image {
+    width: 320px;
+    height: auto;
+    background-color: var(--colour-lighter-background);
+  }
+  .card-excerpt {
+    color: var(--colour-text)!important;
+    margin: 1rem 0 0;
+  }
+  .icon-letter {
+    margin-left: -3px;
+  }
+  .button.read-more {
+    align-self: center;
+  }
+
+  @media screen and (max-width: 750px) {
+    .card-title {
+      font-size: 14pt;
+    }
+    .card-excerpt, .date {
+      font-size: 12pt;
+    }
+    .card-excerpt {
+      margin: .25rem 0 0;
+    }
+    .card-image__link {
+      max-width: 60px;
+      height: 60px;
+    }
+    .card-image {
+      border-radius: 8px;
+      width: 124px;
+    }
+  }
+</style>
