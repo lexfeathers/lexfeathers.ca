@@ -22,7 +22,7 @@ My circumstances have changed and I'm back to figuring out a combination bedroom
 
 This is a really goofy way to hang a bass trap. It is, however, the cost of having really goofy corner angles in your room. Thankfully, this room is of newer-construction than my old one, meaning that it's not impossible to locate studs behind 100 year-old plaster and lath. We've got drywall here, baby!!! 
 
-One must imagine Sysiphus happy.
+One must imagine Sisyphus happy.
 
 Another notable thing I was able to do here is install an ethernet port on the wall near where my desktop sits. Gigabit ethernet. We love her.
 
