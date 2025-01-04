@@ -828,9 +828,9 @@ footer a {
 }
 
 .cool-links img {
-  image-rendering: pixelated;
-  width: 178px;
-  height: 62px;
+  image-rendering: smooth;
+  /* width: 178px;
+  height: 62px; */
 }
 
 .cool-links a:hover {
