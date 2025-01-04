@@ -13,7 +13,7 @@ draft: false
   <!-- <figcaption>{{ image_caption }}</figcaption> -->
 </figure>
 
-I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for myself.
+### I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for myself.
 
 ## find me online:
 
