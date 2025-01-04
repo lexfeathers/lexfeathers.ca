@@ -8,11 +8,20 @@
         <li class="directory-card">
           <div>
             <a class="card-image__link{% if post.image == false %} card-image__link____noimage{% endif %}" href="{{ post.url }}">
+              {% if post.image %}
               <img 
                 class="card-image" 
-                src="{% if post.image %}{{post.image}}{% else %}/assets/images/placeholder.png{% endif %}" 
-                alt="{% if post.image_caption %}{{post.image_caption}}{% else %}No image{% endif %}"
+                src="{{post.image}}" 
+                alt="{% if post.image_caption %}{{post.image_caption}}{% else %}No caption{% endif %}"
               >
+              {% else %}
+              <img 
+                transform-images="webp 100@2" 
+                class="card-image" 
+                src="/uploads/placeholder.png" 
+                alt="{% if post.image_caption %}{{post.image_caption}}{% else %}No caption{% endif %}"
+              >
+              {% endif %}
             </a>
             <a class="directory-card__link" href="{{ post.url }}">
               <span class="card-title">

@@ -14,7 +14,7 @@ layout: /layout.njk
   {% endif %}
 </div>
 
-<article transform-images="webp jpg 500@2">
+<article transform-images="webp gif 1000@2">
   {% if content_warnings|length %}
     <details class="content-warnings" open="">
       <summary>Content warning</summary>
@@ -29,7 +29,7 @@ layout: /layout.njk
   <h1 class="visually-hidden" aria-hidden="true">{{ title }}</h1>
 
   {% if image %}
-    <figure class="hero-img">
+    <figure class="hero-img" transform-images="">
       <a href="{{ image }}" target="_blank">
         <img src="{{ image }}" alt="{{ image_caption }}" loading="lazy">
       </a>
@@ -75,3 +75,4 @@ layout: /layout.njk
       async>
     </script>
   {% endif %}
+</article>

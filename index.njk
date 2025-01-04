@@ -24,7 +24,7 @@ order: 1
       {# Loop through those posts #}
       {% asyncEach post in latestPost %}
         <div class="homepage-excerpt-container">
-          <div class="directory-card">
+          <div class="directory-card" transform-images="webp gif 1000@2">
             <div>
               <a class="card-image__link{% if post.image == false %} card-image__link____noimage{% endif %}" href="{{ post.url }}">
                 <img 

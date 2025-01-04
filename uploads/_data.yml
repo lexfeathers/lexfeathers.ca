@@ -1,9 +1,0 @@
-transformImages:
-  - resize: [200]
-    suffix: -small
-    format: [webp, jpg]
-  - resize: [800]
-    format: webp
-  - resize: [2000]
-    suffix: -big
-    format: webp

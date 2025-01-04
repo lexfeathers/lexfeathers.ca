@@ -256,6 +256,7 @@ main * {
 article img:not(.banner > img, .cool-links img) {
   max-width: 100%;
   border-radius: 4px;
+  width: 100%;
 }
 
 audio {

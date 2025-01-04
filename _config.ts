@@ -10,6 +10,7 @@ import pagefind from "lume/plugins/pagefind.ts";
 import footnote from "npm:markdown-it-footnote";
 import picture from "lume/plugins/picture.ts";
 import transformImages from "lume/plugins/transform_images.ts";
+import googleFonts from "lume/plugins/google_fonts.ts";
 
 // Pass options to markdown-it plugins
 const markdown = {
@@ -24,6 +25,10 @@ const site = lume({
 { markdown }
 );
 site.use(nunjucks());
+site.use(googleFonts({
+  fonts:
+    "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap",
+}));
 site.use(favicon({
   input: "/assets/favicon.ico",
 }));
@@ -39,14 +44,13 @@ site.use(date({
 site.use(metas());
 site.use(feed({
   output: ["/feed.rss"],
-
   query: "type=posts",
   sort: "date=desc",
-
   info: {
     title: "Lex Feathers",
     description:
       "music and ideas",
+    authorName: "=author.name",
     lang: "en",
     generator: false,
   },
@@ -62,7 +66,7 @@ site.use(feed({
 }));
 site.use(picture());
 site.use(transformImages({
-  extensions: [".jpg", ".jpeg", ".png", ".webp"]
+  extensions: [".gif", ".jpg", ".jpeg", ".png", ".webp"]
 }));
 site.use(pagefind({
   ui: {
@@ -78,6 +82,6 @@ site.use(pagefind({
 }));
 
 site.copy("/assets/"); // Iclude assets in the build
-site.copy("/uploads/"); // Iclude assets in the build
+// site.copy("/uploads/"); // Iclude assets in the build
 
 export default site;

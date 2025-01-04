@@ -8,8 +8,8 @@ draft: false
 ---
 <h1>Lex Feathers <span class="faded">(she/they)</span></h1>
 
-<figure>
-  <img src="/uploads/lex_autumn.jpg" alt="Lex Feathers" loading="lazy" style="border-radius: 340px;"/>
+<figure transform-images="">
+  <img src="/uploads/lex_autumn.jpg" alt="Lex Feathers" loading="lazy" style="border-radius: 340px;" />
   <!-- <figcaption>{{ image_caption }}</figcaption> -->
 </figure>
 
@@ -126,17 +126,15 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
 
 ## those who harken to the days of eld:
 
-<div class="cool-links">
+<div class="cool-links" transform-images="">
   <a href="https://blog.radicaldream.land" target="_blank">
-    <img width="88" height="31" alt="Radicaldreamland" title="Radicaldreamland"
-      src="https://i.postimg.cc/QxhG798p/dispatchblog-banner.gif" />
+    <img width="88" height="31" alt="Radicaldreamland" title="Radicaldreamland" src="/uploads/radicaldreamland.gif" />
   </a>
   <a href="https://blog.aurahack.jp" target="_blank">
-    <img width="88" height="31" alt="Aurahack" title="Aurahack" src="https://aurahack.neocities.org/88x31.gif" />
+    <img width="88" height="31" alt="Aurahack" title="Aurahack" src="/uploads/aurahack88x31.gif" />
   </a>
   <a href="https://blog.someplace-else.xyz/" target="_blank">
-    <img width="88" height="31" alt="Someplace elsewhere - Nat Clayton" title="Someplace elsewhere - Nat Clayton"
-      src="https://natclayton.uk/wp-content/uploads/2024/09/elsewhere.gif" />
+    <img width="88" height="31" alt="Someplace elsewhere - Nat Clayton" title="Someplace elsewhere - Nat Clayton" src="/uploads/elsewhere.gif" />
   </a>
   <a href="https://erysdren.me/" target="_blank">
     <img width="88" height="31" alt="Erysdren" title="Erysdren" src="/uploads/erysdren_88x31.png" />
@@ -166,7 +164,7 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
     <img width="88" height="31" alt="Queer Computer Club" title="Queer Computer Club" src="/uploads/qcc_88x31.png" />
   </a>
   <a href="https://wowperfect.net/" title="wowperfect.net" target="_blank">
-    <img src="https://wowperfect.net/img/88x31.png" title="wowperfect.net" alt="wowperfect.net" />
+    <img src="/uploads/wowperfect88x31.png" title="wowperfect.net" alt="wowperfect.net" />
   </a>
   <a href="https://danateagle.com/alt" title="torontopubliclibra.com" target="_blank">
     <img src="/uploads/torontopubliclibra-88x31.gif" title="Toronto Public Libra" alt="Toronto Public Libra" />
@@ -175,30 +173,33 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
     <img src="/uploads/neuroknives_88_31_Button_005.png" title="Neuroknives" alt="Neuroknives" />
   </a>
   <a href="https://damien.zone" title="damien dot zone" target="_blank">
-    <img src="https://files.damien.zone/88x31_damien.png" alt="damien dot zone" />
+    <img src="/uploads/88x31_damien.png" alt="damien dot zone" />
   </a>
   <a href="https://algometric.pink" title="Algometric.pink" target="_blank">
-    <img src="https://algometric.pink/algobutton.gif" alt="algometric" title="algometric" />
+    <img src="/uploads/algobutton.gif" alt="algometric" title="algometric" />
   </a>
   <a href="https://estrogenandspite.neocities.org" title="Estrogen and Spite Neocities" target="_blank">
-    <img src="https://estrogenandspite.neocities.org/easbutton.png" alt="Estrogen and Spite" />
+    <img src="/uploads/easbutton.png" alt="Estrogen and Spite" />
   </a>
   <a href="https://ghoulnoise.com" title="Ghoulnoise">
-    <img src="https://i.postimg.cc/Gh1kB857/ghoulnoise-button.gif" alt="Ghoulnoise" />
+    <img src="/uploads/ghoulnoise-button.gif" alt="Ghoulnoise" />
   </a>
   <a href="https://websiteleague.org" title="Website League">
-    <img src="https://websiteleague.org/images/wl-88x31.png" alt="Website League" />
+    <img src="/uploads/wl-88x31.png" alt="Website League" />
   </a>
   <a href="https://blog.curiousquail.com" title="Curious Quail">
-    <img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/curiousquail/quailblog_8831.png" width="88" height="31" alt="small icon that reads QUAILBLOG with an image of a character with a beak">
+    <img src="/uploads/quailblog_8831.png" width="88" height="31" alt="small icon that reads QUAILBLOG with an image of a character with a beak">
   </a>
   <a href="https://theworksofegan.net/" title="The Works of Egan">
-    <img src="https://theworksofegan.net/img/twoe-button.gif" width="88" height="31" alt="The Works of Egan">
+    <img src="/uploads/twoe-button.gif" width="88" height="31" alt="The Works of Egan">
   </a>
   <a href="https://nex-3.com" title="House of Nettles">
     <img src="/uploads/house-of-nettles.gif" width="88" height="31" alt="House of Nettles">
   </a>
 
+## other sites I like:
+
+- [ZandraVandra](https://zandravandra.com)
 
   <!-- My 88x31 link -->
   <p style="text-align: center;">add me to your site 🤍</p>
@@ -211,9 +212,6 @@ I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for mys
     style="width: 100%; height: 100px; resize: none;"><a href="https://lexfeathers.ca" target="_blank"><img width="88" height="31" alt="Lex Feathers" title="Lex Feathers" src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" style="image-rendering:pixelated;"/></a></textarea>
 </div>
 
-## other sites I like:
-
-- [ZandraVandra](https://zandravandra.com)
 
 <!--
 <hr class="faded">
