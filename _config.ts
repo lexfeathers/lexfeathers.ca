@@ -64,10 +64,10 @@ site.use(feed({
     image: "=image", // The image of the item
   },
 }));
-site.use(picture());
-site.use(transformImages({
-  extensions: [".gif", ".jpg", ".jpeg", ".png", ".webp"]
-}));
+// site.use(picture());
+// site.use(transformImages({
+//   extensions: [".gif", ".jpg", ".jpeg", ".png", ".webp"]
+// }));
 site.use(pagefind({
   ui: {
     containerId: "search",
@@ -82,6 +82,6 @@ site.use(pagefind({
 }));
 
 site.copy("/assets/"); // Iclude assets in the build
-// site.copy("/uploads/"); // Iclude assets in the build
+site.copy("/uploads/"); // Iclude assets in the build
 
 export default site;
