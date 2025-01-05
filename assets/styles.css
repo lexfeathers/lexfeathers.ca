@@ -404,6 +404,7 @@ select, select option {
 }
 .directory-card__link {
   width: 100%;
+  padding-left: 1rem;
 }
 .directory-card__link:hover {
   text-decoration: none;
@@ -411,6 +412,16 @@ select, select option {
 .directory-card__link *:not(.date) {
   color: inherit;
   background-color: inherit;
+}
+.card-image__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+  height: 150px;
+  overflow: hidden;
+  margin: auto 0;
+  border-radius: 8px;
 }
 
 .date:not(.excerpt-date)::before {
