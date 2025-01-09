@@ -404,6 +404,7 @@ select, select option {
 }
 .directory-card__link {
   width: 100%;
+  padding-left: 1rem;
 }
 .directory-card__link:hover {
   text-decoration: none;
@@ -411,6 +412,40 @@ select, select option {
 .directory-card__link *:not(.date) {
   color: inherit;
   background-color: inherit;
+}
+.card-image__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+  height: 150px;
+  overflow: hidden;
+  margin: auto 0;
+  border-radius: 8px;
+}
+.fundivs-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 auto;
+  min-width: 250px; /* Use this to keep the sidebar from changing widths when the post list isn't visible */
+}
+.fundivs {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  opacity: .7;
+}
+.fundivs:not(:last-child) {
+  margin-right: 1rem;
+}
+.fundiv {
+  display: flex;
+  height: 10px;
+  color: var(--colour-background);
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background-color: var(--colour-background);
+  box-shadow: 0px 4px 4px var(--colour-dark-background) inset;
 }
 
 .date:not(.excerpt-date)::before {

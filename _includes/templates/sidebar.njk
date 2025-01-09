@@ -27,37 +27,35 @@
 
 <a href="/pages/directory/" class="button">All posts</a>
 
-{# Goofy divs #}
+{# Goofy divs: Silly little design idea that may be worth coming back to #}
 {% ifAsync title == 'home' or title == 'directory' %}
-<div class="fundivs">
-  <div style="height:200px;" class="fundiv">&nbsp;</div>
-  <div style="height:100px;" class="fundiv">&nbsp;</div>
-  <div style="height:50px;" class="fundiv">&nbsp;</div>
-  <div style="height:25px;" class="fundiv">&nbsp;</div>
-  <div style="height:15px;" class="fundiv">&nbsp;</div>
-  <div style="height:7px;" class="fundiv">&nbsp;</div>
-  <div style="height:3px;" class="fundiv">&nbsp;</div>
-  <div class="fundiv" style="height:2px;"></div>  
-  <div class="fundiv" style="height:2px;opacity:0.6"></div>  
-  <div class="fundiv" style="height:2px;opacity:0.4"></div>  
-</div>
+{# <div class="fundivs-container">
+  <div class="fundivs">
+    <div style="flex: 20 0 auto;" class="fundiv"></div>
+    <div style="flex: 19 0 auto;" class="fundiv"></div>
+    <div style="flex: 18 0 auto;" class="fundiv"></div>
+    <div style="flex: 17 0 auto;" class="fundiv"></div>
+    <div style="flex: 16 0 auto;" class="fundiv"></div>
+    <div style="flex: 15 0 auto;" class="fundiv"></div>
+    <div style="flex: 14 0 auto;" class="fundiv"></div>
+    <div style="flex: 13 0 auto;" class="fundiv"></div>  
+    <div style="flex: 12 0 auto;" class="fundiv"></div>  
+    <div style="flex: 11 0 auto;" class="fundiv"></div>  
+    <div style="flex: 10 0 auto;" class="fundiv"></div>
+    <div style="flex: 9 0 auto;" class="fundiv"></div>
+    <div style="flex: 8 0 auto;" class="fundiv"></div>
+    <div style="flex: 7 0 auto;" class="fundiv"></div>
+    <div style="flex: 6 0 auto;" class="fundiv"></div>
+    <div style="flex: 5 0 auto;" class="fundiv"></div>
+    <div style="flex: 4 0 auto;" class="fundiv"></div>
+    <div style="flex: 3 0 auto;opacity:0.8" class="fundiv"></div>  
+    <div style="flex: 2 0 auto;opacity:0.6" class="fundiv"></div>  
+    <div style="flex: 1 0 auto;opacity:0.4" class="fundiv"></div>      
+  </div>  
+</div> #}
+{# For now, just fill the sidebar space so that it's the same width as on other pages #}
+<div style="min-width: 250px;"></div>
 {% endif %}
-
-<style>
-  {# .fundivs {
-    min-width: 250px; /* Use this to keep the sidebar from changing widths when the post list isn't visible */
-  } #}
-  .fundiv {
-    color: var(--colour-background);
-    max-width: 100%;
-    margin-bottom: 1rem;
-    /* border: 6px solid var(--colour-background); */
-    border-radius: 250px;
-    background-color: var(--colour-background);
-    box-shadow: 0px 4px 4px var(--colour-dark-background) inset;
-  }
-</style>
-
 
   <div class="footer-container-sidebar">
     <h4>Links</h4>
