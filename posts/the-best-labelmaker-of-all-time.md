@@ -13,8 +13,8 @@ tags:
   - tools
   - crafting
 excerpt: >-
-  The 1570 is built like a tank, with cast metal sides. It feels good to use
-  ("ka-chunk"), and it's very repairable.
+  The Dymo 1570 is built like a tank, with cast metal sides. It feels good to
+  use ("ka-chunk"), and it's very repairable.
 ---
 I recently went up to north-Toronto to pick up a label maker I found online after going through a bit of a Marketplace journey. A nice lady sold it to me for $10.
 
