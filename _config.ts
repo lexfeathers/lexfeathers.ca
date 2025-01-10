@@ -8,14 +8,21 @@ import feed from "lume/plugins/feed.ts";
 import _cleancss from 'https://deno.land/x/lume_cleancss@v0.2.0/mod.ts';
 import pagefind from "lume/plugins/pagefind.ts";
 import footnote from "npm:markdown-it-footnote";
-import picture from "lume/plugins/picture.ts";
-import transformImages from "lume/plugins/transform_images.ts";
+import implicitFigures from "npm:markdown-it-image-figures";
+// import picture from "lume/plugins/picture.ts";
+// import transformImages from "lume/plugins/transform_images.ts";
 import googleFonts from "lume/plugins/google_fonts.ts";
 
 // Pass options to markdown-it plugins
 const markdown = {
   plugins: [
     footnote,
+    [implicitFigures, {
+      lazy: true,
+      async: true,
+      figcaption: "alt",
+      link: true,
+    }],
   ],
 };
 
