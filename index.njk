@@ -97,6 +97,14 @@ order: 1
   }
 
   @media screen and (max-width: 750px) {
+    .directory-card>div {
+      padding: inherit;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .directory-card__link {
+      padding: 1rem;
+    }
     .card-title {
       font-size: 14pt;
     }
@@ -108,11 +116,14 @@ order: 1
     }
     .card-image__link {
       max-width: 60px;
-      height: 60px;
+      margin: auto;
+      height: 100%;
+      border-radius: 0;
     }
     .card-image {
       border-radius: 8px;
-      width: 124px;
+      width: 224px !important;
+      max-width: none !important;
     }
   }
 </style>

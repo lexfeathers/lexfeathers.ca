@@ -73,6 +73,14 @@
   }
 
   @media screen and (max-width: 750px) {
+    .directory-card>div {
+      padding: inherit;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .directory-card__link {
+      padding: 1rem;
+    }
     .card-title {
       font-size: 14pt;
     }
@@ -84,11 +92,16 @@
     }
     .card-image__link {
       max-width: 60px;
-      height: 60px;
+      margin: 0 !important;
+      max-width: 100px;
+      height: auto;
+      border-radius: 0;
     }
     .card-image {
       border-radius: 8px;
-      width: 124px;
+      width: 224px !important;
+      max-width: none !important;
+      object-fit: cover;
     }
   }
 </style>
