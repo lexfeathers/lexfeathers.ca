@@ -1,5 +1,5 @@
 ---
-title: 'Void Femmes live at SIXNINEHAUS (Toronto, ON) - July 7th, 2024'
+title: 'Void Femmes live at SIXNINEHAUS (Toronto - July 7th, 2024)'
 author: Lex Feathers
 draft: false
 comments: true
