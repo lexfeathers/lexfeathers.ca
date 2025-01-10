@@ -4,8 +4,6 @@ website:
 metas:
   author: Lex Feathers
   icon: assets/favicon.ico
-  # image: assets/images/linkpreview.jpg
-  # 'twitter:image:src': assets/images/linkpreview.jpg
   keywords:
     - music
     - lex feathers
@@ -21,5 +19,3 @@ footer_links:
     url: 'https://voidfemmes.bandcamp.com'
   - title: Portfolio
     url: 'https://gameaudio.ca'
-  - title: Instagram
-    url: 'https://instagram.com/lex.feathers'
