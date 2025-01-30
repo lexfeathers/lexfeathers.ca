@@ -18,7 +18,7 @@ draft: false
 ## find me online:
 
 - [Bsky](https://bsky.app/profile/lexfeathers.ca)
-- [Mastodon (I want to use this more than I do)](https://octodon.social/@lexfeathers)
+- [Mastodon](https://octodon.social/@lexfeathers)
 - [My portfolio website](https://gameaudio.ca)
 
 ## my bandcamp pages:
