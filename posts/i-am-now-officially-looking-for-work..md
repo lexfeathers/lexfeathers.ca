@@ -14,7 +14,7 @@ excerpt: 'Last Tuesday, after nearly 4 years at my last job, I was suddenly laid
 Last Tuesday, after nearly 4 years at my job, I was suddenly laid off. I had been working in Theme Support, a kind of front-end team where I'd fix your website if you reached out to us. Sometimes I would make code customizations by request, provided they were within the scope of the time we could spend on each ask.
 
 I really liked my job. It was a huge source of stability through a really unstable part of my life, and a way to learn more about web design- a thing I've come to love. 
-I somehow dodged two mass-layoffs, and for a long time it seemed like my team was pretty well insulated from the issues that were affecting swathes of people elsewhere in the company. This job paid for a huge amount of gender-affirming care I needed access to, and was a (generally) safe place to start my transition, especially considering that I worked remote. I got very used to the structure that I built around my work.
+I somehow dodged two mass-layoffs, and for a long time it seemed like my team was pretty well insulated from the issues that were affecting large parts of the company. This job paid for a huge amount of gender-affirming care I needed access to, and was a (generally) safe place to start my transition, especially considering that I worked remote. I got very used to the structure that I built around my work.
 
 And here I am now. This will be my first experience hunting for a job as a trans woman. I'm not thrilled about it, but I have a good community around me and a lot of supports. It's a very bad time to be hunting right now for [*gestures vaguely*] reasons, but I'm trying to stay positive. 
 
