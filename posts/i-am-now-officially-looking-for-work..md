@@ -2,7 +2,7 @@
 title: I am now officially looking for work.
 author: Lex Feathers
 draft: false
-comments: true
+comments: false
 published: 2025-01-30T03:16:00.000Z
 image: /uploads/bowedguitar_lex.png
 image_caption: I've been practicing guitar with a cello bow lately.
@@ -22,4 +22,4 @@ With all of that comes my plea: If you or someone you know needs a Sound Designe
 
 I have almost 10 years of experience working on sound design and music for games, and it's my absolute dream to find regular work in that industry. I also love learning new skills and spend a lot of my free time exploring webdev and design. If you have any general leads, please feel free to contact me via [my contact page.](https://lexfeathers.ca/pages/contact)
 
-Stay safe everyone. 
+Stay safe everyone.
