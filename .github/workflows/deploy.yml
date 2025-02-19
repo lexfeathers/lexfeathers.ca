@@ -1,8 +1,49 @@
+# name: Publish on GitHub Pages
+
+# on:
+#   push:
+#     branches: [ main ]
+
+# permissions:
+#   contents: read
+#   pages: write
+#   id-token: write
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Clone repository
+#         # Git clone the repository
+#         uses: actions/checkout@v4
+
+#       - name: Setup Deno environment
+#         # Downloads deno and caches it
+#         uses: denoland/setup-deno@v2
+#         with:
+#           # Latest Deno 2.x version
+#           deno-version: v2.x
+
+#       - name: Build site
+#         run: deno task build
+      
+#       - name: Setup Pages
+#         uses: actions/configure-pages@v3
+      
+#       - name: Upload artifact
+#         uses: actions/upload-pages-artifact@v2
+#         with:
+#           path: '_site'
+
+#       - name: Deploy to GitHub Pages
+#         id: deployment
+#         uses: actions/deploy-pages@v1
 name: Publish on GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 permissions:
   contents: read
@@ -15,27 +56,22 @@ jobs:
 
     steps:
       - name: Clone repository
-        # Git clone the repository
         uses: actions/checkout@v4
 
       - name: Setup Deno environment
-        # Downloads deno and caches it
         uses: denoland/setup-deno@v2
-        with:
-          # Latest Deno 2.x version
-          deno-version: v2.x
 
       - name: Build site
         run: deno task build
-      
+
       - name: Setup Pages
-        uses: actions/configure-pages@v3
-      
+        uses: actions/configure-pages@v5
+
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site'
+          path: "_site"
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
