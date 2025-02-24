@@ -144,7 +144,7 @@ a:hover {
   text-decoration: underline;
 }
 
-article a {
+article:not(.homepage-excerpt) a {
   text-decoration: underline;
 }
 
