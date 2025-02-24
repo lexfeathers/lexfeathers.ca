@@ -144,6 +144,10 @@ a:hover {
   text-decoration: underline;
 }
 
+article a {
+  text-decoration: underline;
+}
+
 ::selection {
   background: var(--colour-secondary);
   color: var(--colour-background);
