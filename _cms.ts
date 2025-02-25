@@ -139,6 +139,11 @@ cms.collection({
       label: "Image caption",
     },
     {
+      name: "image_alt",
+      type: "text",
+      label: "Image alt (leave blank to use Image caption)",
+    },
+    {
       name: "content_warnings",
       type: "list",
     },

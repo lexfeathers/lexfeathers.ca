@@ -6,6 +6,7 @@ comments: true
 published: 2025-02-25T19:49:00.000Z
 image: /uploads/Carving out a little hollow 2024-09-12_cover.png
 image_caption: Cover artwork for "Carving out a little hollow 2024-09-12"
+image_alt: A page of typewritten text set in bright pink against a black background
 content_warnings: []
 tags:
   - music

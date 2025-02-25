@@ -31,7 +31,11 @@ layout: /layout.njk
   {% if image %}
     <figure class="hero-img" transform-images="">
       <a href="{{ image }}">
-        <img src="{{ image }}" alt="{{ image_caption }}" loading="lazy">
+        <img 
+          src="{{ image }}" 
+          alt="{% if image_alt %}{{ image_alt }}{% else %}{{ image_caption }}{% endif %}" 
+          loading="lazy"
+        >
       </a>
       {% if image_caption %}
         <figcaption>{{ image_caption }}</figcaption>
