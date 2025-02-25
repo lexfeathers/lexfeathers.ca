@@ -5,6 +5,7 @@ metas:
   author: Lex Feathers
   icon: assets/favicon.ico
   image: =image
+  description: =description
   "twitter:card": =image
   "twitter:title": =title
   "twitter:description": =excerpt
