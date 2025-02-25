@@ -233,6 +233,11 @@ cms.document(
   [
     "type: code",
     "content: markdown",
+  ],
+  [
+    "name: image",
+    "type: file",
+    "uploads: uploads",
   ]
 );
 
