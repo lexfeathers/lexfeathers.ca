@@ -11,14 +11,20 @@ order: 1
 
   <h1>Hi, I'm <a href="/pages/about">Lex!</a></h1>
   <p>
+    I'm a <a href="https://portfolio.lexfeathers.ca" title="link to my portfolio">composer and sound designer</a> based in Toronto, Canada. I love building websites and reclaiming the internet through projects like this one.
+  </p>
+  <p>
     This is my HTML scratchpad and general idea sharing repository. 
-    What I can't put on a microblogging site goes here. You'll find music I'm working on, idle self-chatter, and more on this website. 
+    You'll find music I'm working on, live performance documentation, idle thoughts and more on this website. 
     Ideally, we'll both learn something new!
+  </p>
+  <p>
+    If you have questions or ideas for the site, please feel free to <a href="/pages/contact" title="contact me">send me an ask :)</a>
   </p>
 
   <article class="homepage-excerpt">
     <div class="homepage-latest">
-      <h2 class="faded">Latest posts:</h2>
+      <h2>Latest posts: <a href="/pages/directory" style="opacity: 1">[view all]</a></h2>
       {# Get the latest 3 posts #}
       {% set latestPost = search.pages("type=posts draft=false", "published=desc", 3) %}
       {# Loop through those posts #}

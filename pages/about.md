@@ -13,18 +13,17 @@ draft: false
   <!-- <figcaption>{{ image_caption }}</figcaption> -->
 </figure>
 
-### I make music! Sometimes [for games](https://gameaudio.ca), and sometimes for myself.
+### I make music [for games](https://portfolio.lexfeathers.ca), and sometimes for myself. 
+I've been composing for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
 
 ## find me online:
-
 - [Bsky](https://bsky.app/profile/lexfeathers.ca)
-- [Mastodon](https://octodon.social/@lexfeathers)
-- [My portfolio website](https://gameaudio.ca)
+- [Mastodon](https://tenforward.social/@lexfeathers)
+- [My portfolio website](https://portfolio.lexfeathers.ca)
 
-## my bandcamp pages:
-
+## listen to my music:
 - [Waxlimbs (my band)](https://waxlimbs.bandcamp.com/)
-- [Void Femmes (my electronic music)](https://voidfemmes.bandcamp.com/)
+- [Void Femmes (my solo electronic music)](https://voidfemmes.bandcamp.com/)
 
 <style>
   details {
@@ -123,7 +122,7 @@ draft: false
   </div>
 </details>
 
-## those who harken to the days of eld:
+## Internet neighbours:
 
 <div class="cool-links" transform-images="">
   <a href="https://blog.radicaldream.land" target="_blank">
@@ -199,31 +198,23 @@ draft: false
     <img src="/uploads/tombofnull_88x31.gif" width="88" height="31" alt="Tomb of Null">
   </a>
 
-## other sites I like:
-
-- [ZandraVandra](https://zandravandra.com)
-
-  <!-- My 88x31 link -->
-  <p style="text-align: center;">add me to your site 🤍</p>
-  <a href="https://lexfeathers.ca" target="_blank">
-    <img class="my-88x31" width="88" height="31" alt="Lex Feathers" title="Lex Feathers" style="display: block; margin: auto;"
-      src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" />
-  </a>
-  <p>Embed code:</p>
-  <textarea name="buttoncode" class="center" aria-label="Button code" onclick="this.select()"
-    style="width: 100%; height: 100px; resize: none;"><a href="https://lexfeathers.ca" target="_blank"><img width="88" height="31" alt="Lex Feathers" title="Lex Feathers" src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" style="image-rendering:pixelated;"/></a></textarea>
+  ## other sites I like:
+  - [ZandraVandra](https://zandravandra.com)
 </div>
 
 
-<!--
-<hr class="faded">
-<p>
-  This website was built with <a href="https://lume.land" target="_blank">a static site generator called Lume.</a>
-</p>
--->
+<!-- My 88x31 link -->
+<p style="text-align: center;">add me to your site 🤍</p>
+<a href="https://lexfeathers.ca" target="_blank">
+  <img class="my-88x31" width="88" height="31" alt="Lex Feathers" title="Lex Feathers" style="display: block; margin: auto;"
+    src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" />
+</a>
+<p>Embed code:</p>
+<textarea name="buttoncode" class="center" aria-label="Button code" onclick="this.select()"
+  style="width: 100%; height: 100px; resize: none;"><a href="https://lexfeathers.ca" target="_blank"><img width="88" height="31" alt="Lex Feathers" title="Lex Feathers" src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" style="image-rendering:pixelated;"/></a></textarea>
 
 <!-- Eggbug badge -->
-<div class="cool-links">
+<div class="cool-links" style="margin-top: 1rem;">
   <img id="eggbug-bye" width="88" height="31"
     alt="We're gonna miss you eggbug" title="We're gonna miss you eggbug"
     src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png" />
