@@ -1,6 +1,6 @@
 ---
 title: about
-description: This is a page... that tells you about me.
+description: Composer and sound designer who loves building websites
 image: /uploads/lex_autumn.jpg
 image_caption: 
 order: 3
