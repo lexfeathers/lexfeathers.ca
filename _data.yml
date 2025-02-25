@@ -4,6 +4,12 @@ website:
 metas:
   author: Lex Feathers
   icon: assets/favicon.ico
+  image: =image
+  "twitter:card": =image
+  "twitter:title": =title
+  "twitter:description": =excerpt
+  "twitter:label2": by
+  "twitter:data1": =author
   keywords:
     - music
     - lex feathers
