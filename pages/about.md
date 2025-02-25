@@ -6,7 +6,7 @@ image_caption:
 order: 3
 draft: false
 ---
-<h1>Lex Feathers <span class="faded">(she/they)</span></h1>
+<h1>Lex Feathers <span class="faded">(she/her)</span></h1>
 
 <figure transform-images="">
   <img src="/uploads/lex_autumn.jpg" alt="Lex Feathers" loading="lazy" style="border-radius: 340px;" />
@@ -54,6 +54,19 @@ I've been composing for over 14 years, and have been working in games as both co
 
   details[open] summary::marker {
     content: '↴ ';
+  }
+  .cool-links:not(:last-child) {
+    border: 2px solid var(--colour-secondary);
+    border-radius: 4px;
+    padding: 1rem;
+
+  }
+  .cool-links:not(:last-child), .cool-links:not(:last-child) * {
+    background-color: var(--colour-lighter-background);
+  }
+
+  #cool-buttons {
+    text-align: center;
   }
 </style>
 
@@ -122,9 +135,11 @@ I've been composing for over 14 years, and have been working in games as both co
   </div>
 </details>
 
-## Internet neighbours:
 
 <div class="cool-links" transform-images="">
+
+  ## internet neighbours:
+<div id="cool-buttons">
   <a href="https://blog.radicaldream.land" target="_blank">
     <img width="88" height="31" alt="Radicaldreamland" title="Radicaldreamland" src="/uploads/radicaldreamland.gif" />
   </a>
@@ -197,6 +212,7 @@ I've been composing for over 14 years, and have been working in games as both co
   <a href="https://www.tombofnull.art/" title="Tomb of Null">
     <img src="/uploads/tombofnull_88x31.gif" width="88" height="31" alt="Tomb of Null">
   </a>
+</div>
 
   ## other sites I like:
   - [ZandraVandra](https://zandravandra.com)
