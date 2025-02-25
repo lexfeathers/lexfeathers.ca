@@ -6,19 +6,23 @@
 
   /* Key Colours */
     --colour-background: #141414;
-    --colour-text: #fff0cc;
     --colour-secondary: #ff993a;
+    --colour-text: color-mix(in srgb, var(--colour-secondary), white 80%);
+    /* --colour-text: #fff0cc; */
     --colour-cw-background: #7c2447;
     --colour-cw-text: #fff0cc;
 
     /* Dark theme - make sure to update this as well if changing the main theme! */
       --colour-background-darkmode: #141414;
-      --colour-text-darkmode: #fff0cc;
+      /* --colour-secondary-darkmode: #ff3888; */
       --colour-secondary-darkmode: #ff993a;
-    /* Light theme */
+      --colour-text-darkmode: color-mix(in srgb, var(--colour-secondary-darkmode), white 80%);
+      /* --colour-text-darkmode: #fff0cc; */
+      /* Light theme */
       --colour-background-lightmode: #fff6e0;
-      --colour-text-lightmode: #141414; 
+      /* --colour-text-lightmode: #141414;  */
       --colour-secondary-lightmode: #a90060;
+      --colour-text-lightmode: color-mix(in srgb, var(--colour-secondary-lightmode), black 90%);
 
   /* Mixed colours */
     --colour-dark-background: color-mix(in srgb, var(--colour-background), black 20%);
@@ -57,6 +61,10 @@
 
   *:not(.name) {
     font-weight: 400;
+  }
+
+  article.post p {
+    font-weight: 400 !important;
   }
 }
 
