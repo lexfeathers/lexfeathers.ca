@@ -12,6 +12,7 @@ tags:
   - music
   - releases
   - void femmes
+  - live performance
 excerpt: >
   A live set, improvised and recorded on September 12th, 2024 in Toronto, at a
   hockey-themed dive bar of all places.
