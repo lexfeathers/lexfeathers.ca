@@ -13,9 +13,9 @@ metas:
 footer_links:
   - title: Bsky
     url: 'https://bsky.app/profile/lexfeathers.ca'
-  - title: Mastodon
-    url: 'https://tenforward.social/@lexfeathers'
   - title: Bandcamp
     url: 'https://voidfemmes.bandcamp.com'
+  - title: Mastodon
+    url: 'https://tenforward.social/@lexfeathers'
   - title: Portfolio
     url: 'https://portfolio.lexfeathers.ca'
