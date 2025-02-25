@@ -3,7 +3,7 @@ website:
   site_title: Lex Feathers
 metas:
   author: Lex Feathers
-  icon: assets/favicon.ico
+  icon: /assets/favicon.ico
   image: =image
   description: =description
   "twitter:card": =image
