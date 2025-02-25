@@ -14,7 +14,7 @@ draft: false
 </figure>
 
 ### I make music [for games](https://portfolio.lexfeathers.ca), and sometimes for myself. 
-I've been composing for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
+I've been making music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
 
 ## find me online:
 - [Bsky](https://bsky.app/profile/lexfeathers.ca)
