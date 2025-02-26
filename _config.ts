@@ -57,7 +57,7 @@ site.use(feed({
     title: "Lex Feathers",
     description:
       "music and ideas",
-    authorName: "=author.name",
+    authorName: "=author",
     lang: "en",
     generator: true,
   },
