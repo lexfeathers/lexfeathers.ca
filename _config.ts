@@ -59,7 +59,7 @@ site.use(feed({
       "music and ideas",
     authorName: "=author.name",
     lang: "en",
-    generator: false,
+    generator: true,
   },
   items: {
     title: "=title",
