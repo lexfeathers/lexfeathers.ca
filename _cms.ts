@@ -131,7 +131,7 @@ cms.collection({
     {
       name: "image",
       type: "file",
-      uploads: "uploads",
+      upload: "uploads",
     },
     {
       name: "image_caption",
@@ -165,7 +165,7 @@ cms.collection({
       }
     },
   ],
-  nameField: "title",
+  documentName: "title",
 });
 // Create "pages" collection
 // using my_fs storage
@@ -180,7 +180,7 @@ cms.collection({
     },
     "content: markdown",
   ],
-  nameField: "title",
+  documentName: "title",
 });
 
 // Site settings
