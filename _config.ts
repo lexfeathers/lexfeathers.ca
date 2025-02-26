@@ -71,28 +71,6 @@ site.use(feed({
     image: "=image", // The image of the item
   },
 }));
-site.use(feed({
-  output: ["/test.rss"],
-  query: "type=posts",
-  sort: "date=desc",
-  info: {
-    title: "Lex Feathers",
-    description:
-      "music and ideas",
-    authorName: "=author.name",
-    lang: "en",
-    generator: false,
-  },
-  items: {
-    title: "=title",
-    description: "=excerpt",
-    published: "=published",
-    updated: undefined,
-    content: "=children",
-    lang: "en",
-    image: "=image", // The image of the item
-  },
-}));
 // site.use(picture());
 // site.use(transformImages({
 //   extensions: [".gif", ".jpg", ".jpeg", ".png", ".webp"]
