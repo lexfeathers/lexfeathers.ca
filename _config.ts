@@ -52,7 +52,7 @@ site.use(metas());
 site.use(feed({
   output: ["/feed.rss"],
   query: "type=posts",
-  sort: "date=desc",
+  sort: "published=desc",
   info: {
     title: "Lex Feathers",
     description:
