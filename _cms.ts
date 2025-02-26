@@ -174,11 +174,11 @@ cms.collection({
   store: "my_fs:pages/*.md", 
   fields: [
     "title: text",
-    "content: markdown",
     {
       name: "draft",
       type: "checkbox",
     },
+    "content: markdown",
   ],
   nameField: "title",
 });
