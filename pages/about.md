@@ -212,6 +212,9 @@ I've been making music for over 14 years, and have been working in games as both
     <a href="https://www.tombofnull.art/" title="Tomb of Null">
       <img src="/uploads/tombofnull_88x31.gif" width="88" height="31" alt="Tomb of Null">
     </a>
+    <a href="https://knivesforcats.online" target="_blank">
+      <img width="88" height="31" alt="knives for cats dot online" title="knivesforcats.online" src="https://github.com/celechii/celechii.github.io/blob/main/knivesforcats88x31.png?raw=true" style="image-rendering:pixelated;"/>
+    </a>
   </div>
 
   ## more cool people (without 88x31s):
