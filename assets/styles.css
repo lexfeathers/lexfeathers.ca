@@ -950,38 +950,33 @@ iframe[title="YouTube video player"] {
   .directory-card::before {
     display: none;
   }
-  .directory-card div {
+  .directory-card>div {
     margin-left: 0;
     margin-right: 0;
+    border-radius: 8px;
+    overflow: hidden;
     flex-direction: column;
+    border: 1px solid var(--colour-text-faded);
   }
-  @media screen and (max-width: 750px) {
-    .directory-card>div {
-      border-radius: 8px;
-      overflow: hidden;
-      flex-direction: column;
-      border: 1px solid var(--colour-text-faded);
-    }
-    .directory-card__link {
-      padding: 1rem 0;
-    }
-    .card-title {
-      font-size: 14pt;
-    }
-    .card-excerpt, .date {
-      font-size: 12pt;
-    }
-    .card-excerpt {
-      margin: .25rem 0 0;
-    }
-    .card-image__link {
-      min-width: 100%;
-      border-radius: 6px;
-    }
-    .card-image {
-      border-radius: 8px;
-      max-width: none !important;
-    }
+  .directory-card__link {
+    padding: 1rem 0;
+  }
+  .card-title {
+    font-size: 14pt;
+  }
+  .card-excerpt, .date {
+    font-size: 12pt;
+  }
+  .card-excerpt {
+    margin: .25rem 0 0;
+  }
+  .card-image__link {
+    min-width: 100%;
+    border-radius: 6px;
+  }
+  .card-image {
+    border-radius: 8px;
+    max-width: none !important;
   }
 
   .right {
