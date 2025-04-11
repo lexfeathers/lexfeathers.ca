@@ -214,7 +214,8 @@ I've been making music for over 14 years, and have been working in games as both
   </a>
 </div>
 
-  ## other sites I like:
+  ## more cool people (without 88x31s):
+  - [Knives For Cats (Noé)](https://knivesforcats.online/)
   - [ZandraVandra](https://zandravandra.com)
 </div>
 
