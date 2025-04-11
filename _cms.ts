@@ -1,7 +1,7 @@
 import lumeCMS from "lume/cms/mod.ts";
 import GitHub from "lume/cms/storage/github.ts";
 import { Octokit } from "npm:octokit";
-import _fields from "lume/cms/fields/core.ts";
+// import _fields from "lume/cms/fields/core.ts";
 
 // Create authentication environment variables
 const username = Deno.env.get("USERNAME");
