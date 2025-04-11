@@ -218,7 +218,7 @@ I've been making music for over 14 years, and have been working in games as both
   </div>
 
   ## more cool people (without 88x31s):
-  - [Knives For Cats (Noé)](https://knivesforcats.online/)
+  <!-- - [Knives For Cats (Noé)](https://knivesforcats.online/) -->
   - [ZandraVandra](https://zandravandra.com)
 </div>
 
