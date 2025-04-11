@@ -165,7 +165,7 @@ cms.collection({
       }
     },
   ],
-  documentName: "title",
+  documentName: "{title}.md",
 });
 // Create "pages" collection
 // using my_fs storage
