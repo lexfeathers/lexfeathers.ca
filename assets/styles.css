@@ -402,6 +402,7 @@ select, select option {
   box-shadow: 0px 4px 8px var(--colour-background);
   border: 1px solid var(--colour-background);
   flex-grow: 1  ;
+  border: 1px solid var(--colour-text-faded);
 }
 .directory-card div:hover {
   background-color: color-mix(
@@ -958,7 +959,6 @@ iframe[title="YouTube video player"] {
     border-radius: 8px;
     overflow: hidden;
     flex-direction: column;
-    border: 1px solid var(--colour-text-faded);
   }
   .directory-card__link {
     padding: 1rem 0;
