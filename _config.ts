@@ -58,6 +58,7 @@ site.use(feed({
     description:
       "music and ideas",
     authorName: "=author",
+    authorUrl: "https://lexfeathers.ca",
     lang: "en",
     generator: true,
   },
@@ -66,7 +67,7 @@ site.use(feed({
     description: "=excerpt",
     published: "=published",
     updated: undefined,
-    content: "=children",
+    content: "$article.post || =children",
     lang: "en",
     image: "=image", // The image of the item
   },
