@@ -8,6 +8,7 @@ image: /uploads/oldwood.jpeg
 tags:
   - audio
   - demo
+  - songwriting
 excerpt: >
   I'll start by posting a demo I wrote when I was house-sitting for my partner
   when she was out of town:
