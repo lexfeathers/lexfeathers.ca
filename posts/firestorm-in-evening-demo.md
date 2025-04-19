@@ -36,7 +36,8 @@ There's no getting out,
 no turning away
 
 It will find you
-whether you like it some day
+whether you like it 
+some day
 
 There's no getting out,
 no turning away
