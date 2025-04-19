@@ -299,6 +299,11 @@ audio {
 .footnote-ref > a, a.footnote-backref {
   text-decoration: none;
 }
+.footnote-item>p>img {
+  /* border: 1px solid var(--colour-text-faded); */
+  box-shadow: 0px 4px 8px var(--colour-background);
+  border-radius: 4px;
+}
 
 article:has(.homepage-excerpt) {
   display: flex;
