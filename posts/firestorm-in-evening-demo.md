@@ -49,7 +49,7 @@ so run
 so run
 ```
 
-Thanks for tuning in for a demo-related-post! I'm going to try to write about making music a bit more from here on out, since it _should_ be the focus of this blog. I have a
+Thanks for tuning in for a demo-related-post! I'm going to try to write about making music a bit more from here on out, since it _should_ be the focus of this blog.
 
 [^1]: If you don't know Pile, please go listen to [this song](https://www.youtube.com/watch?v=FJ2V2qupWRM) right now. Please. Pile is amazing. "Blood" doesn't sound like this demo, but it's my favourite tune by them.
 [^2]: ![A discord message from Olivia, exclaiming how excited she is to learn the song in a live setting](/uploads/olivia_discord_firestorm.png)
