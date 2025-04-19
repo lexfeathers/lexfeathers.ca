@@ -783,6 +783,7 @@ figcaption {
 }
 
 /* Markdown code elements */
+/* Inline code */
 code {
   padding: 0 4px;
   /* border-radius: 4px; */
@@ -790,6 +791,18 @@ code {
   font-family: "Fira Code", monospace;
   font-optical-sizing: auto;
   font-weight: 300;
+}
+
+/* Code blocks */
+pre:has(code) {
+  background-color: var(--colour-background);
+  padding: 1rem;
+  border-radius: 4px;
+}
+pre > code {
+  background-color: var(--colour-background);
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .directory {
