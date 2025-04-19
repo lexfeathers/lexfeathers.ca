@@ -5,7 +5,6 @@ import sitemap from "lume/plugins/sitemap.ts";
 import date from "lume/plugins/date.ts";
 import metas from "lume/plugins/metas.ts";
 import feed from "lume/plugins/feed.ts";
-// import _cleancss from 'https://deno.land/x/lume_cleancss@v0.2.0/mod.ts';
 import pagefind from "lume/plugins/pagefind.ts";
 import footnote from "npm:markdown-it-footnote";
 import implicitFigures from "npm:markdown-it-image-figures";
@@ -41,7 +40,7 @@ site.use(favicon({
 }));
 site.use(sitemap({
   filename: "sitemap.xml", // to change the sitemap filename
-  sort: "date=desc", // To sort by data in ascendent order
+  sort: "published=desc", // To sort by data in ascendent order
 }));
 site.use(date({
   formats: {
@@ -61,6 +60,8 @@ site.use(feed({
     authorUrl: "https://lexfeathers.ca",
     lang: "en",
     generator: true,
+    icon: "/assets/favicon.ico",
+    color: "#ff993a",
   },
   items: {
     title: "=title",
@@ -70,6 +71,8 @@ site.use(feed({
     content: "$article.post || =children",
     lang: "en",
     image: "=image", // The image of the item
+    authorName: "=author",
+    authorUrl: "https://lexfeathers.ca",
   },
 }));
 // site.use(picture());
