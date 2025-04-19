@@ -22,7 +22,7 @@ I was heading to bed when I had a burst of energy and got "Hand-Bored", and pick
 
 With the arpeggio double-tracked, I found myself humming a melody, and words began to pop into my head: "every night I bury gold by the lake". 
 
-The rest up till `0:54` came quickly. Sometimes when getting swept away by a demo like this, I kind of lose control and the music just happens instinctively. I sent it off to the band and my partner, pretty happy with how it sounded so far. Erin said the magic words "the instrumentation is very Pile-esque"[^1], and I immediately knew how to write the next section of the song. Pile has a lot of really sweet heavy moments in their prettier songs, and I thought the harmonically ambiguous bass line would sounds good as a lead riff with lots of dirt. 
+The rest up till `0:54` came quickly. Sometimes when getting swept away by a demo like this, I kind of lose control and the music just happens instinctively. I sent it off to the band and my partner, pretty happy with how it sounded so far. Erin said the magic words "the instrumentation is very Pile-esque"[^1], and I immediately knew how to write the next section of the song. Pile has a lot of really sweet heavy moments in their prettier songs, and I thought the harmonically ambiguous bass line would sound good as a lead riff with lots of dirt. 
 
 The rest of the lyrics kind of fell out of me, considering how simple they are. I laid down some Osmose for atmospherics, and bam- it was a demo. The band was excited[^2] (admittedly more than I expected since this was such an off-the-cuff writing session).
 
