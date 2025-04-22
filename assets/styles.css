@@ -803,6 +803,7 @@ pre:has(code) {
   background-color: var(--colour-background);
   padding: 1rem;
   border-radius: 4px;
+  overflow: scroll;
 }
 pre > code {
   background-color: var(--colour-background);
