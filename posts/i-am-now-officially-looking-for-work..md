@@ -1,7 +1,7 @@
 ---
 title: I am now officially looking for work.
 author: Lex Feathers
-draft: false
+draft: true
 comments: false
 published: 2025-01-30T03:16:00.000Z
 image: /uploads/bowedguitar_lex.png
