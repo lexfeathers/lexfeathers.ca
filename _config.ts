@@ -8,6 +8,7 @@ import feed from "lume/plugins/feed.ts";
 import pagefind from "lume/plugins/pagefind.ts";
 import footnote from "npm:markdown-it-footnote";
 import implicitFigures from "npm:markdown-it-image-figures";
+import extractDate from "lume/plugins/extract_date.ts";
 // import picture from "lume/plugins/picture.ts";
 // import transformImages from "lume/plugins/transform_images.ts";
 import googleFonts from "lume/plugins/google_fonts.ts";
@@ -36,6 +37,15 @@ site.add([".css"]);
 site.add("/assets/"); // Iclude assets in the build
 site.add("/uploads/"); // Iclude assets in the build
 
+// Create the lastmod variable with the mtime of the file
+site.preprocess([".html"], (pages) => {
+  for (const page of pages) {
+    const info = page.src.entry?.getInfo();
+    page.data.lastmod = info?.mtime;
+  }
+});
+
+site.use(extractDate());
 site.use(googleFonts({
   fonts:
     "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap",
@@ -46,6 +56,8 @@ site.use(favicon({
 site.use(sitemap({
   filename: "sitemap.xml", // to change the sitemap filename
   sort: "published=desc", // To sort by data in ascendent order
+  lastmod: "=lastmod",
+  stylesheet: "/assets/linked.xslt"
 }));
 site.use(date({
   formats: {
