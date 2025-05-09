@@ -72,7 +72,7 @@ site.use(feed({
     lang: "en",
     image: "=image", // The image of the item
     authorName: "=author",
-    authorUrl: "https://lexfeathers.ca",
+    authorUrl: site.location,
   },
 }));
 // site.use(picture());
@@ -92,7 +92,8 @@ site.use(pagefind({
   },
 }));
 
-site.copy("/assets/"); // Iclude assets in the build
-site.copy("/uploads/"); // Iclude assets in the build
+site.add([".css"]);
+site.add("/assets/", "."); // Iclude assets in the build
+site.add("/uploads/"); // Iclude assets in the build
 
 export default site;
