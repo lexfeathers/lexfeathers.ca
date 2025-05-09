@@ -11,7 +11,7 @@ import implicitFigures from "npm:markdown-it-image-figures";
 // import picture from "lume/plugins/picture.ts";
 // import transformImages from "lume/plugins/transform_images.ts";
 import googleFonts from "lume/plugins/google_fonts.ts";
-
+ 
 // Pass options to markdown-it plugins
 const markdown = {
   plugins: [
@@ -31,6 +31,11 @@ const site = lume({
 { markdown }
 );
 site.use(nunjucks());
+
+site.add([".css"]);
+site.add("/assets/"); // Iclude assets in the build
+site.add("/uploads/"); // Iclude assets in the build
+
 site.use(googleFonts({
   fonts:
     "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap",
@@ -91,9 +96,5 @@ site.use(pagefind({
     verbose: false,
   },
 }));
-
-site.add([".css"]);
-site.add("/assets/", "."); // Iclude assets in the build
-site.add("/uploads/"); // Iclude assets in the build
 
 export default site;
