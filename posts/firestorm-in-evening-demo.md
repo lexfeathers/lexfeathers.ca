@@ -16,7 +16,7 @@ excerpt: I detail the process of writing a recent demo in what I would call a "l
 ---
 It's been a while since I've written about an actual song demo on this site, so here's one I started a few weeks ago:
 
-<audio controls src="/uploads/Firestorm in Evening demo.mp3" type="audio/mpeg" title="{{ title }}"></audio>
+<audio controls src="/uploads/Firestorm in Evening demo.mp3" type="audio/mpeg" title="Firestorm in Evening (demo)"></audio>
 
 I was heading to bed when I had a burst of energy and got "Hand-Bored", and picked up my guitar. This little oscillating arpeggiated pattern materialized, and I decided to record it quickly to preserve the idea. The thing that caught in my mind was the bass note progression, flipping from major to minor, to major again. I really like ambiguous harmony and often find myself writing music that sounds major for a bar, but flips to minor unexpectedly and back. There's something about the cheekiness of it that really latches onto my brain. Something I ended up liking a lot about the sound of this particular guitar recording is how the fret-buzz sounds a bit like rattling chains, or dishes in a cupboard during an earthquake.
 
