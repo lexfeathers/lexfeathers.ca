@@ -7,12 +7,19 @@
     </li>
     {% endeach %}
     <li class="menu-item">
-      <a class="rss" href="/feed.rss" class="button">RSS</a>
+      <a class="utility-link" href="/sitemap.xml" class="button">Sitemap</a>
+    </li>
+    <li class="menu-item">
+      <a class="utility-link" href="/feed.rss" class="button">RSS</a>
     </li>
   </ul>
 
   {% include "/templates/theme-selector.njk" %}
 
   <p class="copyright">&copy; {{ website.site_title }} <span id="currentyear">{{ date | date('yyyy') }}</span></p>
-  <a class="rss" href="/feed.rss" class="button">RSS</a>
+  <span class="utility-links">
+    <a href="/sitemap.xml" class="button">Sitemap</a>
+    <span>|</span>
+    <a href="/feed.rss" class="button">RSS</a>
+  </span>
 </footer>

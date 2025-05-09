@@ -565,7 +565,8 @@ header nav {
   display: none;
 }
 
-#sidebar .rss {
+#sidebar .utility-links,
+#sidebar .utility-link {
   display: none;
 }
 
@@ -1064,11 +1065,11 @@ iframe[title="YouTube video player"] {
     align-items: flex-start;
   }
 
-  .rss {
+  .utility-links {
     display: none;
   }
 
-  .menu-item .rss {
+  .menu-item .ultility-link {
     display: block;
   }
 
