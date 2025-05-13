@@ -65,8 +65,10 @@ I've been making music for over 14 years, and have been working in games as both
     background-color: var(--colour-lighter-background);
   }
 
-  #cool-buttons {
-    text-align: center;
+  @media screen and (max-width: 749px) {
+    #cool-buttons {
+      text-align: center;
+    }
   }
 </style>
 
