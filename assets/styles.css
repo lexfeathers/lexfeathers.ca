@@ -644,7 +644,7 @@ a {
   transition: ease-out 400ms;
 }
 .rotated {
-  rotate: 180deg;
+  rotate: 540deg;
 }
 
 .icon-lightbulb {
