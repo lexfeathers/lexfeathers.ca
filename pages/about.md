@@ -230,6 +230,12 @@ I've been making music for over 14 years, and have been working in games as both
     <a href="https://meltknuckles.net/" title="Meltknuckles" target="_blank">
       <img src="/uploads/meltknuckles88x31.gif" alt="Meltknuckles" width="88" height="31" style="image-rendering:pixelated;" />
     </a>
+    <a href="https://robinproblem.art" title="Robin Problem" target="_blank">
+      <img src="/uploads/robin88x31.jpg" alt="Robin Problem" width="88" height="31" style="image-rendering:pixelated;" />
+    </a>
+    <a href="https://shareanecdotes.neocities.org/" title="Shareanecdotes" target="_blank">
+      <img src="/uploads/share88x31.jpg" alt="Shareanecdotes" width="88" height="31" style="image-rendering:pixelated;" />
+    </a>
   </div>
 
   ## more cool people (without 88x31s):
