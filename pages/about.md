@@ -142,10 +142,9 @@ I've been making music for over 14 years, and have been working in games as both
   </div>
 </details>
 
-
 <div class="cool-links" transform-images="">
-
   <h2 id="internet-neighbours">internet neighbours</h2>
+
   <div id="cool-buttons">
     <a href="https://blog.radicaldream.land" target="_blank">
       <img width="88" height="31" alt="Radicaldreamland" title="Radicaldreamland" src="/uploads/radicaldreamland.gif" />
@@ -252,30 +251,31 @@ I've been making music for over 14 years, and have been working in games as both
     <a href="https://helveticablanc.com" title="Helvetica Blanc" target="_blank">
       <img src="/uploads/helveticablanc88x31.gif" alt="Helvetica Blanc" width="88" height="31" style="image-rendering:pixelated;" />
     </a>
+    <img width="88" height="31"
+      alt="We're gonna miss you eggbug" title="We're gonna miss you eggbug"
+      src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png" 
+    />
   </div>
 
-  ## more cool people (without 88x31s)
+  ### more cool people (without 88x31s)
   - [ZandraVandra](https://zandravandra.com)
 </div>
 
 <!-- My 88x31 link -->
-<div class="content-box" style="padding: 1rem;margin:2rem 0;">
-    <h2>add me to your site</h2>
-    <p>Copy the following HTML and paste away!</p>
-    <!-- <p style="text-align: center;">add me to your site </p> -->
-    <div style="margin:2rem"></div>
+<div class="content-box" style="padding: 1rem;margin: 2rem 0;">
+  <h2>add me to your site</h2>
+
+  <div style="text-align: center;">
     <a href="https://lexfeathers.ca" target="_blank">
-      <img class="my-88x31" width="88" height="31" alt="Lex Feathers" title="Lex Feathers" style="display: block; margin: auto;image-rendering: pixelated;"
+      <img class="my-88x31" width="172" height="62" alt="Lex Feathers" title="Lex Feathers" style="margin: auto;image-rendering: pixelated;margin:2rem 1rem;"
         src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" />
     </a>
-    <p>Embed code:</p>
-    <textarea name="buttoncode" class="center" spellcheck="false" aria-label="Button code" onclick="this.select()"
-      style="width: 100%; height: 100px; resize: none;"><a href="https://lexfeathers.ca" target="_blank"><img width="88" height="31" alt="Lex Feathers" title="Lex Feathers" src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" style="image-rendering:pixelated;"/></a></textarea>
+    <a href="https://lexfeathers.ca" target="_blank">
+      <img class="my-88x31" width="172" height="62" alt="Lex Feathers" title="Lex Feathers" style="margin: auto;image-rendering: pixelated;margin:2rem 1rem;"
+        src="/uploads/lexfeathers_lightmode_88x31.gif" />
+    </a>
   </div>
-  <!-- Eggbug badge -->
-  <div class="cool-links" style="margin-top: 1rem;">
-    <img id="eggbug-bye" width="88" height="31"
-      alt="We're gonna miss you eggbug" title="We're gonna miss you eggbug"
-      src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png" />
-  </div>
+
+  <textarea name="buttoncode" class="center" spellcheck="false" aria-label="Button code" onclick="this.select()"
+    style="width: 100%; height: 100px; resize: none;"><a href="https://lexfeathers.ca" target="_blank"><img width="88" height="31" alt="Lex Feathers" title="Lex Feathers" src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" style="image-rendering:pixelated;"/></a></textarea>
 </div>
