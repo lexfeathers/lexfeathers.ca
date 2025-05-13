@@ -572,7 +572,6 @@ header nav {
 /* The little guy at the bottom of the sidebar. Currently hidden on mobile */
 #sidebar-character {
   display: flex;
-  /* margin-top: auto; */
   overflow: hidden;
   max-width: 100px;
   height: 100px;
@@ -593,7 +592,6 @@ header nav {
 
 .margin-bar {
   background-color: var(--colour-text-highlight);
-  /* width: 4px; */
   min-width: 4px;
   margin: 0 1rem 0 0;
   border-radius: 4px;
@@ -626,7 +624,6 @@ a {
   align-items: center;
   font-family: 'Fira Code', monospace !important;
   display: inline-flex;
-  /* font-size: 24px; */
   height: 24px;
   justify-content: center;
   line-height: 0;
@@ -645,7 +642,6 @@ a {
   font-size: 2.5rem;
   font-family: monospace !important;
   transition: ease-out 400ms;
-  /* rotate: 0deg; */
 }
 .rotated {
   rotate: 180deg;
