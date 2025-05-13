@@ -72,14 +72,6 @@ I've been making music for over 14 years, and have been working in games as both
   .cool-links:not(:last-child), .cool-links:not(:last-child) * {
     background-color: var(--colour-lighter-background);
   }
-
-  @media screen and (min-width: 750px) {
-    #cool-buttons > a > img {
-      /* width: calc(calc(100%/6) - 22px); */
-      height: auto;
-    }
-  }
-
   #cool-buttons {
     text-align: center;
   }
