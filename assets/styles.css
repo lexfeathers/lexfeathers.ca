@@ -2,13 +2,12 @@
   /* Layout */
     --page-width: 72rem;
 
-  /* Key Colours */
+  /* Colours */
     --colour-background: #141414;
     --colour-secondary: #ff993a;
     --colour-text: color-mix(in srgb, var(--colour-secondary), white 80%);
     --colour-cw-background: #7c2447;
     --colour-cw-text: #fff0cc;
-
     /* Dark theme - make sure to update this as well if changing the main theme! */
       --colour-background-darkmode: #141414;
       --colour-secondary-darkmode: #ff993a;
@@ -17,13 +16,12 @@
       --colour-background-lightmode: #fff6f0;
       --colour-secondary-lightmode: #a90060;
       --colour-text-lightmode: color-mix(in srgb, var(--colour-secondary-lightmode), black 90%);
-
-  /* Mixed colours */
-    --colour-dark-background: color-mix(in srgb, var(--colour-background), black 20%);
-    --colour-light-background: color-mix(in srgb, var(--colour-background) 98%, var(--colour-text) 2%);
-    --colour-lighter-background: color-mix(in srgb, var(--colour-background), var(--colour-text) 5%);
-    --colour-text-highlight: color-mix(in srgb, var(--colour-background) 85%, var(--colour-text) 15%);
-    --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
+    /* Mixed colours */
+      --colour-dark-background: color-mix(in srgb, var(--colour-background), black 20%);
+      --colour-light-background: color-mix(in srgb, var(--colour-background) 98%, var(--colour-text) 2%);
+      --colour-lighter-background: color-mix(in srgb, var(--colour-background), var(--colour-text) 5%);
+      --colour-text-highlight: color-mix(in srgb, var(--colour-background) 85%, var(--colour-text) 15%);
+      --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
 
   /* Font sizing */
     --text-small: 14pt;
