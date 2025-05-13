@@ -16,16 +16,24 @@ draft: false
 ### I make music [for games](https://portfolio.lexfeathers.ca), and sometimes for myself. 
 I've been making music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing aural detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
 
-## listen to my music:
+## listen to my music
 - [Waxlimbs (my band)](https://waxlimbs.bandcamp.com/)
 - [Void Femmes (my solo electronic music)](https://voidfemmes.bandcamp.com/)
 
-## find me online:
+## find me online
 - [My portfolio website](https://portfolio.lexfeathers.ca)
 - [Bsky](https://bsky.app/profile/lexfeathers.ca)
 - [Mastodon](https://tenforward.social/@lexfeathers)
 
 <style>
+  figure {
+    text-align: center;
+  }
+
+  figure img {
+    max-width: 60%;
+  }
+
   details {
     margin: 2rem auto;
   }
@@ -67,15 +75,13 @@ I've been making music for over 14 years, and have been working in games as both
 
   @media screen and (min-width: 750px) {
     #cool-buttons > a > img {
-      width: calc(calc(100%/7) - 30px);
+      /* width: calc(calc(100%/6) - 22px); */
       height: auto;
     }
   }
 
-  @media screen and (max-width: 749px) {
-    #cool-buttons {
-      text-align: center;
-    }
+  #cool-buttons {
+    text-align: center;
   }
 </style>
 
@@ -147,7 +153,7 @@ I've been making music for over 14 years, and have been working in games as both
 
 <div class="cool-links" transform-images="">
 
-  <h2>internet neighbours:</h2>
+  <h2 id="internet-neighbours">internet neighbours</h2>
   <div id="cool-buttons">
     <a href="https://blog.radicaldream.land" target="_blank">
       <img width="88" height="31" alt="Radicaldreamland" title="Radicaldreamland" src="/uploads/radicaldreamland.gif" />
@@ -256,7 +262,7 @@ I've been making music for over 14 years, and have been working in games as both
     </a>
   </div>
 
-  ## more cool people (without 88x31s):
+  ## more cool people (without 88x31s)
   - [ZandraVandra](https://zandravandra.com)
 </div>
 

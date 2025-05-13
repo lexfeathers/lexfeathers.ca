@@ -97,10 +97,6 @@
 /* General styling */
 * {
   color: var(--colour-text);
-  font-family: 'Inter', sans-serif;
-  /* Not sure why, but the font doesn't seem to _actually_ import with a font-weight of 300, so we're declaring it here. */
-  font-weight: 300;
-  line-height: 1.6;
 }
 /* Helpers */
 
@@ -129,6 +125,9 @@
 }
 
 body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
   background-color: var(--colour-background);
   min-height: 100vh;
   display: flex;
@@ -137,6 +136,16 @@ body {
   max-width: var(--page-width);
   margin: auto;
   padding: 0 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  line-height: 1.6;
 }
 
 a {
@@ -219,7 +228,7 @@ main {
   border: var(--colour-text);
 }
 
-main * {
+main > * {
   background-color: var(--colour-light-background);
 }
 
@@ -824,10 +833,10 @@ header {
   justify-content: space-between;
 }
 
-header h1 a {
+/* header h1 a {
   font-weight: 100;
   text-decoration: none;
-}
+} */
 
 /* Tag list that appears at the bottom of a post */
 div.tags {
