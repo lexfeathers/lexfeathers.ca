@@ -14,7 +14,7 @@ draft: false
 </figure>
 
 ### I make music [for games](https://portfolio.lexfeathers.ca), and sometimes for myself. 
-I've been making music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
+I've been making music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing aural detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
 
 ## find me online:
 - [Bsky](https://bsky.app/profile/lexfeathers.ca)
@@ -138,7 +138,7 @@ I've been making music for over 14 years, and have been working in games as both
 
 <div class="cool-links" transform-images="">
 
-  ## internet neighbours:
+  <h2>internet neighbours:</h2>
   <div id="cool-buttons">
     <a href="https://blog.radicaldream.land" target="_blank">
       <img width="88" height="31" alt="Radicaldreamland" title="Radicaldreamland" src="/uploads/radicaldreamland.gif" />
@@ -221,7 +221,6 @@ I've been making music for over 14 years, and have been working in games as both
   </div>
 
   ## more cool people (without 88x31s):
-  <!-- - [Knives For Cats (Noé)](https://knivesforcats.online/) -->
   - [ZandraVandra](https://zandravandra.com)
 </div>
 
