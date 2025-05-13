@@ -1,6 +1,4 @@
 :root {
-  /* Global variables */
-
   /* Layout */
     --page-width: 72rem;
 
@@ -15,7 +13,7 @@
       --colour-background-darkmode: #141414;
       --colour-secondary-darkmode: #ff993a;
       --colour-text-darkmode: color-mix(in srgb, var(--colour-secondary-darkmode), white 80%);
-      /* Light theme */
+    /* Light theme */
       --colour-background-lightmode: #fff6e0;
       --colour-secondary-lightmode: #a90060;
       --colour-text-lightmode: color-mix(in srgb, var(--colour-secondary-lightmode), black 90%);
@@ -32,7 +30,8 @@
     --text-medium: 16pt;
     --text-large: 24pt;
 
-  --sig-symbol: ' :';
+  /* Misc */
+    --sig-symbol: ' :';
 
   /* Pagefind search bar styles */
     --pagefind-ui-scale: 0.8;
