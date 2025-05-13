@@ -833,10 +833,18 @@ header {
   justify-content: space-between;
 }
 
-/* header h1 a {
-  font-weight: 100;
+header h1 a:hover {
   text-decoration: none;
-} */
+}
+header h1 a .name {
+  border-bottom: 0px solid var(--colour-secondary);
+  border-radius: 1px;
+  transition: 80ms;
+}
+header h1 a .name:hover {
+  border-bottom: 3px solid var(--colour-secondary);
+  border-radius: 1px;
+}
 
 /* Tag list that appears at the bottom of a post */
 div.tags {
