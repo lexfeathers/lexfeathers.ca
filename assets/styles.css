@@ -163,12 +163,10 @@ article:not(.homepage-excerpt) a {
 
 #monogram {
   display: inline-block;
-  /* margin-right: 1rem; */
   width: 24px;
   height: 24px;
-  /* vertical-align: middle; */
   border: 2px solid var(--colour-secondary);
-  /* border-radius: 16px; */
+  border-radius: 3px;
   rotate: 45deg;
   margin-right: 1rem;
   margin-left: 4px;
@@ -177,7 +175,6 @@ article:not(.homepage-excerpt) a {
 .name::after {
   content: var(--sig-symbol);
 }
-
 
 /* Pagefind search box */
 #search {
@@ -640,7 +637,13 @@ a {
   color: var(--colour-secondary);
   font-size: 2.5rem;
   font-family: monospace !important;
+  transition: ease-out 400ms;
+  /* rotate: 0deg; */
 }
+.rotated {
+  rotate: 180deg;
+}
+
 .icon-lightbulb {
   display: inline-block;
   width: 1em;

@@ -10,11 +10,15 @@
         localStorage.setItem("theme", theme);
         document.documentElement.dataset.theme = theme;
       }
+      function rotate() {
+        const icon = document.getElementById("theme-selector-icon");
+        icon.classList.toggle('rotated');
+      }
     </script>
     
-    <button id="theme-selector" onclick="changeTheme()" alt="Toggle light or dark theme">
+    <button id="theme-selector" onclick="changeTheme(), rotate()" alt="Toggle light or dark theme">
       <span aria-hidden="true" class="icon">
-        <div class="icon icon-lightbulb icon-lightbulb__div"></div>
+        <div id="theme-selector-icon" class="icon icon-lightbulb icon-lightbulb__div"></div>
       </span>
     </button>
   </div> 
