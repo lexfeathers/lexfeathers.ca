@@ -46,6 +46,31 @@
   {% else %}
     <p>There are no posts to display.</p>
   {% endif %}
+
+  {# The following was pulled from Óscar Otero's "Simple Twitter" theme: 
+      https://github.com/lumeland/theme-simple-twitter/blob/main/src/_includes/layouts/tweets.vto 
+  #}
+  <nav class="page-navigation pagination">
+    <ul>
+      {{ if pagination.previous }}
+        <li class="pagination-prev">
+          <a href="{{ pagination.previous }}" rel="prev">
+            <span>Previous</span>
+          </a>
+        </li>
+      {{ endif }}
+      <li class="pagination-page">
+        <span>Page {{ pagination.page }} of {{ pagination.totalPages }}</span>
+      </li>
+      {{ if pagination.next }}
+        <li class="pagination-next">
+          <a href="{{ pagination.next }}" rel="next">
+            <span>Next</span>
+          </a>
+        </li>
+      {{ endif }}
+    </ul>
+  </nav>
 </div>
 
 {# Styling for the directory and NOWHERE ELSE #}
