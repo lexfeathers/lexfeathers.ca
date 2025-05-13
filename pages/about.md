@@ -56,7 +56,7 @@ I've been making music for over 14 years, and have been working in games as both
     content: '↴ ';
   }
   .cool-links:not(:last-child) {
-    border: 2px solid var(--colour-secondary);
+    /* border: 2px solid var(--colour-secondary); */
     border-radius: 4px;
     padding: 1rem;
 
