@@ -227,6 +227,9 @@ I've been making music for over 14 years, and have been working in games as both
     <a href="https://moonbase.lgbt" title="Moonbase Dot LGBT" target="_blank">
       <img src="https://moonbase.lgbt/88x31/moonbase.gif" alt="Moonbase Dot LGBT" width="88" height="31" style="image-rendering:pixelated;" />
     </a>
+    <a href="https://meltknuckles.net/" title="Meltknuckles" target="_blank">
+      <img src="/uploads/meltknuckles88x31.gif" alt="Meltknuckles" width="88" height="31" style="image-rendering:pixelated;" />
+    </a>
   </div>
 
   ## more cool people (without 88x31s):
