@@ -258,14 +258,10 @@ I've been making music for over 14 years, and have been working in games as both
   - [ZandraVandra](https://zandravandra.com)
 </div>
 
-
 <!-- My 88x31 link -->
-<details>
-  <summary>add me to your site</summary>
-
-  <p>Copy the following 88x31 code and paste it on your website :)</p>
-
-  <div class="content-box" style="padding: 1rem">
+<div class="content-box" style="padding: 1rem;margin:2rem 0;">
+    <h2>add me to your site</h2>
+    <p>Copy the following HTML and paste away!</p>
     <!-- <p style="text-align: center;">add me to your site </p> -->
     <div style="margin:2rem"></div>
     <a href="https://lexfeathers.ca" target="_blank">
@@ -282,4 +278,4 @@ I've been making music for over 14 years, and have been working in games as both
       alt="We're gonna miss you eggbug" title="We're gonna miss you eggbug"
       src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png" />
   </div>
-</details>
+</div>
