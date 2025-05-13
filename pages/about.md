@@ -218,6 +218,9 @@ I've been making music for over 14 years, and have been working in games as both
     <a href="https://eva.town" target="_blank">
       <img width="88" height="31" alt="Eva Decker" title="Eva Decker" src="/uploads/eva-town_88x31png.png" style="image-rendering:pixelated;"/>
     </a>
+    <a href="https://macthemes.garden" title="Mac Themes Garden">
+      <img src="https://macthemes.garden/buttons/88x31_macthemes.garden.png" alt="Mac Themes Garden" style="image-rendering:pixelated;"/>
+    </a>
   </div>
 
   ## more cool people (without 88x31s):
