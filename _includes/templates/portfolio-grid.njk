@@ -1,0 +1,15 @@
+---
+layout: /layout.njk
+---
+{% set portfolio = search.pages("type=projects draft=false", "published=desc") %}
+
+{% for project in portfolio %}
+    <div class="grid-item">
+        <img 
+            src="{{ project.url }}" 
+            alt="{{ project.title }}" 
+            title="{{ project.title }}" 
+            class="project-photo"
+        >
+    </div>
+{% endfor %}
