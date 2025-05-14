@@ -5,11 +5,20 @@ layout: /layout.njk
 
 {% for project in portfolio %}
     <div class="grid-item">
-        <img 
-            src="{{ project.url }}" 
-            alt="{{ project.title }}" 
-            title="{{ project.title }}" 
-            class="project-photo"
-        >
+        <a href="{{ project.url }}">
+            <div class="grid-item__information">
+                <div class="grid-item__media">
+                    <img 
+                        src="{{ project.image }}" 
+                        alt="{{ project.title }}" 
+                        title="{{ project.title }}" 
+                        class="project-photo"
+                    >
+                </div>
+                <h2>{{ project.title }}</h2>
+                <h3 class="text-small">{{ project.author }}</h3>
+                <subtitle>{{ project.work_type }}</subtitle>
+            </div>
+        </a>
     </div>
 {% endfor %}
