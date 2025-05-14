@@ -23,7 +23,10 @@
       --colour-text-highlight: color-mix(in srgb, var(--colour-background) 85%, var(--colour-text) 15%);
       --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
 
-  /* Font sizing */
+  /* Typography */
+    --family-sans: 'Inter', sans-serif;
+    --family-serif: 'Georgia', serif;
+    --family-code: 'Fira Code', monospace;
     --text-small: 14pt;
     --text-medium: 16pt;
     --text-large: 24pt;
@@ -87,7 +90,7 @@
 
 /* Fonts */
 @font-face {
-  font-family: "Fira Code", monospace;
+  font-family: var(--family-code);
   src: url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap') format("truetype");
   font-optical-sizing: auto;
 }
@@ -123,7 +126,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--family-sans);
   font-weight: 300;
   line-height: 1.6;
   background-color: var(--colour-background);
@@ -622,7 +625,7 @@ a {
 
 .icon {
   align-items: center;
-  font-family: 'Fira Code', monospace !important;
+  font-family: var(--family-code) !important;
   display: inline-flex;
   height: 24px;
   justify-content: center;
@@ -699,7 +702,7 @@ footer #theme-select-container {
 
 a.external:not(a:has(img)):after {
   content: '↗';
-  font-family: 'Fira Code', monospace;
+  font-family: var(--family-code);
   color: var(--colour-text);
   padding-left: 2px;
   font-size: 10pt;
@@ -795,7 +798,7 @@ code {
   padding: 0 4px;
   /* border-radius: 4px; */
   background-color: var(--colour-text-highlight);
-  font-family: "Fira Code", monospace;
+  font-family: var(--family-code);
   font-optical-sizing: auto;
   font-weight: 300;
 }
@@ -945,10 +948,11 @@ textarea:focus {
 
 a:focus, 
 button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px var(--colour-secondary);
+  outline: 3px solid var(--colour-secondary);
+  outline-offset: 3px;
   border-radius: 3px;
-  transition: box-shadow 50ms ease;
+  transition: outline 50ms ease;
+  z-index: 1;
 }
 
 #eggbug-bye {
