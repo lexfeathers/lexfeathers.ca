@@ -699,7 +699,7 @@ a.external:not(a:has(img)):after {
   opacity: 0.4;
 }
 
-/* Projects */
+/* Grid! */
 .grid {
   margin: 2rem 0;
   display: grid;
@@ -707,13 +707,25 @@ a.external:not(a:has(img)):after {
   grid-gap: 1rem;
   align-items: center;
 }
+@media screen and (max-width: 749px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
 .grid-item {
   background-color: var(--colour-lighter-background);
-  padding: 1rem;
   border: 1px solid var(--colour-text-faded);
   border-radius: 4px;
   height: auto;
   box-shadow: 0px 4px 8px var(--colour-dark-background);
+  padding: 1rem;
+}
+.grid-item h2 {
+  color: var(--colour-secondary);
+  margin-bottom: 0;
+}
+.grid-item h2:hover {
+  text-decoration: underline;
 }
 .grid-item:hover {
   background-color: 
@@ -723,7 +735,7 @@ a.external:not(a:has(img)):after {
     var(--colour-text) 
     2%
   );
-  translate: 0 -4px;
+  translate: 0 -3px;
   transition: ease-out 200ms;
 }
 .grid-item a:hover {
@@ -736,6 +748,16 @@ a.external:not(a:has(img)):after {
   align-content: center;
   display: grid;
   border-radius: 8px;
+}
+.grid-item__information {
+  height: 100%;
+}
+.grid-item__information > p {
+  font-size: calc(var(--text-small) - 4pt);
+  margin: 0.4rem 0;
+}
+.grid-item__worktype {
+  font-family: var(--family-code);
 }
 .grid-item img {
   width: 100%;
