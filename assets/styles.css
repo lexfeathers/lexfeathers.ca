@@ -264,7 +264,7 @@ main > * {
   width: 100%;
   vertical-align: middle;
   height: auto;
-  filter: sepia(1);
+  /* filter: sepia(1); */
 }
 
 article img:not(.banner > img, .cool-links img) {
@@ -1000,8 +1000,8 @@ textarea:focus {
   transition: box-shadow 0.1s ease;
 }
 
-a:focus, 
-button:focus {
+a:focus-visible, 
+button:focus-visible {
   outline: 3px solid var(--colour-secondary);
   outline-offset: 3px;
   border-radius: 3px;
