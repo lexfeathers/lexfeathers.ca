@@ -1,5 +1,4 @@
 type: projects 
-layout: /templates/project.njk
 metas:
   title: =title
   author: =author
