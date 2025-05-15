@@ -638,6 +638,9 @@ a {
 .rotated {
   rotate: 540deg;
 }
+.hueshift {
+  filter: hue-rotate(295deg);
+}
 
 .icon-lightbulb {
   display: inline-block;
