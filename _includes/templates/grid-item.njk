@@ -1,0 +1,20 @@
+---
+layout: /layout.njk
+---
+<div class="grid-item">
+    <a href="{{ item.url }}">
+        <div class="grid-item__information">
+            <div class="grid-item__media">
+                <img 
+                    src="{{ item.image }}" 
+                    alt="{{ item.title }}" 
+                    title="{{ item.title }}" 
+                    class="item-photo"
+                >
+            </div>
+            <h2>{{ item.title }}</h2>
+            <p class="grid-item__client text-small">{{ item.author }}</p>
+            <p class="grid-item__worktype">{{ item.work_type }}</p>
+        </div>
+    </a>
+</div>

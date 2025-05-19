@@ -14,18 +14,26 @@ draft: false
 </figure>
 
 ### I make music [for games](https://portfolio.lexfeathers.ca), and sometimes for myself. 
-I've been making music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
+I've been making music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing aural detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
 
-## find me online:
-- [Bsky](https://bsky.app/profile/lexfeathers.ca)
-- [Mastodon](https://tenforward.social/@lexfeathers)
-- [My portfolio website](https://portfolio.lexfeathers.ca)
-
-## listen to my music:
+## listen to my music
 - [Waxlimbs (my band)](https://waxlimbs.bandcamp.com/)
 - [Void Femmes (my solo electronic music)](https://voidfemmes.bandcamp.com/)
 
+## find me online
+- [My portfolio website](https://portfolio.lexfeathers.ca)
+- [Bsky](https://bsky.app/profile/lexfeathers.ca)
+- [Mastodon](https://tenforward.social/@lexfeathers)
+
 <style>
+  figure {
+    text-align: center;
+  }
+
+  figure img {
+    max-width: 60%;
+  }
+
   details {
     margin: 2rem auto;
   }
@@ -56,7 +64,7 @@ I've been making music for over 14 years, and have been working in games as both
     content: '↴ ';
   }
   .cool-links:not(:last-child) {
-    border: 2px solid var(--colour-secondary);
+    /* border: 2px solid var(--colour-secondary); */
     border-radius: 4px;
     padding: 1rem;
 
@@ -64,7 +72,6 @@ I've been making music for over 14 years, and have been working in games as both
   .cool-links:not(:last-child), .cool-links:not(:last-child) * {
     background-color: var(--colour-lighter-background);
   }
-
   #cool-buttons {
     text-align: center;
   }
@@ -135,10 +142,9 @@ I've been making music for over 14 years, and have been working in games as both
   </div>
 </details>
 
-
 <div class="cool-links" transform-images="">
+  <h2 id="internet-neighbours">internet neighbours</h2>
 
-  ## internet neighbours:
   <div id="cool-buttons">
     <a href="https://blog.radicaldream.land" target="_blank">
       <img width="88" height="31" alt="Radicaldreamland" title="Radicaldreamland" src="/uploads/radicaldreamland.gif" />
@@ -218,35 +224,53 @@ I've been making music for over 14 years, and have been working in games as both
     <a href="https://eva.town" target="_blank">
       <img width="88" height="31" alt="Eva Decker" title="Eva Decker" src="/uploads/eva-town_88x31png.png" style="image-rendering:pixelated;"/>
     </a>
+    <a href="https://macthemes.garden" title="Mac Themes Garden">
+      <img src="https://macthemes.garden/buttons/88x31_macthemes.garden.png" alt="Mac Themes Garden" style="image-rendering:pixelated;"/>
+    </a>
+    <a href="https://drac.at" target="_blank" rel="noopener">
+      <img src="https://drac.at/links/dracat-now-animated.gif" alt="drac.at on the web" width="88" height="31" decoding="async" loading="lazy" />
+    </a>
+    <a href="https://moonbase.lgbt" title="Moonbase Dot LGBT" target="_blank">
+      <img src="https://moonbase.lgbt/88x31/moonbase.gif" alt="Moonbase Dot LGBT" width="88" height="31" style="image-rendering:pixelated;" />
+    </a>
+    <a href="https://meltknuckles.net/" title="Meltknuckles" target="_blank">
+      <img src="/uploads/meltknuckles88x31.gif" alt="Meltknuckles" width="88" height="31" style="image-rendering:pixelated;" />
+    </a>
+    <a href="https://robinproblem.art" title="Robin Problem" target="_blank">
+      <img src="/uploads/robin88x31.jpg" alt="Robin Problem" width="88" height="31" style="image-rendering:pixelated;" />
+    </a>
+    <a href="https://shareanecdotes.neocities.org/" title="Shareanecdotes" target="_blank">
+      <img src="/uploads/share88x31.jpg" alt="Shareanecdotes" width="88" height="31" style="image-rendering:pixelated;" />
+    </a>
+    <a href="https://milliesquilly.com" title="Millie Squilly" target="_blank">
+      <img src="/uploads/millie-squilly-dot-com-button-88x31png.png" alt="Millie Squilly" width="88" height="31" style="image-rendering:pixelated;" />
+    </a>
+    <a href="https://curilagann.art/" title="Curi Lagann" target="_blank">
+      <img src="/uploads/curilagan88x31.gif" alt="Curi Lagann" width="88" height="31" style="image-rendering:pixelated;" />
+    </a>
+    <a href="https://helveticablanc.com" title="Helvetica Blanc" target="_blank">
+      <img src="/uploads/helveticablanc88x31.gif" alt="Helvetica Blanc" width="88" height="31" style="image-rendering:pixelated;" />
+    </a>
+    <img width="88" height="31"
+      alt="We're gonna miss you eggbug" title="We're gonna miss you eggbug"
+      src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png" 
+    />
   </div>
 
-  ## more cool people (without 88x31s):
-  <!-- - [Knives For Cats (Noé)](https://knivesforcats.online/) -->
+  ### more cool people (without 88x31s)
   - [ZandraVandra](https://zandravandra.com)
 </div>
 
-
 <!-- My 88x31 link -->
-<details>
-  <summary>add me to your site</summary>
-
-  <p>Copy the following 88x31 code and paste it on your website :)</p>
-
-  <div class="content-box" style="padding: 1rem">
-    <!-- <p style="text-align: center;">add me to your site </p> -->
-    <div style="margin:2rem"></div>
-    <a href="https://lexfeathers.ca" target="_blank">
-      <img class="my-88x31" width="88" height="31" alt="Lex Feathers" title="Lex Feathers" style="display: block; margin: auto;"
-        src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" />
-    </a>
-    <p>Embed code:</p>
-    <textarea name="buttoncode" class="center" spellcheck="false" aria-label="Button code" onclick="this.select()"
-      style="width: 100%; height: 100px; resize: none;"><a href="https://lexfeathers.ca" target="_blank"><img width="88" height="31" alt="Lex Feathers" title="Lex Feathers" src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" style="image-rendering:pixelated;"/></a></textarea>
+<div class="content-box" style="padding: 1rem;margin: 2rem 0;">
+  <h2>add me to your site</h2>
+  <div style="text-align: center;">
+    <img class="my-88x31" width="172" height="62" alt="Lex Feathers" title="Lex Feathers" style="margin: auto;image-rendering: pixelated;margin:0rem 1rem 2rem;"
+      src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" />
+    <img class="my-88x31" width="172" height="62" alt="Lex Feathers" title="Lex Feathers" style="margin: auto;image-rendering: pixelated;margin:0rem 1rem 2rem;"
+      src="/uploads/lexfeathers_lightmode_88x31.gif" />
   </div>
-  <!-- Eggbug badge -->
-  <div class="cool-links" style="margin-top: 1rem;">
-    <img id="eggbug-bye" width="88" height="31"
-      alt="We're gonna miss you eggbug" title="We're gonna miss you eggbug"
-      src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png" />
-  </div>
-</details>
+
+  <textarea name="buttoncode" class="center" spellcheck="false" aria-label="Button code" onclick="this.select()"
+    style="width: 100%; height: 100px; resize: none;"><a href="https://lexfeathers.ca" target="_blank"><img width="88" height="31" alt="Lex Feathers" title="Lex Feathers" src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" style="image-rendering:pixelated;"/></a></textarea>
+</div>

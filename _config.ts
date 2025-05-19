@@ -9,6 +9,7 @@ import pagefind from "lume/plugins/pagefind.ts";
 import footnote from "npm:markdown-it-footnote";
 import implicitFigures from "npm:markdown-it-image-figures";
 import extractDate from "lume/plugins/extract_date.ts";
+import codeHighlight from "lume/plugins/code_highlight.ts";
 // import picture from "lume/plugins/picture.ts";
 // import transformImages from "lume/plugins/transform_images.ts";
 import googleFonts from "lume/plugins/google_fonts.ts";
@@ -46,6 +47,15 @@ site.preprocess([".html"], (pages) => {
 });
 
 site.use(extractDate());
+site.use(
+  codeHighlight ({
+    theme: {
+      name: "base16/seti-ui", // The theme name to download
+      cssFile: "/code-styles.css", // The destination filename
+      placeholder: "/* insert-theme-here */", // Optional placeholder to replace with the final code
+    },
+  }),
+);
 site.use(googleFonts({
   fonts:
     "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap",

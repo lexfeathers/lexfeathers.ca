@@ -1,0 +1,12 @@
+---
+title: projects
+order: 2
+draft: true
+---
+{% set portfolio = search.pages("type=projects draft=false", "published=desc") %}
+
+<div class="grid">
+    {% for item in portfolio %}
+        {% include "/templates/grid-item.njk" %}
+    {% endfor %}
+</div>

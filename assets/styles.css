@@ -1,42 +1,38 @@
 :root {
-  /* Global variables */
-
   /* Layout */
     --page-width: 72rem;
 
-  /* Key Colours */
+  /* Colours */
     --colour-background: #141414;
     --colour-secondary: #ff993a;
     --colour-text: color-mix(in srgb, var(--colour-secondary), white 80%);
-    /* --colour-text: #fff0cc; */
     --colour-cw-background: #7c2447;
     --colour-cw-text: #fff0cc;
-
     /* Dark theme - make sure to update this as well if changing the main theme! */
       --colour-background-darkmode: #141414;
-      /* --colour-secondary-darkmode: #ff3888; */
       --colour-secondary-darkmode: #ff993a;
       --colour-text-darkmode: color-mix(in srgb, var(--colour-secondary-darkmode), white 80%);
-      /* --colour-text-darkmode: #fff0cc; */
-      /* Light theme */
-      --colour-background-lightmode: #fff6e0;
-      /* --colour-text-lightmode: #141414;  */
+    /* Light theme */
+      --colour-background-lightmode: #fff6f0;
       --colour-secondary-lightmode: #a90060;
       --colour-text-lightmode: color-mix(in srgb, var(--colour-secondary-lightmode), black 90%);
+    /* Mixed colours */
+      --colour-dark-background: color-mix(in srgb, var(--colour-background), black 20%);
+      --colour-light-background: color-mix(in srgb, var(--colour-background) 98%, var(--colour-text) 2%);
+      --colour-lighter-background: color-mix(in srgb, var(--colour-background), var(--colour-text) 5%);
+      --colour-text-highlight: color-mix(in srgb, var(--colour-background) 85%, var(--colour-text) 15%);
+      --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
 
-  /* Mixed colours */
-    --colour-dark-background: color-mix(in srgb, var(--colour-background), black 20%);
-    --colour-light-background: color-mix(in srgb, var(--colour-background) 98%, var(--colour-text) 2%);
-    --colour-lighter-background: color-mix(in srgb, var(--colour-background), var(--colour-text) 5%);
-    --colour-text-highlight: color-mix(in srgb, var(--colour-background) 85%, var(--colour-text) 15%);
-    --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
-
-  /* Font sizing */
+  /* Typography */
+    --family-sans: 'Inter', sans-serif;
+    --family-serif: 'Georgia', serif;
+    --family-code: 'Fira Code', monospace;
     --text-small: 14pt;
     --text-medium: 16pt;
     --text-large: 24pt;
 
-  --sig-symbol: ' :';
+  /* Misc */
+    --sig-symbol: ' :';
 
   /* Pagefind search bar styles */
     --pagefind-ui-scale: 0.8;
@@ -94,7 +90,7 @@
 
 /* Fonts */
 @font-face {
-  font-family: "Fira Code", monospace;
+  font-family: var(--family-code);
   src: url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap') format("truetype");
   font-optical-sizing: auto;
 }
@@ -102,10 +98,6 @@
 /* General styling */
 * {
   color: var(--colour-text);
-  font-family: 'Inter', sans-serif;
-  /* Not sure why, but the font doesn't seem to _actually_ import with a font-weight of 300, so we're declaring it here. */
-  font-weight: 300;
-  line-height: 1.6;
 }
 /* Helpers */
 
@@ -134,6 +126,9 @@
 }
 
 body {
+  font-family: var(--family-sans);
+  font-weight: 300;
+  line-height: 1.6;
   background-color: var(--colour-background);
   min-height: 100vh;
   display: flex;
@@ -142,6 +137,16 @@ body {
   max-width: var(--page-width);
   margin: auto;
   padding: 0 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  line-height: 1.6;
 }
 
 a {
@@ -168,12 +173,10 @@ article:not(.homepage-excerpt) a {
 
 #monogram {
   display: inline-block;
-  /* margin-right: 1rem; */
   width: 24px;
   height: 24px;
-  /* vertical-align: middle; */
   border: 2px solid var(--colour-secondary);
-  /* border-radius: 16px; */
+  border-radius: 3px;
   rotate: 45deg;
   margin-right: 1rem;
   margin-left: 4px;
@@ -182,7 +185,6 @@ article:not(.homepage-excerpt) a {
 .name::after {
   content: var(--sig-symbol);
 }
-
 
 /* Pagefind search box */
 #search {
@@ -227,7 +229,7 @@ main {
   border: var(--colour-text);
 }
 
-main * {
+main > * {
   background-color: var(--colour-light-background);
 }
 
@@ -241,7 +243,7 @@ main * {
 }
 
 .faded {
-  opacity: 0.6;
+  opacity: 0.69;
 }
 
 .date {
@@ -262,7 +264,7 @@ main * {
   width: 100%;
   vertical-align: middle;
   height: auto;
-  filter: sepia(1);
+  /* filter: sepia(1); */
 }
 
 article img:not(.banner > img, .cool-links img) {
@@ -348,14 +350,6 @@ select, select option {
   height: 2rem;
 } 
 
-/* 
-.homepage-excerpt-container div:nth-child(2)::after {
-  content: '[...]';
-  margin: 0.5rem 0;
-  display: block;
-} 
-*/
-
 .homepage-excerpt h3 {
   margin: 0 0 1rem 0;
 }
@@ -390,9 +384,6 @@ select, select option {
   line-height: 54px;
 }
 
-/* .directory .date {
-  margin-left: 2.4rem;
-} */
 .directory-card {
   display: flex;
   align-items: baseline;
@@ -573,7 +564,6 @@ header nav {
 /* The little guy at the bottom of the sidebar. Currently hidden on mobile */
 #sidebar-character {
   display: flex;
-  /* margin-top: auto; */
   overflow: hidden;
   max-width: 100px;
   height: 100px;
@@ -594,7 +584,6 @@ header nav {
 
 .margin-bar {
   background-color: var(--colour-text-highlight);
-  /* width: 4px; */
   min-width: 4px;
   margin: 0 1rem 0 0;
   border-radius: 4px;
@@ -625,9 +614,8 @@ a {
 
 .icon {
   align-items: center;
-  font-family: 'Fira Code', monospace !important;
+  font-family: var(--family-code) !important;
   display: inline-flex;
-  /* font-size: 24px; */
   height: 24px;
   justify-content: center;
   line-height: 0;
@@ -645,7 +633,15 @@ a {
   color: var(--colour-secondary);
   font-size: 2.5rem;
   font-family: monospace !important;
+  transition: ease-out 400ms;
 }
+.rotated {
+  rotate: 540deg;
+}
+.hueshift {
+  filter: hue-rotate(295deg);
+}
+
 .icon-lightbulb {
   display: inline-block;
   width: 1em;
@@ -698,12 +694,77 @@ footer #theme-select-container {
 
 a.external:not(a:has(img)):after {
   content: '↗';
-  font-family: 'Fira Code', monospace;
+  font-family: var(--family-code);
   color: var(--colour-text);
   padding-left: 2px;
   font-size: 10pt;
   vertical-align: top;
   opacity: 0.4;
+}
+
+/* Grid! */
+.grid {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  align-items: center;
+}
+@media screen and (max-width: 749px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+.grid-item {
+  background-color: var(--colour-lighter-background);
+  border: 1px solid var(--colour-text-faded);
+  border-radius: 4px;
+  height: auto;
+  box-shadow: 0px 4px 8px var(--colour-dark-background);
+  padding: 1rem;
+}
+.grid-item h2 {
+  color: var(--colour-secondary);
+  margin-bottom: 0;
+}
+.grid-item h2:hover {
+  text-decoration: underline;
+}
+.grid-item:hover {
+  background-color: 
+  color-mix(
+    in srgb, 
+    var(--colour-lighter-background), 
+    var(--colour-text) 
+    2%
+  );
+  translate: 0 -3px;
+  transition: ease-out 200ms;
+}
+.grid-item a:hover {
+  text-decoration: none;
+}
+.grid-item__media {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  align-content: center;
+  display: grid;
+  border-radius: 8px;
+}
+.grid-item__information {
+  height: 100%;
+}
+.grid-item__information > p {
+  font-size: calc(var(--text-small) - 4pt);
+  margin: 0.4rem 0;
+}
+.grid-item__worktype {
+  font-family: var(--family-code);
+}
+.grid-item img {
+  width: 100%;
+  height: auto;
 }
 
 /* Content Warnings */
@@ -794,7 +855,7 @@ code {
   padding: 0 4px;
   /* border-radius: 4px; */
   background-color: var(--colour-text-highlight);
-  font-family: "Fira Code", monospace;
+  font-family: var(--family-code);
   font-optical-sizing: auto;
   font-weight: 300;
 }
@@ -826,9 +887,17 @@ header {
   justify-content: space-between;
 }
 
-header h1 a {
-  font-weight: 100;
+header h1 a:hover {
   text-decoration: none;
+}
+header h1 a .name {
+  border-bottom: 0px solid var(--colour-secondary);
+  border-radius: 1px;
+  transition: 80ms;
+}
+header h1 a .name:hover {
+  border-bottom: 3px solid var(--colour-secondary);
+  border-radius: 1px;
 }
 
 /* Tag list that appears at the bottom of a post */
@@ -932,6 +1001,15 @@ textarea:focus {
   outline: none;
   box-shadow: 0 0 0 3px var(--colour-secondary);
   transition: box-shadow 0.1s ease;
+}
+
+a:focus-visible, 
+button:focus-visible {
+  outline: 3px solid var(--colour-secondary);
+  outline-offset: 3px;
+  border-radius: 3px;
+  transition: outline 50ms ease;
+  z-index: 1;
 }
 
 #eggbug-bye {
