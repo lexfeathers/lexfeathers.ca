@@ -3,7 +3,7 @@ title: about
 description: Composer and sound designer who loves building websites
 image: /uploads/lex_autumn.jpg
 image_caption: 
-order: 3
+order: 4
 draft: false
 ---
 <h1>Lex Feathers <span class="faded">(she/her)</span></h1>

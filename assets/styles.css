@@ -781,9 +781,19 @@ a.external:not(a:has(img)):after {
   font-size: calc(var(--text-small) - 4pt);
   margin: 0.4rem 0;
 }
-/* .grid-item__client {
-  text-decoration: underline;
-} */
+.grid-item__client {
+  padding-bottom: .5rem;
+  margin-bottom: .5rem;
+  border-bottom: 1px solid var(--colour-text-faded);
+}
+.grid-item__client .icon {
+  border: 1px solid var(--colour-text-faded);
+  border-radius: 4px;
+  /* background-color: var(--colour-background); */
+  box-shadow: inset 0px 4px 2px var(--colour-dark-background);
+  margin-right: .25rem;
+  padding: 1px;
+}
 .grid-item__worktype {
   font-family: var(--family-code);
   font-size: calc(var(--text-small) * 0.8);

@@ -1,5 +1,5 @@
 ---
-title: From The Garden (concert film)
+title: From The Garden
 author: Waxlimbs
 published: Jan 12, 2024
 status: released
