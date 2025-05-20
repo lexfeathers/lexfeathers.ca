@@ -2,13 +2,18 @@
 layout: /layout.njk
 ---
 <div data-pagefind-ignore>
-  <a href="/pages/directory" alt="Back to directory" class="button"><- directory</a>
+  <a href="/pages/projects" alt="Back to projects" class="button"><- projects</a>
   <h1>{{ title }}</h1>
   <hr class="faded">
 
   {% if author %}
     <h3 class="faded author">
-      <span aria-hidden="true" class="icon">&#9993;</span> {{ author }}<span class="faded date">{{ published | date('HUMAN_DATE') }}</span>
+      <span aria-hidden="true" class="icon">&#9733;</span> <span>{{ author }}</span> / 
+      {% if published %}
+        <span class="faded">release date: {{ published | date('HUMAN_DATE') }}</span>
+      {% else %}
+        <span class="faded">status: {{ status }}</span>
+      {% endif %}
     </h3>
   {% endif %}
 </div>

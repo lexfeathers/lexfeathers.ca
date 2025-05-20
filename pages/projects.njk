@@ -1,12 +1,12 @@
 ---
 title: projects
 order: 2
-draft: true
+draft: false
 ---
 {% set portfolio = search.pages("type=projects draft=false", "published=desc") %}
 
 <div class="grid">
-    {% for item in portfolio %}
+    {% asyncEach item in portfolio %}
         {% include "/templates/grid-item.njk" %}
-    {% endfor %}
+    {% endeach %}
 </div>

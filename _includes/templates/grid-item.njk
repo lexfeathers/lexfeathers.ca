@@ -6,15 +6,17 @@ layout: /layout.njk
         <div class="grid-item__information">
             <div class="grid-item__media">
                 <img 
-                    src="{{ item.image }}" 
+                    src="{{ item.thumbnail }}" 
                     alt="{{ item.title }}" 
                     title="{{ item.title }}" 
                     class="item-photo"
                 >
             </div>
-            <h2>{{ item.title }}</h2>
-            <p class="grid-item__client text-small">{{ item.author }}</p>
-            <p class="grid-item__worktype">{{ item.work_type }}</p>
+            <div class="grid-item__details">
+                <h3>{{ item.title }}</h3>
+                <span class="grid-item__client text-small"><span aria-hidden="true" class="icon faded">&#9733;</span> {{ item.author }}</span><br>
+                <span class="grid-item__worktype">{{ item.work_type }}</span>
+            </div>
         </div>
     </a>
 </div>
