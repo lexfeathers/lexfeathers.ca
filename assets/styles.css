@@ -645,7 +645,7 @@ a {
 }
 .hueshift {
   /* filter: hue-rotate(295deg); */
-  filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(290deg);
+  filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(295deg);
 }
 .banner > img {
   transition: ease-out .75s;
