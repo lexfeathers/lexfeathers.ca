@@ -17,3 +17,11 @@ work_type: Music, Sound Design
 > <cite><a href="https://revertices.com/">- revertices.com</a></cite>
 
 I've had the pleasure of scoring the game while also handling key sound design and implementation via FMOD. Check out the trailer below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I0DO1vfHih4?si=dBmFiACQfiVVldxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Revertices is currently mid-development and will be released on Windows through Steam and Itch.io
+
+Wishlist Revertices:
+- [Steam](https://store.steampowered.com/app/3236560/Revertices/)
+- [Itch.io](https://fuzzyvoidco.itch.io/revertices)

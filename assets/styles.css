@@ -1049,6 +1049,16 @@ iframe[title="YouTube video player"] {
   border-radius: 4px;
 }
 
+.stylish-summary {
+  font-size: 20pt;
+  background-color: var(--colour-lighter-background);
+  color: var(--colour-secondary);
+  box-shadow: 0px 6px 4px var(--colour-background) !important;
+  border: 2px solid var(--colour-secondary);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
 /* Mobile styling */
 @media screen and (max-width:749px) {
   body {
