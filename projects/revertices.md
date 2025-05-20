@@ -7,6 +7,8 @@ excerpt: A game where you fight as fucked up little shape guys.
 draft: false
 thumbnail: /uploads/revertices-verticalcapsule.webp
 image: /uploads/revertices-verticalcapsule.webp
+image_caption: Revertices
+image_alt:
 video_link: https://www.youtube.com/watch?v=I0DO1vfHih4
 work_type: Music, Sound Design
 ---
