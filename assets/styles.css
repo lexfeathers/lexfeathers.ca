@@ -1130,6 +1130,10 @@ iframe[title="YouTube video player"] {
     max-width: none !important;
   }
 
+  blockquote {
+    font-size: var(--text-medium);
+  }
+
   .right {
     float: right;
     margin-left: 1rem !important;
