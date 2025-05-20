@@ -48,39 +48,4 @@ layout: /layout.njk
   {% endif %}
 
   {{ content | safe }}
-
-  {# Loop through tags and display them inline, if there are any #}
-  {% if tags %}
-    <div class="tags">
-      <h3>Tags:</h3>
-      <ul class="taglist">
-        {% for tag in tags %}
-          <li><a href="../../tag/{{tag}}">{{ tag }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
-
-  <br>
-
-  <!-- Comments -->
-  {% if comments == true %}
-    <script 
-      src="https://giscus.app/client.js"
-      data-repo="lexfeathers/lexfeathers.ca"
-      data-repo-id="R_kgDOMyvSzw"
-      data-category="General"
-      data-category-id="DIC_kwDOMyvSz84CkL45"
-      data-mapping="url"
-      data-strict="0"
-      data-reactions-enabled="0"
-      data-emit-metadata="0"
-      data-input-position="top"
-      data-theme="noborder_gray"
-      data-lang="en"
-      data-loading="lazy"
-      crossorigin="anonymous"
-      async>
-    </script>
-  {% endif %}
 </article>

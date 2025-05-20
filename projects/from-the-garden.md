@@ -14,10 +14,10 @@ work_type: Music, Video Editing
 ---
 In July 2023, my band Waxlimbs gathered some of our closest friends into our rehearsal space for an intimate concert recording. This feature-length film is the result. I handled all of the mixing, mastering, and video editing.
 
-Director / DP: Zach Silverstein
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Vdv_kSk1kPk?si=KDVEBpdWS1ZdM1Xl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-B Camera: Joshua James MacDonald
-
-Live engineer / recordist: Julia Little
-
-Mixing, mastering, video editing: Lex Feathers
+Credits:
+- Director / DP: Zach Silverstein
+- B Camera: Joshua James MacDonald
+- Live engineer / recordist: Julia Little
+- Mixing, mastering, video editing: Lex Feathers

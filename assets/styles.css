@@ -167,6 +167,11 @@ article:not(.homepage-excerpt) a {
   -webkit-text-fill-color: var(--colour-background);
 }
 
+blockquote {
+  font-style: italic;
+  font-size: var(--text-large);
+  font-family: var(--family-serif);
+}
 .name {
   color: var(--colour-secondary);
 }

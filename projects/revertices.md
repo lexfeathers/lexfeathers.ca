@@ -12,4 +12,8 @@ image_alt:
 video_link: https://www.youtube.com/watch?v=I0DO1vfHih4
 work_type: Music, Sound Design
 ---
-This is some content about Revertices!
+> Revertices is a 2D sidescrolling action combat game where you must choose a lone survivor! However, the chosen must fight the corrupted remains of their two beloved friends. You will witness different facets of the story, gameplay, and character relationships in each route.
+>
+> <cite><a href="https://revertices.com/">- revertices.com</a></cite>
+
+I've had the pleasure of scoring the game while also handling key sound design and implementation via FMOD. Check out the trailer below:
