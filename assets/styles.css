@@ -732,6 +732,7 @@ a.external:not(a:has(img)):after {
   box-shadow: 0px 4px 8px var(--colour-dark-background);
   padding: 1rem;
   align-self: stretch;
+  transition: ease-out 200ms;
 }
 .grid-item h3 {
   color: var(--colour-secondary);
@@ -758,7 +759,6 @@ a.external:not(a:has(img)):after {
     2%
   );
   translate: 0 -3px;
-  transition: ease-out 200ms;
 }
 .grid-item a:hover {
   text-decoration: none;
