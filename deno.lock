@@ -86,7 +86,6 @@
     "jsr:@std/yaml@^1.0.5": "1.0.6",
     "npm:@js-temporal/polyfill@0.4.4": "0.4.4",
     "npm:@types/estree@1.0.6": "1.0.6",
-    "npm:@types/nunjucks@3.2.6": "3.2.6",
     "npm:date-fns@4.1.0": "4.1.0",
     "npm:estree-walker@3.0.3": "3.0.3",
     "npm:highlight.js@11.11.1": "11.11.1",
