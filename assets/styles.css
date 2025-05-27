@@ -72,8 +72,6 @@
     --colour-background: var(--colour-background-lightmode);
     --colour-text: var(--colour-text-lightmode);
     --colour-secondary: var(--colour-secondary-lightmode);
-    /* transition: .2s; */
-
     background-color: var(--colour-background);
     color: var(--colour-text);
     font-weight: 600;
@@ -84,7 +82,6 @@
     --colour-background: var(--colour-background-darkmode);
     --colour-text: var(--colour-text-darkmode);
     --colour-secondary: var(--colour-secondary-darkmode);
-    /* transition: .2s; */
   }
 /* End theme selector */
 
@@ -404,6 +401,7 @@ select, select option {
   border: 1px solid var(--colour-background);
   flex-grow: 1  ;
   border: 1px solid var(--colour-text-faded);
+  transition: 100ms;
 }
 .directory-card div:hover {
   background-color: color-mix(
@@ -411,7 +409,6 @@ select, select option {
     var(--colour-lighter-background) 85%, 
     var(--colour-text-faded) 15%
   );
-  transition: 50ms;
 }
 .directory-card a, .directory-card .date {
   background-color: inherit;
@@ -1015,12 +1012,13 @@ footer a {
   /* width: 178px;
   height: 62px; */
 }
-
+.cool-links a {
+  transition: 0.2s;
+}
 .cool-links a:hover {
   border-bottom: 4px solid var(--colour-secondary);
   opacity: 0.9;
   text-decoration: none;
-  transition: 0.2s;
 }
 
 textarea, input {
