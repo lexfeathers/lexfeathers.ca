@@ -393,20 +393,19 @@ select, select option {
 
 .directory-card div {
   display: inline-flex;
+  flex-grow: 1;
+  margin: 0.5rem 1rem;
   padding: 1rem;
   background-color: var(--colour-lighter-background);
-  margin: 0.5rem 1rem;
+  border: 1px solid var(--colour-text-faded);
   border-radius: 8px;
   box-shadow: 0px 4px 8px var(--colour-background);
-  border: 1px solid var(--colour-background);
-  flex-grow: 1  ;
-  border: 1px solid var(--colour-text-faded);
-  transition: 100ms;
+  transition: 140ms;
 }
 .directory-card div:hover {
   background-color: color-mix(
     in hsl, 
-    var(--colour-lighter-background) 85%, 
+    var(--colour-lighter-background), 
     var(--colour-text-faded) 15%
   );
 }
