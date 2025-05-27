@@ -24,6 +24,7 @@ I've been making music for over 14 years, and have been working in games as both
 - [My portfolio website](https://portfolio.lexfeathers.ca)
 - [Bsky](https://bsky.app/profile/lexfeathers.ca)
 - [Mastodon](https://tenforward.social/@lexfeathers)
+- [My tiny fallback website](https://tiny.lexfeathers.ca 'A single-page HTML doc for the days I get hung up on trying to fix my SSG setup')
 
 <style>
   figure {
