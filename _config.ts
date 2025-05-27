@@ -99,7 +99,7 @@ site.use(feed({
     lang: "en",
     image: "=image", // The image of the item
     authorName: "=author",
-    authorUrl: site.location,
+    authorUrl: "location",
   },
 }));
 // site.use(picture());
