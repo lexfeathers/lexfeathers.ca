@@ -29,7 +29,7 @@ This started as a really modest exploration of a patch I was testing [over on Bl
 
 This tune is almost entirely Osmose[^2], save for a sine sub-bass, the drums, and some electic guitar. I don't typically find myself making such pop-structured or driven music with my Osmose, and this has totally swept me off my feet. 
 
-As you can imagine, this machine is really good for anything "cinematic" or wispy, where you have layers of gestural voices that aren't going to interfere with each other too much. I often use it for things like [bell leads](posts/firestorm-in-evening-demo/), or string instruments because of the control I have over things like vibrato or slides. This song is the first piece in a while where I've felt like I had a really solid handle on doing _almost everything_ with this synth, and not having the production feel out of control or like it was going off the rails. 
+As you can imagine, this machine is really good for anything "cinematic" or wispy, where you have layers of gestural voices that aren't going to interfere with each other too much. I often use it for things like [bell leads](../../posts/firestorm-in-evening-demo/), or string instruments because of the control I have over things like vibrato or slides. This song is the first piece in a while where I've felt like I had a really solid handle on doing _almost everything_ with this synth, and not having the production feel out of control or like it was going off the rails. 
 
 I'm once again excited about the possibilities this machine is giving me. My brain feels hooked on it right now, and I'm starting to think less "film score" and more "songy-song" with it. 
 
