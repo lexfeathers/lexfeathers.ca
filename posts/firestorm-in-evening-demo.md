@@ -1,5 +1,5 @@
 ---
-title: Firestorm in Evening (demo)
+title: Firestorm in Evening (song demo)
 author: Lex Feathers
 draft: false
 comments: true
