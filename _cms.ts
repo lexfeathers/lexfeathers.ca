@@ -17,6 +17,7 @@ const formattedDate = humanDate.toISOString().split('T')[0].replace(/-/g, '-');
 
 // Create the cms instance
 const cms = lumeCMS({
+  basePath: "/admin",
   site: {
     name: "Lex Feathers",
     url: "https://lexfeathers.ca",
