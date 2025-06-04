@@ -4,8 +4,8 @@ import { Octokit } from "npm:octokit";
 // import _fields from "lume/cms/fields/core.ts";
 
 // Create authentication environment variables
-const username = Deno.env.get("USERNAME");
-const password = Deno.env.get("PASSWORD");
+const username = Deno.env.get("USERNAME") || "admin";
+const password = Deno.env.get("PASSWORD") || "default";
 
 // Set site time zone
 // Timezone codes can be found at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
