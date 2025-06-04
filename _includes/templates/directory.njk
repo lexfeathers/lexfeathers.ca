@@ -76,7 +76,11 @@
 {# Styling for the directory and NOWHERE ELSE #}
 <style>
   .directory-card {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1rem 0 !important;
+    width: 100%;
+  }
+  .directory-card:last-child {
+    margin: 0;
   }
   .directory-card>div {
     margin: 0;
@@ -86,6 +90,9 @@
   }
   .card-image {
     width: 320px;
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
     height: auto;
     background-color: var(--colour-lighter-background);
   }
