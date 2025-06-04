@@ -13,11 +13,13 @@ import codeHighlight from "lume/plugins/code_highlight.ts";
 // import picture from "lume/plugins/picture.ts";
 // import transformImages from "lume/plugins/transform_images.ts";
 import googleFonts from "lume/plugins/google_fonts.ts";
+import { alert } from "npm:@mdit/plugin-alert@0.8.0";
  
 // Pass options to markdown-it plugins
 const markdown = {
   plugins: [
     footnote,
+    alert,
     [implicitFigures, {
       lazy: true,
       async: true,
