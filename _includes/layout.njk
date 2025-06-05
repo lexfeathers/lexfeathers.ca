@@ -15,6 +15,10 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Load main scripts file -->
+		<script src="/assets/scripts.js"></script>
+		<!-- Load wavebeem theme selector script -->
+		<script type="module" src="/assets/scripts/wavebeem-theme-select.mjs"></script>
 	</head>
 
 	<body>
@@ -45,9 +49,33 @@
 			{% include "templates/footer.njk" %}
 		</div>
 
-		<!-- Load main scripts file -->
-		<script src="/assets/scripts.js"></script>
-		<!-- Load wavebeem theme selector script -->
-		<script type="module" src="/assets/scripts/wavebeem-theme-select.mjs"></script>
+		<!-- Set Alert icons -->
+		<script>
+			// Note icon
+			const noteMarker = document.querySelectorAll('.markdown-alert-note .markdown-alert-title');
+			noteMarker.forEach(marker => {
+				marker.style.setProperty("--note-img", `url('{{ "journal-bookmark" | icon("bootstrap") }}')`)
+			});
+			// Tip icon
+			const tipMarker = document.querySelectorAll('.markdown-alert-tip .markdown-alert-title');
+			tipMarker.forEach(marker => {
+				marker.style.setProperty("--tip-img", `url('{{ "lightbulb" | icon("bootstrap") }}')`)
+			});
+			// Important icon
+			const importantMarker = document.querySelectorAll('.markdown-alert-important .markdown-alert-title');
+			importantMarker.forEach(marker => {
+				marker.style.setProperty("--important-img", `url('{{ "bell" | icon("bootstrap") }}')`)
+			});
+			// Caution icon
+			const cautionMarker = document.querySelectorAll('.markdown-alert-caution .markdown-alert-title');
+			cautionMarker.forEach(marker => {
+				marker.style.setProperty("--caution-img", `url('{{ "exclamation-triangle" | icon("bootstrap") }}')`)
+			});
+			// Warning icon
+			const warningMarker = document.querySelectorAll('.markdown-alert-warning .markdown-alert-title');
+			warningMarker.forEach(marker => {
+				marker.style.setProperty("--warning-img", `url('{{ "skull" | icon("phosphor") }}')`)
+			});
+		</script>
 	</body>
 </html>
