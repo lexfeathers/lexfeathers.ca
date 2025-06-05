@@ -1,6 +1,7 @@
 :root {
   /* Layout */
     --page-width: 72rem;
+    --radius: 4px;
 
   /* Colours */
     --colour-background: #141414;
@@ -148,11 +149,11 @@ h6 {
 
 a {
   text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
-a:hover {
-  text-decoration: underline;
-}
 
 article:not(.homepage-excerpt) a {
   text-decoration: underline;
@@ -169,8 +170,92 @@ blockquote {
   font-size: var(--text-large);
   font-family: var(--family-serif);
 }
+
+/* Markdown Alerts */
+.markdown-alert {
+  padding: .5rem 1rem;
+  background-color: color-mix(in srgb, var(--colour-secondary), var(--colour-lighter-background) 90%) !important;
+  border: 1px solid var(--colour-secondary);
+  border-left: 4px solid var(--colour-secondary);
+  border-radius: 0 var(--radius) var(--radius) var(--radius);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+  color: var(--colour-text) !important;
+  margin: 1rem 0;
+  & .markdown-alert-title {
+    color: var(--colour-secondary);
+    font-size: var(--text-small);
+    font-weight: normal;
+    margin-top: 1rem;
+    padding-bottom: .5rem;
+    &::before {
+      padding: 1rem;
+      margin-right: .5rem;
+      content: '!';
+    }
+  }
+  &.markdown-alert-note {
+    --colour-secondary: #0082c7;
+    & .markdown-alert-title::before {
+      content: '';
+      background-color: var(--colour-secondary);
+      mask: var(--note-img);
+      mask-repeat: no-repeat;
+      mask-position: center;
+      mask-size: contain;
+    }
+  }
+  &.markdown-alert-tip {
+    --colour-secondary: #00a000;
+    & .markdown-alert-title::before {
+      content: '';
+      background-color: var(--colour-secondary);
+      mask: var(--tip-img);
+      mask-repeat: no-repeat;
+      mask-position: center;
+      mask-size: contain;
+    }
+  }
+  &.markdown-alert-important {
+    --colour-secondary: magenta;
+    & .markdown-alert-title::before {
+      content: '';
+      background-color: var(--colour-secondary);
+      mask: var(--important-img);
+      mask-repeat: no-repeat;
+      mask-position: center;
+      mask-size: contain;
+    }
+  }
+  &.markdown-alert-caution {
+    --colour-secondary: #cc8500;
+    & .markdown-alert-title::before {
+      content: '';
+      background-color: var(--colour-secondary);
+      mask: var(--caution-img);
+      mask-repeat: no-repeat;
+      mask-position: center;
+      mask-size: contain;
+    }
+  }
+  &.markdown-alert-warning {
+    --colour-secondary: red;
+    & .markdown-alert-title::before {
+      content: '';
+      background-color: var(--colour-secondary);
+      mask: var(--warning-img);
+      mask-repeat: no-repeat;
+      mask-position: center;
+      mask-size: contain;
+    }
+  }
+}
+/* End Markdown Alerts */
+
 .name {
   color: var(--colour-secondary);
+  &::after {
+    content: var(--sig-symbol);
+  }
 }
 
 #monogram {
@@ -184,42 +269,34 @@ blockquote {
   margin-left: 4px;
 }
 
-.name::after {
-  content: var(--sig-symbol);
-}
-
 /* Pagefind search box */
 #search {
   margin-top: 2rem;
 }
-
 .pagefind-ui__search-input,
 .pagefind-ui__result-title {
   font-weight: 300 !important;
   background-color: var(--colour-light-background);
 }
-
 .pagefind-ui__result {
   background-color: var(--colour-background);
   border: var(--pagefind-ui-border-width) solid var(--colour-text-faded) !important;
   border-radius: 4px;
   margin: 1rem 0;
 }
-
 .pagefind-ui__result-inner {
   margin: auto 2rem;
 }
-
 .pagefind-ui__result-image {
   padding: 0.25rem;
   margin: auto 1.5rem;
 }
-
 .pagefind-ui__result mark {
   background-color: var(--colour-text-highlight);
   color: var(--colour-text);
   padding: 2px;
 }
+/* Pagefind end */
 
 /* This is where the page content and the sidebar go. */
 main {
