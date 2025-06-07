@@ -4,6 +4,7 @@
     --radius: 4px;
 
   /* Colours */
+    color-scheme: light dark;
     --colour-background: #141414;
     --colour-secondary: #ff993a;
     --colour-text: color-mix(in srgb, var(--colour-secondary), white 80%);
