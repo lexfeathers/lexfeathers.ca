@@ -164,6 +164,11 @@ article:not(.homepage-excerpt) a {
   color: var(--colour-background);
   -webkit-text-fill-color: var(--colour-background);
 }
+mark {
+  background-color: var(--colour-secondary);
+  color: var(--colour-background);
+  font-weight: 600 !important;
+}
 
 blockquote {
   font-style: italic;
