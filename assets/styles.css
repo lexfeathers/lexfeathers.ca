@@ -155,17 +155,9 @@ a {
   }
 }
 
-
 article:not(.homepage-excerpt) a {
   text-decoration: underline;
 }
-
-/* article.post > p:first::first-letter {
-  background-color: var(--colour-secondary) !important;
-  color: var(--colour-light-background) !important;
-  padding: 3px;
-  font-size: var(--text-large);
-} */
 
 ::selection {
   background: var(--colour-secondary);
@@ -1029,7 +1021,7 @@ div.tags {
 }
 
 ul.taglist {
-  padding-left: 2rem;
+  padding-left: 0px;
   list-style: none;
   margin-bottom: 0;
 }
