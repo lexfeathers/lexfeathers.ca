@@ -17,7 +17,7 @@ body main .comentario-root.comentario-root {
     }
     :root[data-theme="light"] {
 		--cmntr-bg-shade: var(--colour-background-lightmode);
-		--cmntr-muted-color: color-mix(in srgb, var(--colour-background-lightmode) 60%, var(--colour-text) 40%);
+		--cmntr-muted-color: color-mix(in srgb, var(--colour-text-lightmode) 60%, var(--colour-background-lightmode) 40%);
     }
     :root[data-theme="dark"] {
 		--cmntr-bg-shade: var(--colour-background-darkmode);  
