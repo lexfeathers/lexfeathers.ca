@@ -50,13 +50,13 @@
     --pagefind-ui-font: 'Fira Code', monospace;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     --colour-background: var(--colour-background-lightmode);
-    --colour-text: var(--colour-text-lightmode);
     --colour-secondary: var(--colour-secondary-lightmode);
+    --colour-text: var(--colour-text-lightmode);
   }
-}
+} */
 
 /* JS Theme selector */
   /* Styles for before the component has loaded */
@@ -75,6 +75,9 @@
     & article.post p {
       font-weight: 350 !important;
     }
+    & audio {
+        filter: hue-rotate(150deg) drop-shadow(0px 6px 8px var(--colour-text));
+    }
   }
   /* Styles when dark mode set by JS */
   :root[data-theme="dark"] {
@@ -86,6 +89,9 @@
     }
     & article.post p {
       font-weight: 300 !important;
+    }
+    & audio {
+        filter: hue-rotate(200deg) contrast(80%) drop-shadow(0px 6px 8px var(--colour-background));
     }
   }
 /* End theme selector */
@@ -365,8 +371,8 @@ audio {
   margin: 2rem auto;
   width: 100%;
   border-radius: 4px;
-  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
-  max-width: 80%;
+  /* filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%); */
+  max-width: 90%;
 }
 
 /* Footnotes */
