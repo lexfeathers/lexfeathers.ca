@@ -4,7 +4,7 @@
 body main .comentario-root.comentario-root {
   /* Remove background behind composer wrapper */
   --cmntr-bg: transparent;
-  --cmntr-card-border: rgb(from var(--color-text-muted) r g b / 0.4);
+  --cmntr-card-border: rgb(from var(--colour-text-faded) r g b / 0.4);
   /* Darkmode */
   --cmntr-bg-shade: var(--colour-background-darkmode);
   
@@ -34,27 +34,27 @@ body main .comentario-root.comentario-root {
   /* Theme-specific: Change color of default button */
   .comentario-btn-tool,
   .comentario-btn-link {
-    --cmntr-btn-hover-color: color-mix(in srgb, white 24%, var(--color-accent));
+    --cmntr-btn-hover-color: color-mix(in srgb, white 24%, var(--colour-secondary));
     --cmntr-btn-active-color: color-mix(
       in srgb,
       black 30%,
-      var(--color-accent)
+      var(--colour-secondary)
     );
   }
   .comentario-btn-link {
-    --cmntr-btn-color: color-mix(in srgb, black 10%, var(--color-accent));
+    --cmntr-btn-color: color-mix(in srgb, black 10%, var(--colour-secondary));
   }
 
   /* Theme-specific: Change color of primary button */
   .comentario-btn-primary {
-    --cmntr-btn-bg: color-mix(in srgb, black 10%, var(--color-accent));
+    --cmntr-btn-bg: color-mix(in srgb, black 10%, var(--colour-secondary));
     --cmntr-btn-hover-bg: color-mix(in srgb, white 24%, var(--cmntr-btn-bg));
     --cmntr-btn-active-bg: color-mix(in srgb, black 30%, var(--cmntr-btn-bg));
   }
 
   /* Theme-specific: Change style of secondary button */
   .comentario-btn-secondary {
-    --cmntr-btn-bg: color-mix(in srgb, black 10%, var(--color-accent));
+    --cmntr-btn-bg: color-mix(in srgb, black 10%, var(--colour-secondary));
     --cmntr-btn-hover-bg: color-mix(in srgb, white 24%, var(--cmntr-btn-bg));
     --cmntr-btn-active-bg: color-mix(in srgb, black 30%, var(--cmntr-btn-bg));
     background-color: transparent;
@@ -186,11 +186,11 @@ body main .comentario-root.comentario-root {
 
   /* Use site link color for "watermark" */
   .comentario-footer {
-    --cmntr-link-color: var(--color-accent);
+    --cmntr-link-color: var(--colour-secondary);
     --cmntr-link-hover-color: color-mix(
       in srgb,
       black 20%,
-      var(--color-accent)
+      var(--colour-secondary)
     );
   }
 
