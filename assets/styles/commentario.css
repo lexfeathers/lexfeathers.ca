@@ -2,6 +2,8 @@
 
 /* Comentario overrides by Damien Erambert */
 body main .comentario-root.comentario-root {
+	/* Set muted text colour */
+	--cmntr-muted-color: var(--colour-text) !important;
 	/* Remove background behind composer wrapper */
 	--cmntr-bg: transparent;
 	--cmntr-card-border: rgb(from var(--colour-text-faded) r g b / 0.4);
@@ -18,14 +20,16 @@ body main .comentario-root.comentario-root {
     :root[data-theme="light"] {
 		--cmntr-bg-shade: var(--colour-background-lightmode);
 		--cmntr-muted-color: color-mix(in srgb, var(--colour-text) 60%, var(--colour-background) 40%);
-		& .comentario-root .comentario-text-muted {
-			color: var(--cmntr-muted-color) !important;
-		}
     }
     :root[data-theme="dark"] {
 		--cmntr-bg-shade: var(--colour-background-darkmode);  
 		--cmntr-muted-color: var(--colour-text);
     }
+
+	/* Unset textarea placeholder */
+	.comentario-add-comment-placeholder {
+		color: unset;
+	}
 
 	/* Theme-specific: Remove background behind `code` element inside code blocks */
 	pre code {
