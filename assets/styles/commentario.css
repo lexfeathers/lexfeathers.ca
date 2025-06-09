@@ -5,11 +5,19 @@ body main .comentario-root.comentario-root {
   /* Remove background behind composer wrapper */
   --cmntr-bg: transparent;
   --cmntr-card-border: rgb(from var(--color-text-muted) r g b / 0.4);
-
+  /* Darkmode */
+  --cmntr-bg-shade: var(--colour-background-darkmode);
+  
   /* Tweak color in light mode */
   @media (prefers-color-scheme: light) {
-    --cmntr-bg-shade: white;
-  }
+      --cmntr-bg-shade: var(--colour-background-lightmode);
+    }
+    :root[data-theme="light"] {
+        --cmntr-bg-shade: var(--colour-background-lightmode);
+    }
+    :root[data-theme="dark"] {
+        --cmntr-bg-shade: var(--colour-background-darkmode);  
+    }
 
   /* Theme-specific: Remove background behind `code` element inside code blocks */
   pre code {
