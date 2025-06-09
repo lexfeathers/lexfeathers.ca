@@ -14,9 +14,9 @@ body main .comentario-root.comentario-root {
   
   /* Set nested border-lefts */
   & div .comentario-border-30 {
-    border-left-color: var(--colour-text-faded) !important;
+    border-left-color: var(--colour-text-highlight) !important;
   }
-  
+
 	/* Unset textarea placeholder */
 	.comentario-add-comment-placeholder {
 		color: unset !important;
