@@ -60,7 +60,9 @@ layout: /layout.njk
 
   <!-- Comments -->
   {% if comments == true %}
-    <script 
+    <script defer src="https://comments.friendsofeggbug.org/comentario.js"></script>
+    <comentario-comments></comentario-comments>
+    {# <script 
       src="https://giscus.app/client.js"
       data-repo="lexfeathers/lexfeathers.ca"
       data-repo-id="R_kgDOMyvSzw"
@@ -76,6 +78,6 @@ layout: /layout.njk
       data-loading="lazy"
       crossorigin="anonymous"
       async>
-    </script>
+    </script> #}
   {% endif %}
 </article>
