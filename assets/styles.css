@@ -58,7 +58,7 @@
   }
 }
 
-/* Theme selector usage */
+/* JS Theme selector */
   /* Styles for before the component has loaded */
   :root,
   /* Styles for after the component has loaded */
@@ -76,7 +76,6 @@
       font-weight: 350 !important;
     }
   }
-
   /* Styles when dark mode set by JS */
   :root[data-theme="dark"] {
     --colour-background: var(--colour-background-darkmode);
