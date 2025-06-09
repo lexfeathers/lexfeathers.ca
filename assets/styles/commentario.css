@@ -12,6 +12,11 @@ body main .comentario-root.comentario-root {
 	/* Darkmode */
 	--cmntr-bg-shade: var(--colour-background-darkmode);
   
+  /* Set nested border-lefts */
+  & div .comentario-border-30 {
+    border-left-color: var(--colour-text-faded) !important;
+  }
+  
 	/* Unset textarea placeholder */
 	.comentario-add-comment-placeholder {
 		color: unset !important;
