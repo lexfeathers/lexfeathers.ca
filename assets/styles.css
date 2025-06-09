@@ -443,18 +443,9 @@ select, select option {
   font-size: var(--text-small);
 }
 
-.homepage-excerpt-container {
+.homepage-featured-container {
   display: flex;
-  flex-direction: row;
-}
-
-.homepage-excerpt-container figure figure>img,
-.homepage-excerpt-container figcaption {
-  display: none;
-}
-
-.homepage-excerpt-content {
-  width: 100%;
+  flex-direction: column;
 }
 
 .read-more span {
@@ -468,56 +459,82 @@ select, select option {
   line-height: 54px;
 }
 
+/* Directory cards */
 .directory-card {
   display: flex;
   align-items: baseline;
+  margin: 0 0 1rem 0;
+  width: 100%;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  & a, 
+  & .date {
+    background-color: inherit;
+    & .icon-letter {
+      margin-left: -3px;
+    }
+  }
 }
-
 .directory-card div {
   display: inline-flex;
   flex-grow: 1;
-  margin: 0.5rem 1rem;
+  margin: 0;
   padding: 1rem;
   background-color: var(--colour-lighter-background);
   border: 1px solid var(--colour-text-faded);
   border-radius: 8px;
   box-shadow: 0px 4px 8px var(--colour-background);
   transition: 140ms;
+  &:hover {
+    background-color: color-mix(
+      in hsl, 
+      var(--colour-lighter-background), 
+      var(--colour-text-faded) 15%
+    );
+  }
+  & a:hover .date {
+    text-decoration: none;
+  }
+  & .directory-card__link {
+    width: 100%;
+    padding-left: 1rem;
+    &:hover {
+      text-decoration: none;
+    }
+    & *:not(.date) {
+      color: inherit;
+      background-color: inherit;
+    }
+    & .card-excerpt {
+      color: var(--colour-text)!important;
+      margin: 1rem 0 0;
+    }
+  }
+  & .card-image__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: auto 0;
+    border-radius: 8px;
+    & .card-image {
+      width: 320px;
+      max-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      height: auto;
+      background-color: var(--colour-lighter-background);
+    }
+  }
 }
-.directory-card div:hover {
-  background-color: color-mix(
-    in hsl, 
-    var(--colour-lighter-background), 
-    var(--colour-text-faded) 15%
-  );
+.card-image__link____noimage {
+  border: 2px solid var(--colour-background);
 }
-.directory-card a, .directory-card .date {
-  background-color: inherit;
-}
-.directory-card div a:hover .date {
-  text-decoration: none;
-}
-.directory-card__link {
-  width: 100%;
-  padding-left: 1rem;
-}
-.directory-card__link:hover {
-  text-decoration: none;
-}
-.directory-card__link *:not(.date) {
-  color: inherit;
-  background-color: inherit;
-}
-.card-image__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 150px;
-  height: 150px;
-  overflow: hidden;
-  margin: auto 0;
-  border-radius: 8px;
-}
+/* End directory */
+
 .fundivs-container {
   display: flex;
   flex-direction: row;
@@ -1187,9 +1204,9 @@ iframe[title="YouTube video player"] {
     border-radius: 8px;
     overflow: hidden;
     flex-direction: column;
-  }
-  .directory-card__link {
-    padding: 1rem 0;
+    & .directory-card__link {
+      padding: 1rem 0;
+    }
   }
   .card-title {
     font-size: 14pt;

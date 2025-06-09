@@ -24,85 +24,22 @@ description: Composer and sound designer who loves building websites
     If you have questions or ideas for the site, please feel free to <a href="/pages/contact" title="contact me">send me an ask :)</a>
   </p>
 
+{# Latest 3 blog posts #}
   <article class="homepage-excerpt">
-    <div class="homepage-latest">
+    <div class="homepage-latest" style="margin-top: 2rem;">
+      
       <h2>Latest posts: <a href="/pages/directory" style="float: right;">View all</a></h2>
-      {# Get the latest 3 posts #}
-      {% set latestPost = search.pages("type=posts draft=false", "published=desc", 3) %}
-      {# Loop through those posts #}
-      {% asyncEach post in latestPost %}
-        <div class="homepage-excerpt-container">
-          <div class="directory-card" transform-images="webp gif 1000@2">
-            <div>
-              <a class="card-image__link{% if post.image == false %} card-image__link____noimage{% endif %}" href="{{ post.url }}">
-                <img 
-                  class="card-image" 
-                  src="{% if post.image %}{{post.image}}{% else %}/assets/images/placeholder.png{% endif %}" 
-                  alt="{% if post.image_caption %}{{post.image_caption}}{% else %}No image{% endif %}"
-                >
-              </a>            
-              <a class="directory-card__link" href="{{ post.url }}">
-                <span>
-                  {{ post.title }}
-                </span><br>
-                  <span aria-hidden="true" class="date excerpt-date faded icon">&#9993;</span> 
-                <span class="date excerpt-date faded">
-                  Posted {% include "/templates/date.njk" %} by {{ post.author }}
-                </span>
-                <figure>
-                  {% ifAsync post.excerpt %}
-                    {{ post.excerpt | safe }}
-                  {% else %}
-                    {{ post.content | safe }}
-                  {% endif %}
-                </figure>
-              </a>
-              {# <a href="{{ post.url }}" class="button read-more">
-                <span style="font-weight:300;">Read&nbsp;more-></span>
-              </a> #}
-            </div>
-          </div>
-        </div>
-      {% endeach %}
+
+      {% set latestPosts = search.pages("type=posts draft=false", "published=desc", 3) %}
+
+      <ul class="directory">
+        {% asyncEach post in latestPosts %}
+          {% include "/templates/directory-card.njk" %}
+        {% endeach %}
+      </ul>
+      
     </div>
   </article>
 </div>
 
 <a class="visually-hidden" aria-hidden="true" rel="me" href="https://tenforward.social/@lexfeathers">Mastodon</a>
-
-<style>
-  .homepage-latest {
-    margin-top: 2rem;
-  }
-  .directory-card {
-    margin: 0 0 1rem 0 !important;
-    width: 100%;
-  }
-  .directory-card:last-child {
-    margin: 0;
-  }
-  .directory-card>div {
-    margin: 0;
-  }
-  .card-image__link____noimage {
-    border: 2px solid var(--colour-background);
-  }
-  .card-image {
-    width: 320px;
-    max-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-    height: auto;
-    background-color: var(--colour-lighter-background);
-  }
-  .card-excerpt {
-    color: var(--colour-text)!important;
-    margin: 1rem 0 0;
-  }
-  .icon-letter {
-    margin-left: -3px;
-  }
-  .button.read-more {
-    align-self: center;
-  }
-</style>

@@ -5,42 +5,7 @@
   {% ifAsync posts %}
     <ul class="directory">
       {% asyncEach post in posts %}
-        <li class="directory-card">
-          <div>
-            <a class="card-image__link{% if post.image == false %} card-image__link____noimage{% endif %}" href="{{ post.url }}">
-              {% if post.image %}
-              <img 
-                class="card-image" 
-                src="{{post.image}}" 
-                alt="{% if post.image_caption %}{{post.image_caption}}{% else %}No caption{% endif %}"
-              >
-              {% else %}
-              <img 
-                transform-images="webp 100@2" 
-                class="card-image" 
-                src="/uploads/placeholder.png" 
-                alt="{% if post.image_caption %}{{post.image_caption}}{% else %}No caption{% endif %}"
-              >
-              {% endif %}
-            </a>
-            <a class="directory-card__link" href="{{ post.url }}">
-              <span class="card-title">
-                {{ post.title }}
-              </span><br>
-              <span class="faded date">
-                <span aria-hidden="true" class="icon icon-letter">&#9993;</span> {% include "/templates/date.njk" %}
-              </span>
-              <br>
-              <figure class="card-excerpt">
-                {% ifAsync post.excerpt %}
-                  {{ post.excerpt | safe }}
-                {% else %}
-                  {{ post.content | safe }}
-                {% endif %}
-              </figure>              
-            </a>  
-          </div>
-        </li>
+        {% include "/templates/directory-card.njk" %}
       {% endeach %}
     </ul>
   {% else %}
@@ -72,35 +37,3 @@
     </ul>
   </nav>
 </div> #}
-
-{# Styling for the directory and NOWHERE ELSE #}
-<style>
-  .directory-card {
-    margin: 0 0 1rem 0 !important;
-    width: 100%;
-  }
-  .directory-card:last-child {
-    margin: 0;
-  }
-  .directory-card>div {
-    margin: 0;
-  }
-  .card-image__link____noimage {
-    border: 2px solid var(--colour-background);
-  }
-  .card-image {
-    width: 320px;
-    max-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-    height: auto;
-    background-color: var(--colour-lighter-background);
-  }
-  .card-excerpt {
-    color: var(--colour-text)!important;
-    margin: 1rem 0 0;
-  }
-  .icon-letter {
-    margin-left: -3px;
-  }
-</style>
