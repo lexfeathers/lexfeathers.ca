@@ -11,9 +11,13 @@ body main .comentario-root.comentario-root {
 	/* Remove background behind composer wrapper */
 	--cmntr-bg: transparent;
 	--cmntr-card-border: rgb(from var(--colour-text-faded) r g b / 0.4);
-	/* Darkmode */
-	--cmntr-bg-shade: var(--colour-background-darkmode);
-  
+	/* Set textarea background colour */
+	--cmntr-bg-shade: var(--colour-background);
+  /* Set button text colour */
+  & .comentario-btn-primary {
+    --cmntr-btn-color: var(--colour-background);
+  }
+
   /* Set nested border-lefts */
   & div .comentario-border-30 {
     border-left-color: var(--colour-text-highlight) !important;
@@ -28,19 +32,17 @@ body main .comentario-root.comentario-root {
   }
 
 	/* Tweak color in light mode */
-	@media (prefers-color-scheme: light) {
-		--cmntr-bg-shade: var(--colour-background-lightmode);
-        .comentario-root .comentario-text-muted {
-            color:var(--colour-text-faded)!important
-        }      
+    @media (prefers-color-scheme: light) {
+      --cmntr-bg-shade: var(--colour-background-lightmode);
+      .comentario-root .comentario-text-muted {
+          color:var(--colour-text-faded)!important
+      }      
     }
     :root[data-theme="light"] {
-		--cmntr-bg-shade: var(--colour-background-lightmode);
-		--cmntr-muted-color: color-mix(in srgb, var(--colour-text) 60%, var(--colour-background) 40%);
+      --cmntr-muted-color: color-mix(in srgb, var(--colour-text) 60%, var(--colour-background) 40%);
     }
     :root[data-theme="dark"] {
-		--cmntr-bg-shade: var(--colour-background-darkmode);  
-		--cmntr-muted-color: var(--colour-text);
+      --cmntr-muted-color: var(--colour-text);
     }
 
 	/* Theme-specific: Remove background behind `code` element inside code blocks */
