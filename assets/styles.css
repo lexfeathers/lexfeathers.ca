@@ -638,7 +638,7 @@ header nav {
   max-width: calc(100% - calc(1rem + 4px));
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: "...";
+  text-overflow: ellipsis;
 }
 
 #sidebar a {
