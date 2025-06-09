@@ -17,11 +17,14 @@ body main .comentario-root.comentario-root {
     }
     :root[data-theme="light"] {
 		--cmntr-bg-shade: var(--colour-background-lightmode);
-		--cmntr-muted-color: color-mix(in srgb, var(--colour-text-lightmode) 60%, var(--colour-background-lightmode) 40%);
+		--cmntr-muted-color: color-mix(in srgb, var(--colour-text) 60%, var(--colour-background) 40%);
+		& .comentario-root .comentario-text-muted {
+			color: var(--cmntr-muted-color) !important;
+		}
     }
     :root[data-theme="dark"] {
 		--cmntr-bg-shade: var(--colour-background-darkmode);  
-		--cmntr-muted-color: var(--colour-text-faded);
+		--cmntr-muted-color: var(--colour-text);
     }
 
 	/* Theme-specific: Remove background behind `code` element inside code blocks */
