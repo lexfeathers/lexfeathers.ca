@@ -613,6 +613,13 @@ header nav {
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
+  &.post-list li a:focus {
+    box-shadow: inset 0px 0px 0px 3px var(--colour-secondary);
+  }
+}
+#sidebar footer ul li a:focus {
+  box-shadow: inset 0px 0px 0px 3px var(--colour-secondary);
+  outline: none;
 }
 
 #sidebar ul li {
