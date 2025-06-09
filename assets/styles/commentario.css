@@ -12,7 +12,7 @@ body main .comentario-root.comentario-root {
   
 	/* Unset textarea placeholder */
 	.comentario-add-comment-placeholder {
-		color: unset;
+		color: unset !important;
 	}
 
 	/* Tweak color in light mode */
