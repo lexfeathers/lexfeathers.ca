@@ -264,7 +264,7 @@ I've been making music for over 14 years, and have been working in games as both
 
 <!-- My 88x31 link -->
 <div class="content-box" style="padding: 1rem;margin: 2rem 0;">
-  <h2>add me to your site</h2>
+  <h2>add me to your website</h2>
   <div style="text-align: center;">
     <img class="my-88x31" width="172" height="62" alt="Lex Feathers" title="Lex Feathers" style="margin: auto;image-rendering: pixelated;margin:0rem 1rem 2rem;"
       src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" />
