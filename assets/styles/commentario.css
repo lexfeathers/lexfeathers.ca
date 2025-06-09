@@ -10,6 +10,11 @@ body main .comentario-root.comentario-root {
 	/* Darkmode */
 	--cmntr-bg-shade: var(--colour-background-darkmode);
   
+	/* Unset textarea placeholder */
+	.comentario-add-comment-placeholder {
+		color: unset;
+	}
+
 	/* Tweak color in light mode */
 	@media (prefers-color-scheme: light) {
 		--cmntr-bg-shade: var(--colour-background-lightmode);
@@ -25,11 +30,6 @@ body main .comentario-root.comentario-root {
 		--cmntr-bg-shade: var(--colour-background-darkmode);  
 		--cmntr-muted-color: var(--colour-text);
     }
-
-	/* Unset textarea placeholder */
-	.comentario-add-comment-placeholder {
-		color: unset;
-	}
 
 	/* Theme-specific: Remove background behind `code` element inside code blocks */
 	pre code {
