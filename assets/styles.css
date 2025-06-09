@@ -56,14 +56,6 @@
     --colour-text: var(--colour-text-lightmode);
     --colour-secondary: var(--colour-secondary-lightmode);
   }
-
-  *:not(.name) {
-    font-weight: 400;
-  }
-
-  article.post p {
-    font-weight: 400 !important;
-  }
 }
 
 /* Theme selector usage */
@@ -77,6 +69,12 @@
     background-color: var(--colour-background);
     color: var(--colour-text);
     font-weight: 600;
+    & :not(.name) {
+      font-weight: 350;
+    }
+    & article.post p {
+      font-weight: 350 !important;
+    }
   }
 
   /* Styles when dark mode set by JS */
@@ -84,6 +82,12 @@
     --colour-background: var(--colour-background-darkmode);
     --colour-text: var(--colour-text-darkmode);
     --colour-secondary: var(--colour-secondary-darkmode);
+    & :not(.name) {
+      font-weight: 300;
+    }
+    & article.post p {
+      font-weight: 300 !important;
+    }
   }
 /* End theme selector */
 
