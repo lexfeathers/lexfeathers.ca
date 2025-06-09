@@ -668,22 +668,6 @@ header nav {
   display: none;
 }
 
-/* The little guy at the bottom of the sidebar. Currently hidden on mobile */
-#sidebar-character {
-  display: flex;
-  overflow: hidden;
-  max-width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  border: 2px solid var(--colour-secondary);
-  box-shadow: 0px 4px 4px black;
-}
-
-#sidebar-character img {
-  width: 100%;
-  object-fit: cover;
-}
-
 #post-dir {
   display: flex;
   flex-direction: row;
