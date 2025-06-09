@@ -9,12 +9,12 @@ body main .comentario-root.comentario-root {
   --cmntr-bg-shade: var(--colour-background-darkmode);
   
   /* Tweak color in light mode */
-  @media (prefers-color-scheme: light) {
+  /* @media (prefers-color-scheme: light) {
 		--cmntr-bg-shade: var(--colour-background-lightmode);
         .comentario-root .comentario-text-muted {
             color:var(--colour-text-faded)!important
         }      
-    }
+    } */
     :root[data-theme="light"] {
 		--cmntr-bg-shade: var(--colour-background-lightmode);
 		--cmntr-muted-color: var(--colour-text-faded);
@@ -24,17 +24,17 @@ body main .comentario-root.comentario-root {
 		--cmntr-muted-color: var(--colour-text-faded);
     }
 
-  /* Theme-specific: Remove background behind `code` element inside code blocks */
-  pre code {
-    background-color: transparent;
-    color: inherit;
-  }
+	/* Theme-specific: Remove background behind `code` element inside code blocks */
+	pre code {
+		background-color: transparent;
+		color: inherit;
+	}
 
-  /* Theme-specific: Remove border around blockquote */
-  blockquote {
-    border-top: transparent;
-    border-bottom: transparent;
-  }
+	/* Theme-specific: Remove border around blockquote */
+	blockquote {
+		border-top: transparent;
+		border-bottom: transparent;
+	}
 
   /* Theme-specific: Change color of default button */
   .comentario-btn-tool,
