@@ -16,6 +16,9 @@ body main .comentario-root.comentario-root {
 	.comentario-add-comment-placeholder {
 		color: unset !important;
 	}
+  & [class*="comentario-border-"] {
+    border-left-color: var(--colour-text-highlight) !important;
+  }
 
 	/* Tweak color in light mode */
 	@media (prefers-color-scheme: light) {
