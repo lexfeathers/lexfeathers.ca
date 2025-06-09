@@ -2,22 +2,22 @@
 
 /* Comentario overrides by Damien Erambert */
 body main .comentario-root.comentario-root {
-  /* Remove background behind composer wrapper */
-  --cmntr-bg: transparent;
-  --cmntr-card-border: rgb(from var(--colour-text-faded) r g b / 0.4);
-  /* Darkmode */
-  --cmntr-bg-shade: var(--colour-background-darkmode);
+	/* Remove background behind composer wrapper */
+	--cmntr-bg: transparent;
+	--cmntr-card-border: rgb(from var(--colour-text-faded) r g b / 0.4);
+	/* Darkmode */
+	--cmntr-bg-shade: var(--colour-background-darkmode);
   
-  /* Tweak color in light mode */
-  /* @media (prefers-color-scheme: light) {
+	/* Tweak color in light mode */
+	@media (prefers-color-scheme: light) {
 		--cmntr-bg-shade: var(--colour-background-lightmode);
         .comentario-root .comentario-text-muted {
             color:var(--colour-text-faded)!important
         }      
-    } */
+    }
     :root[data-theme="light"] {
 		--cmntr-bg-shade: var(--colour-background-lightmode);
-		--cmntr-muted-color: var(--colour-text-faded);
+		--cmntr-muted-color: color-mix(in srgb, var(--colour-background-lightmode) 60%, var(--colour-text) 40%);
     }
     :root[data-theme="dark"] {
 		--cmntr-bg-shade: var(--colour-background-darkmode);  
