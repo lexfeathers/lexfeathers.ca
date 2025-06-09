@@ -10,13 +10,18 @@ body main .comentario-root.comentario-root {
   
   /* Tweak color in light mode */
   @media (prefers-color-scheme: light) {
-      --cmntr-bg-shade: var(--colour-background-lightmode);
+		--cmntr-bg-shade: var(--colour-background-lightmode);
+        .comentario-root .comentario-text-muted {
+            color:var(--colour-text-faded)!important
+        }      
     }
     :root[data-theme="light"] {
-        --cmntr-bg-shade: var(--colour-background-lightmode);
+		--cmntr-bg-shade: var(--colour-background-lightmode);
+		--cmntr-muted-color: var(--colour-text-faded);
     }
     :root[data-theme="dark"] {
-        --cmntr-bg-shade: var(--colour-background-darkmode);  
+		--cmntr-bg-shade: var(--colour-background-darkmode);  
+		--cmntr-muted-color: var(--colour-text-faded);
     }
 
   /* Theme-specific: Remove background behind `code` element inside code blocks */
