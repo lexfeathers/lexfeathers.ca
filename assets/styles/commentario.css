@@ -6,6 +6,8 @@ body main .comentario-root.comentario-root {
 	--cmntr-muted-color: var(--colour-text) !important;
   /* Set commenter colour */
   --cmntr-color: var(--colour-text);
+  /* Set button text colour */
+  --cmntr-btn-color: var(--colour-background);
 	/* Remove background behind composer wrapper */
 	--cmntr-bg: transparent;
 	--cmntr-card-border: rgb(from var(--colour-text-faded) r g b / 0.4);
