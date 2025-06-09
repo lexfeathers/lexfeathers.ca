@@ -61,23 +61,6 @@ layout: /layout.njk
   <!-- Comments -->
   {% if comments == true %}
     <script defer src="https://comments.friendsofeggbug.org/comentario.js"></script>
-    <comentario-comments></comentario-comments>
-    {# <script 
-      src="https://giscus.app/client.js"
-      data-repo="lexfeathers/lexfeathers.ca"
-      data-repo-id="R_kgDOMyvSzw"
-      data-category="General"
-      data-category-id="DIC_kwDOMyvSz84CkL45"
-      data-mapping="url"
-      data-strict="0"
-      data-reactions-enabled="0"
-      data-emit-metadata="0"
-      data-input-position="top"
-      data-theme="noborder_gray"
-      data-lang="en"
-      data-loading="lazy"
-      crossorigin="anonymous"
-      async>
-    </script> #}
+    <comentario-comments css-override="false"></comentario-comments>
   {% endif %}
 </article>
