@@ -113,6 +113,7 @@ body main .comentario-root.comentario-root {
   textarea {
     --cmntr-input-bg: var(--colour-background-lightmode);
     --cmntr-bg: var(--colour-background-lightmode);
+	--cmntr-input-color: var(--colour-text);
   }
 
   @media (prefers-color-scheme: dark) {
@@ -120,6 +121,7 @@ body main .comentario-root.comentario-root {
     textarea {
       --cmntr-input-bg: var(--colour-background);
       --cmntr-bg: var(--colour-background);
+	  --cmntr-input-color: var(--colour-text);
     }
   }
 
