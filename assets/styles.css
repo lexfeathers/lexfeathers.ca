@@ -160,6 +160,13 @@ article:not(.homepage-excerpt) a {
   text-decoration: underline;
 }
 
+/* article.post > p:first::first-letter {
+  background-color: var(--colour-secondary) !important;
+  color: var(--colour-light-background) !important;
+  padding: 3px;
+  font-size: var(--text-large);
+} */
+
 ::selection {
   background: var(--colour-secondary);
   color: var(--colour-background);
