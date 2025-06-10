@@ -50,10 +50,14 @@
     --pagefind-ui-image-box-ratio: 3 / 2;
     --pagefind-ui-font: 'Fira Code', monospace;
 
-    /* & *:not(body) {
-      transition: ease-in-out .2s;
-      transition-property: font-weight, color, background-color;
-    } */
+    & *:not(body) {
+      transition: cubic-bezier(.45,.05,.55,.95) 140ms;
+      transition-property: 
+        font-weight, 
+        color, 
+        background-color
+        border-color;
+    }
 }
 
 /* @media (prefers-color-scheme: light) {
@@ -500,9 +504,9 @@ select, select option {
   border: 1px solid var(--colour-text-faded);
   border-radius: 8px;
   box-shadow: 0px 4px 8px var(--colour-background);
-  transition: 140ms;
+  /* transition: 140ms;
   -moz-transition: 140ms;
-  -webkit-transition: 140ms;
+  -webkit-transition: 140ms; */
   &:hover {
     background-color: color-mix(
       in hsl, 
