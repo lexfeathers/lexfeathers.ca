@@ -49,6 +49,11 @@
     --pagefind-ui-image-border-radius: 4px;
     --pagefind-ui-image-box-ratio: 3 / 2;
     --pagefind-ui-font: 'Fira Code', monospace;
+
+    /* & *:not(body) {
+      transition: ease-in-out .2s;
+      transition-property: font-weight, color, background-color;
+    } */
 }
 
 /* @media (prefers-color-scheme: light) {
@@ -92,7 +97,7 @@
       font-weight: 300 !important;
     }
     & audio {
-        filter: hue-rotate(200deg) contrast(80%) drop-shadow(0px 6px 8px var(--colour-background));
+      filter: hue-rotate(200deg) contrast(80%) drop-shadow(0px 6px 8px var(--colour-background));
     }
   }
 /* End theme selector */
@@ -496,6 +501,8 @@ select, select option {
   border-radius: 8px;
   box-shadow: 0px 4px 8px var(--colour-background);
   transition: 140ms;
+  -moz-transition: 140ms;
+  -webkit-transition: 140ms;
   &:hover {
     background-color: color-mix(
       in hsl, 
@@ -514,7 +521,6 @@ select, select option {
     }
     & *:not(.date) {
       color: inherit;
-      background-color: inherit;
     }
     & .card-excerpt {
       color: var(--colour-text)!important;
