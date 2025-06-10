@@ -50,14 +50,14 @@
     --pagefind-ui-image-box-ratio: 3 / 2;
     --pagefind-ui-font: 'Fira Code', monospace;
 
-    & *:not(body) {
+    /* & *:not(body) {
       transition: cubic-bezier(.45,.05,.55,.95) 140ms;
       transition-property: 
         font-weight, 
         color, 
         background-color
         border-color;
-    }
+    } */
 }
 
 /* @media (prefers-color-scheme: light) {
