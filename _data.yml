@@ -2,20 +2,25 @@ layout: layout.njk
 website:
   site_title: Lex Feathers
 metas:
+  site: Lex Feathers
+  title: "=title"
+  lang: en
+  color: '#141414'
   author: Lex Feathers
   icon: /assets/favicon.ico
-  image: =image
-  description: =description
-  "twitter:card": =image
-  "twitter:title": =site_title =title
-  "twitter:description": =excerpt
+  image: "=image"
+  description: "=description"
+  "twitter:card": "=image"
+  "twitter:title": "=site_title =title"
+  "twitter:description": "=excerpt"
   "twitter:label2": by
-  "twitter:data1": =author
+  "twitter:data1": "=author"
   keywords:
     - music
     - lex feathers
     - game audio
     - electronic music
+    - waxlimbs
   generator: false
 footer_links:
   - title: Portfolio
