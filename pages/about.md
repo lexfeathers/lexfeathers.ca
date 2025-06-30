@@ -133,7 +133,7 @@ I've been making music for over 14 years, and have been working in games as both
         </ul>
       <h3>Misc software:</h3>
         <ul>
-          <li>VS Code</li>
+          <li>VSCodium</li>
           <li>zsh</li>
           <li>Obsidian</li>
           <li>Firefox Developer Edition</li>
