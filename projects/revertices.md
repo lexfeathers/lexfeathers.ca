@@ -1,7 +1,7 @@
 ---
 title: Revertices
 author: Fuzzy Void co.
-published: 
+published: 2025-06-30T04:00
 status: unreleased 
 excerpt: A game where you fight as fucked up little shape guys.
 draft: false
