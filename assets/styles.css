@@ -7,16 +7,19 @@
     color-scheme: light dark;
     --colour-background: #141414;
     --colour-secondary: #ff993a;
+    --colour-tertiary: #a4b06b;
     --colour-text: color-mix(in srgb, var(--colour-secondary), white 80%);
     --colour-cw-background: #7c2447;
     --colour-cw-text: #fff0cc;
     /* Dark theme - make sure to update this as well if changing the main theme! */
       --colour-background-darkmode: #141414;
       --colour-secondary-darkmode: #ff993a;
+      --colour-tertiary-darkmode: #a4b06b;
       --colour-text-darkmode: color-mix(in srgb, var(--colour-secondary-darkmode), white 80%);
     /* Light theme */
       --colour-background-lightmode: #fff6f0;
       --colour-secondary-lightmode: #a90060;
+      --colour-tertiary-lightmode: #006674;
       --colour-text-lightmode: color-mix(in srgb, var(--colour-secondary-lightmode), black 90%);
     /* Mixed colours */
       --colour-dark-background: color-mix(in srgb, var(--colour-background), black 20%);
@@ -76,6 +79,7 @@
     --colour-background: var(--colour-background-lightmode);
     --colour-text: var(--colour-text-lightmode);
     --colour-secondary: var(--colour-secondary-lightmode);
+    --colour-tertiary: var(--colour-tertiary-lightmode);
     background-color: var(--colour-background);
     color: var(--colour-text);
     font-weight: 600;
@@ -94,6 +98,7 @@
     --colour-background: var(--colour-background-darkmode);
     --colour-text: var(--colour-text-darkmode);
     --colour-secondary: var(--colour-secondary-darkmode);
+    --colour-tertiary: var(--colour-tertiary-darkmode);
     & :not(.name) {
       font-weight: 300;
     }
@@ -174,9 +179,16 @@ a {
   }
 }
 
+#content {
+  --colour-secondary: var(--colour-tertiary);
+}
+
 article:not(.homepage-excerpt) a {
   text-decoration: underline;
 }
+/* article.project a {
+  color: var(--colour-tertiary);
+} */
 
 ::selection {
   background: var(--colour-secondary);
@@ -191,7 +203,7 @@ mark {
 
 blockquote {
   font-style: italic;
-  font-size: var(--text-large);
+  font-size: var(--text-medium);
   font-family: var(--family-serif);
 }
 
@@ -841,10 +853,10 @@ a.external:not(a:has(img)):after {
   transition: ease-out 200ms;
 }
 .grid-item h3 {
-  color: var(--colour-secondary);
+  color: var(--colour-tertiary);
   font-size: var(--text-medium);
-  margin-bottom: 0;
-  margin-top: 1rem;
+  font-weight: 400 !important;
+  margin: 1rem 0 .5rem;
 }
 .grid-item h3:hover {
   text-decoration: underline;
