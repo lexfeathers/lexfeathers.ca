@@ -186,9 +186,6 @@ a {
 article:not(.homepage-excerpt) a {
   text-decoration: underline;
 }
-/* article.project a {
-  color: var(--colour-tertiary);
-} */
 
 ::selection {
   background: var(--colour-secondary);
