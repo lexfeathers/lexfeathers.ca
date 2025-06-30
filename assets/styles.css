@@ -87,7 +87,7 @@
       font-weight: 350;
     }
     & a:not(:has(.name)) {
-      font-weight: 400 !important;
+      font-weight: 400;
     }
     & article.post p {
       font-weight: 350 !important;
@@ -105,6 +105,9 @@
     & :not(.name) {
       font-weight: 300;
     }
+    & a:not(:has(.name)) {
+      font-weight: 300;
+    }    
     & article.post p {
       font-weight: 300 !important;
     }
@@ -885,10 +888,16 @@ a.external:not(a:has(img)):after {
 .grid-item__media {
   width: 100%;
   aspect-ratio: 1 / 1;
-  overflow: hidden;
-  align-content: center;
+  align-items: center;
   display: grid;
   border-radius: 8px;
+  overflow: hidden;
+  & .item-photo {
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    height: auto;
+  }
 }
 .grid-item__information {
   display: flex;
@@ -972,7 +981,6 @@ details.content-warnings[open] summary::marker {
 /* Image handling */
 figure img {
   margin: auto;
-  /* border: 2px solid var(--colour-secondary); */
   border-radius: 8px;
   box-shadow: 0px 6px 4px var(--colour-background);
   max-width: 100%;
@@ -980,11 +988,7 @@ figure img {
 
 figure.hero-img {
   max-width: 100%;
-}
-
-figure.hero-img img {
-  border: none;
-  max-width: 100%;
+  margin: auto;
 }
 
 figure.right {
@@ -992,7 +996,6 @@ figure.right {
 }
 
 figcaption {
-  /* font-style: italic; */
   opacity: 0.6;
   margin: 0.5rem 0 2rem 0;
 }
