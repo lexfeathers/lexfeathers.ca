@@ -93,7 +93,7 @@ order: 7
         <input type="text" name="honeypot" style="display: none;">
         <button class="button is-primary" type="Submit">Submit</button>
         <!-- reCAPTCHA widget -->
-        <div class="g-recaptcha" data-sitekey="6Lel5f8qAAAAALQF9i_tdQgedUN7AYSUcGBi-88p"></div>
+        <div class="g-recaptcha" data-sitekey="6Lc7mnMrAAAAACs3yYxJHXEOh3Bhj3HQX01k-aGZ"></div>
         <!-- Include reCAPTCHA JavaScript -->
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
       </form>
