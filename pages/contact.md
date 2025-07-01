@@ -61,9 +61,7 @@ order: 7
     <div class="column">
       <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
         <!-- Replace with your StaticForms accessKey -->
-        <input type="hidden" name="accessKey" value="6Lel5f8qAAAAALQF9i_tdQgedUN7AYSUcGBi-88p">
-        <!-- Replace with your StaticForms accessKey -->
-        <!-- <input type="hidden" name="accessKey" value="61dbe216-3314-4916-8708-fa050d0ea84e"> -->
+        <input type="hidden" name="accessKey" value="61dbe216-3314-4916-8708-fa050d0ea84e">
         <input type="hidden" name="subject" value="Contact from Lexfeathers.ca">
         <!-- Replace with the url you want to redirect to -->
         <input type="hidden" name="redirectTo" value="https://lexfeathers.ca/pages/contact">
