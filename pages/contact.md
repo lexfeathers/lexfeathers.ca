@@ -91,9 +91,11 @@ order: 7
         </div>
         <!-- If we receive data in this field submission will be ignored -->
         <input type="text" name="honeypot" style="display: none;">
-        <button class="button is-primary" type="Submit">Submit</button>
         <!-- reCAPTCHA widget -->
         <div class="g-recaptcha" data-sitekey="6Lel5f8qAAAAALQF9i_tdQgedUN7AYSUcGBi-88p"></div>
+        <button class="button is-primary" type="Submit">Submit</button>
+        <!-- Include reCAPTCHA JavaScript -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
       </form>
     </div>
   </div>
