@@ -1,3 +1,5 @@
+export const layout = "/templates/portfolio.njk";
+
 export default function* ({ search, paginate }) {
   const posts = search.pages("type=projects", "published=desc");
   const options = {
