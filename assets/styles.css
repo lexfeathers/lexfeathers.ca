@@ -27,7 +27,7 @@
       --colour-lighter-background: color-mix(in srgb, var(--colour-background), var(--colour-text) 5%);
       --colour-text-highlight: color-mix(in srgb, var(--colour-background) 85%, var(--colour-text) 15%);
       --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
-    scrollbar-color: var(--colour-secondary) var(--colour-lighter-background);
+    scrollbar-color: var(--colour-tertiary) var(--colour-lighter-background);
 
   /* Typography */
     --family-sans: 'Inter', sans-serif;
