@@ -5,7 +5,7 @@ draft: false
 ---
 <div class="grid">
     {% asyncEach item in page %}
-        {# {% include "/templates/grid-item.njk" %} #}
+        {% include "/templates/grid-item.njk" %}
     {% endeach %}
 </div>
 {# <div class="grid">
