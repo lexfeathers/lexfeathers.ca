@@ -1,0 +1,8 @@
+---
+layout: /layout.njk
+---
+<div class="grid">
+    {% asyncEach item in page %}
+        {% include "/templates/grid-item.njk" %}
+    {% endeach %}
+</div>
