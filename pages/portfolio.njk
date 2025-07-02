@@ -1,0 +1,10 @@
+---
+title: portfolio
+order: 2
+draft: false
+---
+<div class="grid">
+    {% asyncEach item in search.pages("type=projects draft=false", "published=desc") %}
+        {% include "/templates/grid-item.njk" %}
+    {% endeach %}
+</div>

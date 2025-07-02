@@ -2,6 +2,7 @@
 title: From The Garden
 author: Waxlimbs
 published: 2024-01-12T04:00
+status: released
 excerpt: An intimate concert recording
 draft: false
 thumbnail: /uploads/ftg_1_sq.jpg

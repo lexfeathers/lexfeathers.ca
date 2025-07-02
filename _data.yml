@@ -3,18 +3,18 @@ website:
   site_title: Lex Feathers
 metas:
   site: Lex Feathers
-  title: "=title"
+  title: =title
   lang: en
   color: '#141414'
   author: Lex Feathers
   icon: /assets/favicon.ico
-  image: "=image"
-  description: "=description"
-  "twitter:card": "=image"
-  "twitter:title": "=site_title =title"
-  "twitter:description": "=excerpt"
-  "twitter:label2": by
-  "twitter:data1": "=author"
+  image: =image
+  description: =description
+  'twitter:card': =image
+  'twitter:title': =site_title =title
+  'twitter:description': =excerpt
+  'twitter:label2': by
+  'twitter:data1': =author
   keywords:
     - music
     - lex feathers
@@ -23,8 +23,6 @@ metas:
     - waxlimbs
   generator: false
 footer_links:
-  - title: Portfolio
-    url: 'https://portfolio.lexfeathers.ca'
   - title: Bsky
     url: 'https://bsky.app/profile/lexfeathers.ca'
   - title: Bandcamp

@@ -9,7 +9,7 @@ draft: false
 <h1>Lex Feathers <span class="faded">(she/her)</span></h1>
 
 <figure transform-images="">
-  <img src="/uploads/lex_avi_apr2025.jpg" alt="Lex Feathers" loading="lazy" style="border-radius: 340px; filter: sepia(30%) contrast(1.2);" />
+  <img src="/uploads/lex_avi_apr2025.jpg" alt="Lex Feathers" style="border-radius: 340px; filter: sepia(30%) contrast(1.2);" />
   <!-- <figcaption>{{ image_caption }}</figcaption> -->
 </figure>
 
@@ -148,113 +148,114 @@ I've been making music for over 14 years, and have been working in games as both
 
   <div id="cool-buttons">
     <a href="https://blog.radicaldream.land" target="_blank">
-      <img width="88" height="31" alt="Radicaldreamland" title="Radicaldreamland" src="/uploads/radicaldreamland.gif" />
+      <img width="88" height="31" alt="Radicaldreamland" title="Radicaldreamland" src="/uploads/radicaldreamland.gif" loading="lazy" />
     </a>
     <a href="https://blog.aurahack.jp" target="_blank">
-      <img width="88" height="31" alt="Aurahack" title="Aurahack" src="/uploads/aurahack88x31.gif" />
+      <img width="88" height="31" alt="Aurahack" title="Aurahack" src="/uploads/aurahack88x31.gif" loading="lazy" />
     </a>
     <a href="https://blog.someplace-else.xyz/" target="_blank">
-      <img width="88" height="31" alt="Someplace elsewhere - Nat Clayton" title="Someplace elsewhere - Nat Clayton" src="/uploads/elsewhere.gif" />
+      <img width="88" height="31" alt="Someplace elsewhere - Nat Clayton" title="Someplace elsewhere - Nat Clayton" src="/uploads/elsewhere.gif" loading="lazy" />
     </a>
     <a href="https://erysdren.me/" target="_blank">
-      <img width="88" height="31" alt="Erysdren" title="Erysdren" src="/uploads/erysdren_88x31.png" />
+      <img width="88" height="31" alt="Erysdren" title="Erysdren" src="/uploads/erysdren_88x31.png" loading="lazy" />
     </a>
     <a href="https://ruby.gay" target="_blank">
-      <img width="88" height="31" alt="Ruby.gay" title="Ruby.gay" src="/uploads/ruby.gay.gif" />
+      <img width="88" height="31" alt="Ruby.gay" title="Ruby.gay" src="/uploads/ruby.gay.gif" loading="lazy" />
     </a>
     <a href="https://wavebeem.com" target="_blank">
-      <img width="88" height="31" alt="wavebeem" title="wavebeem" src="/uploads/wavebeem.gif" />
+      <img width="88" height="31" alt="wavebeem" title="wavebeem" src="/uploads/wavebeem.gif" loading="lazy" />
     </a>
     <a href="https://platinumtulip.garden" target="_blank">
-      <img width="88" height="31" alt="PlatinumTulip" title="PlatinumTulip" src="/uploads/tulip88x31.gif" />
+      <img width="88" height="31" alt="PlatinumTulip" title="PlatinumTulip" src="/uploads/tulip88x31.gif" loading="lazy" />
     </a>
     <a href="https://renkotsuban.com" target="_blank">
-      <img width="88" height="31" alt="Renkotsuban" title="Renkotsuban" src="/uploads/renkotsuban.com.gif" />
+      <img width="88" height="31" alt="Renkotsuban" title="Renkotsuban" src="/uploads/renkotsuban.com.gif" loading="lazy" />
     </a>
     <a href="https://kokoscript.com" target="_blank">
-      <img width="88" height="31" alt="Kokoscript" title="Kokoscript" src="/uploads/kokoscript.gif" />
+      <img width="88" height="31" alt="Kokoscript" title="Kokoscript" src="/uploads/kokoscript.gif" loading="lazy" />
     </a>
     <a href="https://auratriolo.com/blog" target="_blank">
-      <img width="88" height="31" alt="Aura" title="Aura" src="/uploads/aura-pixelbanner.gif" />
+      <img width="88" height="31" alt="Aura" title="Aura" src="/uploads/aura-pixelbanner.gif" loading="lazy" />
     </a>
     <a href="https://suricrasia.online" target="_blank">
-      <img width="88" height="31" alt="Suricrasia Online" title="Suricrasia Online" src="/uploads/suricrasia.gif" />
+      <img width="88" height="31" alt="Suricrasia Online" title="Suricrasia Online" src="/uploads/suricrasia.gif" loading="lazy" />
     </a>
     <a href="https://queercomputerclub.ca" target="_blank">
-      <img width="88" height="31" alt="Queer Computer Club" title="Queer Computer Club" src="/uploads/qcc_88x31.png" />
+      <img width="88" height="31" alt="Queer Computer Club" title="Queer Computer Club" src="/uploads/qcc_88x31.png" loading="lazy" />
     </a>
     <a href="https://wowperfect.net/" title="wowperfect.net" target="_blank">
-      <img src="/uploads/wowperfect88x31.png" title="wowperfect.net" alt="wowperfect.net" />
+      <img src="/uploads/wowperfect88x31.png" title="wowperfect.net" alt="wowperfect.net" loading="lazy" />
     </a>
     <a href="https://torontopubliclibra.com/" title="torontopubliclibra.com" target="_blank">
-      <img src="/uploads/torontopubliclibra-88x31.gif" title="Toronto Public Libra" alt="Toronto Public Libra" />
+      <img src="/uploads/torontopubliclibra-88x31.gif" title="Toronto Public Libra" alt="Toronto Public Libra" loading="lazy" />
     </a>
     <a href="https://neuroknives.com" title="neuroknives.com" target="_blank">
-      <img src="/uploads/neuroknives_88_31_Button_005.png" title="Neuroknives" alt="Neuroknives" />
+      <img src="/uploads/neuroknives_88_31_Button_005.png" title="Neuroknives" alt="Neuroknives" loading="lazy" />
     </a>
     <a href="https://damien.zone" title="damien dot zone" target="_blank">
-      <img src="/uploads/88x31_damien.png" alt="damien dot zone" />
+      <img src="/uploads/88x31_damien.png" alt="damien dot zone" loading="lazy" />
     </a>
     <a href="https://algometric.pink" title="Algometric.pink" target="_blank">
-      <img src="/uploads/algobutton.gif" alt="algometric" title="algometric" />
+      <img src="/uploads/algobutton.gif" alt="algometric" title="algometric" loading="lazy" />
     </a>
     <a href="https://estrogenandspite.neocities.org" title="Estrogen and Spite Neocities" target="_blank">
-      <img src="/uploads/easbutton.png" alt="Estrogen and Spite" />
+      <img src="/uploads/easbutton.png" alt="Estrogen and Spite" loading="lazy" />
     </a>
     <a href="https://ghoulnoise.com" title="Ghoulnoise">
-      <img src="/uploads/ghoulnoise-button.gif" alt="Ghoulnoise" />
+      <img src="/uploads/ghoulnoise-button.gif" alt="Ghoulnoise" loading="lazy" />
     </a>
     <a href="https://websiteleague.org" title="Website League">
-      <img src="/uploads/wl-88x31.png" alt="Website League" />
+      <img src="/uploads/wl-88x31.png" alt="Website League" loading="lazy" />
     </a>
     <a href="https://blog.curiousquail.com" title="Curious Quail">
-      <img src="/uploads/quailblog_8831.png" width="88" height="31" alt="small icon that reads QUAILBLOG with an image of a character with a beak">
+      <img src="/uploads/quailblog_8831.png" width="88" height="31" alt="small icon that reads QUAILBLOG with an image of a character with a beak"  loading="lazy" />
     </a>
     <a href="https://theworksofegan.net/" title="The Works of Egan">
-      <img src="/uploads/twoe-button.gif" width="88" height="31" alt="The Works of Egan">
+      <img src="/uploads/twoe-button.gif" width="88" height="31" alt="The Works of Egan"  loading="lazy" />
     </a>
     <a href="https://nex-3.com" title="House of Nettles">
-      <img src="/uploads/house-of-nettles.gif" width="88" height="31" alt="House of Nettles">
+      <img src="/uploads/house-of-nettles.gif" width="88" height="31" alt="House of Nettles" loading="lazy" />
     </a>
     <a href="https://www.tombofnull.art/" title="Tomb of Null">
-      <img src="/uploads/tombofnull_88x31.gif" width="88" height="31" alt="Tomb of Null">
+      <img src="/uploads/tombofnull_88x31.gif" width="88" height="31" alt="Tomb of Null" loading="lazy" />
     </a>
     <a href="https://knivesforcats.online" target="_blank">
-      <img width="88" height="31" alt="knives for cats dot online" title="knivesforcats.online" src="https://github.com/celechii/celechii.github.io/blob/main/knivesforcats88x31.png?raw=true" style="image-rendering:pixelated;"/>
+      <img width="88" height="31" alt="knives for cats dot online" title="knivesforcats.online" src="https://github.com/celechii/celechii.github.io/blob/main/knivesforcats88x31.png?raw=true" style="image-rendering:pixelated;" loading="lazy" />
     </a>
     <a href="https://eva.town" target="_blank">
-      <img width="88" height="31" alt="Eva Decker" title="Eva Decker" src="/uploads/eva-town_88x31png.png" style="image-rendering:pixelated;"/>
+      <img width="88" height="31" alt="Eva Decker" title="Eva Decker" src="/uploads/eva-town_88x31png.png" style="image-rendering:pixelated;" loading="lazy" />
     </a>
     <a href="https://macthemes.garden" title="Mac Themes Garden">
-      <img src="https://macthemes.garden/buttons/88x31_macthemes.garden.png" alt="Mac Themes Garden" style="image-rendering:pixelated;"/>
+      <img src="https://macthemes.garden/buttons/88x31_macthemes.garden.png" alt="Mac Themes Garden" style="image-rendering:pixelated;" loading="lazy" />
     </a>
     <a href="https://drac.at" target="_blank" rel="noopener">
       <img src="https://drac.at/links/dracat-now-animated.gif" alt="drac.at on the web" width="88" height="31" decoding="async" loading="lazy" />
     </a>
     <a href="https://moonbase.lgbt" title="Moonbase Dot LGBT" target="_blank">
-      <img src="https://moonbase.lgbt/88x31/moonbase.gif" alt="Moonbase Dot LGBT" width="88" height="31" style="image-rendering:pixelated;" />
+      <img src="https://moonbase.lgbt/88x31/moonbase.gif" alt="Moonbase Dot LGBT" width="88" height="31" style="image-rendering:pixelated;" loading="lazy" />
     </a>
     <a href="https://meltknuckles.net/" title="Meltknuckles" target="_blank">
-      <img src="/uploads/meltknuckles88x31.gif" alt="Meltknuckles" width="88" height="31" style="image-rendering:pixelated;" />
+      <img src="/uploads/meltknuckles88x31.gif" alt="Meltknuckles" width="88" height="31" style="image-rendering:pixelated;" loading="lazy" />
     </a>
     <a href="https://robinproblem.art" title="Robin Problem" target="_blank">
-      <img src="/uploads/robin88x31.jpg" alt="Robin Problem" width="88" height="31" style="image-rendering:pixelated;" />
+      <img src="/uploads/robin88x31.jpg" alt="Robin Problem" width="88" height="31" style="image-rendering:pixelated;" loading="lazy" />
     </a>
     <a href="https://shareanecdotes.neocities.org/" title="Shareanecdotes" target="_blank">
-      <img src="/uploads/share88x31.jpg" alt="Shareanecdotes" width="88" height="31" style="image-rendering:pixelated;" />
+      <img src="/uploads/share88x31.jpg" alt="Shareanecdotes" width="88" height="31" style="image-rendering:pixelated;" loading="lazy" />
     </a>
     <a href="https://milliesquilly.com" title="Millie Squilly" target="_blank">
-      <img src="/uploads/millie-squilly-dot-com-button-88x31png.png" alt="Millie Squilly" width="88" height="31" style="image-rendering:pixelated;" />
+      <img src="/uploads/millie-squilly-dot-com-button-88x31png.png" alt="Millie Squilly" width="88" height="31" style="image-rendering:pixelated;" loading="lazy" />
     </a>
     <a href="https://curilagann.art/" title="Curi Lagann" target="_blank">
-      <img src="/uploads/curilagan88x31.gif" alt="Curi Lagann" width="88" height="31" style="image-rendering:pixelated;" />
+      <img src="/uploads/curilagan88x31.gif" alt="Curi Lagann" width="88" height="31" style="image-rendering:pixelated;" loading="lazy" />
     </a>
     <a href="https://helveticablanc.com" title="Helvetica Blanc" target="_blank">
-      <img src="/uploads/helveticablanc88x31.gif" alt="Helvetica Blanc" width="88" height="31" style="image-rendering:pixelated;" />
+      <img src="/uploads/helveticablanc88x31.gif" alt="Helvetica Blanc" width="88" height="31" style="image-rendering:pixelated;" loading="lazy" />
     </a>
     <img width="88" height="31"
       alt="We're gonna miss you eggbug" title="We're gonna miss you eggbug"
-      src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png" 
+      src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png"
+      loading="lazy" 
     />
   </div>
 
