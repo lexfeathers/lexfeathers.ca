@@ -1,0 +1,52 @@
+{% if pagination.totalPages !== 1 %}
+    <nav class="page-pagination pagination">
+        <ul>
+            <li class="pagination-prev" {% if pagination.previous | length == 0 %} style="visibility: hidden;" {% endif %}>
+                <a href="{{ pagination.previous }}" rel="prev">
+                    <-</a></li>
+                    <li class="pagination-page">
+                        page {{ pagination.page }} of {{ pagination.totalPages }}
+                    </li>
+                    <li class="pagination-next" {% if pagination.next | length == 0 %} style="visibility: hidden;" {% endif %}>
+                        <a href="{{ pagination.next }}" rel="next">-></a>
+                    </li>
+                </ul>
+            </nav>
+        {% endif %}
+        <style>
+            .page-pagination {
+                display: grid;
+                align-items: end;
+                & ul {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                    list-style: none;
+                    padding-left: 0;
+                    & li {
+                        display: inline;
+                        font-size: var(--text-medium);
+                        margin: 0 0.5rem;
+                        vertical-align: middle;
+                        & a {
+                            padding-top: 0.2rem;
+                            padding-bottom: 0.2rem;
+                        }
+                    }
+                }
+            }
+            .pagination-page {
+                font-weight: 200 !important;
+                font-size: var(--text-small) !important;
+            }
+            .pagination-next > *,
+            .pagination-prev > * {
+                padding: 0.5rem 2rem;
+                border: 1px solid var(--colour-secondary);
+                border-radius: 4px;
+                &:hover {
+                    text-decoration: none;
+                    background-color: var(--colour-lighter-background);
+                }
+            }
+        </style>

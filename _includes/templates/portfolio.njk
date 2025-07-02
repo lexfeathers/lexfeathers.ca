@@ -1,9 +1,11 @@
 ---
 layout: /layout.njk
+title: portfolio
 ---
 
 <div class="grid">
     {% asyncEach item in results %}
-        {% include "/templates/grid-item.njk" %}
+    {% include "/templates/grid-item.njk" %}
     {% endeach %}
 </div>
+{% include "/templates/pagination.njk" %}

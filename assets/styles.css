@@ -840,6 +840,7 @@ a.external:not(a:has(img)):after {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
   align-items: center;
+  flex: 1 0;
 }
 @media screen and (max-width: 749px) {
   .grid {
