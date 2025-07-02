@@ -1,16 +1,17 @@
 ---
 title: portfolio
+type: pages
 order: 2
 draft: false
 ---
-<div class="grid">
+{# <div class="grid">
     {% asyncEach item in page %}
         {% include "/templates/grid-item.njk" %}
     {% endeach %}
-</div>
-{# <div class="grid">
+</div> #}
+<div class="grid">
     {% asyncEach item in search.pages("type=projects draft=false", "published=desc") %}
         {% include "/templates/grid-item.njk" %}
     {% endeach %}
-</div> #}
+</div>
 {# {% include "/templates/portfolio.njk"%} #}
