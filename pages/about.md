@@ -13,7 +13,7 @@ draft: false
   <!-- <figcaption>{{ image_caption }}</figcaption> -->
 </figure>
 
-### I make music [for games](https://portfolio.lexfeathers.ca), and sometimes for myself. 
+### I make music [for games](https://lexfeathers.ca/portfolio), and sometimes for myself. 
 I've been making music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing aural detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
 
 ## listen to my music
@@ -21,7 +21,7 @@ I've been making music for over 14 years, and have been working in games as both
 - [Void Femmes (my solo electronic music)](https://voidfemmes.bandcamp.com/)
 
 ## find me online
-- [My portfolio website](https://portfolio.lexfeathers.ca)
+- [My portfolio](https://lexfeathers.ca/portfolio)
 - [Bsky](https://bsky.app/profile/lexfeathers.ca)
 - [Mastodon](https://tenforward.social/@lexfeathers)
 - [My tiny fallback website](https://tiny.lexfeathers.ca 'A single-page HTML doc for the days I get hung up on trying to fix my SSG setup')
