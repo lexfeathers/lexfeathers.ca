@@ -95,6 +95,9 @@
     & audio {
         filter: hue-rotate(150deg) drop-shadow(0px 6px 8px var(--colour-text));
     }
+    & #banner {
+      filter: sepia(100%) saturate(150%) brightness(80%) hue-rotate(160deg);
+    }
   }
   /* Styles when dark mode set by JS */
   :root[data-theme="dark"] {
@@ -114,6 +117,9 @@
     & audio {
       filter: hue-rotate(200deg) contrast(80%) drop-shadow(0px 6px 8px var(--colour-background));
     }
+    & #banner {
+      filter: none;
+    }    
   }
 /* End theme selector */
 
@@ -765,13 +771,12 @@ a {
 .rotated {
   rotate: 540deg;
 }
-.hueshift {
-  /* filter: hue-rotate(295deg); */
+/* .hueshift {
   filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(295deg);
-}
-.banner > img {
+} */
+/* .banner > img {
   transition: ease-out .75s;
-}
+} */
 
 .icon-lightbulb {
   display: inline-block;
