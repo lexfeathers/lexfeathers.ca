@@ -19,6 +19,4 @@ I worked on the game via FMOD and Git, adding foley for background elements and 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MWbbGqSU0lc?si=otYpEY-WQTHaO7mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Grab the game on Steam:
-
-<iframe style="max-width: 100%;" data-mce-fragment="1" src="https://store.steampowered.com/widget/451310/" loading="lazy" width="646" height="190"></iframe>
+Grab the game on [Steam](https://store.steampowered.com/app/451310/A_Fold_Apart/)
