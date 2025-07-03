@@ -17,6 +17,4 @@ You can hear the song in the opening of any Certainly Uncertain podcast episode,
 
 <audio controls src="/uploads/Certainly_Uncertain_Theme.mp3" title="Lex Feathers - Certainly Uncertain Theme"></audio>
 
-Certainly Uncertain can be streamed on Apple Music:
-
-<iframe src="https://embed.podcasts.apple.com/ca/podcast/certainly-uncertain-with-michael-matt-and-aashay/id1775757506" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px;" height="450"></iframe>
+Certainly Uncertain can be [streamed on Apple Music.](https://podcasts.apple.com/ca/podcast/certainly-uncertain-with-michael-matt-and-aashay/id1775757506)
