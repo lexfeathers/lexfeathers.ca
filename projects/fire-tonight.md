@@ -5,14 +5,16 @@ published: 2020-09-02T04:00
 status: released
 excerpt: Maya and Devin are separated in a city on fire. In the year 1990, before cell phones or Internet.
 draft: false
-thumbnail: /uploads/FireTonight_sq.jpg
+thumbnail: /uploads/FT_Soundtrack.png
 image: /uploads/FireTonight_sq.jpg
 image_caption: Fire Tonight
 image_alt:
 video_link: https://www.youtube.com/watch?v=_9b5HVSyGkY
 work_type: Music, Sound Design
 ---
-I’m very happy to have scored and designed the sound for [Fire Tonight](https://store.steampowered.com/app/1188900/Fire_Tonight/) by [Reptoid Games,](https://www.reptoidgames.com/), available now on [Steam](https://store.steampowered.com/app/1188900/Fire_Tonight/) and [Nintendo Switch](https://www.nintendo.com/en-ca/store/products/fire-tonight-switch/).
+I’m very happy to have scored and designed the sound for [Fire Tonight](https://store.steampowered.com/app/1188900/Fire_Tonight/) by [Reptoid Games,](https://www.reptoidgames.com/), available now on [Steam](https://store.steampowered.com/app/1188900/Fire_Tonight/) and [Nintendo Switch](https://www.nintendo.com/en-ca/store/products/fire-tonight-switch/). 
+
+The game was inspired by a 1990 [Information Society track](https://www.youtube.com/watch?v=EKPSk5bZ8rI) also called Fire Tonight, and the goal of the score was to embody the early '90s aesthetics and playfulness of Information Society's music. I had a lot of fun dipping my toes into a genre-space I'm not used to, and feel that the resulting score was a bright and punchy contribution to the game's world.
 
 You can stream the OST on Bandcamp:
 
