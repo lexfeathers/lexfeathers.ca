@@ -252,6 +252,9 @@ I've been making music for over 14 years, and have been working in games as both
     <a href="https://helveticablanc.com" title="Helvetica Blanc" target="_blank">
       <img src="/uploads/helveticablanc88x31.gif" alt="Helvetica Blanc" width="88" height="31" style="image-rendering:pixelated;" loading="lazy" />
     </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://aenore.fr/">
+      <img src="https://aenore.fr/friends/buttons/aenore.webp" alt="aenore dot fr" style="image-rendering:pixelated;" loading="lazy" />
+    </a>
     <img width="88" height="31"
       alt="We're gonna miss you eggbug" title="We're gonna miss you eggbug"
       src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png"
