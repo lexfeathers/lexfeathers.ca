@@ -143,7 +143,7 @@ I've been making music for over 14 years, and have been working in games as both
   </div>
 </details>
 
-<div class="cool-links" transform-images="">
+<div class="cool-links content-box" transform-images="">
   <h2 id="internet-neighbours">internet neighbours</h2>
 
   <div id="cool-buttons">
