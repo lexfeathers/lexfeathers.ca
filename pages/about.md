@@ -261,9 +261,6 @@ I've been making music for over 14 years, and have been working in games as both
       loading="lazy" 
     />
   </div>
-
-  ### more cool people (without 88x31s)
-  - [ZandraVandra](https://zandravandra.com)
 </div>
 
 <!-- My 88x31 link -->
