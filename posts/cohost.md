@@ -8,6 +8,7 @@ image: /uploads/cohost_introduction_post.gif
 image_caption: My Cohost introduction post from 2022
 tags:
   - cohost
+  - social media
 excerpt: >-
   I don't want to be consumed. I want to put myself out there in a way that
   feels right, like I have agency and dignity.
