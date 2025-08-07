@@ -1,4 +1,5 @@
 import lume from "lume/mod.ts";
+import postcss from "lume/plugins/postcss.ts";
 import nunjucks from "lume/plugins/nunjucks.ts";
 import favicon from "lume/plugins/favicon.ts";
 import sitemap from "lume/plugins/sitemap.ts";
@@ -44,6 +45,11 @@ site.add([".css"]);
 site.add("/assets/"); // Iclude assets in the build
 site.add("/uploads/"); // Iclude assets in the build
 
+site.use(googleFonts({
+  fonts:
+    "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap",
+}));
+site.use(postcss());
 // Create the lastmod variable with the mtime of the file
 site.preprocess([".html"], (pages) => {
   for (const page of pages) {
@@ -51,11 +57,6 @@ site.preprocess([".html"], (pages) => {
     page.data.lastmod = info?.mtime;
   }
 });
-
-site.use(googleFonts({
-  fonts:
-    "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap",
-}));
 site.use(inline());
 site.use(icons({
   folder: "/assets/images/icons"
