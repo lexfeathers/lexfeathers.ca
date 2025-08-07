@@ -93,8 +93,6 @@ site.use(feed({
     title: "Lex Feathers",
     description:
       "music and ideas",
-    authorName: "=author",
-    authorUrl: "https://lexfeathers.ca",
     lang: "en",
     generator: true,
     icon: "/assets/favicon.ico",
@@ -109,7 +107,7 @@ site.use(feed({
     lang: "en",
     image: "=image", // The image of the item
     authorName: "=author",
-    authorUrl: "location",
+    authorUrl: "https://lexfeathers.ca",
   },
 }));
 // site.use(picture());
