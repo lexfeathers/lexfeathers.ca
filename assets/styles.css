@@ -37,9 +37,6 @@
     --text-medium: 16pt;
     --text-large: 24pt;
 
-  /* Misc */
-    --sig-symbol: ' :';
-
   /* Pagefind search bar styles */
     --pagefind-ui-scale: 0.8;
     --pagefind-ui-primary: var(--colour-secondary);
@@ -98,6 +95,12 @@
     & #banner {
       filter: sepia(100%) saturate(150%) brightness(80%) hue-rotate(160deg);
     }
+    & #darklogo {
+      display: none;
+    }
+    & #lightlogo {
+      display: inline;
+    }
   }
   /* Styles when dark mode set by JS */
   :root[data-theme="dark"] {
@@ -120,6 +123,12 @@
     & #banner {
       filter: none;
     }    
+    & #darklogo {
+      display: inline;
+    }
+    & #lightlogo {
+      display: none;
+    }
   }
 /* End theme selector */
 
@@ -298,9 +307,6 @@ blockquote {
 
 .name {
   color: var(--colour-secondary);
-  &::after {
-    content: var(--sig-symbol);
-  }
 }
 
 #monogram {

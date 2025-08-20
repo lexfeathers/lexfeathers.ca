@@ -1,8 +1,10 @@
 <header>
   <h1>
     <a href="/">
-      <div id="monogram"></div>
-      <span class="name">{{ website.site_title }}</span>
+      {# <div id="monogram"></div> #}
+      <img class="logo" id="darklogo" src="/assets/images/Lex Feathers Logo_ff993a_small.png" alt="Lex Feathers' Logo" aria-hidden="true">
+      <img class="logo" id="lightlogo" src="/assets/images/Lex Feathers Logo_a90060_small.png" alt="Lex Feathers' Logo" aria-hidden="true">
+      <span class="name">{{ website.site_title }} :</span>
     </a>
   </h1>
   {% include "/templates/theme-selector.njk" %}
@@ -13,3 +15,16 @@
   </nav>
   {# {% include "/templates/wavebeem-theme-select.njk" %} #}
 </header>
+
+<style>
+  .logo {
+    width: 32px;
+    vertical-align: middle;
+    margin-right: 1.5rem;
+  }
+  @media screen and (max-width: 749px) {
+    .logo {
+      width: 24px;
+    }
+  }
+</style>
