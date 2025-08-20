@@ -68,6 +68,13 @@
   }
 } */
 
+#darklogo {
+  display: none;
+}
+#lightlogo {
+  display: none;
+}
+
 /* JS Theme selector */
   /* Styles for before the component has loaded */
   :root,
@@ -307,6 +314,7 @@ blockquote {
 
 .name {
   color: var(--colour-secondary);
+  font-weight: 240;
 }
 
 #monogram {
