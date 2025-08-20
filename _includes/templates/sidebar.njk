@@ -7,32 +7,35 @@
       </ul>
     </div>
   </div>
+
   {% ifAsync title != 'home' and title != 'directory' and title != 'portfolio' %}
-  <h3>Recent posts:</h3>
-  <div id="post-dir">
-    <div class="margin-bar"></div>
-    <menu>
-      <ul
-        class="post-list">
-        {# Get posts that aren't drafts #}
-        {% set posts = search.pages("type=posts draft=false", "published=desc", 8) %}
-        {% asyncEach post in posts %}
-        <li>
-          <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li>
-        {% endeach %}
-      </ul>
-    </menu>
+    <h3>Recent posts:</h3>
+    <div id="post-dir">
+      <div class="margin-bar"></div>
+      <menu>
+        <ul
+          class="post-list">
+          {# Get posts that aren't drafts #}
+          {% set posts = search.pages("type=posts draft=false", "published=desc", 8) %}
+          {% asyncEach post in posts %}
+          <li>
+            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+          </li>
+          {% endeach %}
+        </ul>
+      </menu>
+    </div>
+  {% endif %}
+
+  <a href="/pages/directory/" class="button">All posts</a>
+
+  <!-- Fill the sidebar on home and post-directory so that it's the same width as on other pages -->
+  {% ifAsync title == 'home' or title == 'directory' or title == 'portfolio' %}
+    <div style="min-width: 250px;"> </div>
+  {% endif %}
+
+  <div class="footer-container-sidebar">
+    <h4>Links</h4>
+    {% include "/templates/footer.njk" %}
   </div>
-{% endif %}
-<a href="/pages/directory/" class="button">All posts</a>
-
-<!-- Fill the sidebar on home and post-directory so that it's the same width as on other pages -->
-{% ifAsync title == 'home' or title == 'directory' or title == 'portfolio' %}
-  <div style="min-width: 250px;"> </div>
-{% endif %}
-
-<div class="footer-container-sidebar">
-
-<h4>Links</h4>
-{% include "/templates/footer.njk" %}</div></div>
+</div>
