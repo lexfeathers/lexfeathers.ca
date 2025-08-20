@@ -26,10 +26,13 @@
   </div>
 {% endif %}
 <a href="/pages/directory/" class="button">All posts</a>
-{% ifAsync title == 'home' or title == 'post directory' or title == 'portfolio' %}
-  <!-- Fill the sidebar on home and post-directory so that it's the same width as on other pages -->
+
+<!-- Fill the sidebar on home and post-directory so that it's the same width as on other pages -->
+{% ifAsync title == 'home' or title == 'directory' or title == 'portfolio' %}
   <div style="min-width: 250px;"> </div>
 {% endif %}
+
 <div class="footer-container-sidebar">
+
 <h4>Links</h4>
 {% include "/templates/footer.njk" %}</div></div>
