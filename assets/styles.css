@@ -68,6 +68,8 @@
   }
 } */
 
+/* Initialize the logos as hidden so that the browser has to wait for 
+  the theme selector in order to choose which to display */
 #darklogo {
   display: none;
 }
