@@ -104,7 +104,7 @@ site.use(feed({
     description: "=excerpt",
     published: "=published",
     updated: undefined,
-    content: "$article.post || =children",
+    content: "$article.post",
     lang: "en",
     image: "=image", // The image of the item
     authorName: "=author",
