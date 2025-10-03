@@ -217,6 +217,11 @@ article:not(.homepage-excerpt) a {
   text-decoration: underline;
 }
 
+/* Indent the first paragraph in a post */
+article.post > p:first-of-type {
+  text-indent: 2.5em;
+}
+
 ::selection {
   background: var(--colour-secondary);
   color: var(--colour-background);
