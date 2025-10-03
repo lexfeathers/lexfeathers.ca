@@ -37,6 +37,8 @@ I've been making music for over 14 years, and have been working in games as both
 
   details {
     margin: 2rem auto;
+    padding: 0 !important;
+    border: none !important;
   }
 
   summary {
@@ -49,23 +51,16 @@ I've been making music for over 14 years, and have been working in games as both
     padding: 1rem;
   }
 
-  summary::marker {
-    content: '→ ';
+  details[open] > summary::after {
+    font-size: 28pt;
+    line-height: 28pt;
+    font-weight: 200;
+  }
+  details > summary::after {
+    line-height: unset;
   }
 
-  summary::after {
-    content: " ...";
-  }
-
-  details[open] summary::after {
-    content: none;
-  }
-
-  details[open] summary::marker {
-    content: '↴ ';
-  }
   .cool-links:not(:last-child) {
-    /* border: 2px solid var(--colour-secondary); */
     border-radius: 4px;
     padding: 1rem;
 

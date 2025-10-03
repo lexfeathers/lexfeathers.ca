@@ -967,15 +967,42 @@ a.external:not(a:has(img)):after {
   height: auto;
 }
 
+/* Generic <details> styling */
+details:not(.content-warnings) {
+  padding: 1rem;
+  border: 2px solid var(--colour-secondary);
+  border-radius: var(--radius);
+}
+details > summary::after {
+  float: right;
+  padding-right: .5rem;
+  font-weight: 600;
+  font-size: 20pt;
+  line-height: 20pt;
+}
+details > summary::after {
+  content: "☰";
+  color: var(--colour-secondary);
+}
+details[open] > summary::after {
+  content: '\0000D7';
+  font-size: 28pt;
+  font-weight: 300;
+}
+details:not(.content-warnings) > summary::marker {
+  content: none;
+}
+details:not(.content-warnings) > summary {
+  color: var(--colour-text);
+}
+/* End generic <details> styling */
+
 /* Content Warnings */
 .content-warnings {
   padding: 1rem;
   border-radius: 6px;
   border: 2px solid var(--colour-lighter-background);
   transition: .4s;
-}
-details[open].content-warnings>summary:after {
-  content: '\0000D7';
 }
 details[open].content-warnings>summary:after, 
 details.content-warnings>summary:after {
@@ -988,7 +1015,7 @@ details.content-warnings>summary:after {
   vertical-align:text-top;
 }
 details.content-warnings>summary:after {
-  content: '☰';
+  /* content: '☰'; */
   font-size: 24pt;
   color: var(--colour-text-faded);
   transition: color .25s;
@@ -1018,15 +1045,11 @@ details.content-warnings {
 .content-warnings>summary {
   font-size: 18pt;
   border-radius: 4px;
+  color: var(--colour-cw-text);
+  border: none;
 }
 .content-warnings>summary::marker {
   content: none;
-}
-.content-warnings>summary::after {
-  content: " ...";
-}
-details[open] summary::after {
-  content: ' ↴';
 }
 details.content-warnings[open] summary::marker {
   content: none;
