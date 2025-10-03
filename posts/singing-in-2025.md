@@ -1,0 +1,38 @@
+---
+title: On singing in 2025
+author: Lex Feathers
+draft: true
+comments: true
+published: 2025-10-02T00:22:29.206Z
+image: /uploads/sev7_beta87a.png
+image_caption: >- 
+  The two microphones I've been using for Waxlimbs shows, an SE v7, and more recently a Shure Beta 87a
+image_alt: >-
+  Two microphones lying on a black table: an SE v7 and a Shure Beta 87a
+content_warnings: ["gender dysphoria","pandemic grief"]
+tags:
+  - music
+  - audio
+  - tools
+  - gender
+excerpt: >-
+  Being a singer during an ongoing pandemic is hard enough without Big Feelings being part of the mix.
+---
+
+<!-- 
+1. brief overview of band, current band makeup and my role
+2. the problem: timbre and how that plays with a mask
+3. how mic choice can help, and which mask types are more acoustically transparent 
+-->
+
+I've been a musician for a long time now. I started making music in earnest at 16 when I bought a copy of Sony Acid Music Studio on December 26th, 2010.[^1] It would be years before I had bandmates and could play instruments, but the day I opened up this extremely shoddy DAW for the first time is when I consider [Waxlimbs](https://waxlimbs.com) to have started.
+
+Waxlimbs is a band with four people in it: Olivia Cox, Paul Geldart, Will Jarvis, and myself. One of our strengths is that Olivia, Will and myself all sing when we play live. We harmonize, and trade lead vocals depending on the song. We all have very different voices and skillsets as singers, and it's something we often get comments on. It feels so special to be able to sing with my bandmates and feel like our voices come together to make a greater whole.
+
+With all of that said, my relationship to my voice has always been a bit strained. When I was younger, I wanted to be able to sing more like my musical heroes, and as I got older, gender dysphoria crept into the frame. I've been singing in Waxlimbs since I was a teenager, and have done _a lot_ of work to learn to appreciate the voice I have. Transness has at times upended the sense of security in myself I've grown out of that work.
+
+In 2020, we stopped playing shows as the (very much ongoing) COVID 19 pandemic began, and for a long time it didn't feel like we've ever get back on stage. When we finally did in 2022, I felt like I'd hit a massive snag as a vocalist; I have to wear a respirator while performing.
+
+I cannot tell you in a blog post how much this sucks to do. Breath control is now hardmode, and the key problem this post aims to provide some ideas for is that it seems like front-of-house always has a really tough time getting my voice to cut throught the mix. It's often hard to hear me clearly. Add this to "she has a low and 'round'-sounding voice", and you've got a dysphoria nightmare.
+
+[^1]: [It came in a box!](/uploads/acidmusicstudiobox.jpg) I can't believe I still had it lying around.
