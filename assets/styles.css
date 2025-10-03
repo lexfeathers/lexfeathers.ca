@@ -969,6 +969,23 @@ a.external:not(a:has(img)):after {
   border: 2px solid var(--colour-lighter-background);
   transition: .4s;
 }
+details[open].content-warnings>summary:after {
+  content: '\0000D7';
+}
+details[open].content-warnings>summary:after, details.content-warnings>summary:after {
+  color: color-mix(in hsl, var(--colour-cw-background), var(--colour-cw-text) 10%);
+  float: right;
+  padding-right: .5rem;
+  font-weight: 600;
+  font-size: 32pt;
+  line-height: 32pt;
+  vertical-align:text-top;
+}
+details.content-warnings>summary:after {
+  content: '☰';
+  font-size: 24pt;
+  color: var(--colour-text-faded);
+}
 details[open].content-warnings {
   border-radius: 6px;
   border: 2px solid var(--colour-cw-background);
