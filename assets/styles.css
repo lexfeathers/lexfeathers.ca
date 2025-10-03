@@ -86,6 +86,7 @@
     --colour-text: var(--colour-text-lightmode);
     --colour-secondary: var(--colour-secondary-lightmode);
     --colour-tertiary: var(--colour-tertiary-lightmode);
+    --colour-cw-text: var(--colour-text);
     background-color: var(--colour-background);
     color: var(--colour-text);
     font-weight: 600;
