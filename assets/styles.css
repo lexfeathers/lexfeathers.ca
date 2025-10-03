@@ -972,7 +972,8 @@ a.external:not(a:has(img)):after {
 details[open].content-warnings>summary:after {
   content: '\0000D7';
 }
-details[open].content-warnings>summary:after, details.content-warnings>summary:after {
+details[open].content-warnings>summary:after, 
+details.content-warnings>summary:after {
   color: color-mix(in hsl, var(--colour-cw-background), var(--colour-cw-text) 10%);
   float: right;
   padding-right: .5rem;
@@ -985,6 +986,7 @@ details.content-warnings>summary:after {
   content: '☰';
   font-size: 24pt;
   color: var(--colour-text-faded);
+  transition: color .25s;
 }
 details[open].content-warnings {
   border-radius: 6px;
