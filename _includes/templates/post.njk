@@ -15,8 +15,8 @@ layout: /layout.njk
 
 <article class="post" transform-images="webp gif 1000@2">
   {% if content_warnings|length %}
-    <details class="content-warnings" open="">
-      <summary>Content warning</summary>
+  <details class="content-warnings" open="">
+      <summary>Content warning{% if content_warnings|length > 1 %}s{%endif%}</summary>
       <ul>
         {% for cw in content_warnings %}
           <li>{{ cw }}</li>
