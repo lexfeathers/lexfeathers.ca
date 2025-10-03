@@ -347,7 +347,7 @@ blockquote {
 .pagefind-ui__result {
   background-color: var(--colour-background);
   border: var(--pagefind-ui-border-width) solid var(--colour-text-faded) !important;
-  border-radius: 4px;
+  border-radius: var(--radius);
   margin: 1rem 0;
 }
 .pagefind-ui__result-inner {
@@ -401,7 +401,7 @@ main > * {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border-radius: 8px;
+  border-radius: calc(var(--radius)*2);
   box-shadow: 0px 4px 4px var(--colour-background);
   /* filter: hue-rotate(35deg) saturate(50%); */
 }
@@ -415,7 +415,7 @@ main > * {
 
 article img:not(.banner > img, .cool-links img) {
   max-width: 100%;
-  border-radius: 4px;
+  border-radius: var(--radius);
   width: 100%;
 }
 
@@ -423,7 +423,7 @@ audio {
   display: block;
   margin: 2rem auto;
   width: 100%;
-  border-radius: 4px;
+  border-radius: var(--radius);
   /* filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%); */
   max-width: 90%;
 }
@@ -434,7 +434,7 @@ audio {
 }
 .footnotes {
   border: 2px solid var(--colour-text-highlight);
-  border-radius: 4px;
+  border-radius: var(--radius);
   padding-right: 1rem;
 }
 .footnotes-list {
@@ -450,7 +450,7 @@ audio {
 .footnote-item > p > img {
   /* border: 1px solid var(--colour-text-faded); */
   box-shadow: 0px 4px 8px var(--colour-background);
-  border-radius: 4px;
+  border-radius: var(--radius);
 }
 
 article:has(.homepage-excerpt) {
@@ -492,7 +492,7 @@ summary {
 select, select option {
   background-color: var(--colour-background);
   border: 2px solid var(--colour-secondary);
-  border-radius: 8px;
+  border-radius: calc(var(--radius)*2);
   height: 2rem;
 } 
 
@@ -545,7 +545,7 @@ select, select option {
   padding: 1rem;
   background-color: var(--colour-lighter-background);
   border: 1px solid var(--colour-text-faded);
-  border-radius: 8px;
+  border-radius: calc(var(--radius)*2);
   box-shadow: 0px 4px 8px var(--colour-background);
   /* transition: 140ms;
   -moz-transition: 140ms;
@@ -582,7 +582,7 @@ select, select option {
     height: 150px;
     overflow: hidden;
     margin: auto 0;
-    border-radius: 8px;
+    border-radius: calc(var(--radius)*2);
     & .card-image {
       width: 320px;
       max-width: 100%;
@@ -618,7 +618,7 @@ select, select option {
   height: 10px;
   color: var(--colour-background);
   margin-bottom: 1rem;
-  border-radius: 8px;
+  border-radius: calc(var(--radius)*2);
   background-color: var(--colour-background);
   box-shadow: 0px 4px 4px var(--colour-dark-background) inset;
 }
@@ -638,7 +638,7 @@ header nav {
 #sidebar,
 #content,
 .content-box {
-  border-radius: 8px;
+  border-radius: calc(var(--radius)*2);
   padding: 2rem;
   box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.4);
 }
@@ -740,7 +740,7 @@ header nav {
   background-color: var(--colour-text-highlight);
   min-width: 4px;
   margin: 0 1rem 0 0;
-  border-radius: 4px;
+  border-radius: var(--radius);
 }
 
 #post-dir menu {
@@ -840,7 +840,7 @@ footer #theme-select-container {
   color: var(--colour-background);
   padding: 0.5rem;
   border: none;
-  border-radius: 4px;
+  border-radius: var(--radius);
   margin: 0;
 }
 
@@ -876,7 +876,7 @@ a.external:not(a:has(img)):after {
 .grid-item {
   background-color: var(--colour-lighter-background);
   border: 1px solid var(--colour-text-faded);
-  border-radius: 4px;
+  border-radius: var(--radius);
   height: auto;
   box-shadow: 0px 4px 8px var(--colour-dark-background);
   padding: 1rem;
@@ -917,7 +917,7 @@ a.external:not(a:has(img)):after {
   aspect-ratio: 1 / 1;
   align-items: center;
   display: grid;
-  border-radius: 8px;
+  border-radius: calc(var(--radius)*2);
   overflow: hidden;
   & .item-photo {
     max-width: 100%;
@@ -943,7 +943,7 @@ a.external:not(a:has(img)):after {
 }
 .grid-item__client .icon {
   border: 1px solid var(--colour-tertiary);
-  border-radius: 4px;
+  border-radius: var(--radius);
   box-shadow: inset 0px 4px 2px var(--colour-dark-background);
   margin-right: .25rem;
   padding: 1px;
@@ -954,7 +954,7 @@ a.external:not(a:has(img)):after {
   width: fit-content;
   margin: .2rem 0;
   border: 1px solid var(--colour-text-faded);
-  border-radius: 2px;
+  border-radius: calc(var(--radius)/2);
   align-self: right;
 }
 .grid-item__worktype {
@@ -1000,7 +1000,7 @@ details:not(.content-warnings) > summary {
 /* Content Warnings */
 .content-warnings {
   padding: 1rem;
-  border-radius: 6px;
+  border-radius: var(--radius);
   border: 2px solid var(--colour-lighter-background);
   transition: .4s;
 }
@@ -1021,7 +1021,6 @@ details.content-warnings>summary:after {
   transition: color .25s;
 }
 details[open].content-warnings {
-  border-radius: 6px;
   border: 2px solid var(--colour-cw-background);
 }
 .content-warnings, .content-warnings > * {
@@ -1044,7 +1043,6 @@ details.content-warnings {
 }
 .content-warnings>summary {
   font-size: 18pt;
-  border-radius: 4px;
   color: var(--colour-cw-text);
   border: none;
 }
@@ -1059,7 +1057,7 @@ details.content-warnings[open] summary::marker {
 /* Image handling */
 figure img {
   margin: auto;
-  border-radius: 8px;
+  border-radius: calc(var(--radius)*2);
   box-shadow: 0px 6px 4px var(--colour-background);
   max-width: 100%;
 }
@@ -1089,7 +1087,6 @@ figcaption {
 /* Inline code */
 code {
   padding: 0 4px;
-  /* border-radius: 4px; */
   background-color: var(--colour-text-highlight);
   font-family: var(--family-code);
   font-optical-sizing: auto;
@@ -1100,7 +1097,7 @@ code {
 pre:has(code) {
   background-color: var(--colour-background);
   padding: 1rem;
-  border-radius: 4px;
+  border-radius: var(--radius);
   overflow: scroll;
 }
 pre > code {
@@ -1128,7 +1125,6 @@ header h1 a:hover {
 }
 header h1 a .name {
   border-bottom: 0px solid var(--colour-secondary);
-  border-radius: 1px;
   transition: 80ms;
 }
 header h1 a .name:hover {
@@ -1228,7 +1224,7 @@ textarea, input {
   padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid var(--colour-secondary);
-  border-radius: 4px;
+  border-radius: var(--radius);
   background-color: var(--colour-background);
   font-size: 16px;
   resize: none;
@@ -1244,7 +1240,7 @@ a:focus-visible,
 button:focus-visible {
   outline: 3px solid var(--colour-secondary);
   outline-offset: 3px;
-  border-radius: 3px;
+  border-radius: calc(var(--radius)*.75);
   transition: outline 50ms ease;
   z-index: 1;
 }
@@ -1253,7 +1249,7 @@ button:focus-visible {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
   float: right;
   filter: sepia(0.5);
-  border-radius: 2px;
+  border-radius: calc(var(--radius)/2);
 }
 
 iframe[title="YouTube video player"],
@@ -1262,7 +1258,7 @@ iframe[src*="bandcamp.com"] {
   margin: 0 auto;
   width: 100%;
   height: 425px;
-  border-radius: 4px;
+  border-radius: var(--radius);
   box-shadow: 0px 4px 8px var(--colour-background);
 }
 
@@ -1272,7 +1268,7 @@ iframe[src*="bandcamp.com"] {
   color: var(--colour-secondary);
   box-shadow: 0px 6px 4px var(--colour-background) !important;
   border: 2px solid var(--colour-secondary);
-  border-radius: 4px;
+  border-radius: var(--radius);
   padding: 1rem;
 }
 
@@ -1308,7 +1304,7 @@ iframe[src*="bandcamp.com"] {
   .directory-card>div {
     margin-left: 0;
     margin-right: 0;
-    border-radius: 8px;
+    border-radius: calc(var(--radius)*2);
     overflow: hidden;
     flex-direction: column;
     & .directory-card__link {
@@ -1329,7 +1325,7 @@ iframe[src*="bandcamp.com"] {
     border-radius: 6px;
   }
   .card-image {
-    border-radius: 8px;
+    border-radius: calc(var(--radius)*2);
     max-width: none !important;
   }
 
