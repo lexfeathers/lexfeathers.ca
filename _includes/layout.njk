@@ -46,6 +46,17 @@
 		</main>
 
 		<div class="footer-container">
+			{% if title != "transients" %}
+				<div class="smosts mobile-only">
+					<a href="/transients/">
+						{% set smosts = search.pages("type=smosts draft=false", "published=desc", 1)%}
+						{% asyncEach smost in smosts %}
+						{% include "/templates/smost.njk"%}
+						{% endeach %}
+						{# <a href="/transients/" class="button">All</a> #}
+					</a>
+				</div>
+			{% endif %}
 			{% include "templates/footer.njk" %}
 		</div>
 		<!-- Set Markdown Alert marker icons -->

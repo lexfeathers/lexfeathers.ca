@@ -179,6 +179,12 @@
   word-wrap: normal !important;
 }
 
+@media screen and (min-width: 750px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
 body {
   font-family: var(--family-sans);
   font-weight: 300;
@@ -851,6 +857,9 @@ footer #theme-select-container {
   color: var(--colour-text);
 }
 
+.smosts.mobile-only {
+  margin: 2rem 0 0 0;
+}
 .smosts {
   margin-top: 2rem;
 }
@@ -1198,6 +1207,7 @@ ul.taglist {
 /* Footer styles */
 .footer-container {
   display: flex;
+  flex-direction: column;
 }
 
 .footer-container footer {
@@ -1410,6 +1420,7 @@ iframe[src*="bandcamp.com"] {
   footer {
     flex-direction: column;
     align-items: flex-start;
+    padding: 0 0 2rem 0;
   }
 
   .utility-links {
