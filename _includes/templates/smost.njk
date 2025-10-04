@@ -1,7 +1,7 @@
 <div class="smost" id="{{ smost.published | date('MM-yy')}}-{{smost.content | lower | replace(' ', '-') | truncate(32, true, '')}}">
     <span class="smost-date">
         <a href="{% if title == 'transients' %}#{{ smost.published | date('MM-yy')}}-{{smost.content  | lower | replace(' ', '-') | truncate(32, true, '')}}{% else %}/transients/{% endif %}">
-            {{ smost.published | date('MM/yy')}}{% if title == 'transients' %} at {{ smost.published | date('HH:mm') }}{% endif %}
+            {{ smost.published | date('dd-MM-yy')}}{% if title == 'transients' %} at {{ smost.published | date('HH:mm') }}{% endif %}
         </a>
     </span>
     <span class="smost-content">: {{ smost.content | safe}}</span>
