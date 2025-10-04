@@ -863,7 +863,7 @@ footer #theme-select-container {
   background-color: var(--colour-background);
   border-radius: calc(var(--radius)*3);
   font-size: 12pt;
-  box-shadow: inset 0px 4px 4px color-mix(in hsl, var(--colour-background), black 20%);
+  box-shadow: inset 0px 2px 4px color-mix(in srgb, var(--colour-background), black 20%);
 }
 .smost-date {
   color: var(--colour-text-faded);
