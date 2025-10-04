@@ -1,5 +1,6 @@
 import lumeCMS from "lume/cms/mod.ts";
 import GitHub from "lume/cms/storage/github.ts";
+import { title } from "node:process";
 import { Octokit } from "npm:octokit";
 // import _fields from "lume/cms/fields/core.ts";
 
@@ -188,7 +189,12 @@ cms.collection({
   name: "transients", 
   store: "my_fs:smosts/*.md", 
   fields: [
-    "title: text",
+    {
+      name: "title",
+      type: "text",
+      value: formattedDate,
+      description: "Leave blank to use date",
+    },
     {
       name: "published",
       type: "datetime",
