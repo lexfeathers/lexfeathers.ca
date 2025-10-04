@@ -861,7 +861,7 @@ footer #theme-select-container {
   padding: .5rem;
   border: 2px solid var(--colour-lighter-background);
   background-color: var(--colour-background);
-  border-radius: calc(var(--radius)*2);
+  border-radius: calc(var(--radius)*3);
   font-size: 10pt;
   box-shadow: inset 0px 4px 4px color-mix(in hsl, var(--colour-background), black 20%);
 }
