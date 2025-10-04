@@ -182,6 +182,28 @@ cms.collection({
   ],
   documentName: "title",
 });
+// Create "smosts" collection
+// using my_fs storage
+cms.collection({
+  name: "transients", 
+  store: "my_fs:smosts/*.md", 
+  fields: [
+    "title: text",
+    {
+      name: "published",
+      type: "datetime",
+      label: "Published date",
+      value: new Date(),
+      description: "Set a future date if you want to publish it later",
+    },
+    {
+      name: "draft",
+      type: "checkbox",
+    },
+    "content: markdown",
+  ],
+  documentName: "title",
+});
 
 // Site settings
 cms.document(
@@ -198,6 +220,12 @@ cms.document(
           type: "text",
           label: "Site name",
           description: "Name of the website",
+        },
+        {
+          name: "show_sidebar_transients",
+          type: "checkbox",
+          label: "Show latest transient on sidebar?",
+          value: true
         },
       ],
     },
