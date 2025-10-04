@@ -16,6 +16,7 @@ Deno.env.set("TZ", "US/Eastern");
 const humanDate = new Date();
 humanDate.toLocaleString('en-US', { timeZone: 'America/New_York' })
 const formattedDate = humanDate.toISOString().split('T')[0].replace(/-/g, '-');
+const formattedDateTime = humanDate.toISOString().replace(/-/g, '-');
 
 // Create the cms instance
 const cms = lumeCMS({
@@ -193,7 +194,7 @@ cms.collection({
     {
       name: "title",
       type: "text",
-      value: formattedDate,
+      value: formattedDateTime,
       description: "Leave blank to use date"
     },
     {
