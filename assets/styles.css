@@ -903,7 +903,7 @@ footer #theme-select-container {
 .smost>span,
 .smost>a {
   font-size: 12pt;
-  background-color: var(--colour-background);
+  background-color: var(--colour-light-background);
 }
 /* end smosts */
 
