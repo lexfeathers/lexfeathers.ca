@@ -4,5 +4,5 @@
             {{ smost.published | date('dd-MM-yy')}}{% if title == 'transients' %} at {{ smost.published | date('HH:mm') }}{% endif %}
         </a>
     </span>
-    <span class="smost-content">: {{ smost.content | safe}}</span>
+    <span class="smost-content">: {{ smost.content | safe }}</span>
 </div>
