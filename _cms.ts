@@ -225,7 +225,6 @@ cms.document(
           name: "show_sidebar_transients",
           type: "checkbox",
           label: "Show latest transient on sidebar?",
-          value: true
         },
       ],
     },
