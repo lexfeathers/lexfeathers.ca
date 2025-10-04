@@ -33,6 +33,7 @@
     <div style="min-width: 250px;"> </div>
   {% endif %}
   
+  {% if title != "transients"%}
   <div class="smosts">
     <h3 class="label-subtle">note:<sup class="tooltip faded" title="Tiny updates! Click the date to see them all.">?</sup></h3>
     <a href="/transients/">
@@ -43,6 +44,7 @@
         {# <a href="/transients/" class="button">All</a> #}
     </a>
   </div>
+  {% endif %}
 
   <div class="footer-container-sidebar">
     <h4>Links</h4>
