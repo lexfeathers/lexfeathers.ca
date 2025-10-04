@@ -34,6 +34,7 @@
   {% endif %}
   
   <div class="smosts">
+    <h3 class="label-subtle" title="The latest small update. Click the date to see all updates.">note:</h3>
     <a href="/transients/">
         {% set smosts = search.pages("type=smosts draft=false", "published=desc", 1)%}
         {% asyncEach smost in smosts %}

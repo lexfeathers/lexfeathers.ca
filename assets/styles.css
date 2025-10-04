@@ -185,6 +185,14 @@
   }
 }
 
+.label-subtle {
+  margin: .5rem 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
 body {
   font-family: var(--family-sans);
   font-weight: 300;
@@ -857,8 +865,10 @@ footer #theme-select-container {
   color: var(--colour-text);
 }
 
+/* Smosts or Transients, whatever terrible word we wanna call em */
 .smosts.mobile-only {
   margin: 2rem 0 0 0;
+  padding: 1rem;
 }
 .smosts {
   margin-top: 2rem;
@@ -869,14 +879,16 @@ footer #theme-select-container {
 .smost {
   padding: .5rem;
   border: 2px solid var(--colour-lighter-background);
-  background-color: var(--colour-background);
   border-radius: calc(var(--radius)*3);
-  font-size: 12pt;
   box-shadow: inset 0px 2px 4px color-mix(in srgb, var(--colour-background), black 20%);
 }
-.smost-date {
-  color: var(--colour-text-faded);
+.smost,
+.smost>span,
+.smost>a {
+  font-size: 12pt;
+  background-color: var(--colour-background);
 }
+/* end smosts */
 
 a.external:not(a:has(img)):after {
   content: '↗';
