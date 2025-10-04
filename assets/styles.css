@@ -193,6 +193,23 @@
   text-align: center;
 }
 
+/* 
+  Tooltips should be <sup> elements, intended to show a 
+  title="" on hover which explains a site feature 
+*/
+.tooltip {
+  font-weight: 600 !important;
+  font-size: var(--text-medium);
+  background-color: var(--colour-background) !important;
+  padding: 0 .25rem;
+  margin: 0 .1rem;
+  border-radius: var(--radius);
+}
+.tooltip:hover {
+  opacity: 1;
+  background-color: var(--colour-text-highlight) !important;
+}
+
 body {
   font-family: var(--family-sans);
   font-weight: 300;
