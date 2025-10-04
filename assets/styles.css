@@ -437,7 +437,7 @@ audio {
   border: 2px solid var(--colour-text-highlight);
   border-radius: var(--radius);
   padding-right: 1rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .footnotes-list {
   font-size: var(--text-small);
