@@ -32,6 +32,7 @@ layout: /layout.njk
       <a href="{{ image }}">
         <img 
           src="{{ image }}" 
+          title="{% if image_alt %}{{ image_alt }}{% else %}{{ image_caption }}{% endif %}"
           alt="{% if image_alt %}{{ image_alt }}{% else %}{{ image_caption }}{% endif %}" 
           loading="lazy"
         >
