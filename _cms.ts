@@ -14,6 +14,7 @@ Deno.env.set("TZ", "US/Eastern");
 
 // Get current date in YYYY-MM-DD format
 const humanDate = new Date();
+humanDate.toLocaleString('en-US', { timeZone: 'America/New_York' })
 const formattedDate = humanDate.toISOString().split('T')[0].replace(/-/g, '-');
 
 // Create the cms instance
