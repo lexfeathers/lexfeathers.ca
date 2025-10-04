@@ -193,22 +193,22 @@ cms.collection({
       name: "title",
       type: "text",
       value: formattedDate,
-      description: "Leave blank to use date",
+      description: "Leave blank to use date"
     },
     {
       name: "published",
       type: "datetime",
       label: "Published date",
       value: new Date(),
-      description: "Set a future date if you want to publish it later",
+      description: "Set a future date if you want to publish it later"
     },
     {
       name: "draft",
-      type: "checkbox",
+      type: "checkbox"
     },
     "content: markdown",
   ],
-  documentName: "title",
+  documentName: "{title}.md",
 });
 
 // Site settings
