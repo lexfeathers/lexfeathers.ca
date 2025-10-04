@@ -62,6 +62,8 @@ Singing is important to me. Performing our songs with my bandmates is important 
 
 ♥ Lex
 
+<br>
+
 PS: Thank you to [Noé](https://knivesforcats.online) for proofreading! I don't ususally write posts this involved, so the extra eyes were extremely helpful.
 
 [^1]: Or supercardioid, depending on your flavour of nerdery
