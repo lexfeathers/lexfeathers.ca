@@ -851,6 +851,24 @@ footer #theme-select-container {
   color: var(--colour-text);
 }
 
+.smosts {
+  margin-top: 1rem;
+}
+.smosts > .smost:not(:last-child) {
+  margin-bottom: .5rem;
+}
+.smost {
+  padding: .5rem;
+  border: 2px solid var(--colour-lighter-background);
+  background-color: var(--colour-background);
+  border-radius: calc(var(--radius)*2);
+  font-size: 10pt;
+  box-shadow: inset 0px 4px 4px color-mix(in hsl, var(--colour-background), black 20%);
+}
+.smost-date {
+  color: var(--colour-text-faded);
+}
+
 a.external:not(a:has(img)):after {
   content: '↗';
   font-family: var(--family-code);
