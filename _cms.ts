@@ -10,7 +10,7 @@ const password = Deno.env.get("PASSWORD") || "default";
 
 // Set site time zone
 // Timezone codes can be found at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-Deno.env.set("TZ", "US/Eastern");
+// Deno.env.set("TZ", "US/Eastern");
 
 // Get current date in YYYY-MM-DD format
 const humanDate = new Date();
