@@ -201,7 +201,7 @@ cms.collection({
       name: "published",
       type: "datetime",
       label: "Published date",
-      value: humanDate,
+      value: new Date(),
       description: "Set a future date if you want to publish it later"
     },
     {
