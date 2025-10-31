@@ -250,9 +250,9 @@ article:not(.homepage-excerpt) a {
 }
 
 /* Indent the first paragraph in a post */
-article.post > p:first-of-type {
+/* article.post > p:first-of-type {
   text-indent: 2.5em;
-}
+} */
 
 ::selection {
   background: var(--colour-secondary);
