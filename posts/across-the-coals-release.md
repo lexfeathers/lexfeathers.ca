@@ -40,7 +40,7 @@ Across The Coals marked the first song we've taken this route for. The result is
 
 This song and one other (still in the production pipeline) have made up a kind of interstitial period for us. The songs that make up our album [Where Lilies Grew](https://waxlimbs.com/album/where-lilies-grew) were all written and released as singles, and happen to make up a record we're very proud of. Once that project came to a close, we were searching for a new approach that would define the next thing we did. Singles presented a way for us to "get good" at songwriting and only put out work we were proud of, and avoid the problem of album filler. 
 
-It has been 4 years since the songwriting process for Where Lilies Grew wrapped, and I think we're finally ready to write an album. Across The Coals marks the intermission, and we can't wait to show you[^2] what comes next, when the time is right. 
+It has been 4 years since the songwriting process for Where Lilies Grew wrapped, and I think we're finally ready to write an album. Across The Coals marks the intermission, and we can't wait to show you what comes next[^2], when the time is right. 
 
 [^1]: Historically, this has always been a pain point for us. We have often released a song, and in playing it live realized that it should have been 10bpm faster. 
-[^2]: If you've been to our live shows in the past year, you've probably heard us play a lot of the songs I am alluding to :)
+[^2]: If you've been to our live shows in the past year, you've probably already heard us play a lot of the songs I am alluding to :)
