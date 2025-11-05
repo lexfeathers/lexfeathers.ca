@@ -16,6 +16,8 @@ draft: false
 ## Sound designer and composer for [games](https://lexfeathers.ca/portfolio) 
 I've been writing music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing aural detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
 
+Looking to work together, or just have a question? Feel free to [get in touch!](/pages/contact.md)
+
 ## listen to my music
 - [Waxlimbs (my band)](https://waxlimbs.bandcamp.com/)
 - [Void Femmes (my solo electronic music)](https://voidfemmes.bandcamp.com/)
