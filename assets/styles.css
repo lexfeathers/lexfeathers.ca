@@ -203,8 +203,6 @@
   border-radius: var(--radius);
   border: none !important;
   display: inline;
-  width: fit-content;
-  white-space: no-wrap;
   & summary {
 	padding: .5rem;
 	display: inline;
@@ -219,6 +217,7 @@
   opacity: 1;
   background-color: var(--colour-text-highlight) !important;
 }
+/* End tooltips */
 
 body {
   font-family: var(--family-sans);
