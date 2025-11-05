@@ -198,12 +198,12 @@
   intended to explain a site feature 
 */
 .tooltip {
-  font-size: var(--text-small);
+  font-size: calc(var(--text-small) - 2pt);
   padding: 0 !important;
-  border-radius: var(--radius);
   border: none !important;
   display: inline;
   & summary {
+	opacity: .6;
 	padding: .5rem;
 	display: inline;
 	font-weight: 700 !important;
@@ -213,9 +213,9 @@
 	display: none !important;
   }
 }
-.tooltip:hover {
+.tooltip summary:hover {
   opacity: 1;
-  background-color: var(--colour-text-highlight) !important;
+  border-bottom: 2px solid var(--colour-secondary);
 }
 /* End tooltips */
 
