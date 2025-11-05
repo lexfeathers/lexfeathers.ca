@@ -241,6 +241,27 @@ h5,
 h6 {
   font-weight: 300;
   line-height: 1.6;
+  --scalefactor: 0.9; 
+}
+
+/* Font sizing per spec */
+h1 {
+	font-size: calc(2.986rem * var(--scalefactor));
+}
+h2 {
+	font-size: calc(2.488rem * var(--scalefactor));
+}
+h3 {
+	font-size: calc(2.074rem * var(--scalefactor));
+}
+h4 {
+	font-size: calc(1.728rem * var(--scalefactor));
+}
+h5 {
+	font-size: calc(1.44rem * var(--scalefactor));
+}
+h6 {
+	font-size: calc(1.2rem * var(--scalefactor));
 }
 
 a {
