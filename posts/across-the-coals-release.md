@@ -3,7 +3,7 @@ title: Across The Coals (single release)
 author: Lex Feathers
 draft: false
 comments: true
-published: 2025-10-31T06:47:34.293Z
+published: 2025-11-05T10:55:34.293Z
 image: /uploads/atc_cover.jpg
 image_caption: The cover artwork for 'Across The Coals' by Waxlimbs
 image_alt: >-
