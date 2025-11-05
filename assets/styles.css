@@ -194,16 +194,26 @@
 }
 
 /* 
-  Tooltips should be <sup> elements, intended to show a 
-  title="" on hover which explains a site feature 
+  Tooltips should be <details> elements, 
+  intended to explain a site feature 
 */
 .tooltip {
-  font-weight: 600 !important;
-  font-size: var(--text-medium);
-  background-color: var(--colour-background) !important;
-  padding: 0 .25rem;
-  margin: 0 .1rem;
+  font-size: var(--text-small);
+  padding: 0 !important;
   border-radius: var(--radius);
+  border: none !important;
+  display: inline;
+  width: fit-content;
+  white-space: no-wrap;
+  & summary {
+	padding: .5rem;
+	display: inline;
+	font-weight: 700 !important;
+	vertical-align: top;
+  }
+  & summary::after {
+	display: none !important;
+  }
 }
 .tooltip:hover {
   opacity: 1;
