@@ -208,14 +208,15 @@
 	display: inline;
 	font-weight: 700 !important;
 	vertical-align: top;
+	transition: 150ms;
   }
   & summary::after {
 	display: none !important;
   }
-}
-.tooltip summary:hover {
-  opacity: 1;
-  border-bottom: 2px solid var(--colour-secondary);
+  & summary:hover {
+	opacity: 1;
+	border-bottom: 2px solid var(--colour-secondary);
+  }
 }
 /* End tooltips */
 
