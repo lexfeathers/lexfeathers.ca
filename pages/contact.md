@@ -1,5 +1,5 @@
 ---
-title: ask
+title: contact
 description: Contact me
 order: 7
 ---
