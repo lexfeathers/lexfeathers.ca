@@ -1,25 +1,38 @@
+{% set socialLinks = social_links %}
+{% set musicLinks = music_links %}
+
 <footer>
-  <ul class="menu">
-    {% set footerLinks = footer_links %}
-    {% asyncEach item in footerLinks %}
-    <li class="menu-item">
-      <a href="{{ item.url }}" {% ifAsync item.title == "Mastodon" %}rel="me"{%endif%} target="_blank" class="external">{{ item.title }}</a>
-    </li>
-    {% endeach %}
-    <li class="menu-item utility-link">
-      <a href="/sitemap.xml" class="button">Sitemap</a>
-    </li>
-    <li class="menu-item utility-link">
-      <a href="/feed.rss" class="button">RSS</a>
-    </li>
-  </ul>
-
-  {% include "/templates/theme-selector.njk" %}
-
-  <p class="copyright">&copy; {{ website.site_title }} <span id="currentyear">{{ date | date('yyyy') }}</span></p>
-  <span class="utility-links">
-    <a href="/sitemap.xml" class="button">Sitemap</a>
-    <span>|</span>
-    <a href="/feed.rss" class="button">RSS</a>
-  </span>
+    <ul class="menu">
+        <div class="footer-menu__block">
+            <p role="heading">Music</p>
+            {% asyncEach item in musicLinks %}
+            <li class="menu-item">
+                <a href="{{ item.url }}" {% ifAsync item.title == "Mastodon" %} rel="me" {% endif %} target="_blank" class="external">{{ item.title }}</a>
+            </li>
+            {% endeach %}
+        </div>
+        <div class="footer-menu__block">
+            <p role="heading">Socials</p>
+            {% asyncEach item in socialLinks %}
+            <li class="menu-item">
+                <a href="{{ item.url }}" {% ifAsync item.title == "Mastodon" %} rel="me" {% endif %} target="_blank" class="external">{{ item.title }}</a>
+            </li>
+            {% endeach %}
+        </div>
+        <li class="menu-item utility-link">
+            <a href="/sitemap.xml" class="button">Sitemap</a>
+        </li>
+        <li class="menu-item utility-link">
+            <a href="/feed.rss" class="button">RSS</a>
+        </li>
+    </ul>
+    {% include "/templates/theme-selector.njk" %}
+    <p class="copyright">&copy; {{ website.site_title }}
+        <span id="currentyear">{{ date | date('yyyy') }}</span>
+    </p>
+    <span class="utility-links">
+        <a href="/sitemap.xml" class="button">Sitemap</a>
+        <span>|</span>
+        <a href="/feed.rss" class="button">RSS</a>
+    </span>
 </footer>

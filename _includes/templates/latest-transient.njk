@@ -1,0 +1,13 @@
+    <h3 class="label-subtle"><span>note:</span>
+		<details class="tooltip" alt="Toggle tooltip">
+			<summary>?</summary>
+			<span>Tiny updates! Click the date to see them all.</span>
+		</details>
+	</h3>
+    <a href="/transients/">
+        {% set smosts = search.pages("type=smosts draft=false", "published=desc", 1)%}
+        {% asyncEach smost in smosts %}
+          {% include "/templates/smost.njk"%}
+        {% endeach %}
+        {# <a href="/transients/" class="button">All</a> #}
+    </a>

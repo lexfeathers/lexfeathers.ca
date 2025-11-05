@@ -782,10 +782,6 @@ header nav {
   padding-top: 0;
 }
 
-#sidebar footer * {
-  flex-direction: column;
-}
-
 #sidebar footer .copyright {
   display: none;
 }

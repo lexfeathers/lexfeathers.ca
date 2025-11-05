@@ -22,10 +22,15 @@ metas:
     - electronic music
     - waxlimbs
   generator: false
-footer_links:
+social_links:
   - title: Bsky
     url: 'https://bsky.app/profile/lexfeathers.ca'
-  - title: Bandcamp
-    url: 'https://voidfemmes.bandcamp.com'
   - title: Mastodon
     url: 'https://tenforward.social/@lexfeathers'
+music_links:
+  - title: Void Femmes
+    url: 'https://voidfemmes.bandcamp.com'
+  - title: Waxlimbs
+    url: 'https://waxlimbs.bandcamp.com'
+  - title: Feyla
+    url: 'https://feyla.bandcamp.com'
