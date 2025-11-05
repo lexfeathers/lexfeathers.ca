@@ -13,8 +13,8 @@ draft: false
   <!-- <figcaption>{{ image_caption }}</figcaption> -->
 </figure>
 
-### I make music [for games](https://lexfeathers.ca/portfolio), and sometimes for myself. 
-I've been making music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing aural detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
+## Sound designer and composer for [games](https://lexfeathers.ca/portfolio) 
+I've been writing music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing aural detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
 
 ## listen to my music
 - [Waxlimbs (my band)](https://waxlimbs.bandcamp.com/)
@@ -139,7 +139,7 @@ I've been making music for over 14 years, and have been working in games as both
 </details>
 
 <div class="cool-links content-box" transform-images="">
-  <h2 id="internet-neighbours">internet neighbours</h2>
+  <h3 id="internet-neighbours">internet neighbours</h2>
 
   <div id="cool-buttons">
     <a href="https://blog.radicaldream.land" target="_blank">
@@ -260,7 +260,7 @@ I've been making music for over 14 years, and have been working in games as both
 
 <!-- My 88x31 link -->
 <div class="content-box" style="padding: 1rem;margin: 2rem 0;">
-  <h2>add me to your website</h2>
+  <h3>add me to your website</h2>
   <div style="text-align: center;">
     <img class="my-88x31" width="172" height="62" alt="Lex Feathers" title="Lex Feathers" style="margin: auto;image-rendering: pixelated;margin:0rem 1rem 2rem;"
       src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" />
