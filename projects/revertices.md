@@ -16,7 +16,9 @@ work_type: Music, Sound Design
 >
 > <cite><a href="https://revertices.com/">- revertices.com</a></cite>
 
-I've had the pleasure of scoring the game while also handling key sound design and implementation via FMOD. Check out the trailer below:
+I've had the pleasure of scoring the game while also handling sound design and implementation via FMOD. 
+
+Check out the trailer below:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PkCjzetDvd4?si=hECPBBpK6iCmgppt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
