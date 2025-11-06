@@ -1,16 +1,18 @@
-    <h3 class="label-subtle"><span>note:</span>
+    <h3 class="label-subtle">
+		<span>note:</span>
 		<details class="tooltip" alt="Toggle tooltip">
 			<summary>?</summary>
 			<span>Tiny updates! Click the date to see them all.</span>
 		</details>
 	</h3>
-    <a href="/transients/">
-        
+    <a href="/transients">
+		{% set smosts = search.pages("type=smosts draft=false", "published=desc", 1) %}
+
         {% asyncEach smost in smosts %}
 			<div class="smost" id="{{ smost.published | date('MM-yy')}}-{{smost.smost_content | lower | replace(' ', '-') | truncate(32, true, '')}}">
 				<span class="smost-date">
-					<a href="{% ifAsync title == 'transients' %}#{{ smost.published | date('MM-yy')}}-{{smost.smost_content  | lower | replace(' ', '-') | truncate(32, true, '')}}{% else %}/transients/{% endif %}">
-						{{ smost.published | date('dd-MM-yy')}}{% ifAsync title == 'transients' %} at {{ smost.published | date('HH:mm') }}{% endif %}
+					<a href="{% if title == 'transients' %}#{{ smost.published | date('MM-yy')}}-{{smost.smost_content  | lower | replace(' ', '-') | truncate(32, true, '')}}{% else %}/transients{% endif %}">
+						{{ smost.published | date('dd-MM-yy')}}{% if title == 'transients' %} at {{ smost.published | date('HH:mm') }}{% endif %}
 					</a>
 				</span>
 				<span class="smost-content">: {{ smost.smost_content }}</span>
