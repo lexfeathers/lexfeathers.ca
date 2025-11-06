@@ -36,6 +36,7 @@
   {# Need to fix recursion to implement this. #}
   {% if title != "transients" %}
   <div class="smosts">
+	{% set smosts = search.pages("type=smosts draft=false", "published=desc", 1) %}
 	{% include "/partials/latest-transient.njk" %}
   </div>
   {% endif %}

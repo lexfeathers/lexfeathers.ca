@@ -5,7 +5,7 @@
 		</details>
 	</h3>
     <a href="/transients/">
-        {% set smosts = search.pages("type=smosts draft=false", "published=desc", 1) %}
+        
         {% asyncEach smost in smosts %}
 			<div class="smost" id="{{ smost.published | date('MM-yy')}}-{{smost.smost_content | lower | replace(' ', '-') | truncate(32, true, '')}}">
 				<span class="smost-date">
