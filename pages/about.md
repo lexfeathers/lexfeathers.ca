@@ -32,9 +32,15 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
   /* Figures */
   .headshot {
     text-align: center;
+	margin: auto;
   }
   .headshot img {
     max-width: 60%;
+  }
+  @media screen and (max-width: 749px) {
+	  .headshot img {
+		max-width: 90%;
+	  }
   }
   
   /* "Uses" dropdown */
