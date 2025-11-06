@@ -9,7 +9,7 @@ draft: false
 <h1>Lex Feathers <span class="faded">(she/her)</span></h1>
 
 <figure class="headshot" transform-images="">
-  <img src="/uploads/lex_avi_apr2025.jpg" alt="Lex Feathers" style="border-radius: 340px; filter: sepia(30%) contrast(1.2);" />
+  <img src="/uploads/Lex_HeadShot_OfficeRoom.jpg" alt="Lex Feathers, a woman with pink hair and black shirt. She has a slight smile." style="border-radius: 340px; filter: contrast(1.1);" />
   <!-- <figcaption>{{ image_caption }}</figcaption> -->
 </figure>
 
