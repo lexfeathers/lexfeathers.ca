@@ -923,7 +923,7 @@ a {
 }
 /* end smosts */
 
-a.external:not(a:has(img)):after {
+a.external:not(a:has(img))::after {
   content: '↗';
   font-family: var(--family-code);
   color: var(--colour-text);
