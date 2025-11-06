@@ -191,12 +191,12 @@ cms.collection({
   name: "transients", 
   store: "my_fs:smosts/*.md", 
   fields: [
-    {
-      name: "title",
-      type: "text",
-      value: formattedDateTime,
-      description: "Leave blank to use date"
-    },
+    // {
+    //   name: "title",
+    //   type: "text",
+    //   value: formattedDateTime,
+    //   description: "Leave blank to use date"
+    // },
     {
       name: "published",
       type: "datetime",
@@ -209,7 +209,7 @@ cms.collection({
       type: "checkbox"
     },
 	{
-		name: "smost",
+		name: "smost_content",
 		type: "text",
 	}
   ],
