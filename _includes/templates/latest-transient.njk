@@ -5,9 +5,9 @@
 		</details>
 	</h3>
     <a href="/transients/">
-        {% set smosts = search.pages("type=smosts draft=false", "published=desc", 1)%}
+        {% set smosts = search.pages("type=smosts draft=false", "published=desc", 1) %}
         {% asyncEach smost in smosts %}
-          {% include "/templates/smost.njk"%}
+          {% include "/templates/smost.njk" %}
         {% endeach %}
         {# <a href="/transients/" class="button">All</a> #}
     </a>
