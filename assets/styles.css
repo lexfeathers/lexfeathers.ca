@@ -903,6 +903,12 @@ a {
   margin: 2rem 0 0 0;
   padding: 1rem;
 }
+.smosts.mobile-only {
+	background-color: var(--colour-light-background);
+	& * {
+		background-color: var(--colour-light-background);
+	}
+}
 .smosts {
   margin-top: 2rem;
 }
