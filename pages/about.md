@@ -8,7 +8,7 @@ draft: false
 ---
 <h1>Lex Feathers <span class="faded">(she/her)</span></h1>
 
-<figure transform-images="">
+<figure class="headshot" transform-images="">
   <img src="/uploads/lex_avi_apr2025.jpg" alt="Lex Feathers" style="border-radius: 340px; filter: sepia(30%) contrast(1.2);" />
   <!-- <figcaption>{{ image_caption }}</figcaption> -->
 </figure>
@@ -29,21 +29,21 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
 - [My tiny fallback website](https://tiny.lexfeathers.ca 'A single-page HTML doc for the days I get hung up on trying to fix my SSG setup. Rarely updated.')
 
 <style>
-  figure {
+  /* Figures */
+  .headshot {
     text-align: center;
   }
-
-  figure img {
+  .headshot img {
     max-width: 60%;
   }
-
-  details {
+  
+  /* "Uses" dropdown */
+  details.uses {
     margin: 2rem auto;
     padding: 0 !important;
     border: none !important;
   }
-
-  summary {
+  .uses summary {
     font-size: 20pt;
     background-color: var(--colour-lighter-background);
     color: var(--colour-secondary);
@@ -52,20 +52,19 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
     border-radius: 4px;
     padding: 1rem;
   }
-
-  details[open] > summary::after {
+  details.uses[open] > summary::after {
     font-size: 28pt;
     line-height: 28pt;
     font-weight: 200;
   }
-  details > summary::after {
+  details.uses > summary::after {
     line-height: unset;
   }
 
+  /* 88x31s */
   .cool-links:not(:last-child) {
     border-radius: 4px;
     padding: 1rem;
-
   }
   .cool-links:not(:last-child), .cool-links:not(:last-child) * {
     background-color: var(--colour-lighter-background);
@@ -76,7 +75,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
 </style>
 
 {# Uses list #}
-<details>
+<details class="uses">
   <summary>/uses</summary>
   <p>Here's a non-exhaustive list of tools I use.</p>
 
