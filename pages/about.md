@@ -26,7 +26,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
 - [My portfolio](https://lexfeathers.ca/portfolio)
 - [Bsky](https://bsky.app/profile/lexfeathers.ca)
 - [Mastodon](https://tenforward.social/@lexfeathers)
-- [My tiny fallback website](https://tiny.lexfeathers.ca 'A single-page HTML doc for the days I get hung up on trying to fix my SSG setup')
+- [My tiny fallback website](https://tiny.lexfeathers.ca 'A single-page HTML doc for the days I get hung up on trying to fix my SSG setup. Rarely updated.')
 
 <style>
   figure {
