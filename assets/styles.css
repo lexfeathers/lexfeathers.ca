@@ -1145,6 +1145,11 @@ figure.right {
   max-width: 60%;
 }
 
+/* Controls the width of figures in posts. */
+figure {
+	margin: 2rem auto 4rem;
+}
+
 figcaption {
   opacity: 0.6;
   margin: 0.5rem 0 2rem 0;
