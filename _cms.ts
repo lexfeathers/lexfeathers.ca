@@ -208,7 +208,10 @@ cms.collection({
       name: "draft",
       type: "checkbox"
     },
-    "content: markdown",
+	{
+		name: "smost",
+		type: "text",
+	}
   ],
   documentName: "{title}.md",
 });

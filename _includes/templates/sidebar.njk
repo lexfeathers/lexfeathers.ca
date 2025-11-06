@@ -34,11 +34,11 @@
   {% endif %}
   
   {# Need to fix recursion to implement this. #}
-  {# {% if title != "transients" %}
+  {% if title != "transients" %}
   <div class="smosts">
-	{% include "../partials/latest-transient.njk" %}
+	{% include "/partials/latest-transient.njk" %}
   </div>
-  {% endif %} #}
+  {% endif %}
 
   <div class="footer-container-sidebar">
     {% include "/templates/footer.njk" %}

@@ -1,5 +1,4 @@
 type: smosts
-# layout: /smost.njk
 metas:
   title: =title
   author: =author
