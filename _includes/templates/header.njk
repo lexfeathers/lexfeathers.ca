@@ -1,19 +1,17 @@
 <header>
-  <h1>
+  <h1 class="header-logo">
     <a href="/">
-      {# <div id="monogram"></div> #}
       <img class="logo" id="darklogo" src="/assets/images/Lex Feathers Logo_ff993a_small.png" alt="Lex Feathers' Logo" aria-hidden="true">
       <img class="logo" id="lightlogo" src="/assets/images/Lex Feathers Logo_a90060_small.png" alt="Lex Feathers' Logo" aria-hidden="true">
-      <span class="name">{{ website.site_title }} :</span>
+      <span class="name">{{ website.site_title }}</span>
     </a>
+	{% include "/templates/theme-selector.njk" %}
   </h1>
-  {% include "/templates/theme-selector.njk" %}
   <nav>
     <ul class="menu">
       {% include "/templates/mainmenu.njk" %}
     </ul>
   </nav>
-  {# {% include "/templates/wavebeem-theme-select.njk" %} #}
 </header>
 
 <style>

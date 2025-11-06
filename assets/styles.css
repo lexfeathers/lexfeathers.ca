@@ -49,24 +49,7 @@
     --pagefind-ui-image-border-radius: 4px;
     --pagefind-ui-image-box-ratio: 3 / 2;
     --pagefind-ui-font: 'Fira Code', monospace;
-
-    /* & *:not(body) {
-      transition: cubic-bezier(.45,.05,.55,.95) 140ms;
-      transition-property: 
-        font-weight, 
-        color, 
-        background-color
-        border-color;
-    } */
 }
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    --colour-background: var(--colour-background-lightmode);
-    --colour-secondary: var(--colour-secondary-lightmode);
-    --colour-text: var(--colour-text-lightmode);
-  }
-} */
 
 /* Initialize the logos as hidden so that the browser has to wait for 
   the theme selector in order to choose which to display */
@@ -167,6 +150,17 @@
   font-size: var(--text-large) !important;
 }
 
+/* For justifying divs */
+.left {
+	margin-right: auto;
+}
+.center {
+	margin: auto;
+}
+.right {
+	margin-left: auto;
+}
+
 .visually-hidden {
   position: absolute !important;
   overflow: hidden;
@@ -181,6 +175,11 @@
 
 @media screen and (min-width: 750px) {
   .mobile-only {
+    display: none;
+  }
+}
+@media screen and (max-width: 749px) {
+  .desktop-only {
     display: none;
   }
 }
@@ -382,20 +381,17 @@ blockquote {
 }
 /* End Markdown Alerts */
 
+/* Header Logo h1 */
+.header-logo {
+	min-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .name {
   color: var(--colour-secondary);
   font-weight: 240;
-}
-
-#monogram {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  border: 2px solid var(--colour-secondary);
-  border-radius: 3px;
-  rotate: 45deg;
-  margin-right: 1rem;
-  margin-left: 4px;
 }
 
 /* Pagefind search box */
@@ -837,6 +833,9 @@ a {
 }
 
 /* Theme selector basic styling */
+#theme-select-container {
+	display: inline-block;
+}
 #theme-selector {
   background: none;
   border: none;
@@ -846,18 +845,11 @@ a {
 #theme-selector .icon {
   color: var(--colour-secondary);
   font-size: 2.5rem;
-  font-family: monospace !important;
   transition: ease-out 400ms;
 }
 .rotated {
   rotate: 540deg;
 }
-/* .hueshift {
-  filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(295deg);
-} */
-/* .banner > img {
-  transition: ease-out .75s;
-} */
 
 .icon-lightbulb {
   display: inline-block;
@@ -877,9 +869,6 @@ a {
 }
 #icon-lightbulb path {
   scale: 1.4;
-}
-footer #theme-select-container {
-  display: none;
 }
 
 .excerpt {
@@ -1451,15 +1440,6 @@ iframe[src*="bandcamp.com"] {
     font-size: 20pt;
   }
 
-  header div#theme-select-container {
-    display: none;
-  }
-
-  footer div#theme-select-container {
-    display: block;
-    /* margin: auto; */
-  }
-
   .menu {
     flex-direction: row;
     padding-left: 0;
@@ -1519,7 +1499,9 @@ iframe[src*="bandcamp.com"] {
 
   .footer-container,
   .footer-container .menu {
-    display: block;
+    display: flex;
+	min-width: 100%;
+	justify-content: space-between;
   }
 
   .cool-links {
