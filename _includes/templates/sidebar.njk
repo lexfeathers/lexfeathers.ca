@@ -33,11 +33,12 @@
     <div style="min-width: 250px;"> </div>
   {% endif %}
   
-  {% if title != "transients" %}
+  {# Need to fix recursion to implement this. #}
+  {# {% if title != "transients" %}
   <div class="smosts">
 	{% include "../partials/latest-transient.njk" %}
   </div>
-  {% endif %}
+  {% endif %} #}
 
   <div class="footer-container-sidebar">
     {% include "/templates/footer.njk" %}

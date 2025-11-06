@@ -46,11 +46,12 @@
 		</main>
 
 		<div class="footer-container">
-			{% if title != "transients" %}
+			{# Need to fix recursion to implement this #}
+			{# {% if title != "transients" %}
 				<div class="content-box smosts mobile-only">
 					{% include "/partials/latest-transient.njk" %}
 				</div>
-			{% endif %}
+			{% endif %} #}
 			{% include "templates/footer.njk" %}
 		</div>
 		<!-- Set Markdown Alert marker icons -->
