@@ -173,12 +173,12 @@
   word-wrap: normal !important;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 900px) {
   .mobile-only {
     display: none;
   }
 }
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 899px) {
   .desktop-only {
     display: none;
   }
@@ -1352,26 +1352,66 @@ iframe[src*="bandcamp.com"] {
   padding: 1rem;
 }
 
+/* Tablet styling */
+@media screen and (max-width:899px) {
+  #sidebar {
+    display: none;
+  }
+
+  header {
+    flex-direction: column;
+  }
+  header h1 a {
+    text-decoration: none;
+  }
+  header nav {
+    display: block;
+    margin-left: 4px;
+  }
+  header * {
+    font-size: var(--text-medium);
+    vertical-align: middle;
+  }
+  header .menu li:first-child {
+    display: none;
+  }
+  header .menu a {
+    font-size: var(--text-small);
+  }
+  header .name {
+    font-size: 20pt;
+  }
+  .menu {
+    flex-direction: row;
+    padding-left: 0;
+  }
+  .footer-container,
+  .footer-container .menu {
+    display: flex;
+	min-width: 100%;
+	justify-content: space-between;
+  }
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 2rem 0;
+  }
+
+  /* tk replace this with helper class */
+  .utility-links {
+    display: none;
+  }
+
+  .menu-item .ultility-link {
+    display: block;
+  }  
+}
 /* Mobile styling */
 @media screen and (max-width:749px) {
   body {
     width: auto;
     padding: 0 1rem;
     font-size: var(--text-small);
-  }
-
-  header h1 a {
-    text-decoration: none;
-  }
-
-  #monogram {
-    width: 20px;
-    height: 20px;
-  }
-
-  header nav {
-    display: block;
-    margin-left: 4px;
   }
 
   .read-more {
@@ -1418,36 +1458,10 @@ iframe[src*="bandcamp.com"] {
     margin-left: 1rem !important;
   }
 
-  header {
-    flex-direction: column;
-  }
-
-  header * {
-    font-size: var(--text-medium);
-    vertical-align: middle;
-  }
-
   h1,
   h2,
   h3 {
     font-size: revert;
-  }
-
-  header .menu li:first-child {
-    display: none;
-  }
-
-  header .menu a {
-    font-size: var(--text-small);
-  }
-
-  header .name {
-    font-size: 20pt;
-  }
-
-  .menu {
-    flex-direction: row;
-    padding-left: 0;
   }
 
   audio {
@@ -1456,20 +1470,6 @@ iframe[src*="bandcamp.com"] {
 
   figure {
     max-width: 100%;
-  }
-
-  footer {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 0 2rem 0;
-  }
-
-  .utility-links {
-    display: none;
-  }
-
-  .menu-item .ultility-link {
-    display: block;
   }
 
   ul.taglist {
@@ -1494,19 +1494,8 @@ iframe[src*="bandcamp.com"] {
     padding: 1rem;
   }
 
-  #sidebar {
-    display: none;
-  }
-
   .footer-container-sidebar {
     display: none;
-  }
-
-  .footer-container,
-  .footer-container .menu {
-    display: flex;
-	min-width: 100%;
-	justify-content: space-between;
   }
 
   .cool-links {
