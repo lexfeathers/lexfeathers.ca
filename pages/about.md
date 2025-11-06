@@ -252,6 +252,12 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
       <img src="https://aenore.fr/friends/buttons/aenore.webp" alt="aenore dot fr" style="image-rendering:pixelated;" loading="lazy" />
     </a>
     <img width="88" height="31"
+      alt="Trans flag"
+      src="/uploads/trans_88x31.png"
+	  style="image-rendering:pixelated;"
+      loading="lazy" 
+    />
+    <img width="88" height="31"
       alt="We're gonna miss you eggbug" title="We're gonna miss you eggbug"
       src="/uploads/8831a_cohost_safetravelslittleguyweregonnamissyou.png"
       loading="lazy" 
