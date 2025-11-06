@@ -6,7 +6,7 @@ image_caption:
 order: 4
 draft: false
 ---
-<h1>Lex Feathers <span class="faded">(she/her)</span></h1>
+<h1>Lex Feathers <span class="faded pronouns">(she/her)</span></h1>
 
 <figure class="headshot" transform-images="">
   <img src="/uploads/Lex_HeadShot_OfficeRoom.jpg" alt="Lex Feathers, a woman with pink hair and black shirt. She has a slight smile." style="border-radius: 340px; filter: contrast(1.1);" />
@@ -38,11 +38,14 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
     max-width: 60%;
   }
   @media screen and (max-width: 749px) {
-	  .headshot img {
-		max-width: 90%;
-	  }
+	.headshot img {
+	max-width: 90%;
+	}
+	.pronouns {
+		display: block;
+		font-size: var(--text-medium)
+	}
   }
-  
   /* "Uses" dropdown */
   details.uses {
     margin: 2rem auto;
