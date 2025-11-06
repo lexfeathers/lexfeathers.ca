@@ -1,7 +1,7 @@
-{% set socialLinks = social_links %}
-{% set musicLinks = music_links %}
 <footer>
     <ul class="menu">
+		{% set socialLinks = social_links %}
+		{% set musicLinks = music_links %}
         <div class="footer-menu__block">
             <p role="heading">Music</p>
             {% asyncEach item in musicLinks %}
