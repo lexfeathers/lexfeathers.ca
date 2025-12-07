@@ -3,7 +3,7 @@ website:
   site_title: Lex Feathers
 metas:
   site: Lex Feathers
-  title: "$ #content > h1 || =title || Lex Feathers"
+  title: "$ #content > h1 || Lex Feathers || =title"
   lang: en
   color: '#141414'
   author: Lex Feathers
