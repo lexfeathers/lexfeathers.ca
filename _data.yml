@@ -3,13 +3,13 @@ website:
   site_title: Lex Feathers
 metas:
   site: Lex Feathers
-  title: =title
+  title: "$ #content > h1 || =title || Lex Feathers"
   lang: en
   color: '#141414'
   author: Lex Feathers
   icon: /assets/favicon.ico
   image: =image
-  description: =description
+  description: "=description || =excerpt"
   'twitter:card': =image
   'twitter:title': =site_title =title
   'twitter:description': =excerpt
