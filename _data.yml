@@ -3,7 +3,7 @@ website:
   site_title: Lex Feathers
 metas:
   site: Lex Feathers
-  title: =title
+  title: Lex Feathers - =title
   lang: en
   color: '#141414'
   author: Lex Feathers
