@@ -1,7 +1,7 @@
 import lumeCMS from "lume/cms/mod.ts";
 import GitHub from "lume/cms/storage/github.ts";
 
-// Create authentication environment variables
+// Get authentication environment variables from Deno
 const username = Deno.env.get("USERNAME") || "admin";
 const password = Deno.env.get("PASSWORD") || "default";
 
@@ -9,7 +9,6 @@ const password = Deno.env.get("PASSWORD") || "default";
 const humanDate = new Date();
 humanDate.toLocaleString('en-US', { timeZone: 'America/New_York' })
 const formattedDate = humanDate.toISOString().split('T')[0].replace(/-/g, '-');
-// const formattedDateTime = humanDate.toISOString().replace(/-/g, '-');
 
 // Create the cms instance
 const cms = lumeCMS({
