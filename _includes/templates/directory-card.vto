@@ -1,6 +1,6 @@
           <li class="directory-card">
             <div>
-              <a class="card-image__link{{ if post.image == false }} card-image__link____noimage{{ /if }}" href="{{ post.url }}">
+              <a class="card-image__link{{ if !post.image }} card-image__link____noimage{{ /if }}" href="{{ post.url }}">
                 {{ if post.image }}
                 <img 
                   class="card-image" 
