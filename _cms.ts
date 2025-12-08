@@ -1,17 +1,9 @@
-// import checkbox from "lume/cms/fields/checkbox.ts";
 import lumeCMS from "lume/cms/mod.ts";
 import GitHub from "lume/cms/storage/github.ts";
-// import { title } from "node:process";
-// import { Octokit } from "npm:octokit";
-// import _fields from "lume/cms/fields/core.ts";
 
 // Create authentication environment variables
 const username = Deno.env.get("USERNAME") || "admin";
 const password = Deno.env.get("PASSWORD") || "default";
-
-// Set site time zone
-// Timezone codes can be found at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-// Deno.env.set("TZ", "US/Eastern");
 
 // Get current date in YYYY-MM-DD format
 const humanDate = new Date();
@@ -31,59 +23,6 @@ const cms = lumeCMS({
       [username]: password,
     },
   },
-  // extraHead: `
-  //   <style>
-  //     [data-theme="dark"] {
-  //       --color-black: hsl(220, 0%, 15%);
-  //       --color-text: hsl(220, 0%, 90%);
-  //       --color-dim: hsl(220, 0%, 60%);
-  //       --color-line: hsl(220, 0%, 20%);
-  //       --color-line-light: hsl(220, 0%, 15%);
-  //       --color-highlight: hsl(220, 0%, 18%);
-  //       --color-background: hsl(220, 0%, 10%);
-  //       --color-input-text: var(--color-white);
-  //       --color-input-bg: var(--color-black);
-
-  //       /* Brand colors */
-  //       --color-primary: hsl(0, 50%, 45%);
-  //       --color-primary-highlight: hsl(0, 50%, 35%);
-
-  //       /* Code colors */
-  //       --color-code-4: hsl(220, 20%, 50%);
-  //       --color-code-5: hsl(0, 88%, 65%);
-  //       --color-code-a: hsl(290, 100%, 40%);
-  //       --color-code-b: hsl(290, 90%, 70%);
-  //       --color-code-c: #2913c0;
-  //       --color-code-d: hsl(155, 75%, 50%);
-  //       --color-code-e: #bf4040;
-  //       --color-code-f: hsl(17, 100%, 63%);
-  //       --color-code-g: #00f;
-  //       --color-code-h: hsl(220, 100%, 65%);
-  //       --color-code-i: #0e8759;
-  //       --color-code-j: #167;
-  //       --color-code-k: #256;
-  //       --color-code-l: #00c;
-  //       --color-code-m: #940;
-  //       --color-code-n: hsl(220, 20%, 80%);
-  //     }
-  //     .header-description {
-  //       margin: 1rem 0;
-  //     }
-  //     .header-description a {
-  //       background-color: var(--color-highlight);
-  //       padding: 8px;
-  //       border-radius: 4px;
-  //       font-weight: bold;
-  //     }
-  //     /* #logoutButton {
-  //       background: var(--color-code-e);
-  //       color: white;
-  //     }*/
-  //     .app-footer {
-  //       justify-content: space-evenly;
-  //     }
-  //   </style>
-  //   `,
 });
 
 // Create file system
@@ -94,14 +33,6 @@ cms.storage(
   "my_fs",
   GitHub.create("lexfeathers/lexfeathers.ca", token),
 );
-// cms.storage(
-//   "my_fs",
-//   new GitHub({
-//     client: new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") }),
-//     owner: "lexfeathers",
-//     repo: "lexfeathers.ca",
-//   }),
-// );
 
 // Create "posts" collection
 // using my_fs storage
@@ -134,9 +65,6 @@ cms.collection({
       label: "Published date",
       value: new Date(),
       description: "Set a future date if you want to publish it later",
-      // attributes: {
-      //   placeholder: "For example: 2024-01-01 00:00:01",
-      // },
     },
     {
       name: "image",
@@ -198,12 +126,6 @@ cms.collection({
   name: "transients", 
   store: "my_fs:smosts/*.md", 
   fields: [
-    // {
-    //   name: "title",
-    //   type: "text",
-    //   value: formattedDateTime,
-    //   description: "Leave blank to use date"
-    // },
     {
       name: "published",
       type: "datetime",
