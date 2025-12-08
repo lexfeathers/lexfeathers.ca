@@ -3,44 +3,44 @@
     <h3>Nav</h3>
     <div>
       <ul class="page-list">
-        {% include "/templates/mainmenu.njk" %}
+        {{ include "/templates/mainmenu.vto" }}
       </ul>
     </div>
   </div>
 
-  {% ifAsync title != 'home' and title != 'directory' and title != 'portfolio' %}
+  {{ if title != 'home' & title != 'directory' & title != 'portfolio' }}
     <h3>Recent posts:</h3>
     <div id="post-dir">
       <div class="margin-bar"></div>
       <menu>
         <ul
           class="post-list">
-          {# Get posts that aren't drafts #}
-          {% set posts = search.pages("type=posts draft=false", "published=desc", 8) %}
-          {% asyncEach post in posts %}
+          {{# Get posts that aren't drafts #}}
+          {{ set posts = search.pages("type=posts draft=false", "published=desc", 8) }}
+          {{ for post of posts }}
           <li>
             <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
           </li>
-          {% endeach %}
+          {{ /for }}
         </ul>
       </menu>
     </div>
   <a href="/pages/directory/" class="button">All posts</a>
-  {% endif %}
+  {{ /if }}
 
   <!-- Fill the sidebar on home and post-directory so that it's the same width as on other pages -->
-  {% ifAsync title == 'home' or title == 'directory' or title == 'portfolio' %}
+  {{ if title == 'home' || title == 'directory' || title == 'portfolio' }}
     <div style="min-width: 250px;"> </div>
-  {% endif %}
+  {{ /if }}
   
-  {% ifAsync title != "transients" %}
+  {{ if title != "transients" }}
   <div class="smosts">
-	{% include "partials/latest-transient.njk" %}
+	{{ include "partials/latest-transient.vto" }}
   </div>
-  {% endif %}
+  {{ /if }}
 
   <div class="footer-container-sidebar">
-    {% include "/templates/footer.njk" %}
+    {{ include "/templates/footer.vto" }}
   </div>
 
 </div>

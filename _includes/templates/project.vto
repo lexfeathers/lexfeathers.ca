@@ -1,51 +1,51 @@
 ---
-layout: /layout.njk
+layout: /layout.vto
 ---
 <div data-pagefind-ignore>
   <a href="/portfolio" alt="Back to projects" class="button"><- portfolio</a>
   <h1>{{ title }}</h1>
   <hr class="faded">
 
-  {% if author %}
+  {{ if author }}
     <h3 class="faded author">
       <span aria-hidden="true" class="icon">&#9733;</span> <span>{{ author }}</span> / 
-      {% if published %}
-        <span class="faded">release date: {{ published | date('HUMAN_DATE') }}</span>
-      {% else %}
+      {{ if published }}
+        <span class="faded">release date: {{ published |> date('HUMAN_DATE') }}</span>
+      {{ else }}
         <span class="faded">status: {{ status }}</span>
-      {% endif %}
+      {{ /if }}
     </h3>
-  {% endif %}
+  {{ /if }}
 </div>
 
 <article class="post" transform-images="webp gif 1000@2">
-  {% if content_warnings|length %}
+  {{ if content_warnings|length }}
     <details class="content-warnings" open="">
       <summary>Content warning</summary>
       <ul>
-        {% for cw in content_warnings %}
+        {{ for cw of content_warnings }}
           <li>{{ cw }}</li>
-        {% endfor %}
+        {{ /for }}
       </ul>
     </details>
-  {% endif %}
+  {{ /if }}
 
   <h1 class="visually-hidden" aria-hidden="true">{{ title }}</h1>
 
-  {% if image %}
+  {{ if image }}
     <figure class="hero-img" transform-images="">
       <a href="{{ image }}">
         <img 
           src="{{ image }}" 
-          alt="{% if image_alt %}{{ image_alt }}{% else %}{{ image_caption }}{% endif %}" 
+          alt="{{ if image_alt }}{{ image_alt }}{{ else }}{{ image_caption }}{{ /if }}" 
           loading="lazy"
         >
       </a>
-      {% if image_caption %}
+      {{ if image_caption }}
         <figcaption>{{ image_caption }}</figcaption>
-      {% endif %}
+      {{ /if }}
     </figure>
-  {% endif %}
+  {{ /if }}
 
-  {{ content | safe }}
+  {{ content |> safe }}
 </article>

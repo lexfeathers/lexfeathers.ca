@@ -1,22 +1,22 @@
 <footer>
     <ul class="menu">
-		{% set socialLinks = social_links %}
-		{% set musicLinks = music_links %}
+		{{ set socialLinks = social_links }}
+		{{ set musicLinks = music_links }}
         <div class="footer-menu__block">
             <p role="heading">Music</p>
-            {% asyncEach item in musicLinks %}
+            {{ for item of musicLinks }}
             <li class="menu-item">
                 <a href="{{ item.url }}" target="_blank" class="external">{{ item.title }}</a>
             </li>
-            {% endeach %}
+            {{ /for }}
         </div>
         <div class="footer-menu__block">
             <p role="heading">Socials</p>
-            {% asyncEach item in socialLinks %}
+            {{ for item of socialLinks }}
             <li class="menu-item">
-                <a href="{{ item.url }}" {% ifAsync item.title == "Mastodon" %} rel="me" {% endif %} target="_blank" class="external">{{ item.title }}</a>
+                <a href="{{ item.url }}" {{ if item.title == "Mastodon" }} rel="me" {{ /if }} target="_blank" class="external">{{ item.title }}</a>
             </li>
-            {% endeach %}
+            {{ /for }}
         </div>
         <div class="footer-menu__block">
             <p role="heading" class="mobile-only">Utility</p>
@@ -29,7 +29,7 @@
         </div>
     </ul>
     <p class="copyright">&copy; {{ website.site_title }}
-        <span id="currentyear">{{ date | date('yyyy') }}</span>
+        <span id="currentyear">{{ date |> date('yyyy') }}</span>
     </p>
     <span class="utility-links">
         <a href="/sitemap.xml" class="button">Sitemap</a>

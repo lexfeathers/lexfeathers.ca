@@ -1,4 +1,4 @@
-// export const layout = "/templates/directory.njk";
+// export const layout = "/templates/directory.vto";
 
 // export default function* ({ search, paginate }) {
 //   const posts = search.pages("posts");

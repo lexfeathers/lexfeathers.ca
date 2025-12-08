@@ -1,8 +1,0 @@
-<div class="smost" id="{{ smost.published | date('MM-yy')}}-{{smost.smost_content | lower | replace(' ', '-') | truncate(32, true, '')}}">
-    <span class="smost-date">
-        <a href="{% ifAsync title == 'transients' %}#{{ smost.published | date('MM-yy')}}-{{smost.smost_content  | lower | replace(' ', '-') | truncate(32, true, '')}}{% else %}/transients/{% endif %}">
-            {{ smost.published | date('dd-MM-yy')}}{% ifAsync title == 'transients' %} at {{ smost.published | date('HH:mm') }}{% endif %}
-        </a>
-    </span>
-	<span class="smost-content">: {{ smost.smost_content }}</span>
-</div>

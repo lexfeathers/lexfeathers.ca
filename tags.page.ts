@@ -13,7 +13,7 @@ export default function* ({ search }) {
             pages: pages,
             tag: tag,
             type: "tag",
-            layout: "/templates/tag.njk",
+            layout: "/templates/tag.vto",
         };
     }
 }

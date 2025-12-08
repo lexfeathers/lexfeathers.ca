@@ -1,4 +1,4 @@
-layout: layout.njk
+layout: layout.vto
 website:
   site_title: Lex Feathers
 metas:

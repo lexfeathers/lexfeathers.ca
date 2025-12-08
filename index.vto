@@ -22,18 +22,18 @@ description: Composer and sound designer who loves building websites
     If you have questions or ideas for the site, please feel free to <a href="/pages/contact" title="contact me">reach out :)</a>
   </p>
 
-  {# Latest 3 blog posts #}
+  {{# Latest 3 blog posts #}}
   <article class="homepage-excerpt">
     <div class="homepage-latest" style="margin-top: 2rem;">
       
       <h2>Latest posts: <a href="/pages/directory" style="float: right;">View all</a></h2>
 
-      {% set latestPosts = search.pages("type=posts draft=false", "published=desc", 3) %}
+      {{ set latestPosts = search.pages("type=posts draft=false", "published=desc", 3) }}
 
       <ul class="directory">
-        {% asyncEach post in latestPosts %}
-          {% include "/templates/directory-card.njk" %}
-        {% endeach %}
+        {{ for post of latestPosts }}
+          {{ include "/templates/directory-card.vto" { post } }}
+        {{ /for }}
       </ul>
 
     </div>

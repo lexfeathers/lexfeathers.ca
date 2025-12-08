@@ -1,0 +1,14 @@
+---
+layout: /layout.vto
+title: portfolio
+author: Lex Feathers
+image: /assets/images/banner.png
+description: Composer, Sound Designer and Webdev.
+---
+
+<div class="grid">
+    {{ for item of results }}
+        {{ include "/templates/grid-item.vto" { item } }}
+    {{ /for }}
+</div>
+{{ include "/templates/pagination.vto" }}
