@@ -201,21 +201,21 @@
   padding: 0 !important;
   border: none !important;
   display: inline;
-}
-.tooltip summary {
-opacity: .6;
-padding: .5rem;
-display: inline;
-font-weight: 700 !important;
-vertical-align: top;
-transition: 150ms;
-}
-.tooltip summary::after {
-display: none !important;
-}
-.tooltip summary:hover {
-opacity: 1;
-border-bottom: 2px solid var(--colour-secondary);
+  & summary {
+	opacity: .6;
+	padding: .5rem;
+	display: inline;
+	font-weight: 700 !important;
+	vertical-align: top;
+	transition: 150ms;
+  }
+  & summary::after {
+	display: none !important;
+  }
+  & summary:hover {
+	opacity: 1;
+	border-bottom: 2px solid var(--colour-secondary);
+  }
 }
 /* End tooltips */
 
