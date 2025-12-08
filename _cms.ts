@@ -1,7 +1,7 @@
-import checkbox from "lume/cms/fields/checkbox.ts";
+// import checkbox from "lume/cms/fields/checkbox.ts";
 import lumeCMS from "lume/cms/mod.ts";
 import GitHub from "lume/cms/storage/github.ts";
-import { title } from "node:process";
+// import { title } from "node:process";
 // import { Octokit } from "npm:octokit";
 // import _fields from "lume/cms/fields/core.ts";
 
@@ -17,7 +17,7 @@ const password = Deno.env.get("PASSWORD") || "default";
 const humanDate = new Date();
 humanDate.toLocaleString('en-US', { timeZone: 'America/New_York' })
 const formattedDate = humanDate.toISOString().split('T')[0].replace(/-/g, '-');
-const formattedDateTime = humanDate.toISOString().replace(/-/g, '-');
+// const formattedDateTime = humanDate.toISOString().replace(/-/g, '-');
 
 // Create the cms instance
 const cms = lumeCMS({
