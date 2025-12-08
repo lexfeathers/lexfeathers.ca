@@ -6,7 +6,7 @@ order: 6
 <div class="tag-list">
     <div class="margin-bar"></div>
     <ul class="post-list">
-        {{ for tag in pageTags }}
+        {{ for tag of pageTags }}
             <li class="menu-item"><a href="../../tag/{{ tag }}">{{ tag }}</a></li>
         {{ /for }}
     </ul>

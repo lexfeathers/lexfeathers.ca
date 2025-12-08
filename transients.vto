@@ -7,9 +7,9 @@ title: transients
 {{ set smosts = search.pages("type=smosts draft=false", "published=desc")}}
 
 <div class="smosts">
-{{ for smost in smosts }}
+{{ for smost of smosts }}
     {{ include "partials/smost.vto" }}
-{{ endeach }}
+{{ /for }}
 </div>
 
 <!--

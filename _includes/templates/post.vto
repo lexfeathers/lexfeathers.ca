@@ -18,7 +18,7 @@ layout: /layout.vto
   <details class="content-warnings" open="">
       <summary>Content warning{{ if content_warnings|length > 1 }}s{{/if}}</summary>
       <ul>
-        {{ for cw in content_warnings }}
+        {{ for cw of content_warnings }}
           <li>{{ cw }}</li>
         {{ /for }}
       </ul>
@@ -45,12 +45,12 @@ layout: /layout.vto
 
   {{ content |> safe }}
 
-  {# Loop through tags and display them inline, if there are any #}
+  {{# Loop through tags and display them inline, if there are any #}}
   {{ if tags }}
     <div class="tags">
       <h3>Tags:</h3>
       <ul class="taglist">
-        {{ for tag in tags }}
+        {{ for tag of tags }}
           <li><a href="../../tag/{{tag}}">{{ tag }}</a></li>
         {{ /for }}
       </ul>

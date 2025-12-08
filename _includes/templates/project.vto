@@ -23,7 +23,7 @@ layout: /layout.vto
     <details class="content-warnings" open="">
       <summary>Content warning</summary>
       <ul>
-        {{ for cw in content_warnings }}
+        {{ for cw of content_warnings }}
           <li>{{ cw }}</li>
         {{ /for }}
       </ul>

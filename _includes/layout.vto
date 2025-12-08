@@ -28,14 +28,14 @@
 			{{ include "/templates/sidebar.vto" }}
 
 			<section id="content" data-pagefind-body>
-				{# Basic breadcrumbs #}
+				{{# Basic breadcrumbs #}}
 				<div data-pagefind-ignore="all">
-					{{ if title != 'home' and type != 'posts' and type != 'tag' and type != 'projects' }}
+					{{ if title != 'home' & type != 'posts' & type != 'tag' & type != 'projects' }}
 						<a href="/" alt="Back to home" class="button"><- home</a>
 					{{ /if }}
 				</div>
 
-				{{ if title != 'home' and type != 'posts' and type != 'projects' }}
+				{{ if title != 'home' & type != 'posts' & type != 'projects' }}
 					<h1>{{ title }}</h1>
 					<hr class="faded">
 				{{ /if }}
@@ -46,7 +46,7 @@
 		</main>
 
 		<div class="footer-container">
-			{# Need to fix recursion to implement this #}
+			{{# Need to fix recursion to implement this #}}
 			{{ if title != "transients" }}
 				<div class="content-box smosts mobile-only">
 					{{ include "partials/latest-transient.vto" }}

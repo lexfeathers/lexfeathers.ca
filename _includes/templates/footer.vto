@@ -4,19 +4,19 @@
 		{{ set musicLinks = music_links }}
         <div class="footer-menu__block">
             <p role="heading">Music</p>
-            {{ for item in musicLinks }}
+            {{ for item of musicLinks }}
             <li class="menu-item">
                 <a href="{{ item.url }}" target="_blank" class="external">{{ item.title }}</a>
             </li>
-            {{ endeach }}
+            {{ /for }}
         </div>
         <div class="footer-menu__block">
             <p role="heading">Socials</p>
-            {{ for item in socialLinks }}
+            {{ for item of socialLinks }}
             <li class="menu-item">
                 <a href="{{ item.url }}" {{ if item.title == "Mastodon" }} rel="me" {{ /if }} target="_blank" class="external">{{ item.title }}</a>
             </li>
-            {{ endeach }}
+            {{ /for }}
         </div>
         <div class="footer-menu__block">
             <p role="heading" class="mobile-only">Utility</p>

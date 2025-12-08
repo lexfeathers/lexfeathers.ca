@@ -4,18 +4,18 @@
   {{ set posts = search.pages("type=posts draft=false", "published=desc") }}
   {{ if posts }}
     <ul class="directory">
-      {{ for post in posts }}
+      {{ for post of posts }}
         {{ include "/templates/directory-card.vto" }}
-      {{ endeach }}
+      {{ /for }}
     </ul>
   {{ else }}
     <p>There are no posts to display.</p>
   {{ /if }}
 
-  {# The following was pulled from Óscar Otero's "Simple Twitter" theme: 
+  {{# The following was pulled from Óscar Otero's "Simple Twitter" theme: 
       https://github.com/lumeland/theme-simple-twitter/blob/main/src/_includes/layouts/tweets.vto 
-  #}
-  {# <nav class="page-navigation pagination">
+  #}}
+  {{# <nav class="page-navigation pagination">
     <ul>
       {{ if pagination.previous }}
         <li class="pagination-prev">
@@ -36,4 +36,4 @@
       {{ /if }}
     </ul>
   </nav>
-</div> #}
+</div> #}}

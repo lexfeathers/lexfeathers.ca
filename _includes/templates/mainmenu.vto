@@ -1,9 +1,9 @@
-{# {{ set menuItems = search.pages("type=pages", "order=asc") }}
-{{ for menuItem in menuItems }}
+{{# {{ set menuItems = search.pages("type=pages", "order=asc") }}
+{{ for menuItem of menuItems }}
 <li class="menu-item">
   <a href="{{ menuItem.url }}">{{ menuItem.title }}</a>
 </li>
-{{ endeach }} #}
+{{ /for }} #}}
 <li class="menu-item">
   <a href="/">home</a>
 </li>

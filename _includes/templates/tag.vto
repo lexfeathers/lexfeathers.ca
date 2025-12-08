@@ -4,7 +4,7 @@ layout: /layout.vto
 <div class="post-directory">
   {{ if pages.length }}
     <ul class="directory">
-      {{ for page in pages }}
+      {{ for page of pages }}
         <li class="directory-card">
           <div>
             <a class="directory-card__link" href="{{ page.url }}">

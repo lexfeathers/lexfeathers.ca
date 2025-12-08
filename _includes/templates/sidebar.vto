@@ -8,20 +8,20 @@
     </div>
   </div>
 
-  {{ if title != 'home' and title != 'directory' and title != 'portfolio' }}
+  {{ if title != 'home' & title != 'directory' & title != 'portfolio' }}
     <h3>Recent posts:</h3>
     <div id="post-dir">
       <div class="margin-bar"></div>
       <menu>
         <ul
           class="post-list">
-          {# Get posts that aren't drafts #}
+          {{# Get posts that aren't drafts #}}
           {{ set posts = search.pages("type=posts draft=false", "published=desc", 8) }}
-          {{ for post in posts }}
+          {{ for post of posts }}
           <li>
             <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
           </li>
-          {{ endeach }}
+          {{ /for }}
         </ul>
       </menu>
     </div>
@@ -29,7 +29,7 @@
   {{ /if }}
 
   <!-- Fill the sidebar on home and post-directory so that it's the same width as on other pages -->
-  {{ if title == 'home' or title == 'directory' or title == 'portfolio' }}
+  {{ if title == 'home' || title == 'directory' || title == 'portfolio' }}
     <div style="min-width: 250px;"> </div>
   {{ /if }}
   

@@ -8,14 +8,14 @@
     <a href="/transients">
 		{{ set smosts = search.pages("type=smosts draft=false", "published=desc", 1) }}
 
-        {{ for smost in smosts }}
-			<div class="smost" id="{{ smost.published |> date('MM-yy')}}-{{smost.smost_content |> lower |> replace(' ', '-') |> truncate(32, true, '')}}">
+        {{ for smost of smosts }}
+			<div class="smost" id="{{ smost.published |> date('MM-yy')}}-{{smost.smost_content |> toLowerCase |> replace(' ', '-') |> substring(0, 31) }}">
 				<span class="smost-date">
-					<a href="{{ if title == 'transients' }}#{{ smost.published |> date('MM-yy')}}-{{smost.smost_content  |> lower |> replace(' ', '-') |> truncate(32, true, '')}}{{ else }}/transients{{ /if }}">
+					<a href="{{ if title == 'transients' }}#{{ smost.published |> date('MM-yy')}}-{{smost.smost_content  |> toLowerCase |> replace(' ', '-') |> substring(0, 31) }}{{ else }}/transients{{ /if }}">
 						{{ smost.published |> date('dd-MM-yy')}}{{ if title == 'transients' }} at {{ smost.published |> date('HH:mm') }}{{ /if }}
 					</a>
 				</span>
 				<span class="smost-content">: {{ smost.smost_content }}</span>
 			</div>
-        {{ endeach }}
+        {{ /for }}
     </a>
