@@ -2,7 +2,7 @@ import checkbox from "lume/cms/fields/checkbox.ts";
 import lumeCMS from "lume/cms/mod.ts";
 import GitHub from "lume/cms/storage/github.ts";
 import { title } from "node:process";
-import { Octokit } from "npm:octokit";
+// import { Octokit } from "npm:octokit";
 // import _fields from "lume/cms/fields/core.ts";
 
 // Create authentication environment variables
@@ -283,7 +283,7 @@ cms.document(
   [
     "name: image",
     "type: file",
-    "uploads: uploads",
+    "uploads: uploads"
   ]
 );
 
