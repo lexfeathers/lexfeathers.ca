@@ -777,7 +777,9 @@ header nav {
   justify-self: flex-end;
   padding-top: 0;
 }
-
+#sidebar footer .menu {
+  flex-direction: column; /* Testing a vertical layout... */
+}
 #sidebar footer .copyright {
   display: none;
 }
