@@ -28,12 +28,12 @@ description: Composer and sound designer who loves building websites
       
       <h2>Latest posts: <a href="/pages/directory" style="float: right;">View all</a></h2>
 
-      {% set latestPosts = search.pages("type=posts draft=false", "published=desc", 3) %}
+      {{ set latestPosts = search.pages("type=posts draft=false", "published=desc", 3) }}
 
       <ul class="directory">
-        {% asyncEach post in latestPosts %}
-          {% include "/templates/directory-card.njk" %}
-        {% endeach %}
+        {{ for post in latestPosts }}
+          {{ include "/templates/directory-card.vto" }}
+        {{ endeach }}
       </ul>
 
     </div>

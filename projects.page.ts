@@ -1,4 +1,4 @@
-export const layout = "/templates/portfolio.njk";
+export const layout = "/templates/portfolio.vto";
 
 export default function* ({ search, paginate }) {
   const projects = search.pages("type=projects", "published=desc");

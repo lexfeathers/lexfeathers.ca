@@ -1,16 +1,16 @@
 <div class="post-directory">
   <h2>All posts<span class="faded"> (newest to oldest):</span></h2>
 
-  {% set posts = search.pages("type=posts draft=false", "published=desc") %}
-  {% ifAsync posts %}
+  {{ set posts = search.pages("type=posts draft=false", "published=desc") }}
+  {{ if posts }}
     <ul class="directory">
-      {% asyncEach post in posts %}
-        {% include "/templates/directory-card.njk" %}
-      {% endeach %}
+      {{ for post in posts }}
+        {{ include "/templates/directory-card.vto" }}
+      {{ endeach }}
     </ul>
-  {% else %}
+  {{ else }}
     <p>There are no posts to display.</p>
-  {% endif %}
+  {{ /if }}
 
   {# The following was pulled from Óscar Otero's "Simple Twitter" theme: 
       https://github.com/lumeland/theme-simple-twitter/blob/main/src/_includes/layouts/tweets.vto 
@@ -23,7 +23,7 @@
             <span>Previous</span>
           </a>
         </li>
-      {{ endif }}
+      {{ /if }}
       <li class="pagination-page">
         <span>Page {{ pagination.page }} of {{ pagination.totalPages }}</span>
       </li>
@@ -33,7 +33,7 @@
             <span>Next</span>
           </a>
         </li>
-      {{ endif }}
+      {{ /if }}
     </ul>
   </nav>
 </div> #}

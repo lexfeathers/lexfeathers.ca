@@ -1,10 +1,10 @@
 ---
-layout: /layout.njk
+layout: /layout.vto
 ---
 <div class="post-directory">
-  {% if pages.length %}
+  {{ if pages.length }}
     <ul class="directory">
-      {% for page in pages %}
+      {{ for page in pages }}
         <li class="directory-card">
           <div>
             <a class="directory-card__link" href="{{ page.url }}">
@@ -12,16 +12,16 @@ layout: /layout.njk
                 {{ page.title }}
               </span><br>
               <span class="faded date">
-                <span aria-hidden="true" class="icon">&#9993;</span> {{ page.published | date('HUMAN_DATE') }}
+                <span aria-hidden="true" class="icon">&#9993;</span> {{ page.published |> date('HUMAN_DATE') }}
               </span><br>
             </a>
           </div>
         </li>
-      {% endfor %}
+      {{ /for }}
     </ul>
-  {% else %}
+  {{ else }}
     <p>There are no posts to display.</p>
-  {% endif %}
+  {{ /if }}
 </div>
 
 <div style="margin-top:2rem;">

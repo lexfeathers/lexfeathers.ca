@@ -14,11 +14,11 @@
                 <span class="grid-item__client text-small"><span aria-hidden="true" class="icon faded">&#9733;</span> {{ item.author }}</span><br>
                 <span class="grid-item__worktype">{{ item.work_type }}</span>
                 <span class="grid-item__date">
-                    {% if item.status == "released" %}
-                        {{ item.published | date('MM / yyyy') }}
-                    {% else %}
-                        {{ item.status }}, {{ item.published | date('yyyy') }}
-                    {% endif %}
+                    {{ if item.status == "released" }}
+                        {{ item.published |> date('MM / yyyy') }}
+                    {{ else }}
+                        {{ item.status }}, {{ item.published |> date('yyyy') }}
+                    {{ /if }}
                 </span>
             </div>
         </div>

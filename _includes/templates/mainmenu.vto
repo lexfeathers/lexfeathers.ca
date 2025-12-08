@@ -1,9 +1,9 @@
-{# {% set menuItems = search.pages("type=pages", "order=asc") %}
-{% asyncEach menuItem in menuItems %}
+{# {{ set menuItems = search.pages("type=pages", "order=asc") }}
+{{ for menuItem in menuItems }}
 <li class="menu-item">
   <a href="{{ menuItem.url }}">{{ menuItem.title }}</a>
 </li>
-{% endeach %} #}
+{{ endeach }} #}
 <li class="menu-item">
   <a href="/">home</a>
 </li>

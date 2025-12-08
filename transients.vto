@@ -4,12 +4,12 @@ title: transients
 
 <p><span title="smosts ;^)">Small posts (🤏🏻)</span> that don't belong on the main blog</p>
 
-{% set smosts = search.pages("type=smosts draft=false", "published=desc")%}
+{{ set smosts = search.pages("type=smosts draft=false", "published=desc")}}
 
 <div class="smosts">
-{% asyncEach smost in smosts %}
-    {% include "partials/smost.njk" %}
-{% endeach %}
+{{ for smost in smosts }}
+    {{ include "partials/smost.vto" }}
+{{ endeach }}
 </div>
 
 <!--

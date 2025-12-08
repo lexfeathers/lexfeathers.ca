@@ -267,7 +267,7 @@ cms.document(
 // Edit the index contents
 cms.document(
   "Index: Edit the homepage", 
-  "my_fs:index.njk", 
+  "my_fs:index.vto", 
   [
     "type: code",
     "content: markdown",
