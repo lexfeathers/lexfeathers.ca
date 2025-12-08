@@ -90,12 +90,16 @@ const cms = lumeCMS({
 // cms.storage("my_fs", "/");
 cms.storage(
   "my_fs",
-  new GitHub({
-    client: new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") }),
-    owner: "lexfeathers",
-    repo: "lexfeathers.ca",
-  }),
+  GitHub.create("lexfeathers/lexfeathers.ca", Deno.env.get("GITHUB_TOKEN")),
 );
+// cms.storage(
+//   "my_fs",
+//   new GitHub({
+//     client: new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") }),
+//     owner: "lexfeathers",
+//     repo: "lexfeathers.ca",
+//   }),
+// );
 
 // Create "posts" collection
 // using my_fs storage
