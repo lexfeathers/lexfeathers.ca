@@ -232,11 +232,6 @@ cms.document(
           label: "Site name",
           description: "Name of the website",
         },
-        {
-          name: "show_sidebar_transients",
-          type: "checkbox",
-          label: "Show latest transient on sidebar?",
-        },
       ],
     },
     {
