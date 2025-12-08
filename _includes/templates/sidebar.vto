@@ -33,7 +33,7 @@
     <div style="min-width: 250px;"> </div>
   {{ /if }}
   
-  {{ if title != "transients" }}
+  {{ if title != "transients" && website.show_transients }}
   <div class="smosts">
 	{{ include "partials/latest-transient.vto" }}
   </div>

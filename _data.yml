@@ -1,6 +1,7 @@
 layout: layout.vto
 website:
   site_title: Lex Feathers
+  show_transients: true
 metas:
   site: Lex Feathers
   title: "$ #content > h1 || Lex Feathers"

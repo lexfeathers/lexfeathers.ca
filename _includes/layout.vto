@@ -47,7 +47,7 @@
 
 		<div class="footer-container">
 			{{# Need to fix recursion to implement this #}}
-			{{ if title != "transients" }}
+			{{ if title != "transients" && website.show_transients }}
 				<div class="content-box smosts mobile-only">
 					{{ include "partials/latest-transient.vto" }}
 				</div>
