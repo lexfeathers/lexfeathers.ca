@@ -88,9 +88,11 @@ const cms = lumeCMS({
 
 // Create file system
 // cms.storage("my_fs", "/");
+// deno-lint-ignore no-explicit-any
+const token: any = Deno.env.get("GITHUB_TOKEN");
 cms.storage(
   "my_fs",
-  GitHub.create("lexfeathers/lexfeathers.ca", Deno.env.get("GITHUB_TOKEN")),
+  GitHub.create("lexfeathers/lexfeathers.ca", token),
 );
 // cms.storage(
 //   "my_fs",
