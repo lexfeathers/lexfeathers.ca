@@ -1,3 +1,4 @@
+import checkbox from "lume/cms/fields/checkbox.ts";
 import lumeCMS from "lume/cms/mod.ts";
 import GitHub from "lume/cms/storage/github.ts";
 import { title } from "node:process";
@@ -232,6 +233,12 @@ cms.document(
           label: "Site name",
           description: "Name of the website",
         },
+        {
+          name: "show_transients",
+          type: "checkbox",
+          label: "Show transients",
+          description: "Affects microblog display state"
+        }
       ],
     },
     {
