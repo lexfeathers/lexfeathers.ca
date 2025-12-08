@@ -5,7 +5,7 @@
   {{ if posts }}
     <ul class="directory">
       {{ for post of posts }}
-        {{ include "/templates/directory-card.vto" }}
+        {{ include "/templates/directory-card.vto" { post } }}
       {{ /for }}
     </ul>
   {{ else }}

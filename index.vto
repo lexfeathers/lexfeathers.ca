@@ -32,7 +32,7 @@ description: Composer and sound designer who loves building websites
 
       <ul class="directory">
         {{ for post of latestPosts }}
-          {{ include "/templates/directory-card.vto" }}
+          {{ include "/templates/directory-card.vto" { post } }}
         {{ /for }}
       </ul>
 

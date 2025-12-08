@@ -1,6 +1,6 @@
 import lume from "lume/mod.ts";
 import postcss from "lume/plugins/postcss.ts";
-import nunjucks from "lume/plugins/nunjucks.ts";
+// import nunjucks from "lume/plugins/nunjucks.ts";
 import favicon from "lume/plugins/favicon.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import date from "lume/plugins/date.ts";
@@ -39,7 +39,7 @@ const site = lume({
 }, 
 { markdown }
 );
-site.use(nunjucks());
+// site.use(nunjucks());
 
 site.add([".css"]);
 site.add("/assets/"); // Iclude assets in the build

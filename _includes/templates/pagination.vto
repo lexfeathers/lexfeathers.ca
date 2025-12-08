@@ -1,18 +1,18 @@
 {{ if pagination.totalPages !== 1 }}
     <nav class="page-pagination pagination">
         <ul>
-            <li class="pagination-prev" {{ if pagination.previous |> length == 0 }} style="visibility: hidden;" {{ /if }}>
-                <a href="{{ pagination.previous }}" rel="prev">
-                    <-</a></li>
-                    <li class="pagination-page">
-                        page {{ pagination.page }} of {{ pagination.totalPages }}
-                    </li>
-                    <li class="pagination-next" {{ if pagination.next |> length == 0 }} style="visibility: hidden;" {{ /if }}>
-                        <a href="{{ pagination.next }}" rel="next">-></a>
-                    </li>
-                </ul>
-            </nav>
-        {{ /if }}
+            <li class="pagination-prev" {{ if pagination.previous > 0 }} style="visibility: hidden;" {{ /if }}>
+                <a href="{{ pagination.previous }}" rel="prev"><-</a>
+            </li>
+            <li class="pagination-page">
+                page {{ pagination.page }} of {{ pagination.totalPages }}
+            </li>
+            <li class="pagination-next" {{ if pagination.next > 0 }} style="visibility: hidden;" {{ /if }}>
+                <a href="{{ pagination.next }}" rel="next">-></a>
+            </li>
+        </ul>
+    </nav>
+{{ /if }}
         <style>
             .page-pagination {
                 display: grid;

@@ -1,24 +1,24 @@
           <li class="directory-card">
             <div>
-              <a class="card-image__link{{ if post.image == false }} card-image__link____noimage{{ /if }}" href="{{ await post.url }}">
+              <a class="card-image__link{{ if post.image == false }} card-image__link____noimage{{ /if }}" href="{{ post.url }}">
                 {{ if post.image }}
                 <img 
                   class="card-image" 
-                  src="{{await post.image}}" 
-                  alt="{{ if post.image_caption }}{{await post.image_caption}}{{ else }}No caption{{ /if }}"
+                  src="{{ post.image }}" 
+                  alt="{{ if post.image_caption }}{{ post.image_caption }}{{ else }}No caption{{ /if }}"
                 >
                 {{ else }}
                 <img 
                   transform-images="webp 100@2" 
                   class="card-image" 
                   src="/uploads/placeholder.png" 
-                  alt="{{ if post.image_caption }}{{await post.image_caption}}{{ else }}No caption{{ /if }}"
+                  alt="{{ if post.image_caption }}{{ post.image_caption }}{{ else }}No caption{{ /if }}"
                 >
                 {{ /if }}
               </a>
-              <a class="directory-card__link" href="{{ await post.url }}">
+              <a class="directory-card__link" href="{{ post.url }}">
                 <span class="card-title">
-                  {{ await post.title }}
+                  {{ post.title }}
                 </span><br>
                 <span class="faded date">
                   <span aria-hidden="true" class="icon icon-letter">&#9993;</span> {{ include "/templates/date.vto" }}
@@ -26,9 +26,9 @@
                 <br>
                 <figure class="card-excerpt">
                   {{ if post.excerpt }}
-                    {{ await post.excerpt |> safe }}
+                    {{ post.excerpt |> safe }}
                   {{ else }}
-                    {{ await post.content |> safe }}
+                    {{ post.content |> safe }}
                   {{ /if }}
                 </figure>              
               </a>  
