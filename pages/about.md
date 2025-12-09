@@ -9,7 +9,7 @@ draft: false
 <h1>Lex Feathers <span class="faded pronouns">(she/her)</span></h1>
 
 <figure class="headshot" transform-images="">
-  <img src="/uploads/Lex_HeadShot_OfficeRoom.jpg" alt="Lex Feathers, a woman with pink hair and black shirt. She has a slight smile." style="border-radius: 340px; filter: contrast(1.1);" />
+  <img src="/uploads/vfheadshot_crop.jpg" alt="Lex Feathers, a woman with light hair and dark makeup. She has her eyes closed and head tilted downward." style="border-radius: 340px; filter: contrast(1.1);" />
   <!-- <figcaption>{{ image_caption }}</figcaption> -->
 </figure>
 
@@ -32,10 +32,11 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
   /* Figures */
   .headshot {
     text-align: center;
-	margin: auto;
+    margin: auto;
   }
   .headshot img {
     max-width: 60%;
+    border: 12px solid var(--colour-text-highlight);
   }
   @media screen and (max-width: 749px) {
 	.headshot img {
