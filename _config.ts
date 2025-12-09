@@ -57,7 +57,6 @@ site.preprocess([".html"], (pages) => {
     page.data.lastmod = info?.mtime;
   }
 });
-site.use(inline());
 site.use(icons({
   folder: "/assets/images/icons"
 }));
@@ -86,6 +85,7 @@ site.use(date({
   },
 }));
 site.use(metas());
+site.use(inline());
 site.use(feed({
   output: ["/feed.rss"],
   query: "type=posts",
