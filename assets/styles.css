@@ -160,6 +160,11 @@
 .right {
 	margin-left: auto;
 }
+.spread {
+  /* For spreading content along a container */
+  display: flex;
+  justify-content: space-between;
+}
 
 .visually-hidden {
   position: absolute !important;
@@ -1420,6 +1425,11 @@ iframe[src*="bandcamp.com"] {
     width: auto;
     padding: 0 1rem;
     font-size: var(--text-small);
+  }
+
+  .spread {
+    flex-direction: column;
+    gap: 1rem;
   }
 
   .read-more {
