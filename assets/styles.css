@@ -241,7 +241,7 @@ h5,
 h6 {
   font-weight: 300;
   line-height: 1.6;
-  --scalefactor: 0.9; 
+  --scalefactor: 0.9;
 }
 
 /* Font sizing per spec */
@@ -915,10 +915,10 @@ a {
   margin-top: 2rem;
 }
 .smosts > .smost:not(:last-child) {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 .smost {
-  padding: .5rem;
+  padding: 0.5rem;
   border: 2px solid var(--colour-lighter-background);
   border-radius: calc(var(--radius)*3);
   box-shadow: inset 0px 2px 4px color-mix(in srgb, var(--colour-background), black 20%);
@@ -931,13 +931,13 @@ a {
 }
 /* end smosts */
 
-a.external:not(a:has(img)):after {
+a.external:not(a:has(img))::after {
   content: '↗';
   font-family: var(--family-code);
   color: var(--colour-text);
   padding-left: 2px;
-  font-size: 10pt;
-  vertical-align: top;
+  font-size: 0.6em;
+  vertical-align: super;
   opacity: 0.4;
 }
 
