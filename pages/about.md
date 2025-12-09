@@ -83,7 +83,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
   }
 </style>
 
-{{# Uses list #}}
+{# Uses list #}
 <details class="uses">
   <summary>/uses</summary>
   <p>Here's a non-exhaustive list of tools I use.</p>
