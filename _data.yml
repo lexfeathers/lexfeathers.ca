@@ -4,10 +4,11 @@ website:
   show_transients: true
 metas:
   site: Lex Feathers
-  title: "=site_title =title"
+  title: "=website.site_title =title"
   lang: en
   color: '#141414'
   author: Lex Feathers
+  fediverse: "@lexfeathers@tenforward.social"
   icon: /assets/favicon.ico
   image: =image
   description: "=description || =excerpt"
@@ -22,6 +23,7 @@ metas:
     - game audio
     - electronic music
     - waxlimbs
+    - void femmes
   generator: false
 social_links:
   - title: Bsky
