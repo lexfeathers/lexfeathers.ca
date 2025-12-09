@@ -4,7 +4,7 @@ website:
   show_transients: true
 metas:
   site: Lex Feathers
-  # title: "=title"
+  title: "=website.site_title =title"
   lang: en
   color: '#141414'
   author: Lex Feathers
