@@ -1,16 +1,15 @@
 ---
 title: about
 description: Composer and sound designer who loves building websites
-image: /uploads/lex_autumn.jpg
-image_caption: 
+image: /uploads/vfheadshot_crop.jpg
 order: 4
 draft: false
 ---
 <h1>Lex Feathers <span class="faded pronouns">(she/her)</span></h1>
 
 <figure class="headshot" transform-images="">
-  <img src="/uploads/vfheadshot_crop.jpg" alt="Lex Feathers, a woman with light hair and dark makeup. She has her eyes closed and head tilted downward." style="border-radius: 340px; filter: contrast(1.1);" />
-  <!-- <figcaption>{{ image_caption }}</figcaption> -->
+  <img src="/uploads/vfheadshot_crop.jpg" alt="Lex Feathers, a woman with light hair and dark makeup. She has her eyes closed and head tilted downward." />
+  <!-- <figcaption>Add stuff I guess!</figcaption> -->
 </figure>
 
 ## Sound designer and composer for [games](https://lexfeathers.ca/portfolio) 
@@ -37,6 +36,8 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
   .headshot img {
     max-width: 60%;
     border: 12px solid var(--colour-text-highlight);
+    border-radius: 340px; 
+    filter: contrast(1.1);
   }
   @media screen and (max-width: 749px) {
 	.headshot img {
