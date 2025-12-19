@@ -14,7 +14,7 @@ tags:
 excerpt: >-
   I fully regret giving companies like this any control over my work.
 ---
-Back in October, my band Waxlimbs released a new single on Bandcamp and streaming services, with the exception being Spotify. Once we had put out a notice that we were going to be taking all of our work off Spotify, I sent an email to our distributor asking for all of Waxlimbs's work to be removed from the service. I was told this could take about 30 days, so we waited.
+Back in October, my band Waxlimbs released a [new single on Bandcamp](https://waxlimbs.bandcamp.com/track/across-the-coals) and streaming services, with the exception being Spotify. Once we had put out a notice that we were going to be taking all of our work off Spotify, I sent an email to our distributor asking for all of Waxlimbs's work to be removed from the service. I was told this could take about 30 days, so we waited.
 
 It's the end of the year, and our music is still up on Spotify. I've been told by my contact at our distro that Spotify's internal comms have cited the "volume of takedown requests" as the cause for their "backlog". Our takedown has now been requested again, but to me there's an odd coincidence to this (purely as conjecture, so take this with a grain of salt).
 
