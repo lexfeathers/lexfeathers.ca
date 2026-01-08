@@ -96,6 +96,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
       <h3>Studio and recording:</h3>
       <ul>
         <li>Ableton Live 11</li>
+        <li>Reaper :)</li>
         <li>Arturia Audiofuse Studio</li>
         <li>Revv G20</li>
         <li>Shure sm7b</li>
