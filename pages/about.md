@@ -262,6 +262,9 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
     <a target="_blank" rel="noopener noreferrer" href="https://aenore.fr/">
       <img src="https://aenore.fr/friends/buttons/aenore.webp" alt="aenore dot fr" style="image-rendering:pixelated;" loading="lazy" />
     </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://oneirocrite.neocities.org">
+      <img src="/uploads/88x31_oneirocrite.gif" alt="Oneirocrite" style="image-rendering:pixelated;" loading="lazy" />
+    </a>
     <img width="88" height="31"
       alt="Trans flag"
       src="/uploads/trans_88x31.png"
