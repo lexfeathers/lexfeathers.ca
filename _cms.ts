@@ -158,11 +158,9 @@ cms.document({
 	name: "index", 
 	store: "my_fs:index.vto", 
 	fields: [
-		"content: markdown",
 		{
-			name: "image",
-			type: "file",
-			uploads: "uploads",
+			name: "content",
+			type: "code",
 		}
 	]
 });
