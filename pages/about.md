@@ -96,6 +96,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
       <h3>Studio and recording:</h3>
       <ul>
         <li>Ableton Live 11</li>
+        <li>Reaper :)</li>
         <li>Arturia Audiofuse Studio</li>
         <li>Revv G20</li>
         <li>Shure sm7b</li>
@@ -261,6 +262,12 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
     </a>
     <a target="_blank" rel="noopener noreferrer" href="https://aenore.fr/">
       <img src="https://aenore.fr/friends/buttons/aenore.webp" alt="aenore dot fr" style="image-rendering:pixelated;" loading="lazy" />
+    </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://oneirocrite.neocities.org">
+      <img src="/uploads/88x31_oneirocrite.gif" alt="Oneirocrite" style="image-rendering:pixelated;" loading="lazy" />
+    </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://virtualmoose.org">
+      <img src="/uploads/88x31-virtualmoose.png" alt="The Virtual Moose" style="image-rendering:pixelated;" loading="lazy" />
     </a>
     <img width="88" height="31"
       alt="Trans flag"
