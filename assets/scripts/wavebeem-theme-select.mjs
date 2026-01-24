@@ -1,3 +1,5 @@
+// No longer in use! See theme-selector.js instead
+
 /**
  * @license MIT
  * @copyright Sage Fennel 2024

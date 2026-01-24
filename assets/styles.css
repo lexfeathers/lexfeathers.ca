@@ -839,45 +839,6 @@ a {
   width: 24px;
 }
 
-/* Theme selector basic styling */
-#theme-select-container {
-	display: inline-block;
-}
-#theme-selector {
-  background: none;
-  border: none;
-  cursor: pointer;
-  vertical-align: middle;
-}
-#theme-selector .icon {
-  color: var(--colour-secondary);
-  font-size: 2.5rem;
-  transition: ease-out 400ms;
-}
-.rotated {
-  rotate: 540deg;
-}
-
-.icon-lightbulb {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: var(--colour-secondary);
-  fill: var(--colour-secondary);
-  color: var(--colour-secondary);
-}
-.icon-lightbulb__div {
-  scale: 1.2;
-  background-color: var(--colour-secondary);
-  -webkit-mask: url(/assets/images/contrast.svg) no-repeat center / contain;
-  mask: url(/assets/images/contrast.svg) no-repeat center / contain;
-  transition: .25s;
-}
-#icon-lightbulb path {
-  scale: 1.4;
-}
-
 .excerpt {
   padding-bottom: 1rem;
 }

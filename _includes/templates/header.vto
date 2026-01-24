@@ -1,15 +1,27 @@
 <header>
   <h1 class="header-logo">
     <a href="/">
-      <img class="logo" id="darklogo" src="/assets/images/Lex Feathers Logo_ff993a_small.png" alt="Lex Feathers' Logo" aria-hidden="true">
-      <img class="logo" id="lightlogo" src="/assets/images/Lex Feathers Logo_a90060_small.png" alt="Lex Feathers' Logo" aria-hidden="true">
+      <img
+        class="logo"
+        id="darklogo"
+        src="/assets/images/Lex Feathers Logo_ff993a_small.png"
+        alt="Lex Feathers' Logo"
+        aria-hidden="true"
+      >
+      <img
+        class="logo"
+        id="lightlogo"
+        src="/assets/images/Lex Feathers Logo_a90060_small.png"
+        alt="Lex Feathers' Logo"
+        aria-hidden="true"
+      >
       <span class="name">{{ website.site_title }}</span>
     </a>
-	{{ include "/templates/theme-selector.vto" }}
+    {{ include "partials/theme-selector.vto" }}
   </h1>
   <nav>
     <ul class="menu">
-      {{ include "/templates/mainmenu.vto" }}
+      {{ include "templates/mainmenu.vto" }}
     </ul>
   </nav>
 </header>

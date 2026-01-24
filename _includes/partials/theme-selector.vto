@@ -1,0 +1,37 @@
+{{# Theme toggle button by Óscar Otero #}}
+<button
+  id="theme-selector"
+  class="theme-selector-button"
+  aria-pressed="false"
+>
+  <span aria-hidden="true" class="icon">
+    <div class="theme-selector-icon icon icon-contrast"></div>
+  </span>
+</button>
+
+<style>
+  /* Theme selector button basic styling */
+  #theme-selector {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+
+    &[aria-pressed="true"] .icon {
+      rotate: 270deg;
+    }
+
+    & .icon {
+      width: 2rem;
+      height: 2rem;
+      transition: ease-out 400ms;
+
+      & .theme-selector-icon {
+        -webkit-mask: url(/assets/images/icons/contrast.svg) no-repeat center /
+          contain;
+        mask: url(/assets/images/icons/contrast.svg) no-repeat center / contain;
+        background-color: var(--colour-secondary);
+      }
+    }
+  }
+</style>
