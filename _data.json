@@ -3,9 +3,12 @@
     "website": {
         "title": "Lex Feathers",
         "show_transients": true,
-		"logo_darkmode" : "/assets/images/Lex Feathers Logo_ff993a_small.png",
-		"logo_lightmode" : "/assets/images/Lex Feathers Logo_a90060_small.png",
-		"logo_alt" : "Lex Feathers's logo"
+		"logo": {
+			"image_darkmode" : "/assets/images/Lex Feathers Logo_ff993a_small.png",
+			"image_lightmode" : "/assets/images/Lex Feathers Logo_a90060_small.png",
+			"width" : "32px",
+			"alt" : "Lex Feathers"
+		}
     },
     "metas": {
         "site": "Lex Feathers",
