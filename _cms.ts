@@ -147,7 +147,7 @@ cms.collection({
 // Site settings
 cms.document(
   "settings: Global settings for the site",
-  "my_fs:_data.yml",
+  "my_fs:_data.json",
   [
     {
       name: "website",
@@ -198,14 +198,16 @@ cms.document(
   "Index: Edit the homepage", 
   "my_fs:index.vto", 
   [
-    "type: code",
-    "content: markdown",
-  ],
-  [
-    "name: image",
-    "type: file",
-    "uploads: uploads"
-  ]
+	  [
+		"type: code",
+		"content: markdown",
+	  ],
+	  [
+		"name: image",
+		"type: file",
+		"uploads: uploads"
+	  ]
+	]
 );
 
 // Edit the stylesheet
