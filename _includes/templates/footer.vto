@@ -1,39 +1,49 @@
 <footer>
-    <ul class="menu">
-		{{ set socialLinks = social_links }}
-		{{ set musicLinks = music_links }}
-        <div class="footer-menu__block">
-            <p role="heading">Music</p>
-            {{ for item of musicLinks }}
-            <li class="menu-item">
-                <a href="{{ item.url }}" target="_blank" class="external">{{ item.title }}</a>
-            </li>
-            {{ /for }}
-        </div>
-        <div class="footer-menu__block">
-            <p role="heading">Socials</p>
-            {{ for item of socialLinks }}
-            <li class="menu-item">
-                <a href="{{ item.url }}" {{ if item.title == "Mastodon" }} rel="me" {{ /if }} target="_blank" class="external">{{ item.title }}</a>
-            </li>
-            {{ /for }}
-        </div>
-        <div class="footer-menu__block">
-            <p role="heading" class="mobile-only">Utility</p>
-            <li class="menu-item utility-link">
-                <a href="/sitemap.xml" class="button">Sitemap</a>
-            </li>
-            <li class="menu-item utility-link">
-                <a href="/feed.rss" class="button">RSS</a>
-            </li>
-        </div>
-    </ul>
-    <p class="copyright">&copy; {{ website.site_title }}
-        <span id="currentyear">{{ date |> date('yyyy') }}</span>
-    </p>
-    <span class="utility-links">
+  <ul class="menu">
+    {{ set socialLinks = social_links }}
+    {{ set musicLinks = music_links }}
+    <div class="footer-menu__block">
+      <p role="heading">Music</p>
+      {{ for item of musicLinks }}
+        <li class="menu-item">
+          <a href="{{ item.url }}" target="_blank" class="external">{{
+            item.title
+          }}</a>
+        </li>
+      {{ /for }}
+    </div>
+    <div class="footer-menu__block">
+      <p role="heading">Socials</p>
+      {{ for item of socialLinks }}
+        <li class="menu-item">
+          <a
+            href="{{ item.url }}"
+            {{ if item.title == "Mastodon" }}
+              rel="me"
+            {{ /if }}
+            target="_blank"
+            class="external"
+          >{{ item.title }}</a>
+        </li>
+      {{ /for }}
+    </div>
+    <div class="footer-menu__block">
+      <p role="heading" class="mobile-only">Utility</p>
+      <li class="menu-item utility-link">
         <a href="/sitemap.xml" class="button">Sitemap</a>
-        <span>|</span>
+      </li>
+      <li class="menu-item utility-link">
         <a href="/feed.rss" class="button">RSS</a>
-    </span>
+      </li>
+    </div>
+  </ul>
+  <p class="copyright">
+    &copy; {{ website.title }}
+    <span id="currentyear">{{ date |> date("yyyy") }}</span>
+  </p>
+  <span class="utility-links">
+    <a href="/sitemap.xml" class="button">Sitemap</a>
+    <span>|</span>
+    <a href="/feed.rss" class="button">RSS</a>
+  </span>
 </footer>

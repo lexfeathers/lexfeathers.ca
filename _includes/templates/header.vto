@@ -4,18 +4,18 @@
       <img
         class="logo"
         id="darklogo"
-        src="/assets/images/Lex Feathers Logo_ff993a_small.png"
-        alt="Lex Feathers' Logo"
+        src="{{ website.logo_darkmode }}"
+        alt="{{ website.logo_alt }}"
         aria-hidden="true"
       >
       <img
         class="logo"
         id="lightlogo"
-        src="/assets/images/Lex Feathers Logo_a90060_small.png"
-        alt="Lex Feathers' Logo"
+        src="{{ website.logo_lightmode}}"
+        alt="{{ website.logo_alt }}"
         aria-hidden="true"
       >
-      <span class="name">{{ website.site_title }}</span>
+      <span class="name">{{ website.title }}</span>
     </a>
     {{ include "partials/theme-selector.vto" }}
   </h1>

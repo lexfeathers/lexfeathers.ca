@@ -1,12 +1,15 @@
 {
     "layout": "layout.vto",
     "website": {
-        "site_title": "Lex Feathers",
-        "show_transients": true
+        "title": "Lex Feathers",
+        "show_transients": true,
+		"logo_darkmode" : "/assets/images/Lex Feathers Logo_ff993a_small.png",
+		"logo_lightmode" : "/assets/images/Lex Feathers Logo_a90060_small.png",
+		"logo_alt" : "Lex Feathers's logo"
     },
     "metas": {
         "site": "Lex Feathers",
-        "title": "=website.site_title =title",
+        "title": "=website.title =title",
         "lang": "en",
         "color": "#141414",
         "author": "Lex Feathers",
