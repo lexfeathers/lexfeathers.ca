@@ -26,12 +26,12 @@
 			<section id="content" data-pagefind-body>
 				{{# Basic breadcrumbs #}}
 				<div data-pagefind-ignore="all">
-					{{ if title != 'home' & type != 'posts' & type != 'tag' & type != 'projects' }}
+					{{ if title != 'home' & type != 'post' & type != 'tag' & type != 'project' }}
 						<a href="/" alt="Back to home" class="button"><- home</a>
 					{{ /if }}
 				</div>
 
-				{{ if title != 'home' & type != 'posts' & type != 'projects' }}
+				{{ if title != 'home' & type != 'post' & type != 'project' }}
 					<h1>{{ title }}</h1>
 					<hr class="faded">
 				{{ /if }}
