@@ -4,5 +4,43 @@ order: 3
 ---
 
 <div data-pagefind-ignore="data-pagefind-ignore">
-  {{ include "/templates/directory.vto" }}
+  <div class="post-directory">
+  <h2>All posts<span class="faded"> (newest to oldest):</span></h2>
+
+  {{ set posts = search.pages("type=posts draft=false", "published=desc") }}
+  {{ if posts }}
+    <ul class="directory">
+      {{ for post of posts }}
+        {{ include "partials/directory-card.vto" { post } }}
+      {{ /for }}
+    </ul>
+  {{ else }}
+    <p>There are no posts to display.</p>
+  {{ /if }}
+
+  {{# The following was pulled from Óscar Otero's "Simple Twitter" theme: 
+      https://github.com/lumeland/theme-simple-twitter/blob/main/src/_includes/layouts/tweets.vto 
+  #}}
+  {{# <nav class="page-navigation pagination">
+    <ul>
+      {{ if pagination.previous }}
+        <li class="pagination-prev">
+          <a href="{{ pagination.previous }}" rel="prev">
+            <span>Previous</span>
+          </a>
+        </li>
+      {{ /if }}
+      <li class="pagination-page">
+        <span>Page {{ pagination.page }} of {{ pagination.totalPages }}</span>
+      </li>
+      {{ if pagination.next }}
+        <li class="pagination-next">
+          <a href="{{ pagination.next }}" rel="next">
+            <span>Next</span>
+          </a>
+        </li>
+      {{ /if }}
+    </ul>
+  </nav>
+</div> #}}
 </div>

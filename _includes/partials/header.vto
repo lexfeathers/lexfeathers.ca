@@ -4,15 +4,15 @@
       <img
         class="logo"
         id="darklogo"
-        src="{{ website.logo_darkmode }}"
-        alt="{{ website.logo_alt }}"
+        src="{{ website.logo.image_darkmode }}"
+        alt="{{ website.logo.alt }}"
         aria-hidden="true"
       >
       <img
         class="logo"
         id="lightlogo"
-        src="{{ website.logo_lightmode}}"
-        alt="{{ website.logo_alt }}"
+        src="{{ website.logo.image_lightmode}}"
+        alt="{{ website.logo.alt }}"
         aria-hidden="true"
       >
       <span class="name">{{ website.title }}</span>
@@ -21,14 +21,14 @@
   </h1>
   <nav>
     <ul class="menu">
-      {{ include "templates/mainmenu.vto" }}
+      {{ include "partials/mainmenu.vto" }}
     </ul>
   </nav>
 </header>
 
 <style>
   .logo {
-    width: 32px;
+    width: {{ website.logo.width }};
     vertical-align: middle;
     margin-right: 1.5rem;
   }

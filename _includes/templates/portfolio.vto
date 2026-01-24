@@ -7,8 +7,8 @@ description: Composer, Sound Designer and Webdev.
 ---
 
 <div class="grid">
-    {{ for item of results }}
-        {{ include "/templates/grid-item.vto" { item } }}
-    {{ /for }}
+  {{ for item of results }}
+    {{ include "partials/grid-item.vto" { item } }}
+  {{ /for }}
 </div>
-{{ include "/templates/pagination.vto" }}
+{{ include "partials/pagination.vto" }}

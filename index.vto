@@ -8,34 +8,48 @@ description: Composer and sound designer who loves building websites
 ---
 <div data-pagefind-ignore>
   <div class="banner">
-    <img id="banner" src="{{ image }}" alt="Lex Feathers's personal blog" loading="lazy">
+    <img
+      id="banner"
+      src="{{ image }}"
+      alt="Lex Feathers's personal blog"
+      loading="lazy"
+    >
   </div>
 
   <h1>Hi, I'm <a href="/pages/about">Lex!</a></h1>
   <p>
-    I'm a <a href="/portfolio" title="link to my portfolio">composer, sound designer</a> and webdev based in Toronto, Canada. I love building websites and reclaiming the internet through projects like this one.
+    I'm a <a href="/portfolio" title="link to my portfolio"
+    >composer, sound designer</a> and webdev based in Toronto, Canada. I love
+    building websites and reclaiming the internet through projects like this
+    one.
   </p>
   <p>
-    On this site you'll find music I'm working on, live performance documentation, idle thoughts and more. 
+    On this site you'll find music I'm working on, live performance
+    documentation, idle thoughts and more.
   </p>
   <p>
-    If you have questions or ideas for the site, please feel free to <a href="/pages/contact" title="contact me">reach out :)</a>
+    If you have questions or ideas for the site, please feel free to <a
+      href="/pages/contact"
+      title="contact me"
+    >reach out :)</a>
   </p>
 
   {{# Latest 3 blog posts #}}
   <article class="homepage-excerpt">
-    <div class="homepage-latest" style="margin-top: 2rem;">
-      
-      <h2 class="spread"><span>Latest posts:</span><a href="/pages/directory">View all</a></h2>
+    <div class="homepage-latest" style="margin-top: 2rem">
+      <h2 class="spread">
+        <span>Latest posts:</span><a href="/pages/directory">View all</a>
+      </h2>
 
-      {{ set latestPosts = search.pages("type=posts draft=false", "published=desc", 3) }}
+      {{
+        set latestPosts = search.pages("type=posts draft=false", "published=desc", 3)
+      }}
 
       <ul class="directory">
         {{ for post of latestPosts }}
-          {{ include "/templates/directory-card.vto" { post } }}
+          {{ include "partials/directory-card.vto" { post } }}
         {{ /for }}
       </ul>
-
     </div>
   </article>
 </div>

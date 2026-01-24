@@ -1,9 +1,9 @@
-export default function* ({ search }) {
+export default function* ({ search }: any) {
     const allTags = search.values("tags");
 
-    // Generate a page dynamically per tag
+    // Generate a page of posts dynamically per tag
     for (const tag of allTags) {
-        // Search all pages with this tag        
+        // Get all pages with this tag        
         const pages = search.pages(`'${tag}'`, "published=desc"); // Put quotes around tag to account for spaces.
 
         // Return the data of the new page.
@@ -13,7 +13,7 @@ export default function* ({ search }) {
             pages: pages,
             tag: tag,
             type: "tag",
-            layout: "/templates/tag.vto",
+            layout: "partials/tag.vto",
         };
     }
 }

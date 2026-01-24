@@ -3,7 +3,7 @@
     <h3>Nav</h3>
     <div>
       <ul class="page-list">
-        {{ include "/templates/mainmenu.vto" }}
+        {{ include "partials/mainmenu.vto" }}
       </ul>
     </div>
   </div>
@@ -14,33 +14,41 @@
       <div class="margin-bar"></div>
       <menu>
         <ul
-          class="post-list">
+          class="post-list"
+        >
           {{# Get posts that aren't drafts #}}
-          {{ set posts = search.pages("type=posts draft=false", "published=desc", 8) }}
+          {{
+            set posts = search.pages(
+              "type=posts draft=false",
+              "published=desc",
+              8,
+            )
+          }}
           {{ for post of posts }}
-          <li>
-            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-          </li>
+            <li>
+              <a href="{{ post.url }}" title="{{ post.title }}">{{
+                post.title
+              }}</a>
+            </li>
           {{ /for }}
         </ul>
       </menu>
     </div>
-  <a href="/pages/directory/" class="button">All posts</a>
+    <a href="/pages/directory/" class="button">All posts</a>
   {{ /if }}
 
   <!-- Fill the sidebar on home and post-directory so that it's the same width as on other pages -->
   {{ if title == 'home' || title == 'directory' || title == 'portfolio' }}
-    <div style="min-width: 250px;"> </div>
+    <div style="min-width: 250px"></div>
   {{ /if }}
-  
+
   {{ if title != "transients" && website.show_transients }}
-  <div class="smosts">
-	{{ include "partials/latest-transient.vto" }}
-  </div>
+    <div class="smosts">
+      {{ include "partials/latest-transient.vto" }}
+    </div>
   {{ /if }}
 
   <div class="footer-container-sidebar">
-    {{ include "/templates/footer.vto" }}
+    {{ include "partials/footer.vto" }}
   </div>
-
 </div>
