@@ -1,0 +1,56 @@
+{
+    "layout": "layout.vto",
+    "website": {
+        "site_title": "Lex Feathers",
+        "show_transients": true
+    },
+    "metas": {
+        "site": "Lex Feathers",
+        "title": "=website.site_title =title",
+        "lang": "en",
+        "color": "#141414",
+        "author": "Lex Feathers",
+        "fediverse": "@lexfeathers@tenforward.social",
+        "icon": "/assets/favicon.ico",
+        "image": "=image",
+        "description": "=description || =excerpt",
+        "twitter:card": "=image",
+        "twitter:title": "=site_title =title",
+        "twitter:description": "=excerpt",
+        "twitter:label2": "by",
+        "twitter:data1": "=author",
+        "keywords": [
+            "music",
+            "lex feathers",
+            "game audio",
+            "electronic music",
+            "waxlimbs",
+            "void femmes"
+        ],
+        "generator": false
+    },
+    "social_links": [
+        {
+            "title": "Bsky",
+            "url": "https://bsky.app/profile/lexfeathers.ca"
+        },
+        {
+            "title": "Mastodon",
+            "url": "https://tenforward.social/@lexfeathers"
+        }
+    ],
+    "music_links": [
+        {
+            "title": "Void Femmes",
+            "url": "https://voidfemmes.bandcamp.com"
+        },
+        {
+            "title": "Waxlimbs",
+            "url": "https://waxlimbs.bandcamp.com"
+        },
+        {
+            "title": "Feyla",
+            "url": "https://feyla.bandcamp.com"
+        }
+    ]
+}
