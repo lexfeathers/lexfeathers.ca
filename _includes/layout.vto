@@ -16,9 +16,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
 		<!-- Load main scripts file -->
-		<script type="module" src="/assets/scripts.js" defer></script>
-		<!-- Load wavebeem theme selector script -->
-		<script type="module" src="/assets/scripts/wavebeem-theme-select.mjs" defer></script>
+		<script type="module" src="/assets/scripts/global.js" defer></script>
 	</head>
 
 	<body>
@@ -83,5 +81,6 @@
 					marker.style.setProperty("--warning-img", `url('{{ "skull" |> icon("phosphor") }}')`)
 				});
 		</script>
+		<script src="/assets/scripts/theme-selector.js" defer></script>
 	</body>
 </html>
