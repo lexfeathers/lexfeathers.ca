@@ -1,0 +1,18 @@
+---
+layout: /layout.vto
+---
+<div style="margin-top: 2rem">
+  <a href="../../pages/taglist"><- All tags</a>
+</div>
+
+<div class="post-directory">
+  {{ if pages.length }}
+    <ul class="directory">
+      {{ for page of pages }}
+		{{ include "partials/directory-card.vto" {post: page} }}
+      {{ /for }}
+    </ul>
+  {{ else }}
+    <p>There are no posts to display.</p>
+  {{ /if }}
+</div>
