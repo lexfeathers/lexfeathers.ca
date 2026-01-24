@@ -197,7 +197,6 @@ cms.document(
 cms.document(
   "Index: Edit the homepage", 
   "my_fs:index.vto", 
-  [
 	  [
 		"type: code",
 		"content: markdown",
@@ -207,7 +206,6 @@ cms.document(
 		"type: file",
 		"uploads: uploads"
 	  ]
-	]
 );
 
 // Edit the stylesheet
