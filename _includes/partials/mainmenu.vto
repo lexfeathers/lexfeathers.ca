@@ -4,21 +4,9 @@
   <a href="{{ menuItem.url }}">{{ menuItem.title }}</a>
 </li>
 {{ /for }} #}}
-<li class="menu-item">
-  <a href="/">home</a>
-</li>
-<li class="menu-item">
-  <a href="/portfolio">portfolio</a>
-</li>
-<li class="menu-item">
-  <a href="/pages/directory">blog</a>
-</li>
-<li class="menu-item">
-  <a href="/pages/about">about</a>
-</li>
-<li class="menu-item">
-  <a href="/pages/taglist">tags</a>
-</li>
-<li class="menu-item">
-  <a href="/pages/contact">contact</a>
-</li>
+
+{{ for page of website.nav_menu }}
+  <li class="menu-item">
+    <a href="{{page.url}}">{{ page.title }}</a>
+  </li>
+{{ /for }}

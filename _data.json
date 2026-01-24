@@ -8,7 +8,33 @@
 			"image_lightmode" : "/assets/images/Lex Feathers Logo_a90060_small.png",
 			"width" : "32px",
 			"alt" : "Lex Feathers"
-		}
+		},
+		"nav_menu" : [
+			{
+				"title" : "home",
+				"url" : "/"
+			},
+			{
+				"title" : "portfolio",
+				"url" : "/portfolio"
+			},
+			{
+				"title" : "blog",
+				"url" : "/pages/directory"
+			},
+			{
+				"title" : "about",
+				"url" : "/pages/about"
+			},
+			{
+				"title" : "tags",
+				"url" : "/pages/tags"
+			},
+			{
+				"title" : "contact",
+				"url" : "/pages/contact"
+			}
+		]
     },
     "metas": {
         "site": "Lex Feathers",
