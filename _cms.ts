@@ -144,17 +144,6 @@ cms.collection({
   documentName: "{title}.md",
 });
 
-// Site settings
-cms.document({
-	name: "settings: Global settings for the site",
-	store: "my_fs:_data.json",
-	fields: [
-		{
-			name: "content",
-			type: "code",
-		}
-	]
-});
 
 // Edit the index contents
 cms.document({
@@ -172,18 +161,30 @@ cms.document({
 
 // Edit the stylesheet
 cms.document(
-  "stylesheet: Edit the CSS for the site", 
-  "my_fs:assets/styles.css", 
-  [
-    "content: markdown",
-  ]
+	"stylesheet: Edit the CSS for the site", 
+	"my_fs:assets/styles.css", 
+	[
+		"content: markdown",
+	]
 );
 
 // Configure a folder to upload files
 cms.upload(
-  "uploads: upload to this for use in posts/pages", 
-  "my_fs:uploads",
+	"uploads: upload to this for use in posts/pages", 
+	"my_fs:uploads",
 );
+
+// Site settings
+cms.document({
+	name: "settings: Global settings for the site",
+	store: "my_fs:_data.json",
+	fields: [
+		{
+			name: "content",
+			type: "code",
+		}
+	]
+});
 
 // 6. Export the cms configuration
 export default cms;
