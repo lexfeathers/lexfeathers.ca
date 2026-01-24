@@ -194,19 +194,18 @@ cms.document(
 );
 
 // Edit the index contents
-cms.document(
-  "Index: Edit the homepage", 
-  "my_fs:index.vto", 
-	  [
-		"type: code",
+cms.document({
+	name: "index", 
+	store: "my_fs:index.vto", 
+	fields: [
 		"content: markdown",
-	  ],
-	  [
-		"name: image",
-		"type: file",
-		"uploads: uploads"
-	  ]
-);
+		{
+			name: "image",
+			type: "file",
+			uploads: "uploads",
+		}
+	]
+});
 
 // Edit the stylesheet
 cms.document(
