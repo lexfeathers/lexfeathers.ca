@@ -22,34 +22,44 @@ import { alert } from "npm:@mdit/plugin-alert@0.8.0";
 const markdown = {
   plugins: [
     footnote,
-    [alert, {
-      deep: true,
-    }],
-    [implicitFigures, {
-      lazy: true,
-      async: true,
-      figcaption: "alt",
-      link: true,
-    }],
+    [
+		alert, {
+			deep: true,
+		}
+	],
+    [
+		implicitFigures, {
+			lazy: true,
+			async: true,
+			figcaption: "alt",
+			link: true,
+		}
+	],
   ],
 };
 
-const site = lume({
-  location: new URL("https://lexfeathers.ca"),
-}, 
-{ markdown }
+const site = lume(
+	{
+		location: new URL("https://lexfeathers.ca"),
+	}, 
+	{ 
+		markdown 
+	}
 );
-// site.use(nunjucks());
 
 site.add([".css"]);
-site.add("/assets/"); // Iclude assets in the build
-site.add("/uploads/"); // Iclude assets in the build
+site.add("/assets/"); // Include assets in the build
+site.add("/uploads/"); // Include uploads in the build
 
-site.use(googleFonts({
-  fonts:
-    "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap",
-}));
+site.use(
+	googleFonts(
+		{
+			fonts: "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap",
+		}
+	)
+);
 site.use(postcss());
+
 // Create the lastmod variable with the mtime of the file
 site.preprocess([".html"], (pages) => {
   for (const page of pages) {
@@ -57,8 +67,9 @@ site.preprocess([".html"], (pages) => {
     page.data.lastmod = info?.mtime;
   }
 });
+
 site.use(icons({
-  folder: "/assets/images/icons"
+	folder: "/assets/images/icons"
 }));
 site.use(extractDate());
 site.use(
