@@ -1,5 +1,5 @@
 {
-  "type": "posts",
+  "type": "post",
   "layout": "/templates/post.vto",
   "metas": {
     "title": "=title",

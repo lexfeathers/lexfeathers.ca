@@ -1,5 +1,5 @@
 {
-  "type": "projects",
+  "type": "project",
   "layout": "/templates/project.vto",
   "metas": {
     "title": "=title",

@@ -7,7 +7,7 @@ order: 3
   <div class="post-directory">
   <h2>All posts<span class="faded"> (newest to oldest):</span></h2>
 
-  {{ set posts = search.pages("type=posts draft=false", "published=desc") }}
+  {{ set posts = search.pages("type=post draft=false", "published=desc") }}
   {{ if posts }}
     <ul class="directory">
       {{ for post of posts }}

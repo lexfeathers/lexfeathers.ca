@@ -2,14 +2,17 @@
 title: transients
 ---
 
-<p><span title="smosts ;^)">Small posts (🤏🏻)</span> that don't belong on the main blog</p>
+<p>
+  <span title="smosts ;^)">Small posts (🤏🏻)</span> that don't belong on the
+  main blog
+</p>
 
-{{ set smosts = search.pages("type=smosts draft=false", "published=desc")}}
+{{ set smosts = search.pages("type=smost draft=false", "published=desc") }}
 
 <div class="smosts">
-{{ for smost of smosts }}
+  {{ for smost of smosts }}
     {{ include "partials/smost.vto" { smost } }}
-{{ /for }}
+  {{ /for }}
 </div>
 
 <!--

@@ -19,7 +19,7 @@
           {{# Get posts that aren't drafts #}}
           {{
             set posts = search.pages(
-              "type=posts draft=false",
+              "type=post draft=false",
               "published=desc",
               8,
             )

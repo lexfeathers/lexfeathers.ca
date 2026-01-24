@@ -1,6 +1,6 @@
 ---
 title: home
-type: pages
+type: page
 order: 1
 image: /uploads/halftone_banner.jpg
 author: Lex Feathers
@@ -42,7 +42,7 @@ description: Composer and sound designer who loves building websites
       </h2>
 
       {{
-        set latestPosts = search.pages("type=posts draft=false", "published=desc", 3)
+        set latestPosts = search.pages("type=post draft=false", "published=desc", 3)
       }}
 
       <ul class="directory">
