@@ -12,16 +12,16 @@ const formattedDate = humanDate.toISOString().split('T')[0].replace(/-/g, '-');
 
 // Create the cms instance
 const cms = lumeCMS({
-  site: {
-    name: "Lex Feathers",
-    url: "https://lexfeathers.ca",
-  }, 
-  auth: {
-    method: "basic",
-    users: {
-      [username]: password,
-    },
-  },
+	site: {
+		name: "Lex Feathers",
+		url: "https://lexfeathers.ca",
+	}, 
+	auth: {
+		method: "basic",
+		users: {
+			[username]: password,
+		},
+	},
 });
 
 // Create file system
@@ -148,7 +148,9 @@ cms.collection({
 cms.document({
 	name: "settings: Global settings for the site",
 	store: "my_fs:_data.json",
-	type: "object-list",
+	fields: [
+		"content: markdown",
+	]
 });
 
 // Edit the index contents
