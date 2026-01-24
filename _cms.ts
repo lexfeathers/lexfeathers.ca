@@ -149,7 +149,10 @@ cms.document({
 	name: "settings: Global settings for the site",
 	store: "my_fs:_data.json",
 	fields: [
-		"content: markdown",
+		{
+			name: "content",
+			type: "code",
+		}
 	]
 });
 
@@ -158,9 +161,11 @@ cms.document({
 	name: "index", 
 	store: "my_fs:index.vto", 
 	fields: [
+		"content: markdown",
 		{
-			name: "content",
-			type: "code",
+			name: "image",
+			type: "file",
+			uploads: "uploads",
 		}
 	]
 });
