@@ -145,53 +145,11 @@ cms.collection({
 });
 
 // Site settings
-cms.document(
-  "settings: Global settings for the site",
-  "my_fs:_data.json",
-  [
-    {
-      name: "website",
-      type: "object",
-      description: "Key details about this site",
-      fields: [
-        {
-          name: "site_title",
-          type: "text",
-          label: "Site name",
-          description: "Name of the website",
-        },
-        {
-          name: "show_transients",
-          type: "checkbox",
-          label: "Show transients",
-          description: "Affects microblog display state"
-        }
-      ],
-    },
-    {
-      name: "footer_links",
-      type: "object-list",
-      description: "Links that appear in the footer",
-      fields: [
-        {
-          name: "title",
-          type: "text",
-          label: "Title",
-        },
-        {
-          name: "url",
-          type: "text",
-          label: "URL",
-        },
-      ],
-    },
-    {
-      name: "extra_head",
-      type: "code",
-      description: "Extra content to include in the <head> tag",
-    },
-  ],
-);
+cms.document({
+	name: "settings: Global settings for the site",
+	store: "my_fs:_data.json",
+	type: "object-list",
+});
 
 // Edit the index contents
 cms.document({
