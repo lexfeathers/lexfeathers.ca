@@ -37,11 +37,6 @@
     <a href="/pages/directory/" class="button">All posts</a>
   {{ /if }}
 
-  <!-- Fill the sidebar on home and post-directory so that it's the same width as on other pages -->
-  {{ if title == 'home' || title == 'directory' || title == 'portfolio' }}
-    <div style="min-width: 250px"></div>
-  {{ /if }}
-
   {{ if title != "transients" && website.show_transients }}
     <div class="smosts">
       {{ include "partials/latest-transient.vto" }}
