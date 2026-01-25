@@ -154,10 +154,6 @@
 }
 /* End theme selector */
 
-* {
-	box-sizing: border-box;
-}
-
 /* Fonts */
 @font-face {
 	font-family: var(--family-code);
@@ -168,6 +164,7 @@
 
 /* General styling */
 * {
+	box-sizing: border-box;
 	color: var(--color-primary);
 }
 /* Helpers */
