@@ -22,16 +22,16 @@ order: 7
     .control>input, .control>textarea {
         min-width: 100%;
         padding: .5rem !important;
-        border: 1px solid var(--colour-text-faded);
+        border: 1px solid var(--color-text-faded);
     }
     .control>input:focus, button.button:focus {
         outline: none;
-        box-shadow: 0 0 0 3px var(--colour-secondary);
+        box-shadow: 0 0 0 3px var(--color-secondary);
         transition: box-shadow 0.1s ease;
     }
     button.button:focus {
         outline: none;
-        box-shadow: 0 0 0 4px var(--colour-text);
+        box-shadow: 0 0 0 4px var(--color-text);
         transition: box-shadow 0.1s ease;
     }
     textarea {

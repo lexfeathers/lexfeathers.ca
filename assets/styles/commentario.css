@@ -3,24 +3,24 @@
 /* Comentario overrides by Damien Erambert */
 body main .comentario-root.comentario-root {
 	/* Set muted text colour */
-	--cmntr-muted-color: var(--colour-text) !important;
+	--cmntr-muted-color: var(--color-text) !important;
   /* Set commenter colour */
-  --cmntr-color: var(--colour-text);
+  --cmntr-color: var(--color-text);
   /* Set button text colour */
-  --cmntr-btn-color: var(--colour-background);
+  --cmntr-btn-color: var(--color-background);
 	/* Remove background behind composer wrapper */
 	--cmntr-bg: transparent;
-	--cmntr-card-border: rgb(from var(--colour-text-faded) r g b / 0.4);
+	--cmntr-card-border: rgb(from var(--color-text-faded) r g b / 0.4);
 	/* Set textarea background colour */
-	--cmntr-bg-shade: var(--colour-background);
+	--cmntr-bg-shade: var(--color-background);
   /* Set button text colour */
   & .comentario-btn-primary {
-    --cmntr-btn-color: var(--colour-background);
+    --cmntr-btn-color: var(--color-background);
   }
 
   /* Set nested border-lefts */
   & div .comentario-border-30 {
-    border-left-color: var(--colour-text-highlight) !important;
+    border-left-color: var(--color-text-highlight) !important;
   }
 
 	/* Unset textarea placeholder */
@@ -28,21 +28,21 @@ body main .comentario-root.comentario-root {
 		color: unset !important;
 	}
   & [class*="comentario-border-"] {
-    border-left-color: var(--colour-text-highlight) !important;
+    border-left-color: var(--color-text-highlight) !important;
   }
 
 	/* Tweak color in light mode */
     @media (prefers-color-scheme: light) {
-      --cmntr-bg-shade: var(--colour-background-lightmode);
+      --cmntr-bg-shade: var(--color-background-lightmode);
       .comentario-root .comentario-text-muted {
-          color:var(--colour-text-faded)!important
+          color:var(--color-text-faded)!important
       }      
     }
     :root[data-theme="light"] {
-      --cmntr-muted-color: color-mix(in srgb, var(--colour-text) 60%, var(--colour-background) 40%);
+      --cmntr-muted-color: color-mix(in srgb, var(--color-text) 60%, var(--color-background) 40%);
     }
     :root[data-theme="dark"] {
-      --cmntr-muted-color: var(--colour-text);
+      --cmntr-muted-color: var(--color-text);
     }
 
 	/* Theme-specific: Remove background behind `code` element inside code blocks */
@@ -60,27 +60,27 @@ body main .comentario-root.comentario-root {
   /* Theme-specific: Change color of default button */
   .comentario-btn-tool,
   .comentario-btn-link {
-    --cmntr-btn-hover-color: color-mix(in srgb, white 24%, var(--colour-secondary));
+    --cmntr-btn-hover-color: color-mix(in srgb, white 24%, var(--color-secondary));
     --cmntr-btn-active-color: color-mix(
       in srgb,
       black 30%,
-      var(--colour-secondary)
+      var(--color-secondary)
     );
   }
   .comentario-btn-link {
-    --cmntr-btn-color: color-mix(in srgb, black 10%, var(--colour-secondary));
+    --cmntr-btn-color: color-mix(in srgb, black 10%, var(--color-secondary));
   }
 
   /* Theme-specific: Change color of primary button */
   .comentario-btn-primary {
-    --cmntr-btn-bg: color-mix(in srgb, black 10%, var(--colour-secondary));
+    --cmntr-btn-bg: color-mix(in srgb, black 10%, var(--color-secondary));
     --cmntr-btn-hover-bg: color-mix(in srgb, white 24%, var(--cmntr-btn-bg));
     --cmntr-btn-active-bg: color-mix(in srgb, black 30%, var(--cmntr-btn-bg));
   }
 
   /* Theme-specific: Change style of secondary button */
   .comentario-btn-secondary {
-    --cmntr-btn-bg: color-mix(in srgb, black 10%, var(--colour-secondary));
+    --cmntr-btn-bg: color-mix(in srgb, black 10%, var(--color-secondary));
     --cmntr-btn-hover-bg: color-mix(in srgb, white 24%, var(--cmntr-btn-bg));
     --cmntr-btn-active-bg: color-mix(in srgb, black 30%, var(--cmntr-btn-bg));
     background-color: transparent;
@@ -132,17 +132,17 @@ body main .comentario-root.comentario-root {
   /* Tweak background color of textarea */
   .comentario-add-comment-host:not(.comentario-editor-inserted),
   textarea {
-    --cmntr-input-bg: var(--colour-background-lightmode);
-    --cmntr-bg: var(--colour-background-lightmode);
-	--cmntr-input-color: var(--colour-text);
+    --cmntr-input-bg: var(--color-background-lightmode);
+    --cmntr-bg: var(--color-background-lightmode);
+	--cmntr-input-color: var(--color-text);
   }
 
   @media (prefers-color-scheme: dark) {
     .comentario-add-comment-host:not(.comentario-editor-inserted),
     textarea {
-      --cmntr-input-bg: var(--colour-background);
-      --cmntr-bg: var(--colour-background);
-	  --cmntr-input-color: var(--colour-text);
+      --cmntr-input-bg: var(--color-background);
+      --cmntr-bg: var(--color-background);
+	  --cmntr-input-color: var(--color-text);
     }
   }
 
@@ -214,11 +214,11 @@ body main .comentario-root.comentario-root {
 
   /* Use site link color for "watermark" */
   .comentario-footer {
-    --cmntr-link-color: var(--colour-secondary);
+    --cmntr-link-color: var(--color-secondary);
     --cmntr-link-hover-color: color-mix(
       in srgb,
       black 20%,
-      var(--colour-secondary)
+      var(--color-secondary)
     );
   }
 

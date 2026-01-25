@@ -5,29 +5,29 @@
 
   /* Colours */
     color-scheme: light dark;
-    --colour-background: #141414;
-    --colour-secondary: #ff993a;
-    --colour-tertiary: #a4b06b;
-    --colour-text: color-mix(in srgb, var(--colour-secondary), white 80%);
-    --colour-cw-background: #7c2447;
-    --colour-cw-text: #fff0cc;
+    --color-background: #141414;
+    --color-secondary: #ff993a;
+    --color-tertiary: #a4b06b;
+    --color-text: color-mix(in srgb, var(--color-secondary), white 80%);
+    --color-cw-background: #7c2447;
+    --color-cw-text: #fff0cc;
     /* Dark theme - make sure to update this as well if changing the main theme! */
-      --colour-background-darkmode: #141414;
-      --colour-secondary-darkmode: #ff993a;
-      --colour-tertiary-darkmode: #a4b06b;
-      --colour-text-darkmode: color-mix(in srgb, var(--colour-secondary-darkmode), white 80%);
+      --color-background-darkmode: #141414;
+      --color-secondary-darkmode: #ff993a;
+      --color-tertiary-darkmode: #a4b06b;
+      --color-text-darkmode: color-mix(in srgb, var(--color-secondary-darkmode), white 80%);
     /* Light theme */
-      --colour-background-lightmode: #fff6f0;
-      --colour-secondary-lightmode: #a90060;
-      --colour-tertiary-lightmode: #006674;
-      --colour-text-lightmode: color-mix(in srgb, var(--colour-secondary-lightmode), black 90%);
+      --color-background-lightmode: #fff6f0;
+      --color-secondary-lightmode: #a90060;
+      --color-tertiary-lightmode: #006674;
+      --color-text-lightmode: color-mix(in srgb, var(--color-secondary-lightmode), black 90%);
     /* Mixed colours */
-      --colour-dark-background: color-mix(in srgb, var(--colour-background), black 20%);
-      --colour-light-background: color-mix(in srgb, var(--colour-background) 98%, var(--colour-text) 2%);
-      --colour-lighter-background: color-mix(in srgb, var(--colour-background), var(--colour-text) 5%);
-      --colour-text-highlight: color-mix(in srgb, var(--colour-background) 85%, var(--colour-text) 15%);
-      --colour-text-faded: color-mix(in srgb, var(--colour-background) 60%, var(--colour-text) 40%);
-    scrollbar-color: var(--colour-tertiary) var(--colour-lighter-background);
+      --color-dark-background: color-mix(in srgb, var(--color-background), black 20%);
+      --color-light-background: color-mix(in srgb, var(--color-background) 98%, var(--color-text) 2%);
+      --color-lighter-background: color-mix(in srgb, var(--color-background), var(--color-text) 5%);
+      --color-text-highlight: color-mix(in srgb, var(--color-background) 85%, var(--color-text) 15%);
+      --color-text-faded: color-mix(in srgb, var(--color-background) 60%, var(--color-text) 40%);
+    scrollbar-color: var(--color-tertiary) var(--color-lighter-background);
 
   /* Typography */
     --family-sans: 'Inter', sans-serif;
@@ -39,11 +39,11 @@
 
   /* Pagefind search bar styles */
     --pagefind-ui-scale: 0.8;
-    --pagefind-ui-primary: var(--colour-secondary);
-    --pagefind-ui-text: var(--colour-text);
-    --pagefind-ui-background: var(--colour-light-background);
-    --pagefind-ui-border: var(--colour-text-faded);
-    --pagefind-ui-tag: var(--colour-text);
+    --pagefind-ui-primary: var(--color-secondary);
+    --pagefind-ui-text: var(--color-text);
+    --pagefind-ui-background: var(--color-light-background);
+    --pagefind-ui-border: var(--color-text-faded);
+    --pagefind-ui-tag: var(--color-text);
     --pagefind-ui-border-width: 1px;
     --pagefind-ui-border-radius: 4px;
     --pagefind-ui-image-border-radius: 4px;
@@ -65,10 +65,10 @@
   :root,
   /* Styles when dark mode set by JS */
   :root[data-theme="dark"] {
-	--colour-background: var(--colour-background-darkmode);
-	--colour-text: var(--colour-text-darkmode);
-	--colour-secondary: var(--colour-secondary-darkmode);
-	--colour-tertiary: var(--colour-tertiary-darkmode);
+	--color-background: var(--color-background-darkmode);
+	--color-text: var(--color-text-darkmode);
+	--color-secondary: var(--color-secondary-darkmode);
+	--color-tertiary: var(--color-tertiary-darkmode);
 	& :not(.name) {
 	  font-weight: 300;
 	}
@@ -79,7 +79,7 @@
 	  font-weight: 300 !important;
 	}
 	& audio {
-	  filter: hue-rotate(200deg) contrast(80%) drop-shadow(0px 6px 8px var(--colour-background));
+	  filter: hue-rotate(200deg) contrast(80%) drop-shadow(0px 6px 8px var(--color-background));
 	}
 	& #banner {
 	  filter: none;
@@ -93,13 +93,13 @@
   }
   /* Styles when light mode set by JS */
   :root[data-theme="light"] {
-    --colour-background: var(--colour-background-lightmode);
-    --colour-text: var(--colour-text-lightmode);
-    --colour-secondary: var(--colour-secondary-lightmode);
-    --colour-tertiary: var(--colour-tertiary-lightmode);
-    --colour-cw-text: var(--colour-text);
-    background-color: var(--colour-background);
-    color: var(--colour-text);
+    --color-background: var(--color-background-lightmode);
+    --color-text: var(--color-text-lightmode);
+    --color-secondary: var(--color-secondary-lightmode);
+    --color-tertiary: var(--color-tertiary-lightmode);
+    --color-cw-text: var(--color-text);
+    background-color: var(--color-background);
+    color: var(--color-text);
     font-weight: 600;
     & :not(.name) {
       font-weight: 350;
@@ -111,7 +111,7 @@
       font-weight: 350 !important;
     }
     & audio {
-        filter: hue-rotate(150deg) drop-shadow(0px 6px 8px var(--colour-text));
+        filter: hue-rotate(150deg) drop-shadow(0px 6px 8px var(--color-text));
     }
     & #banner {
       filter: sepia(100%) saturate(150%) brightness(80%) hue-rotate(160deg);
@@ -134,7 +134,7 @@
 
 /* General styling */
 * {
-  color: var(--colour-text);
+  color: var(--color-text);
 }
 /* Helpers */
 
@@ -219,7 +219,7 @@
   }
   & summary:hover {
 	opacity: 1;
-	border-bottom: 2px solid var(--colour-secondary);
+	border-bottom: 2px solid var(--color-secondary);
   }
 }
 /* End tooltips */
@@ -228,7 +228,7 @@ body {
   font-family: var(--family-sans);
   font-weight: 300;
   line-height: 1.6;
-  background-color: var(--colour-background);
+  background-color: var(--color-background);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -277,7 +277,7 @@ a {
 }
 
 #content {
-  --colour-secondary: var(--colour-tertiary);
+  --color-secondary: var(--color-tertiary);
 }
 
 article:not(.homepage-excerpt) a {
@@ -290,13 +290,13 @@ article:not(.homepage-excerpt) a {
 } */
 
 ::selection {
-  background: var(--colour-secondary);
-  color: var(--colour-background);
-  -webkit-text-fill-color: var(--colour-background);
+  background: var(--color-secondary);
+  color: var(--color-background);
+  -webkit-text-fill-color: var(--color-background);
 }
 mark {
-  background-color: var(--colour-secondary);
-  color: var(--colour-background);
+  background-color: var(--color-secondary);
+  color: var(--color-background);
   font-weight: 600 !important;
 }
 
@@ -309,15 +309,15 @@ blockquote {
 /* Markdown Alerts */
 .markdown-alert {
   padding: .5rem 1rem;
-  background-color: color-mix(in srgb, var(--colour-secondary), var(--colour-lighter-background) 90%) !important;
-  border: 1px solid var(--colour-secondary);
-  border-left: 6px solid var(--colour-secondary);
+  background-color: color-mix(in srgb, var(--color-secondary), var(--color-lighter-background) 90%) !important;
+  border: 1px solid var(--color-secondary);
+  border-left: 6px solid var(--color-secondary);
   border-radius: 0 var(--radius) var(--radius) var(--radius);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
-  color: var(--colour-text) !important;
+  color: var(--color-text) !important;
   margin: 1rem 0;
   & .markdown-alert-title {
-    color: var(--colour-secondary);
+    color: var(--color-secondary);
     font-size: var(--text-small);
     font-weight: normal;
     margin-top: 1rem;
@@ -329,10 +329,10 @@ blockquote {
     }
   }
   &.markdown-alert-note {
-    --colour-secondary: #0082c7;
+    --color-secondary: #0082c7;
     & .markdown-alert-title::before {
       content: '';
-      background-color: var(--colour-secondary);
+      background-color: var(--color-secondary);
       mask: var(--note-img);
       mask-repeat: no-repeat;
       mask-position: center;
@@ -340,10 +340,10 @@ blockquote {
     }
   }
   &.markdown-alert-tip {
-    --colour-secondary: #00a000;
+    --color-secondary: #00a000;
     & .markdown-alert-title::before {
       content: '';
-      background-color: var(--colour-secondary);
+      background-color: var(--color-secondary);
       mask: var(--tip-img);
       mask-repeat: no-repeat;
       mask-position: center;
@@ -351,10 +351,10 @@ blockquote {
     }
   }
   &.markdown-alert-important {
-    --colour-secondary: magenta;
+    --color-secondary: magenta;
     & .markdown-alert-title::before {
       content: '';
-      background-color: var(--colour-secondary);
+      background-color: var(--color-secondary);
       mask: var(--important-img);
       mask-repeat: no-repeat;
       mask-position: center;
@@ -362,10 +362,10 @@ blockquote {
     }
   }
   &.markdown-alert-caution {
-    --colour-secondary: #cc8500;
+    --color-secondary: #cc8500;
     & .markdown-alert-title::before {
       content: '';
-      background-color: var(--colour-secondary);
+      background-color: var(--color-secondary);
       mask: var(--caution-img);
       mask-repeat: no-repeat;
       mask-position: center;
@@ -373,10 +373,10 @@ blockquote {
     }
   }
   &.markdown-alert-warning {
-    --colour-secondary: red;
+    --color-secondary: red;
     & .markdown-alert-title::before {
       content: '';
-      background-color: var(--colour-secondary);
+      background-color: var(--color-secondary);
       mask: var(--warning-img);
       mask-repeat: no-repeat;
       mask-position: center;
@@ -395,7 +395,7 @@ blockquote {
 }
 
 .name {
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
   font-weight: 240;
 }
 
@@ -406,11 +406,11 @@ blockquote {
 .pagefind-ui__search-input,
 .pagefind-ui__result-title {
   font-weight: 300 !important;
-  background-color: var(--colour-light-background);
+  background-color: var(--color-light-background);
 }
 .pagefind-ui__result {
-  background-color: var(--colour-background);
-  border: var(--pagefind-ui-border-width) solid var(--colour-text-faded) !important;
+  background-color: var(--color-background);
+  border: var(--pagefind-ui-border-width) solid var(--color-text-faded) !important;
   border-radius: var(--radius);
   margin: 1rem 0;
 }
@@ -422,8 +422,8 @@ blockquote {
   margin: auto 1.5rem;
 }
 .pagefind-ui__result mark {
-  background-color: var(--colour-text-highlight);
-  color: var(--colour-text);
+  background-color: var(--color-text-highlight);
+  color: var(--color-text);
   padding: 2px;
 }
 /* Pagefind end */
@@ -435,16 +435,16 @@ main {
   column-gap: 1rem;
   /* margin: 0 0 2rem 0; */
   flex: 1 0 auto;
-  border: var(--colour-text);
+  border: var(--color-text);
 }
 
 main > * {
-  background-color: var(--colour-light-background);
+  background-color: var(--color-light-background);
 }
 
 .subheading {
   font-size: smaller;
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
 }
 
 .author {
@@ -466,7 +466,7 @@ main > * {
   justify-content: center;
   flex-direction: column;
   border-radius: calc(var(--radius)*2);
-  box-shadow: 0px 4px 4px var(--colour-background);
+  box-shadow: 0px 4px 4px var(--color-background);
   /* filter: hue-rotate(35deg) saturate(50%); */
 }
 
@@ -497,7 +497,7 @@ audio {
   display: none;
 }
 .footnotes {
-  border: 2px solid var(--colour-text-highlight);
+  border: 2px solid var(--color-text-highlight);
   border-radius: var(--radius);
   padding-right: 1rem;
   margin-top: 2rem;
@@ -513,8 +513,8 @@ audio {
   text-decoration: none;
 }
 .footnote-item > p > img {
-  /* border: 1px solid var(--colour-text-faded); */
-  box-shadow: 0px 4px 8px var(--colour-background);
+  /* border: 1px solid var(--color-text-faded); */
+  box-shadow: 0px 4px 8px var(--color-background);
   border-radius: var(--radius);
 }
 
@@ -541,10 +541,10 @@ article.homepage-excerpt {
   margin: 1rem 0 0 0;
   max-height: 24ch;
   overflow: hidden;
-  /* background: -webkit-linear-gradient(var(--colour-text), var(--colour-text), var(--colour-text), var(--colour-text), rgba(0, 0, 0, 0.0));
+  /* background: -webkit-linear-gradient(var(--color-text), var(--color-text), var(--color-text), var(--color-text), rgba(0, 0, 0, 0.0));
   background-clip: text;
   -webkit-text-fill-color: transparent; */
-  color: var(--colour-text) !important;
+  color: var(--color-text) !important;
   min-width: 100%;
   text-align: left;
 }
@@ -555,8 +555,8 @@ summary {
 
 /* Theme selector, but also all selectors. */
 select, select option {
-  background-color: var(--colour-background);
-  border: 2px solid var(--colour-secondary);
+  background-color: var(--color-background);
+  border: 2px solid var(--color-secondary);
   border-radius: calc(var(--radius)*2);
   height: 2rem;
 } 
@@ -566,7 +566,7 @@ select, select option {
 }
 
 .homepage-excerpt-date {
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
   font-size: var(--text-small);
 }
 
@@ -577,8 +577,8 @@ select, select option {
 
 .read-more span {
   padding: 8px;
-  background-color: var(--colour-secondary);
-  color: var(--colour-background);
+  background-color: var(--color-secondary);
+  color: var(--color-background);
   border-radius: 24px;
   text-align: right;
   word-break: keep-all;
@@ -608,18 +608,18 @@ select, select option {
   flex-grow: 1;
   margin: 0;
   padding: 1rem;
-  background-color: var(--colour-lighter-background);
-  border: 1px solid var(--colour-text-faded);
+  background-color: var(--color-lighter-background);
+  border: 1px solid var(--color-text-faded);
   border-radius: calc(var(--radius)*2);
-  box-shadow: 0px 4px 8px var(--colour-background);
+  box-shadow: 0px 4px 8px var(--color-background);
   /* transition: 140ms;
   -moz-transition: 140ms;
   -webkit-transition: 140ms; */
   &:hover {
     background-color: color-mix(
       in hsl, 
-      var(--colour-lighter-background), 
-      var(--colour-text-faded) 15%
+      var(--color-lighter-background), 
+      var(--color-text-faded) 15%
     );
   }
   & a:hover .date {
@@ -635,7 +635,7 @@ select, select option {
       color: inherit;
     }
     & .card-excerpt {
-      color: var(--colour-text)!important;
+      color: var(--color-text)!important;
       margin: 1rem 0 0;
     }
   }
@@ -654,12 +654,12 @@ select, select option {
       min-height: 100%;
       object-fit: cover;
       height: auto;
-      background-color: var(--colour-lighter-background);
+      background-color: var(--color-lighter-background);
     }
   }
 }
 .card-image__link____noimage {
-  border: 2px solid var(--colour-background);
+  border: 2px solid var(--color-background);
 }
 /* End directory */
 
@@ -681,11 +681,11 @@ select, select option {
 .fundiv {
   display: flex;
   height: 10px;
-  color: var(--colour-background);
+  color: var(--color-background);
   margin-bottom: 1rem;
   border-radius: calc(var(--radius)*2);
-  background-color: var(--colour-background);
-  box-shadow: 0px 4px 4px var(--colour-dark-background) inset;
+  background-color: var(--color-background);
+  box-shadow: 0px 4px 4px var(--color-dark-background) inset;
 }
 
 .date:not(.excerpt-date)::before {
@@ -714,7 +714,7 @@ header nav {
 
 .content-box,
 .content-box * {
-  background-color: var(--colour-lighter-background);
+  background-color: var(--color-lighter-background);
 }
 
 .content-box ul {
@@ -742,11 +742,11 @@ header nav {
   margin-top: 0;
   margin-bottom: 0;
   &.post-list li a:focus {
-    box-shadow: inset 0px 0px 0px 3px var(--colour-secondary);
+    box-shadow: inset 0px 0px 0px 3px var(--color-secondary);
   }
 }
 #sidebar footer ul li a:focus {
-  box-shadow: inset 0px 0px 0px 3px var(--colour-secondary);
+  box-shadow: inset 0px 0px 0px 3px var(--color-secondary);
   outline: none;
 }
 
@@ -769,7 +769,7 @@ header nav {
 
 #sidebar .directory li::before {
   content: '⟣';
-  color: var(--colour-text);
+  color: var(--color-text);
   margin-right: 1rem;
   font-size: smaller;
 }
@@ -800,7 +800,7 @@ header nav {
 }
 
 .margin-bar {
-  background-color: var(--colour-text-highlight);
+  background-color: var(--color-text-highlight);
   min-width: 4px;
   margin: 0 1rem 0 0;
   border-radius: var(--radius);
@@ -826,7 +826,7 @@ header nav {
 }
 
 a {
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
 }
 
 .icon {
@@ -853,8 +853,8 @@ a {
 }
 
 .button.is-primary {
-  background-color: var(--colour-secondary);
-  color: var(--colour-background);
+  background-color: var(--color-secondary);
+  color: var(--color-background);
   padding: 0.5rem;
   border: none;
   border-radius: var(--radius);
@@ -863,7 +863,7 @@ a {
 
 #sidebar .button::before {
   content: '-> ';
-  color: var(--colour-text);
+  color: var(--color-text);
 }
 
 /* Smosts or Transients, whatever terrible word we wanna call em */
@@ -872,9 +872,9 @@ a {
   padding: 1rem;
 }
 .smosts.mobile-only {
-	background-color: var(--colour-light-background);
+	background-color: var(--color-light-background);
 	& * {
-		background-color: var(--colour-light-background);
+		background-color: var(--color-light-background);
 	}
 }
 .smosts {
@@ -885,22 +885,22 @@ a {
 }
 .smost {
   padding: 0.5rem;
-  border: 2px solid var(--colour-lighter-background);
+  border: 2px solid var(--color-lighter-background);
   border-radius: calc(var(--radius)*3);
-  box-shadow: inset 0px 2px 4px color-mix(in srgb, var(--colour-background), black 20%);
+  box-shadow: inset 0px 2px 4px color-mix(in srgb, var(--color-background), black 20%);
 }
 .smost,
 .smost>span,
 .smost>a {
   font-size: 12pt;
-  background-color: var(--colour-light-background);
+  background-color: var(--color-light-background);
 }
 /* end smosts */
 
 a.external:not(a:has(img))::after {
   content: '↗';
   font-family: var(--family-code);
-  color: var(--colour-text);
+  color: var(--color-text);
   padding-left: 2px;
   font-size: 0.6em;
   vertical-align: super;
@@ -922,17 +922,17 @@ a.external:not(a:has(img))::after {
   }
 }
 .grid-item {
-  background-color: var(--colour-lighter-background);
-  border: 1px solid var(--colour-text-faded);
+  background-color: var(--color-lighter-background);
+  border: 1px solid var(--color-text-faded);
   border-radius: var(--radius);
   height: auto;
-  box-shadow: 0px 4px 8px var(--colour-dark-background);
+  box-shadow: 0px 4px 8px var(--color-dark-background);
   padding: 1rem;
   align-self: stretch;
   transition: ease-out 200ms;
 }
 .grid-item h3 {
-  color: var(--colour-tertiary);
+  color: var(--color-tertiary);
   font-size: var(--text-medium);
   font-weight: 400 !important;
   margin: 1rem 0 .5rem;
@@ -951,8 +951,8 @@ a.external:not(a:has(img))::after {
   background-color: 
   color-mix(
     in srgb, 
-    var(--colour-lighter-background), 
-    var(--colour-text) 
+    var(--color-lighter-background), 
+    var(--color-text) 
     2%
   );
   translate: 0 -3px;
@@ -987,12 +987,12 @@ a.external:not(a:has(img))::after {
 .grid-item__client {
   padding-bottom: .5rem;
   margin-bottom: .5rem;
-  border-bottom: 1px solid var(--colour-text-faded);
+  border-bottom: 1px solid var(--color-text-faded);
 }
 .grid-item__client .icon {
-  border: 1px solid var(--colour-tertiary);
+  border: 1px solid var(--color-tertiary);
   border-radius: var(--radius);
-  box-shadow: inset 0px 4px 2px var(--colour-dark-background);
+  box-shadow: inset 0px 4px 2px var(--color-dark-background);
   margin-right: .25rem;
   padding: 1px;
 }
@@ -1001,7 +1001,7 @@ a.external:not(a:has(img))::after {
   padding: .1rem .2rem;
   width: fit-content;
   margin: .2rem 0;
-  border: 1px solid var(--colour-text-faded);
+  border: 1px solid var(--color-text-faded);
   border-radius: calc(var(--radius)/2);
   align-self: right;
 }
@@ -1018,7 +1018,7 @@ a.external:not(a:has(img))::after {
 /* Generic <details> styling */
 details:not(.content-warnings) {
   padding: 1rem;
-  border: 2px solid var(--colour-secondary);
+  border: 2px solid var(--color-secondary);
   border-radius: var(--radius);
 }
 details > summary::after {
@@ -1030,7 +1030,7 @@ details > summary::after {
 }
 details > summary::after {
   content: "☰";
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
 }
 details[open] > summary::after {
   content: '\0000D7';
@@ -1041,7 +1041,7 @@ details:not(.content-warnings) > summary::marker {
   content: none;
 }
 details:not(.content-warnings) > summary {
-  color: var(--colour-text);
+  color: var(--color-text);
 }
 /* End generic <details> styling */
 
@@ -1049,12 +1049,12 @@ details:not(.content-warnings) > summary {
 .content-warnings {
   padding: 1rem;
   border-radius: var(--radius);
-  border: 2px solid var(--colour-lighter-background);
+  border: 2px solid var(--color-lighter-background);
   transition: .4s;
 }
 details[open].content-warnings>summary:after, 
 details.content-warnings>summary:after {
-  color: color-mix(in hsl, var(--colour-cw-background), var(--colour-cw-text) 10%);
+  color: color-mix(in hsl, var(--color-cw-background), var(--color-cw-text) 10%);
   float: right;
   padding-right: .5rem;
   font-weight: 600;
@@ -1065,14 +1065,14 @@ details.content-warnings>summary:after {
 details.content-warnings>summary:after {
   /* content: '☰'; */
   font-size: 24pt;
-  color: var(--colour-text-faded);
+  color: var(--color-text-faded);
   transition: color .25s;
 }
 details[open].content-warnings {
-  border: 2px solid var(--colour-cw-background);
+  border: 2px solid var(--color-cw-background);
 }
 .content-warnings, .content-warnings > * {
-  background: var(--colour-background) !important;
+  background: var(--color-background) !important;
   margin: .5rem 0;
 }
 .content-warnings ul {
@@ -1081,7 +1081,7 @@ details[open].content-warnings {
 }
 .content-warnings li {
   display: inline;
-  background: var(--colour-background) !important;
+  background: var(--color-background) !important;
 }
 .content-warnings li:not(:last-child)::after {
   content: ',';
@@ -1091,7 +1091,7 @@ details.content-warnings {
 }
 .content-warnings>summary {
   font-size: 18pt;
-  color: var(--colour-cw-text);
+  color: var(--color-cw-text);
   border: none;
 }
 .content-warnings>summary::marker {
@@ -1106,7 +1106,7 @@ details.content-warnings[open] summary::marker {
 figure img {
   margin: auto;
   border-radius: calc(var(--radius)*2);
-  box-shadow: 0px 6px 4px var(--colour-background);
+  box-shadow: 0px 6px 4px var(--color-background);
   max-width: 100%;
 }
 
@@ -1140,7 +1140,7 @@ figcaption {
 /* Inline code */
 code {
   padding: 0 4px;
-  background-color: var(--colour-text-highlight);
+  background-color: var(--color-text-highlight);
   font-family: var(--family-code);
   font-optical-sizing: auto;
   font-weight: 300;
@@ -1148,13 +1148,13 @@ code {
 
 /* Code blocks */
 pre:has(code) {
-  background-color: var(--colour-background);
+  background-color: var(--color-background);
   padding: 1rem;
   border-radius: var(--radius);
   overflow: scroll;
 }
 pre > code {
-  background-color: var(--colour-background);
+  background-color: var(--color-background);
   padding-left: 0;
   padding-right: 0;
 }
@@ -1177,11 +1177,11 @@ header h1 a:hover {
   text-decoration: none;
 }
 header h1 a .name {
-  border-bottom: 0px solid var(--colour-secondary);
+  border-bottom: 0px solid var(--color-secondary);
   transition: 80ms;
 }
 header h1 a .name:hover {
-  border-bottom: 3px solid var(--colour-secondary);
+  border-bottom: 3px solid var(--color-secondary);
   border-radius: 1px;
 }
 
@@ -1269,7 +1269,7 @@ footer a {
   transition: 0.2s;
 }
 .cool-links a:hover {
-  border-bottom: 4px solid var(--colour-secondary);
+  border-bottom: 4px solid var(--color-secondary);
   opacity: 0.9;
   text-decoration: none;
 }
@@ -1277,22 +1277,22 @@ footer a {
 textarea, input {
   padding: 12px 20px;
   box-sizing: border-box;
-  border: 2px solid var(--colour-secondary);
+  border: 2px solid var(--color-secondary);
   border-radius: var(--radius);
-  background-color: var(--colour-background);
+  background-color: var(--color-background);
   font-size: 16px;
   resize: none;
 }
 
 textarea:focus {
   outline: none;
-  box-shadow: 0 0 0 3px var(--colour-secondary);
+  box-shadow: 0 0 0 3px var(--color-secondary);
   transition: box-shadow 0.1s ease;
 }
 
 a:focus-visible, 
 button:focus-visible {
-  outline: 3px solid var(--colour-secondary);
+  outline: 3px solid var(--color-secondary);
   outline-offset: 3px;
   border-radius: calc(var(--radius)*.75);
   transition: outline 50ms ease;
@@ -1313,15 +1313,15 @@ iframe[src*="bandcamp.com"] {
   width: 100%;
   height: 425px;
   border-radius: var(--radius);
-  box-shadow: 0px 4px 8px var(--colour-background);
+  box-shadow: 0px 4px 8px var(--color-background);
 }
 
 .stylish-summary {
   font-size: 20pt;
-  background-color: var(--colour-lighter-background);
-  color: var(--colour-secondary);
-  box-shadow: 0px 6px 4px var(--colour-background) !important;
-  border: 2px solid var(--colour-secondary);
+  background-color: var(--color-lighter-background);
+  color: var(--color-secondary);
+  box-shadow: 0px 6px 4px var(--color-background) !important;
+  border: 2px solid var(--color-secondary);
   border-radius: var(--radius);
   padding: 1rem;
 }

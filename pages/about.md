@@ -35,7 +35,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
   }
   .headshot img {
     max-width: 60%;
-    border: 12px solid var(--colour-text-highlight);
+    border: 12px solid var(--color-text-highlight);
     border-radius: 340px; 
     filter: contrast(1.1);
   }
@@ -56,10 +56,10 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
   }
   .uses summary {
     font-size: 20pt;
-    background-color: var(--colour-lighter-background);
-    color: var(--colour-secondary);
-    box-shadow: 0px 6px 4px var(--colour-background) !important;
-    border: 2px solid var(--colour-secondary);
+    background-color: var(--color-lighter-background);
+    color: var(--color-secondary);
+    box-shadow: 0px 6px 4px var(--color-background) !important;
+    border: 2px solid var(--color-secondary);
     border-radius: 4px;
     padding: 1rem;
   }
@@ -78,7 +78,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
     padding: 1rem;
   }
   .cool-links:not(:last-child), .cool-links:not(:last-child) * {
-    background-color: var(--colour-lighter-background);
+    background-color: var(--color-lighter-background);
   }
   #cool-buttons {
     text-align: center;
