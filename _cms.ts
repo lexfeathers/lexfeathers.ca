@@ -179,12 +179,6 @@ cms.upload(
 cms.document({
 	name: "settings: Global settings for the site",
 	store: "my_fs:_data.json",
-	fields: [
-		{
-			name: "content",
-			type: "code",
-		}
-	]
 });
 
 // 6. Export the cms configuration
