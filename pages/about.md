@@ -35,7 +35,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
   }
   .headshot img {
     max-width: 60%;
-    border: 12px solid var(--color-text-highlight);
+    border: 12px solid var(--color-primary-highlight);
     border-radius: 340px; 
     filter: contrast(1.1);
   }

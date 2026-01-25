@@ -22,7 +22,7 @@ order: 7
     .control>input, .control>textarea {
         min-width: 100%;
         padding: .5rem !important;
-        border: 1px solid var(--color-text-faded);
+        border: 1px solid var(--color-primary-faded);
     }
     .control>input:focus, button.button:focus {
         outline: none;
@@ -31,7 +31,7 @@ order: 7
     }
     button.button:focus {
         outline: none;
-        box-shadow: 0 0 0 4px var(--color-text);
+        box-shadow: 0 0 0 4px var(--color-primary);
         transition: box-shadow 0.1s ease;
     }
     textarea {

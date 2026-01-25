@@ -3,14 +3,14 @@
 /* Comentario overrides by Damien Erambert */
 body main .comentario-root.comentario-root {
 	/* Set muted text colour */
-	--cmntr-muted-color: var(--color-text) !important;
+	--cmntr-muted-color: var(--color-primary) !important;
   /* Set commenter colour */
-  --cmntr-color: var(--color-text);
+  --cmntr-color: var(--color-primary);
   /* Set button text colour */
   --cmntr-btn-color: var(--color-background);
 	/* Remove background behind composer wrapper */
 	--cmntr-bg: transparent;
-	--cmntr-card-border: rgb(from var(--color-text-faded) r g b / 0.4);
+	--cmntr-card-border: rgb(from var(--color-primary-faded) r g b / 0.4);
 	/* Set textarea background colour */
 	--cmntr-bg-shade: var(--color-background);
   /* Set button text colour */
@@ -20,7 +20,7 @@ body main .comentario-root.comentario-root {
 
   /* Set nested border-lefts */
   & div .comentario-border-30 {
-    border-left-color: var(--color-text-highlight) !important;
+    border-left-color: var(--color-primary-highlight) !important;
   }
 
 	/* Unset textarea placeholder */
@@ -28,21 +28,21 @@ body main .comentario-root.comentario-root {
 		color: unset !important;
 	}
   & [class*="comentario-border-"] {
-    border-left-color: var(--color-text-highlight) !important;
+    border-left-color: var(--color-primary-highlight) !important;
   }
 
 	/* Tweak color in light mode */
     @media (prefers-color-scheme: light) {
       --cmntr-bg-shade: var(--color-background-lightmode);
       .comentario-root .comentario-text-muted {
-          color:var(--color-text-faded)!important
+          color:var(--color-primary-faded)!important
       }      
     }
     :root[data-theme="light"] {
-      --cmntr-muted-color: color-mix(in srgb, var(--color-text) 60%, var(--color-background) 40%);
+      --cmntr-muted-color: color-mix(in srgb, var(--color-primary) 60%, var(--color-background) 40%);
     }
     :root[data-theme="dark"] {
-      --cmntr-muted-color: var(--color-text);
+      --cmntr-muted-color: var(--color-primary);
     }
 
 	/* Theme-specific: Remove background behind `code` element inside code blocks */
@@ -134,7 +134,7 @@ body main .comentario-root.comentario-root {
   textarea {
     --cmntr-input-bg: var(--color-background-lightmode);
     --cmntr-bg: var(--color-background-lightmode);
-	--cmntr-input-color: var(--color-text);
+	--cmntr-input-color: var(--color-primary);
   }
 
   @media (prefers-color-scheme: dark) {
@@ -142,7 +142,7 @@ body main .comentario-root.comentario-root {
     textarea {
       --cmntr-input-bg: var(--color-background);
       --cmntr-bg: var(--color-background);
-	  --cmntr-input-color: var(--color-text);
+	  --cmntr-input-color: var(--color-primary);
     }
   }
 
