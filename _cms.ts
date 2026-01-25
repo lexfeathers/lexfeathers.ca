@@ -25,19 +25,19 @@ const cms = lumeCMS({
 });
 
 // Create file system
-// cms.storage("my_fs", "/");
+// cms.storage("src", "/");
 // deno-lint-ignore no-explicit-any
 const token: any = Deno.env.get("GITHUB_TOKEN");
 cms.storage(
-  "my_fs",
+  "src",
   GitHub.create("lexfeathers/lexfeathers.ca", token),
 );
 
 // Create "posts" collection
-// using my_fs storage
+// using src storage
 cms.collection({
   name: "posts",
-  store: "my_fs:posts/*.md",
+  store: "src:posts/*.md",
   fields: [
     {
       name: "title",
@@ -105,10 +105,10 @@ cms.collection({
   documentName: "{title}.md",
 });
 // Create "pages" collection
-// using my_fs storage
+// using src storage
 cms.collection({
   name: "pages", 
-  store: "my_fs:pages/*.md", 
+  store: "src:pages/*.md", 
   fields: [
     "title: text",
     {
@@ -120,10 +120,10 @@ cms.collection({
   documentName: "title",
 });
 // Create "smosts" collection
-// using my_fs storage
+// using src storage
 cms.collection({
   name: "transients", 
-  store: "my_fs:smosts/*.md", 
+  store: "src:smosts/*.md", 
   fields: [
     {
       name: "published",
@@ -148,7 +148,7 @@ cms.collection({
 // Edit the index contents
 cms.document({
 	name: "index", 
-	store: "my_fs:index.vto", 
+	store: "src:index.vto", 
 	fields: [
 		"content: markdown",
 		{
@@ -163,7 +163,7 @@ cms.document({
 // Edit the stylesheet
 cms.document(
 	"stylesheet: Edit the CSS for the site", 
-	"my_fs:assets/styles.css", 
+	"src:assets/styles.css", 
 	[
 		"content: markdown",
 	]
@@ -172,13 +172,13 @@ cms.document(
 // Configure a folder to upload files
 cms.upload(
 	"uploads: upload to this for use in posts/pages", 
-	"my_fs:uploads",
+	"src:uploads",
 );
 
 // Site settings
 cms.document({
 	name: "settings: Global settings for the site",
-	store: "my_fs:_data.json",
+	store: "src:_data.json",
 });
 
 // 6. Export the cms configuration
