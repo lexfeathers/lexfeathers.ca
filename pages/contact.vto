@@ -66,81 +66,85 @@ order: 7
 				method="post"
 				id="staticform"
 			>
-			<!-- Replace with your StaticForms accessKey -->
-			<input
-				type="hidden"
-				name="accessKey"
-				value="61dbe216-3314-4916-8708-fa050d0ea84e"
-			>
-			<input type="hidden" name="subject" value="Contact from Lexfeathers.ca">
-			<!-- Replace with the url you want to redirect to -->
-			<input
-				type="hidden"
-				name="redirectTo"
-				value="https://lexfeathers.ca/pages/contact"
-			>
-			<div class="field is-half">
-				<label class="label">Name</label>
-				<div class="control">
-					<input
-						class="input"
-						type="text"
-						name="name"
-						placeholder="Egg Bug"
-						required
-					>
+				<!-- Replace with your StaticForms accessKey -->
+				<input
+					type="hidden"
+					name="accessKey"
+					value="61dbe216-3314-4916-8708-fa050d0ea84e"
+				>
+				<input
+					type="hidden"
+					name="subject"
+					value="Contact from Lexfeathers.ca"
+				>
+				<!-- Replace with the url you want to redirect to -->
+				<input
+					type="hidden"
+					name="redirectTo"
+					value="https://lexfeathers.ca/pages/contact"
+				>
+				<div class="field is-half">
+					<label class="label">Name</label>
+					<div class="control">
+						<input
+							class="input"
+							type="text"
+							name="name"
+							placeholder="Egg Bug"
+							required
+						>
+					</div>
 				</div>
-			</div>
-			<div class="field is-half">
-				<label class="label">Email address</label>
-				<div class="control">
-					<input
-						class="input"
-						type="email"
-						name="email"
-						placeholder="me@example.com"
-						required
-					>
+				<div class="field is-half">
+					<label class="label">Email address</label>
+					<div class="control">
+						<input
+							class="input"
+							type="email"
+							name="email"
+							placeholder="me@example.com"
+							required
+						>
+					</div>
 				</div>
-			</div>
-			<div class="field is-half">
-				<label class="label">Your website</label>
-				<div class="control">
-					<input
-						class="input"
-						type="text"
-						name="$website"
-						placeholder="Optional"
-					>
+				<div class="field is-half">
+					<label class="label">Your website</label>
+					<div class="control">
+						<input
+							class="input"
+							type="text"
+							name="$website"
+							placeholder="Optional"
+						>
+					</div>
 				</div>
-			</div>
-			<div class="field">
-				<label class="label">Message</label>
-				<div class="control">
-					<textarea
-						class="textarea"
-						name="message"
-						placeholder="Enter Your Message"
-						required
-					></textarea>
+				<div class="field">
+					<label class="label">Message</label>
+					<div class="control">
+						<textarea
+							class="textarea"
+							name="message"
+							placeholder="Enter Your Message"
+							required
+						></textarea>
+					</div>
 				</div>
-			</div>
-			<!-- If we receive data in this field submission will be ignored -->
-			<input type="text" name="honeypot" style="display: none">
-			<button class="button is-primary" type="Submit">Submit</button>
-			<!-- reCAPTCHA widget -->
-			<div
-				class="g-recaptcha"
-				data-sitekey="6Lc7mnMrAAAAACs3yYxJHXEOh3Bhj3HQX01k-aGZ"
-			>
+				<!-- If we receive data in this field submission will be ignored -->
+				<input type="text" name="honeypot" style="display: none">
+				<button class="button is-primary" type="Submit">Submit</button>
+				<!-- reCAPTCHA widget -->
+				<div
+					class="g-recaptcha"
+					data-sitekey="6Lc7mnMrAAAAACs3yYxJHXEOh3Bhj3HQX01k-aGZ"
+				>
+				</div>
+				<!-- Include reCAPTCHA JavaScript -->
+				<script
+					src="https://www.google.com/recaptcha/api.js"
+					async
+					defer
+				></script>
+			</form>
 		</div>
-		<!-- Include reCAPTCHA JavaScript -->
-		<script
-			src="https://www.google.com/recaptcha/api.js"
-			async
-			defer
-		></script>
-	</form>
-</div>
-</div>
+	</div>
 </div>
