@@ -14,9 +14,9 @@ layout: /layout.vto
 </div>
 
 <article class="post" transform-images="webp gif 1000@2">
-  {{ if content_warnings > 0 }}
+  {{ if content_warnings.length > 0 }}
   <details class="content-warnings" open="">
-      <summary>Content warning{{ if content_warnings > 1 }}s{{/if}}</summary>
+      <summary>Content warning{{ if content_warnings.length > 1 }}s{{/if}}</summary>
       <ul>
         {{ for cw of content_warnings }}
           <li>{{ cw }}</li>
