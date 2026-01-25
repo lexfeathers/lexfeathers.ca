@@ -1,17 +1,14 @@
 {
-    "deno.enable": true,
-    "deno.lint": true,
-    "deno.unstable": true,
-    "deno.suggest.imports.hosts": {
-      "https://deno.land": true
-    },
-    "cSpell.words": [
-      "colour",
-      "headshot",
-      "lume",
-      "smosts"
-    ],
-    "cSpell.enabledFileTypes": {
-      "css": false
-    }
-  }
+	"deno.enable": true,
+	"deno.lint": true,
+	"deno.unstable": true,
+	"deno.suggest.imports.hosts": {
+		"https://deno.land": true
+	},
+	"cSpell.words": ["colour", "headshot", "lume", "smosts"],
+	"cSpell.enabledFileTypes": {
+		"css": false
+	},
+	"editor.detectIndentation": false,
+	"prettier.useTabs": true
+}
