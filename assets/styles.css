@@ -6,9 +6,9 @@
   /* Colours */
     color-scheme: light dark;
     --color-background: #141414;
+    --color-primary: color-mix(in srgb, var(--color-secondary), white 80%);
     --color-secondary: #ff993a;
     --color-tertiary: #a4b06b;
-    --color-primary: color-mix(in srgb, var(--color-secondary), white 80%);
     --color-cw-background: #7c2447;
     --color-cw-text: #fff0cc;
     /* Dark theme - make sure to update this as well if changing the main theme! */
