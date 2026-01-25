@@ -162,11 +162,12 @@
 	font-optical-sizing: auto;
 }
 
-/* General styling */
+/* Global styling */
 * {
 	box-sizing: border-box;
 	color: var(--color-primary);
 }
+
 /* Helpers */
 
 .text-small {
