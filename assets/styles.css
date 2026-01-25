@@ -5,9 +5,9 @@
 
 	/* Colours */
 	color-scheme: light dark;
-	--color-background: #141414;
 	--color-primary: color-mix(in srgb, var(--color-secondary), white 80%);
 	--color-secondary: #ff993a;
+	--color-background: #141414;
 	--color-tertiary: #a4b06b;
 	--color-cw-background: #7c2447;
 	--color-cw-text: #fff0cc;
@@ -90,66 +90,69 @@
 
 /* JS Theme selector */
 /* Styles for before the component has loaded */
-:root,
-  /* Styles when dark mode set by JS */
-  :root[data-theme="dark"] {
-	--color-background: var(--color-background-darkmode);
-	--color-primary: var(--color-primary-darkmode);
-	--color-secondary: var(--color-secondary-darkmode);
-	--color-tertiary: var(--color-tertiary-darkmode);
-	& :not(.name) {
-		font-weight: 300;
+:root {
+	/* Styles when light mode set by JS */
+	&[data-theme="light"] {
+		--color-background: var(--color-background-lightmode);
+		--color-primary: var(--color-primary-lightmode);
+		--color-secondary: var(--color-secondary-lightmode);
+		--color-tertiary: var(--color-tertiary-lightmode);
+		--color-cw-text: var(--color-primary);
+		background-color: var(--color-background);
+		color: var(--color-primary);
+		font-weight: 600;
+		& :not(.name) {
+			font-weight: 350;
+		}
+		& a:not(:has(.name)) {
+			font-weight: 400;
+		}
+		& article.post p {
+			font-weight: 350 !important;
+		}
+		& audio {
+			filter: hue-rotate(150deg)
+				drop-shadow(0px 6px 8px var(--color-primary));
+		}
+		& #banner {
+			filter: sepia(100%) saturate(150%) brightness(80%)
+				hue-rotate(160deg);
+		}
+		& #darklogo {
+			display: none;
+		}
+		& #lightlogo {
+			display: inline;
+		}
 	}
-	& a:not(:has(.name)) {
-		font-weight: 300;
-	}
-	& article.post p {
-		font-weight: 300 !important;
-	}
-	& audio {
-		filter: hue-rotate(200deg) contrast(80%)
-			drop-shadow(0px 6px 8px var(--color-background));
-	}
-	& #banner {
-		filter: none;
-	}
-	& #darklogo {
-		display: inline;
-	}
-	& #lightlogo {
-		display: none;
-	}
-}
-/* Styles when light mode set by JS */
-:root[data-theme="light"] {
-	--color-background: var(--color-background-lightmode);
-	--color-primary: var(--color-primary-lightmode);
-	--color-secondary: var(--color-secondary-lightmode);
-	--color-tertiary: var(--color-tertiary-lightmode);
-	--color-cw-text: var(--color-primary);
-	background-color: var(--color-background);
-	color: var(--color-primary);
-	font-weight: 600;
-	& :not(.name) {
-		font-weight: 350;
-	}
-	& a:not(:has(.name)) {
-		font-weight: 400;
-	}
-	& article.post p {
-		font-weight: 350 !important;
-	}
-	& audio {
-		filter: hue-rotate(150deg) drop-shadow(0px 6px 8px var(--color-primary));
-	}
-	& #banner {
-		filter: sepia(100%) saturate(150%) brightness(80%) hue-rotate(160deg);
-	}
-	& #darklogo {
-		display: none;
-	}
-	& #lightlogo {
-		display: inline;
+	/* Styles when dark mode set by JS */
+	&[data-theme="dark"] {
+		--color-background: var(--color-background-darkmode);
+		--color-primary: var(--color-primary-darkmode);
+		--color-secondary: var(--color-secondary-darkmode);
+		--color-tertiary: var(--color-tertiary-darkmode);
+		& :not(.name) {
+			font-weight: 300;
+		}
+		& a:not(:has(.name)) {
+			font-weight: 300;
+		}
+		& article.post p {
+			font-weight: 300 !important;
+		}
+		& audio {
+			filter: hue-rotate(200deg) contrast(80%)
+				drop-shadow(0px 6px 8px var(--color-background));
+		}
+		& #banner {
+			filter: none;
+		}
+		& #darklogo {
+			display: inline;
+		}
+		& #lightlogo {
+			display: none;
+		}
 	}
 }
 /* End theme selector */
