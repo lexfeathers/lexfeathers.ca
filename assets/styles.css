@@ -169,7 +169,6 @@
 }
 
 /* Helpers */
-
 .text-small {
 	font-size: var(--text-small) !important;
 }
@@ -303,6 +302,7 @@ h6 {
 
 a {
 	text-decoration: none;
+
 	&:hover {
 		text-decoration: underline;
 	}
@@ -316,16 +316,12 @@ article:not(.homepage-excerpt) a {
 	text-decoration: underline;
 }
 
-/* Indent the first paragraph in a post */
-/* article.post > p:first-of-type {
-  text-indent: 2.5em;
-} */
-
 ::selection {
 	background: var(--color-secondary);
 	color: var(--color-background);
 	-webkit-text-fill-color: var(--color-background);
 }
+
 mark {
 	background-color: var(--color-secondary);
 	color: var(--color-background);
@@ -472,10 +468,10 @@ main {
 	/* margin: 0 0 2rem 0; */
 	flex: 1 0 auto;
 	border: var(--color-primary);
-}
 
-main > * {
-	background-color: var(--color-light-background);
+	& > * {
+		background-color: var(--color-light-background);
+	}
 }
 
 .subheading {
@@ -504,13 +500,13 @@ main > * {
 	border-radius: calc(var(--radius) * 2);
 	box-shadow: 0px 4px 4px var(--color-background);
 	/* filter: hue-rotate(35deg) saturate(50%); */
-}
 
-.banner img {
-	width: 100%;
-	vertical-align: middle;
-	height: auto;
-	/* filter: sepia(1); */
+	& img {
+		width: 100%;
+		vertical-align: middle;
+		height: auto;
+		/* filter: sepia(1); */
+	}
 }
 
 article img:not(.banner > img, .cool-links img) {
@@ -579,9 +575,6 @@ article.homepage-excerpt {
 	margin: 1rem 0 0 0;
 	max-height: 24ch;
 	overflow: hidden;
-	/* background: -webkit-linear-gradient(var(--color-primary), var(--color-primary), var(--color-primary), var(--color-primary), rgba(0, 0, 0, 0.0));
-  background-clip: text;
-  -webkit-text-fill-color: transparent; */
 	color: var(--color-primary) !important;
 	min-width: 100%;
 	text-align: left;
@@ -1128,63 +1121,69 @@ details {
 /* End generic <details> styling */
 
 /* Content Warnings */
-.content-warnings {
+details.content-warnings {
+	margin: 2rem auto;
 	padding: 1rem;
 	border-radius: var(--radius);
 	border: 2px solid var(--color-lighter-background);
 	transition: 0.4s;
-}
-details[open].content-warnings > summary:after,
-details.content-warnings > summary:after {
-	color: color-mix(
-		in hsl,
-		var(--color-cw-background),
-		var(--color-cw-text) 10%
-	);
-	float: right;
-	padding-right: 0.5rem;
-	font-weight: 600;
-	font-size: 32pt;
-	line-height: 32pt;
-	vertical-align: text-top;
-}
-details.content-warnings > summary:after {
-	font-size: 24pt;
-	color: var(--color-primary-faded);
-	transition: color 0.25s;
-}
-details[open].content-warnings {
-	border: 2px solid var(--color-cw-background);
-}
-.content-warnings,
-.content-warnings > * {
 	background: var(--color-background) !important;
-	margin: 0.5rem 0;
-}
-.content-warnings ul {
-	list-style: none;
-	padding-left: 0;
-}
-.content-warnings li {
-	display: inline;
-	background: var(--color-background) !important;
-}
-.content-warnings li:not(:last-child)::after {
-	content: ",";
-}
-details.content-warnings {
-	margin: 2rem auto;
-}
-.content-warnings > summary {
-	font-size: 18pt;
-	color: var(--color-cw-text);
-	border: none;
-}
-.content-warnings > summary::marker {
-	content: none;
-}
-details.content-warnings[open] summary::marker {
-	content: none;
+
+	& * {
+		margin: 0.5rem 0;
+	}
+
+	&[open] {
+		border: 2px solid var(--color-cw-background);
+
+		& summary::marker {
+			content: none;
+		}
+	}
+
+	&[open] > summary:after,
+	& > summary:after {
+		color: color-mix(
+			in hsl,
+			var(--color-cw-background),
+			var(--color-cw-text) 10%
+		);
+		float: right;
+		padding-right: 0.5rem;
+		font-weight: 600;
+		font-size: 32pt;
+		line-height: 32pt;
+		vertical-align: text-top;
+	}
+
+	& ul {
+		list-style: none;
+		padding-left: 0;
+
+		& li {
+			display: inline;
+			background: var(--color-background) !important;
+
+			&:not(:last-child)::after {
+				content: ",";
+			}
+		}
+	}
+	& summary {
+		font-size: 18pt;
+		color: var(--color-cw-text);
+		border: none;
+
+		&::marker {
+			content: none;
+		}
+
+		&::after {
+			font-size: 24pt;
+			color: var(--color-primary-faded);
+			transition: color 0.25s;
+		}
+	}
 }
 /* End content warnings */
 
@@ -1192,6 +1191,12 @@ details.content-warnings[open] summary::marker {
 figure {
 	/* Controls the width of figures in posts. */
 	margin: 2rem auto 4rem;
+
+	& figcaption {
+		opacity: 0.6;
+		margin: 0.5rem 0 2rem 0;
+	}
+
 	& img {
 		margin: auto;
 		border-radius: calc(var(--radius) * 2);
@@ -1207,11 +1212,6 @@ figure {
 	&.right {
 		max-width: 60%;
 	}
-}
-
-figcaption {
-	opacity: 0.6;
-	margin: 0.5rem 0 2rem 0;
 }
 
 /* For floating images in a body of text, magazine-style. 
