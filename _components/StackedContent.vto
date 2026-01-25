@@ -1,0 +1,28 @@
+<div class="stacked-content">
+{{ for item of content }}
+  <div class="stacked-content__item">
+    <h3>{{ item.heading }}</h3>
+    <div>
+        <p>{{ item.blurb }}</p>
+    </div>
+  </div>
+{{ /for }}
+</div>
+
+<style>
+    .stacked-content {
+        width: 100%;
+        display: flex;
+        &>* {
+            width: 50%;
+        }
+    }
+    @media screen and (max-width: 839px) {
+        .stacked-content {
+            flex-direction: column;
+            &>* {
+                width: 100%;
+            }
+        }
+    }
+</style>

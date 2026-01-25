@@ -1,0 +1,58 @@
+<div class="image-with-text">
+  <div class="text">
+    <h2>{{ heading }}</h2>
+    <p>{{ blurb }}</p>
+  </div>
+  <div class="image">
+    <img src="{{ image_url}}" alt="{{ image_alt }}">
+  </div>
+</div>
+
+<style>
+	.image-with-text {
+		display: flex;
+		margin: 1rem 0;
+		{{ if image_orientation == 'left' || image_orientation == 'Left'}}
+			flex-direction: row-reverse
+		{{ /if }};
+		gap: 2rem;
+		min-height:  
+			{{ if section_height_min }}
+				{{ section_height_min }}
+			{{ else }}
+				150px
+			{{ /if }}
+		;
+
+		& .text {
+			width: 60%;
+		}
+
+		& .image {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 40%;
+			& img {
+			width: 100%;
+			object-fit: contain;
+			}
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+		.image-with-text {
+			flex-direction: 
+				{{ if image_orientation == 'left' || image_orientation == 'Left'}}
+					column-reverse
+				{{ else }}
+					column
+				{{ /if }}
+			;
+
+			& .text, .image {
+				width: 100%;
+			}
+		}
+	}
+</style>

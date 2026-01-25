@@ -1,0 +1,53 @@
+<div class="image-grid">
+  {{# Loop through each provided grid-item in the grid array #}}
+  {{ for item of grid }}
+    <a
+      href="
+	  {{ if item.link }}
+		{{item.link}}
+	  {{ else }}
+		{{# If no link is supplied, fall back to the image URL #}}
+		{{ item.image_url }}
+	  {{ /if }}
+	  "
+      class="card-link grid-item shadow-hover"
+    >
+      <img src="{{item.image_url}}" alt="{{item.image_alt}}">
+    </a>
+  {{ /for }}
+</div>
+
+<style>
+  .image-grid {
+    gap: 0.2rem;
+    display: grid;
+    grid-template-columns: repeat({{columns}}, 1fr);
+    grid-template-rows: square;
+
+    & .grid-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 100%;
+      height: 100%;
+      overflow: hidden;
+      aspect-ratio: 1/1;
+
+      & img {
+        object-fit: cover;
+        max-height: 100%;
+        transition: 0.2s ease-out;
+
+        &:hover {
+          scale: 101%;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 839px) {
+    .image-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+    }
+  }
+</style>

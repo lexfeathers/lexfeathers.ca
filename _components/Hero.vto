@@ -1,0 +1,99 @@
+<div class="hero">
+  <div class="headings">
+    <h1>{{ heading }}</h1>
+    <h2>{{ subheading }}</h2>
+  </div>
+  <div class="image">
+    <img src="{{ image_url |> url }}" alt="{{ image_alt }}">
+  </div>
+</div>
+
+<style>
+	.hero {
+		display: flex;
+		gap: 2rem;
+		min-height: {{ section_height_min }};
+		margin: 2rem 0;
+
+			& .headings {
+			display: flex;
+			flex-direction: column;
+			flex: 1 0 66%;
+
+			& h1 {
+				font-size: 100px;
+				line-height: 150%;
+				margin: 1rem 0 0;
+			}
+
+			& h2 {
+				font-family: 'Dosis';
+				font-weight: 400;
+				font-size: 64px;
+				margin: 0 0 1rem;
+			}
+		}
+
+		& .image {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex: 0 1 33%;
+
+			& img {
+				object-fit: contain;
+				min-height: 100%;
+				width: 100%;
+			}
+		}
+	}
+	
+	@media screen and (max-width: 1279px) {
+		.hero {
+			& .headings {
+				& h1 {
+					font-size: 72px;
+				}
+				& h2 {
+					font-size: 48px;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 839px) {
+		.hero {
+			& .headings {
+				& h1 {
+					font-size: 48px;
+				}
+				& h2 {
+					font-size: 24px;
+				}
+			}
+		}
+	}
+	@media screen and (max-width: 400px) {
+		.hero {
+			flex-direction: column;
+			min-height: unset;
+
+			& .headings {
+				flex: 0 0;
+
+				& h1 {
+					font-size: 36px;
+				}
+				& h2 {
+					font-size: var(--font-size-large);
+				}
+			}
+
+			& .image {
+				max-width: 66%;
+				margin: auto;
+			}
+		}
+	}
+
+</style>

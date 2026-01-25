@@ -1,0 +1,34 @@
+<div class="page-separator">
+  <div class="separator"></div>
+  {{# Heading passed into the component when called #}}
+  <h1>{{ heading }}</h1>
+  {{# Visual flair #}}
+  {{ include "partials/graduated-underlines.vto" }}
+  
+  <div class="separator"></div>
+</div>
+
+<style>
+  .page-separator {
+    display: flex;
+    flex-direction: column;
+  }
+  .page-separator h1 {
+    text-align: center;
+    margin: 0.5rem 0px 0.25rem;
+  }
+  .underline-tiny {
+    flex-grow: 1;
+  }
+  .underline-small {
+    flex-grow: 2;
+  }
+  .underline-medium {
+    flex-grow: 4;
+    flex-shrink: 0;
+  }
+  .underline-large {
+    flex-grow: 9;
+    flex-shrink: 0;
+  }
+</style>

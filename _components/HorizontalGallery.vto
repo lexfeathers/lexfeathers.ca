@@ -1,0 +1,82 @@
+<div class="horizontal-gallery">
+  {{# Loop through each provided card in the cards array #}}
+  {{ for card of cards }}
+    <a href="{{card.card_url}}" class="card-link grid-item shadow-hover">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{card.image_url}}" alt="{{card.image_alt}}">
+        </div>
+        <div class="card-text">
+          <h3>{{ card.heading }}</h3>
+          <p>{{ card.blurb }}</p>
+        </div>
+      </div>
+    </a>
+  {{ /for }}
+</div>
+
+<style>
+  .horizontal-gallery {
+    display: grid;
+    grid-template-columns: repeat({{cards.length}}, 1fr);
+
+    & .grid-item {
+      & .card {
+        max-width: 100%;
+
+        & .card-text {
+          padding: 0 0.5rem;
+
+          & h3 {
+            margin: 1rem 0;
+          }
+        }
+
+        & .card-image {
+          aspect-ratio: 1/1;
+          overflow: hidden;
+
+          & img {
+            object-fit: cover;
+            max-width: 100%;
+            min-height: 100%;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 839px) {
+    .horizontal-gallery {
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      gap: 1rem;
+
+      & .grid-item {
+        & .card {
+          display: flex;
+          gap: 1.5rem;
+
+          & .card-image {
+            width: 50%;
+            overflow: hidden;
+
+            & img {
+              min-height: 100%;
+              object-fit: cover;
+              height: auto;
+            }
+          }
+
+          & .card-text {
+            padding: 0px;
+            width: 50%;
+
+            & h3 {
+              --scale-factor: 0.8;
+            }
+          }
+        }
+      }
+    }
+  }
+</style>
