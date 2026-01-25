@@ -153,11 +153,12 @@ cms.document({
 		"content: markdown",
 		{
 			name: "image",
+			label: "Banner image",
 			type: "file",
 			uploads: "uploads",
 		}
 	]
-});
+}); 
 
 // Edit the stylesheet
 cms.document(
