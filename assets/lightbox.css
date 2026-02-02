@@ -40,7 +40,7 @@ figure:has(.lightbox) {
     }
 }
 
-@media (width <=749px) {
+@media (width <= 749px) {
     figure:has(.lightbox) {
 
         figcaption {
