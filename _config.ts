@@ -29,10 +29,11 @@ const markdown = {
 	],
     [
 		implicitFigures, {
+            dataType: true,
 			lazy: true,
 			async: true,
 			figcaption: "alt",
-			link: true,
+			link: false,
 		}
 	],
   ],
