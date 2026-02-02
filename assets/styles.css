@@ -1,3 +1,5 @@
+@import url(./lightbox.css);
+
 :root {
 	/* Layout */
 	--page-width: 72rem;
@@ -1419,11 +1421,13 @@ iframe[src*="bandcamp.com"] {
 		display: flex;
 		min-width: 100%;
 		justify-content: space-between;
-	}
-	footer {
-		flex-direction: column;
-		align-items: flex-start;
-		padding: 0 0 2rem 0;
+        
+        footer {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0 0 2rem 0;
+        }
 	}
 
 	/* tk replace this with helper class */

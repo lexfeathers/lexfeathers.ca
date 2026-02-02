@@ -1,0 +1,72 @@
+body:has(*.lightbox) {
+    overflow: hidden;
+}
+
+[data-type="image"]:not(.lightbox) {
+    cursor: zoom-in;
+}
+
+figure:has(.lightbox) {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    padding: 2rem;
+    margin: 0;
+    background-color: rgba(0, 0, 0, .8);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    img.lightbox {
+        object-fit: contain;
+        box-shadow: none;
+        width: 100%;
+        height: 100%;
+        flex: 1 1;
+        cursor: zoom-out;
+    }
+
+    figcaption {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 1);
+        color: white;
+        width: 100%;
+        height: 100%;
+        padding: 1rem 1rem;
+        flex: 0 1;
+        border-radius: var(--radius);
+    }
+}
+
+@media (width <=749px) {
+    figure:has(.lightbox) {
+
+        figcaption {
+            text-align: left;
+        }
+
+        &::after {
+            width: 2rem;
+            height: 2rem;
+            padding: 2px;
+            font-size: 18pt;
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            content: 'X';
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-background-darkmode);
+            border-radius: 2rem;
+            pointer-events: none;
+        }
+    }
+
+    .lightbox {
+        padding: 0;
+    }
+}
