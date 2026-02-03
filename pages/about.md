@@ -58,7 +58,6 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
     font-size: 20pt;
     background-color: var(--color-lighter-background);
     color: var(--color-secondary);
-    box-shadow: 0px 6px 4px var(--color-background) !important;
     border: 2px solid var(--color-secondary);
     border-radius: 4px;
     padding: 1rem;
