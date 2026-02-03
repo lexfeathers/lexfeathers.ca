@@ -40,7 +40,7 @@
 	);
 	--color-light-background: color-mix(
 		in srgb,
-		var(--color-background) 98%,
+		var(--color-background),
 		var(--color-primary) 2%
 	);
 	--color-lighter-background: color-mix(
@@ -104,6 +104,11 @@
 		--color-secondary: var(--color-secondary-lightmode);
 		--color-tertiary: var(--color-tertiary-lightmode);
 		--color-cw-text: var(--color-primary);
+        --color-shadow: color-mix(
+            in srgb,
+            var(--color-background),
+            var(--color-primary) 20%
+        );
 		background-color: var(--color-background);
 		color: var(--color-primary);
 		font-weight: 600;
