@@ -1,29 +1,28 @@
 <h3 class="label-subtle">
-  <span>note:</span>
-  <details class="tooltip" alt="Toggle tooltip" role="button">
-    <summary>?</summary>
-    <span>Tiny updates! Click the date to see them all.</span>
-  </details>
+	<span>note:</span>
+	<details class="tooltip" alt="Toggle tooltip" role="button">
+		<summary>?</summary>
+		<span>Tiny updates! Click the date to see them all.</span>
+	</details>
 </h3>
-<a href="/transients">
-  {{ set smosts = search.pages("type=smost draft=false", "published=desc", 1) }}
 
-  {{ for smost of smosts }}
-    <div
-      class="smost"
-      id="{{ smost.published |> date('MM-yy')}}-{{smost.smost_content |> toLowerCase |> replace(' ', '-') |> substring(0, 31) }}"
-    >
-      <span class="smost-date">
-        <a
-          href="{{ if title == 'transients' }}#{{ smost.published |> date('MM-yy')}}-{{smost.smost_content  |> toLowerCase |> replace(' ', '-') |> substring(0, 31) }}{{ else }}/transients{{ /if }}"
-        >
-          {{ smost.published |> date("dd-MM-yy") }}{{
-            if title == 'transients'
-          }}
-            at {{ smost.published |> date("HH:mm") }}{{ /if }}
-        </a>
-      </span>
-      <span class="smost-content">: {{ smost.smost_content }}</span>
-    </div>
-  {{ /for }}
-</a>
+{{ set smosts = search.pages("type=smost draft=false", "published=desc", 1) }}
+
+{{ for smost of smosts }}
+	<div
+		class="smost"
+		id="{{ smost.published |> date('MM-yy')}}-{{smost.smost_content |> toLowerCase |> replace(' ', '-') |> substring(0, 31) }}"
+	>
+		<span class="smost-date">
+			<a
+				href="{{ if title == 'transients' }}#{{ smost.published |> date('MM-yy')}}-{{smost.smost_content  |> toLowerCase |> replace(' ', '-') |> substring(0, 31) }}{{ else }}/transients{{ /if }}"
+			>
+				{{ smost.published |> date("dd-MM-yy") }}{{
+					if title == 'transients'
+				}}
+					at {{ smost.published |> date("HH:mm") }}{{ /if }}
+			</a>
+		</span>
+		<span class="smost-content">: {{ smost.smost_content }}</span>
+	</div>
+{{ /for }}
