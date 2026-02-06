@@ -33,14 +33,14 @@ layout: /layout.vto
   <h1 class="visually-hidden" aria-hidden="true">{{ title }}</h1>
 
   {{ if image }}
-    <figure class="hero-img" transform-images="">
-      <a href="{{ image }}">
+    <figure class="hero-img" transform-images="" data-type="image">
+      {{# <a href="{{ image }}"> #}}
         <img 
           src="{{ image }}" 
           alt="{{ if image_alt }}{{ image_alt }}{{ else }}{{ image_caption }}{{ /if }}" 
           loading="lazy"
         >
-      </a>
+      {{# </a> #}}
       {{ if image_caption }}
         <figcaption>{{ image_caption }}</figcaption>
       {{ /if }}
