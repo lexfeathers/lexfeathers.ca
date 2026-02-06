@@ -2,7 +2,7 @@ body:has(*.lightbox) {
     overflow: hidden;
 }
 
-[data-type="image"]:not(.lightbox) {
+[data-type="image"]:not(.lightbox) > img {
     cursor: zoom-in;
 }
 
@@ -13,7 +13,7 @@ figure:has(.lightbox) {
     z-index: 1;
     padding: 2rem;
     margin: 0;
-    background-color: rgba(0, 0, 0, .8);
+    backdrop-filter: blur(6px) brightness(60%);
     top: 0;
     right: 0;
     bottom: 0;
