@@ -4,6 +4,11 @@ if (document.readyState === "loading") {
 } else {
     getLinks();
 }
+
+/**
+ * Get all links on the site and add the "external" css class
+ * if they point outside of the site.
+ */
 function getLinks() {
     // Make all external links open in a new tab and apply external class
     Array.from(document.links)
