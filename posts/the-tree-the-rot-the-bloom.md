@@ -22,7 +22,7 @@ In her first full-length offering since 2020, my wife [Erin Corbett has just rel
 
 This album has a lot of different textures and emotional colours to it. There's moody, grieving darkness (_Vocoder Pop_), quivering love and devotion (_Where The River Goes_, _Garden Girl_), and joyful exploration of gender and sex (_Lace_, _Evening_). 
 
-Erin is a brilliant sound designer, which is apparent in the intricate crystalline and oozing structures she's built for these songs. The record feels like a transition between two emotional worlds, where there's the fearful, grief-stricken and horror-tinged first leg followed by the intimate, rabbitlike curiosity and explosive joi de vivre of the back half. 
+Erin is a brilliant sound designer, which is apparent in the intricate crystalline and oozing structures she's built for these songs. The record feels like a transition between two emotional worlds, where there's the fearful, grief-stricken and horror-tinged first leg followed by the intimate, rabbitlike curiosity and explosive joie de vivre of the back half. 
 
 I got to be a somewhat important part of the recording and writing process, which I'm super stoked about! I had a hand in the production of a couple tracks (_Where The River Goes_, _Lace_) and wrote the lyrics for _Garden Girl_ [as part of this improvised live performance](../voidfemmes-sixninehaus-2024/)! There were a couple funny moments in the recording process that feel like they would be fun for me to document, so I've written about them here.
 
