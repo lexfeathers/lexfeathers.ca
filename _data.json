@@ -30,6 +30,10 @@
 				"title" : "tags",
 				"url" : "/pages/tags"
 			},
+            {
+                "title" : "search",
+                "url" : "/pages/search"
+            },
 			{
 				"title" : "contact",
 				"url" : "/pages/contact"
