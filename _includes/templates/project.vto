@@ -7,9 +7,9 @@ layout: /layout.vto
   <hr class="faded">
 
   {{ if author }}
-    <h3 class="faded author">
-      <span aria-hidden="true" class="icon">&#9733;</span> <span>{{ author }}</span> / 
-      {{ if published }}
+    <h3 class="author">
+      <span aria-hidden="true" class="icon">&#9733;</span> <span>{{ if client_link }}<a href="{{ client_link }}">{{ author }}</a>{{ else }}{{ author }}{{ /if }}</span> / 
+      {{ if status == "released" }}
         <span class="faded">release date: {{ published |> date('HUMAN_DATE') }}</span>
       {{ else }}
         <span class="faded">status: {{ status }}</span>
