@@ -1169,7 +1169,7 @@ details.content-warnings {
 /* Image handling */
 figure {
 	/* Controls the width of figures in posts. */
-	margin: 2rem auto 4rem;
+	margin: 2rem auto 3rem;
 
 	figcaption {
 		opacity: 0.6;
@@ -1185,7 +1185,7 @@ figure {
 
 	&.hero-img {
 		max-width: 100%;
-		margin: auto;
+		/* margin: auto; */
 	}
 
 	&.right {
