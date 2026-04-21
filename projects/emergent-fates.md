@@ -1,6 +1,7 @@
 ---
 title: Emergent Fates
 author: Megaphemeral
+client_link: https://megaphemeral.com/
 published: 2020-04-04T04:00
 status: released
 excerpt: I worked on Emergent Fates as a Sound Designer, where my main role was to come in and support Leila Forsyth’s inventive audio through polish and iteration.

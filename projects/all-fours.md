@@ -1,6 +1,7 @@
 ---
 title: All Fours (album)
 author: Void Femmes
+client_link: https://voidfemmes.ca
 published: 2024-03-23T04:00
 status: released
 excerpt: A return to solo electronic music, an excercise in impulse and immediacy.

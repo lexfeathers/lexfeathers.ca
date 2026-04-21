@@ -1,6 +1,7 @@
 ---
 title: A Fold Apart (Bonus)
 author: Lightning Rod Games
+client_link: https://lightningrodgames.com
 published: 2021-02-10T04:00
 status: released
 excerpt: I had the absolute pleasure of working with Lightning Rod Games to provide some additional Sound Design for a bonus chapter added to their game, A Fold Apart

@@ -1,6 +1,7 @@
 ---
 title: Nine Demons (album)
 author: Feyla
+client_link: https://feyla.bandcamp.com
 published: 2019-05-05T04:00
 status: released
 excerpt: Taking inspiration from field recordings and stray pieces of hardware, there is a dusty and organic tone to these songs

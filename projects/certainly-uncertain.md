@@ -1,6 +1,7 @@
 ---
 title: Certainly Uncertain
 author: Michael Silverwood
+client_link: https://pixilestudios.com/
 published: 2024-10-23T04:00
 status: released
 excerpt: In 2024, I was approached by Michael Silverwood about composing the opening theme for a podcast.

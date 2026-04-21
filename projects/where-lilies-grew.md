@@ -1,6 +1,7 @@
 ---
 title: Where Lilies Grew (album)
 author: Waxlimbs
+client_link: https://waxlimbs.com
 published: 2024-10-04T04:00
 status: released
 excerpt: A collection of 12 songs Waxlimbs released over a one-year period from 2020-2021.

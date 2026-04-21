@@ -1,6 +1,7 @@
 ---
 title: Solace State
 author: Vivid Foundry
+client_link: https://vividfoundry.com
 published: 2023-09-14T04:00
 status: released
 excerpt: A 3D Visual Novel about youth developing social movements for the hope of a better future in a despotic metropolis.

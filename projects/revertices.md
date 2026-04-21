@@ -1,8 +1,9 @@
 ---
 title: Revertices
 author: Fuzzy Void co.
-published: 2026-06-30T04:00
-status: in development 
+client_link: https://revertices.com/
+published: 2025-10-30T04:00
+status: in development
 excerpt: A game where you fight as fucked up little shape guys.
 draft: false
 thumbnail: /uploads/revertices-verticalcapsule.webp

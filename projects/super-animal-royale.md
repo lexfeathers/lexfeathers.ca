@@ -1,6 +1,7 @@
 ---
 title: Super Animal Royale
 author: Pixile Studios
+client_link: https://pixilestudios.com/
 published: 2018-05-07T04:00
 status: released
 excerpt: I had the pleasure of acting as a Sound Designer of environmental, mechanics-based sounds, and more abstract soundscapes for this wonderful battle royale game.
