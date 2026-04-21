@@ -5,7 +5,7 @@ published: 2026-04-21T04:00
 status: in development
 client_link: 
 excerpt: Build castles. Tell stories.
-draft: true
+draft: false
 thumbnail: /uploads/TaleKeep_muse_sq.png
 image: /uploads/TaleKeep_forest_2.png
 image_caption: A dense forest with a medieval woodcut art style. Standing small in the center of the scene is a jackrabbit.
