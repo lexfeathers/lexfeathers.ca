@@ -94,7 +94,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
     <h2>Music software and gear</h2>
       <h3>Studio and recording:</h3>
       <ul>
-        <li>Ableton Live 11</li>
+        <li>Ableton Live 12</li>
         <li>Reaper :)</li>
         <li>Arturia Audiofuse Studio</li>
         <li>Revv G20</li>
@@ -106,6 +106,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
       <h3>Instruments:</h3>
         <ul>
           <li>Dingwall NG2 bass guitar - Ducati Pearl White</li>
+          <li>Strandberg Salen NX6</li>
           <li>EVH Wolfgang Special Stealth</li>
           <ul>
             <li>Neck: Dimarzio PAF Pro</li>
@@ -145,6 +146,13 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
           <li>Obsidian</li>
           <li>Firefox Developer Edition</li>
           <li>Static site generator: <a href="https://lume.land" target="_blank">Lume</a> (this site)</li>
+        </ul>
+        <h3>Languages</h3>
+        <ul>
+            <li>JavaScript</li>
+            <li>C#</li>
+            <li>HTML</li>
+            <li>CSS</li>
         </ul>
     </ul>
   </div>

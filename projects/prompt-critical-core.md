@@ -10,7 +10,7 @@ image: /uploads/promptcriticalcore.png
 image_caption: Yunjin Claire Lee playing piano in the recording session for Prompt Critical Core
 image_alt: 
 video_link: https://www.youtube.com/watch?v=wrzwgHzECqA
-work_type: Music composition
+work_type: Music
 ---
 I was invited to [compose a piece](https://www.youtube.com/watch?v=wrzwgHzECqA) for Spectrum Music's 100 Seconds To Midnight concert series in mid-2020. I was excited by the challenge of writing music for other musicians to perform; something I don’t often get to do. 
 
