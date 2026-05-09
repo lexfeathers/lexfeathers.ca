@@ -123,6 +123,31 @@ site.use(feed({
     authorUrl: "https://lexfeathers.ca",
   },
 }));
+site.use(feed({
+  output: ["/portfolio.rss"],
+  query: "type=project",
+  sort: "published=desc",
+  info: {
+    title: "Lex Feathers - Portfolio",
+    description:
+      "My work in music, web and gamedev",
+    lang: "en",
+    generator: true,
+    icon: "/assets/favicon.ico",
+    color: "#ff993a",
+  },
+  items: {
+    title: "=title",
+    description: "=excerpt",
+    published: "=published",
+    updated: undefined,
+    content: "$article.post",
+    lang: "en",
+    image: "=thumbnail", // The image of the item
+    authorName: "Lex Feathers",
+    authorUrl: "https://lexfeathers.ca/portfolio",
+  },
+}));
 // site.use(picture());
 // site.use(transformImages({
 //   extensions: [".gif", ".jpg", ".jpeg", ".png", ".webp"]
