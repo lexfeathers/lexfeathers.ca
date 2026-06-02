@@ -1,3 +1,5 @@
+// NOT USING THIS RN. USE THE COPY IN _INCLUDES/PARTIALS
+
 // Get Alert markers
 	const noteMarker = document.querySelectorAll('.markdown-alert-note .markdown-alert-title');
 	const tipMarker = document.querySelectorAll('.markdown-alert-tip .markdown-alert-title');
