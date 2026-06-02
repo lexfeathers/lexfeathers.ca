@@ -15,7 +15,8 @@ excerpt: >-
   I fully regret giving companies like this any control over my work.
 ---
 
-UPDATE: As of June 2026, all of the music we have control over, except for one final song, is now gone from Spotify.
+> [!NOTE]
+> As of June 2026, all of the music we have control over, except for one final song, is now gone from Spotify.
 
 Back in October, my band Waxlimbs released a [new single on Bandcamp](https://waxlimbs.bandcamp.com/track/across-the-coals) and streaming services, with the exception being Spotify. Once we had put out a notice that we were going to be taking all of our work off Spotify, I sent an email to our distributor asking for all of Waxlimbs's work to be removed from the service. I was told this could take about 30 days, so we waited.
 
