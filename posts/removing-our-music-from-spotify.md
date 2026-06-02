@@ -1,5 +1,5 @@
 ---
-title: Spotify takedowns (and how they don't happen)
+title: On removing our music from Spotify
 author: Lex Feathers
 draft: false
 comments: true
