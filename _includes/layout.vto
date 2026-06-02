@@ -52,6 +52,10 @@
 
 		<!-- Load main scripts file -->
 		<script type="module" src="/assets/scripts/global.js"></script>
+        <!-- Load lightbox -->
+        <script src="/assets/scripts/lightbox.js"></script>
+        <!-- Load theme selector -->
+		<script src="/assets/scripts/theme-selector.js"></script>
 		<!-- Set Markdown Alert marker icons -->
 		{{# <script src="/assets/scripts/markdown-alerts.js"></script> #}}
         <script>
@@ -82,9 +86,5 @@
                 marker.style.setProperty("--warning-img", `url('{{ "skull" |> icon("phosphor") }}')`)
             });
         </script>
-        <!-- Load lightbox -->
-        <script src="/assets/scripts/lightbox.js"></script>
-        <!-- Load theme selector -->
-		<script src="/assets/scripts/theme-selector.js"></script>
 	</body>
 </html>
