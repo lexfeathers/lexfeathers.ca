@@ -39,7 +39,7 @@ The time between the last two albums was about 4 years, and it felt shorter beca
 
 The actual update is that we're making good progress but a release date is still a ways off from being decided on. We're sitting at around 11 songs, some of them nearly done, and others less so. I think a lot of these songs are the best thing we've made so far, and I can't wait to share them, but it's too soon to start teasing anything conrete. If you've been able to come to our shows in Toronto, you've heard a couple of them already! Playing everything live a few times before committing to tape, so to speak, is now an important part of our process despite the time it adds to writing and production.
 
-If you want to stay up to date about anything Waxlimbs-related, we have accounts on [Mastodon](https://mastodon.social/@waxlimbs) and [Bluesky](https://bsky.app/profile/waxlimbs.com), as well and [Instagram](https://www.instagram.com/waxlimbs/), which is more focused on things we're doing locally in Toronto.
+If you want to stay up to date about anything Waxlimbs-related, we have accounts on [Mastodon](https://mastodon.social/@waxlimbs) and [Bluesky](https://bsky.app/profile/waxlimbs.com), as well as [Instagram](https://www.instagram.com/waxlimbs/), which is more focused on things we're doing locally in Toronto.
 
 Hope you like the single!
 
