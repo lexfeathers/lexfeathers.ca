@@ -24,7 +24,7 @@ Returning characters are that of my minibrute ("_To Break On A Cellular Level_",
 
 This thing was made quickly and aggressively and I like to think that comes through in a good way. [You can buy it on bandcamp.](https://voidfemmes.bandcamp.com/album/all-fours)
 
-<iframe style="border: 0; max-width: 700px; height: 307px;" src="https://bandcamp.com/EmbeddedPlayer/album=715453324/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/" seamless><a href="https://voidfemmes.bandcamp.com/album/all-fours">All Fours by Void Femmes</a></iframe>
+<iframe style="border: 0; height: 307px;" src="https://bandcamp.com/EmbeddedPlayer/album=715453324/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/" seamless><a href="https://voidfemmes.bandcamp.com/album/all-fours">All Fours by Void Femmes</a></iframe>
 
 ## Credits
 

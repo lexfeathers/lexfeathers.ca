@@ -18,7 +18,7 @@ excerpt: >-
 
 In her first full-length offering since 2020, my wife [Erin Corbett has just released](https://erincorbett.bandcamp.com/album/the-tree-the-rot-the-bloom) _The Tree, The Rot, The Bloom_. Erin has been working on this thing for the entire time I've known her[^1] in varying capacity, and it's so good to be able to listen to it in full.
 
-<iframe style="border: 0; width: 700px; height: 439px;" src="https://bandcamp.com/EmbeddedPlayer/album=4279828066/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="https://erincorbett.bandcamp.com/album/the-tree-the-rot-the-bloom">The Tree, The Rot, The Bloom by Erin Corbett</a></iframe>
+<iframe style="border: 0; height: 439px;" src="https://bandcamp.com/EmbeddedPlayer/album=4279828066/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="https://erincorbett.bandcamp.com/album/the-tree-the-rot-the-bloom">The Tree, The Rot, The Bloom by Erin Corbett</a></iframe>
 
 This album has a lot of different textures and emotional colours to it. There's moody, grieving darkness (_Vocoder Pop_), quivering love and devotion (_Where The River Goes_, _Garden Girl_), and joyful exploration of gender and sex (_Lace_, _Evening_). 
 

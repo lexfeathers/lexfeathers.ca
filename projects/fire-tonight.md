@@ -19,7 +19,7 @@ The game was inspired by a 1990 [Information Society track](https://www.youtube.
 
 You can stream the OST on Bandcamp:
 
-<iframe style="border: 0; width: 328px; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=2285681620/size=large/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://lexfeathers.bandcamp.com/album/fire-tonight-original-game-soundtrack-2">Fire Tonight (Original Game Soundtrack) by Lex Feathers</a></iframe>
+<iframe style="border: 0; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=2285681620/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="https://music.lexfeathers.ca/album/fire-tonight-original-game-soundtrack-2">Fire Tonight (Original Game Soundtrack) by Lex Feathers</a></iframe>
 
 ## About the game:
 
