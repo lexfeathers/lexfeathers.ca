@@ -20,3 +20,9 @@ For the programming part of my role, I was responsible for features such as the 
 For the sound design part, I've been in charge of creating bespoke sounds for the environment, characters (including the silliest voice acting debut one could imagine), items, furniture, machines, and UI. Building the technical audio systems on top of FMOD gave me a lot of creative freedom for how I could implement and control the audio on the fly, so I had a blast adding details I wouldn't normally be able to in most games without dedicated help from the dev team.
 
 TaleKeep is currently in early development with a release date TBA.
+
+# Sound Design Examples
+
+## Woodcutting
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OMCwnzUFLuA?si=6mZxmcYojowwwc7p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
