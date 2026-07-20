@@ -13,7 +13,7 @@
 	--color-tertiary: #a4b06b;
 	--color-cw-background: #7c2447;
 	--color-cw-text: #fff0cc;
-    --color-shadow: rgba(0, 0, 0, 0.4);
+	--color-shadow: rgba(0, 0, 0, 0.4);
 	/* Dark theme - make sure to update this as well if changing the main theme! */
 	--color-background-darkmode: #141414;
 	--color-secondary-darkmode: #ff993a;
@@ -60,8 +60,8 @@
 	);
 	scrollbar-color: var(--color-tertiary) var(--color-lighter-background);
 
-    /* General shadow styling */
-    --shadow: 0px 4px 6px var(--color-shadow);
+	/* General shadow styling */
+	--shadow: 0px 4px 6px var(--color-shadow);
 
 	/* Typography */
 	--family-sans: "Inter", sans-serif;
@@ -104,11 +104,11 @@
 		--color-secondary: var(--color-secondary-lightmode);
 		--color-tertiary: var(--color-tertiary-lightmode);
 		--color-cw-text: var(--color-primary);
-        --color-shadow: color-mix(
-            in srgb,
-            var(--color-background),
-            var(--color-primary) 20%
-        );
+		--color-shadow: color-mix(
+			in srgb,
+			var(--color-background),
+			var(--color-primary) 20%
+		);
 		background-color: var(--color-background);
 		color: var(--color-primary);
 		font-weight: 600;
@@ -258,7 +258,7 @@
 		font-weight: 700 !important;
 		vertical-align: top;
 		transition: 150ms;
-        box-shadow: none;
+		box-shadow: none;
 	}
 	summary::after {
 		display: none !important;
@@ -322,9 +322,9 @@ a {
 		text-decoration: underline;
 	}
 
-    em {
-        color: var(--color-secondary);
-    }
+	em {
+		color: var(--color-secondary);
+	}
 }
 
 #content {
@@ -711,9 +711,9 @@ select option {
 }
 /* End directory */
 
-.date:not(.excerpt-date)::before {
+/* .date:not(.excerpt-date)::before {
 	content: " - ";
-}
+} */
 
 #sidebar,
 #content,
@@ -1063,7 +1063,7 @@ details {
 
 	summary {
 		cursor: pointer;
-        box-shadow: var(--shadow);
+		box-shadow: var(--shadow);
 
 		&.stylish-summary {
 			font-size: 20pt;
@@ -1232,7 +1232,7 @@ pre > code {
 	overflow: inherit;
 	text-overflow: "...";
 	padding-left: 0;
-    margin: 0;
+	margin: 0;
 }
 
 /* Header styles */
@@ -1338,18 +1338,17 @@ div.tags {
 }
 
 .cool-links {
-    a {
-        transition: 0.2s;
+	a {
+		transition: 0.2s;
 
-        &:hover {
-            border-bottom: 4px solid var(--color-secondary);
-            opacity: 0.9;
-            text-decoration: none;
-        }
-    }
+		&:hover {
+			border-bottom: 4px solid var(--color-secondary);
+			opacity: 0.9;
+			text-decoration: none;
+		}
+	}
 	img {
 		image-rendering: smooth;
-
 	}
 }
 
@@ -1362,7 +1361,7 @@ input {
 	background-color: var(--color-background);
 	font-size: 16px;
 	resize: none;
-    transition: box-shadow 0.1s ease;
+	transition: box-shadow 0.1s ease;
 }
 
 textarea:focus {
@@ -1388,7 +1387,7 @@ button:focus-visible {
 
 iframe[title="YouTube video player"],
 iframe[src*="bandcamp.com"] {
-    display: block;
+	display: block;
 	margin: 0 auto;
 	width: 100%;
 	height: 425px;
@@ -1396,11 +1395,11 @@ iframe[src*="bandcamp.com"] {
 	box-shadow: var(--shadow);
 }
 iframe[src*="bandcamp.com"] {
-    width: 80%;
+	width: 80%;
 
-    @media screen and (max-width: 749px) {
-        width: 100%;
-    }
+	@media screen and (max-width: 749px) {
+		width: 100%;
+	}
 }
 
 /* Tablet styling */
@@ -1444,13 +1443,13 @@ iframe[src*="bandcamp.com"] {
 		display: flex;
 		min-width: 100%;
 		justify-content: space-between;
-        
-        footer {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            padding: 0 0 2rem 0;
-        }
+
+		footer {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding: 0 0 2rem 0;
+		}
 	}
 
 	/* tk replace this with helper class */

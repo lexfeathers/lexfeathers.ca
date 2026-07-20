@@ -8,7 +8,7 @@ layout: /layout.vto
 
   {{ if author }}
     <h3 class="faded author">
-      <span aria-hidden="true" class="icon">&#9993;</span> {{ author }}<span class="faded date">{{ published |> date('HUMAN_DATE') }}</span>
+      <span aria-hidden="true" class="icon">&#9993;</span> {{ author }}<span class="faded date"> - {{ published |> date('HUMAN_DATE') }}</span>
     </h3>
   {{ /if }}
 </div>
