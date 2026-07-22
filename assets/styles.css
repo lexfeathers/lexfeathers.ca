@@ -4,6 +4,10 @@
 	/* Layout */
 	--page-width: 72rem;
 	--radius: 4px;
+	--spacing: 0.25rem;
+
+	/* Components */
+	--component-spacing: calc(var(--spacing) * 16);
 
 	/* Colours */
 	color-scheme: light dark;
@@ -179,7 +183,6 @@
 /* Global styling */
 * {
 	box-sizing: border-box;
-	color: var(--color-primary);
 }
 
 /* Helpers */
@@ -242,6 +245,13 @@
 	text-align: center;
 }
 
+/* Global Components */
+.section {
+	margin-top: var(--component-spacing);
+	margin-bottom: var(--component-spacing);
+}
+/* End global components */
+
 /* 
   Tooltips should be <details> elements, 
   intended to explain a site feature 
@@ -275,6 +285,7 @@ body {
 	font-weight: 300;
 	line-height: 1.6;
 	background-color: var(--color-background);
+	color: var(--color-primary);
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -1174,6 +1185,7 @@ details.content-warnings {
 figure {
 	/* Controls the width of figures in posts. */
 	margin: 2rem auto 3rem;
+	border-radius: calc(var(--radius) * 2);
 
 	figcaption {
 		opacity: 0.6;

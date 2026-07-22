@@ -1,81 +1,84 @@
 body:has(*.lightbox) {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 [data-type="image"] > img:not(.lightbox) {
-    transition: .1s;
-    cursor: zoom-in;
+	transition: 0.1s;
+	cursor: zoom-in;
 
-    &:hover {
-        box-shadow: 0px 4px 12px color-mix(
-            in srgb,
-            var(--color-shadow),
-            rgba(0,0,0,0.6) 60%
-            );
-    }
+	&:hover {
+		box-shadow: 0px 4px 12px
+			color-mix(in srgb, var(--color-shadow), rgba(0, 0, 0, 0.6) 60%);
+	}
 }
 
 figure:has(.lightbox) {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    padding: 2rem;
-    margin: 0;
-    backdrop-filter: blur(6px) brightness(60%);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	min-width: 100%;
+	z-index: 1;
+	padding: 2rem;
+	margin: 0;
+	backdrop-filter: blur(6px) brightness(60%);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 
-    img.lightbox {
-        object-fit: contain;
-        box-shadow: none;
-        width: 100%;
-        height: 100%;
-        flex: 1 1;
-        cursor: zoom-out;
-    }
+	img.lightbox {
+		object-fit: contain;
+		box-shadow: none;
+		width: 100%;
+		height: 100%;
+		flex: 1 1;
+		cursor: zoom-out;
+	}
 
-    figcaption {
-        text-align: center;
-        background-color: rgba(0, 0, 0, 1);
-        color: white;
-        width: 100%;
-        height: 100%;
-        padding: 1rem 1rem;
-        flex: 0 1;
-        border-radius: var(--radius);
-    }
+	figcaption {
+		text-align: center;
+		font-style: normal;
+		font-size: var(--font-medium);
+		background-color: rgba(0, 0, 0, 1);
+		color: var(--color-background-lightmode);
+		width: 100%;
+		height: 100%;
+		padding: 1rem 1rem;
+		flex: 0 1;
+		border-radius: var(--radius);
+	}
 }
 
 @media (width <= 749px) {
-    figure:has(.lightbox) {
+	figure:has(.lightbox) {
+		padding: calc(var(--spacing) * 2);
 
-        figcaption {
-            text-align: left;
-        }
+		figcaption {
+			text-align: left;
+		}
 
-        &::after {
-            width: 2rem;
-            height: 2rem;
-            padding: 2px;
-            font-size: 18pt;
-            position: absolute;
-            top: 2rem;
-            right: 2rem;
-            content: 'X';
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: var(--color-background-darkmode);
-            border-radius: 2rem;
-            pointer-events: none;
-        }
-    }
+		&::after {
+			content: ""; /* masking to an svg */
+			position: absolute;
+			top: 1rem;
+			right: 1rem;
+			width: 2rem;
+			height: 2rem;
+			opacity: var(--translucent);
+			mask: var(--icon-close);
+			mask-position: center;
+			mask-repeat: no-repeat;
+			background-color: var(--color-primary);
+			color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 2rem;
+			pointer-events: none;
+		}
+	}
 
-    .lightbox {
-        padding: 0;
-    }
+	.lightbox {
+		padding: 0;
+	}
 }

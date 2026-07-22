@@ -1,0 +1,94 @@
+---
+title: Design By Nicole
+author: Nicole Calzavara
+status: released
+client_link: https://designbynicole.ca
+published: 2026-07-20T12:00
+excerpt: Portfolio site for a Product Designer.
+draft: true
+thumbnail: /uploads/DesignByNicole/DesignByNicole_thumbnail.png
+image: /uploads/DesignByNicole/DesignByNicole_darkmode.png
+image_caption: Nicole's homepage in dark mode, featuring a grid of projects.
+image_alt: 
+video_link:
+work_type: Web Development
+---
+
+<p>
+    My friend Nicole Calzavara commissioned <a href="{{ client_link }}">a portfolio website</a> from me with a catch: it needed to have modular blocks for laying out pages, and be responsive and well-documented so she could easily add content and build layouts on the fly.
+</p>
+
+{{ await comp.ImageGrid({
+    columns: 2,
+    grid: [
+        {
+            image_url: "/uploads/DesignByNicole/DesignByNicole_darkmode.png",
+            image_alt: "A page from Nicole Calzavara's website shown in dark mode"
+        },
+        {
+            image_url: "/uploads/DesignByNicole/DesignByNicole_lightmode.png",
+            image_alt: "A page from Nicole Calzavara's website shown in light mode"
+        }
+    ]
+})}}
+
+{{ await comp.Figure({
+    image_url: "/uploads/DesignByNicole/DesignByNicole_ImageWithText.png",
+    image_caption: "An Image-With-Text component showing a heading, blurb and an image",
+})}}
+
+<p>
+    <a href="https://lume.land">Lume</a> was my choice of static site generator, and <a href="https://vento.js.org">Vento</a> was the templating language I used. For the modular "blocks" I used Lume components, which work similarly to JSX components.
+</p>
+
+<p>
+    By referencing figma wireframes provided by Nicole, I developed each component along with thorough documentation, ensuring they would be flexible and responsive so she could use them for a variety of purposes.
+</p>
+
+{{ await comp.ImageGrid({
+    columns: 2,
+    grid: [
+        {
+            image_url: "/uploads/DesignByNicole/DesignByNicole_mobile_header_darkmode.png",
+            image_alt: "Nicole's website on mobile, with a hamburger menu in the header"
+        },
+        {
+            image_url: "/uploads/DesignByNicole/DesignByNicole_mobile_header_open_darkmode.png",
+            image_alt: "Nicole's website on mobile, with an open hamburger menu in the header"
+        }
+    ]
+})}}
+
+<p>
+    The resulting site feels clean, flexible in its layout capabilities, and dynamic. This was my first time creating a modular design framework from the ground up, and I had a great time coming up with all kinds of ways to make adding content to the site modular, without impeding creativity.
+</p>
+
+<p>
+    Some of the components from Nicole's site have actually made their way over to this one, per her permission!
+</p>
+
+{{ await comp.ImageGrid({
+    columns: 2,
+    grid: [
+        {
+            image_url: "/uploads/DesignByNicole/DesignByNicole_about_darkmode.png",
+            image_alt: "Nicole's about page in darkmode, featuring a header with a portrait of Nicole"
+        },
+        {
+            image_url: "/uploads/DesignByNicole/DesignByNicole_about_lightmode.png",
+            image_alt: "Nicole's about page in lightmode, featuring a header with a portrait of Nicole"
+        },
+        {
+            image_url: "/uploads/DesignByNicole/DesignByNicole_freelance_header_lightmode.png",
+            image_alt: "Nicole's freelance page in lightmode, featuring a large heading and subtitle with a product image on the right"
+        },
+        {
+            image_url: "/uploads/DesignByNicole/DesignByNicole_freelance_footer_darkmode.png",
+            image_alt: "Nicole's freelance page in lightmode, showing the footer with her logo and a series of links"
+        }
+    ]
+})}}
+
+<p>
+    This project was a lot of work, but a blast all the same. Building websites has become something I love doing, and I'm eager to keep at it!
+</p>

@@ -1,4 +1,5 @@
 import lume from "lume/mod.ts";
+import esbuild from "lume/plugins/esbuild.ts";
 import postcss from "lume/plugins/postcss.ts";
 // import nunjucks from "lume/plugins/nunjucks.ts";
 import favicon from "lume/plugins/favicon.ts";
@@ -17,152 +18,165 @@ import icons from "lume/plugins/icons.ts";
 // import transformImages from "lume/plugins/transform_images.ts";
 import googleFonts from "lume/plugins/google_fonts.ts";
 import { alert } from "npm:@mdit/plugin-alert@0.8.0";
- 
+
 // Pass options to markdown-it plugins
 const markdown = {
-  plugins: [
-    footnote,
-    [
-		alert, {
-			deep: true,
-		}
+	plugins: [
+		footnote,
+		[
+			alert,
+			{
+				deep: true,
+			},
+		],
+		[
+			implicitFigures,
+			{
+				dataType: true,
+				lazy: true,
+				async: true,
+				figcaption: "alt",
+				link: false,
+			},
+		],
 	],
-    [
-		implicitFigures, {
-            dataType: true,
-			lazy: true,
-			async: true,
-			figcaption: "alt",
-			link: false,
-		}
-	],
-  ],
 };
 
 const site = lume(
 	{
 		location: new URL("https://lexfeathers.ca"),
-	}, 
-	{ 
-		markdown 
-	}
+	},
+	{
+		markdown,
+	},
 );
 
 site.add([".css"]);
 site.add("/assets/"); // Include assets in the build
 site.add("/uploads/"); // Include uploads in the build
 
+site.use(esbuild());
 site.use(
-	googleFonts(
-		{
-			fonts: "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap",
-		}
-	)
+	googleFonts({
+		fonts: "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap",
+	}),
 );
 site.use(postcss());
 
 // Create the lastmod variable with the mtime of the file
 site.preprocess([".html"], (pages) => {
-  for (const page of pages) {
-    const info = page.src.entry?.getInfo();
-    page.data.lastmod = info?.mtime;
-  }
+	for (const page of pages) {
+		const info = page.src.entry?.getInfo();
+		page.data.lastmod = info?.mtime;
+	}
 });
 
-site.use(icons({
-	folder: "/assets/images/icons"
-}));
+site.use(
+	icons({
+		folder: "/assets/images/icons",
+	}),
+);
 site.use(extractDate());
 site.use(
-  codeHighlight ({
-    theme: {
-      name: "base16/seti-ui", // The theme name to download
-      cssFile: "/code-styles.css", // The destination filename
-      placeholder: "/* insert-theme-here */", // Optional placeholder to replace with the final code
-    },
-  }),
+	codeHighlight({
+		theme: {
+			name: "base16/seti-ui", // The theme name to download
+			cssFile: "/code-styles.css", // The destination filename
+			placeholder: "/* insert-theme-here */", // Optional placeholder to replace with the final code
+		},
+	}),
 );
-site.use(favicon({
-  input: "/assets/favicon.ico",
-}));
-site.use(sitemap({
-  filename: "sitemap.xml", // to change the sitemap filename
-  sort: "published=desc", // To sort by data in ascendent order
-  // lastmod: "=lastmod",
-  stylesheet: "/assets/linked.xslt"
-}));
-site.use(date({
-  formats: {
-    "MDY": "M/d/yyyy",
-  },
-}));
+site.use(
+	favicon({
+		input: "/assets/favicon.ico",
+	}),
+);
+site.use(
+	sitemap({
+		filename: "sitemap.xml", // to change the sitemap filename
+		sort: "published=desc", // To sort by data in ascendent order
+		// lastmod: "=lastmod",
+		stylesheet: "/assets/linked.xslt",
+	}),
+);
+site.use(
+	date({
+		formats: {
+			MDY: "M/d/yyyy",
+		},
+	}),
+);
 site.use(metas());
 site.use(inline());
-site.use(feed({
-  output: ["/feed.rss"],
-  query: "type=post",
-  sort: "published=desc",
-  info: {
-    title: "Lex Feathers",
-    description:
-      "music and ideas",
-    lang: "en",
-    generator: true,
-    icon: "/assets/favicon.ico",
-    color: "#ff993a",
-  },
-  items: {
-    title: "=title",
-    description: "=excerpt",
-    published: "=published",
-    updated: undefined,
-    content: "$article.post",
-    lang: "en",
-    image: "=image", // The image of the item
-    authorName: "=author",
-    authorUrl: "https://lexfeathers.ca",
-  },
-}));
-site.use(feed({
-  output: ["/portfolio.rss"],
-  query: "type=project",
-  sort: "published=desc",
-  info: {
-    title: "Lex Feathers - Portfolio",
-    description:
-      "My work in music, web and gamedev",
-    lang: "en",
-    generator: true,
-    icon: "/assets/favicon.ico",
-    color: "#ff993a",
-  },
-  items: {
-    title: "=title",
-    description: "=excerpt",
-    published: "=published",
-    updated: undefined,
-    content: "$article.post",
-    lang: "en",
-    image: "=thumbnail", // The image of the item
-    authorName: "Lex Feathers",
-    authorUrl: "https://lexfeathers.ca/portfolio",
-  },
-}));
+site.use(
+	feed({
+		output: ["/feed.rss"],
+		query: "type=post",
+		sort: "published=desc",
+		info: {
+			title: "Lex Feathers",
+			description: "music and ideas",
+			lang: "en",
+			generator: true,
+			icon: "/assets/favicon.ico",
+			color: "#ff993a",
+		},
+		items: {
+			title: "=title",
+			description: "=excerpt",
+			published: "=published",
+			updated: undefined,
+			content: "$article.post",
+			lang: "en",
+			image: "=image", // The image of the item
+			authorName: "=author",
+			authorUrl: "https://lexfeathers.ca",
+		},
+	}),
+);
+site.use(
+	feed({
+		output: ["/portfolio.rss"],
+		query: "type=project",
+		sort: "published=desc",
+		info: {
+			title: "Lex Feathers - Portfolio",
+			description: "My work in music, web and gamedev",
+			lang: "en",
+			generator: true,
+			icon: "/assets/favicon.ico",
+			color: "#ff993a",
+		},
+		items: {
+			title: "=title",
+			description: "=excerpt",
+			published: "=published",
+			updated: undefined,
+			content: "$article.post",
+			lang: "en",
+			image: "=thumbnail", // The image of the item
+			authorName: "Lex Feathers",
+			authorUrl: "https://lexfeathers.ca/portfolio",
+		},
+	}),
+);
 // site.use(picture());
 // site.use(transformImages({
 //   extensions: [".gif", ".jpg", ".jpeg", ".png", ".webp"]
 // }));
-site.use(pagefind({
-  ui: {
-    containerId: "search",
-    showImages: true,
-    showEmptyFilters: true,
-    resetStyles: true,
-  },
-  indexing: {
-    rootSelector: "#content",
-    verbose: false,
-  },
-}));
+site.use(
+	pagefind({
+		ui: {
+			containerId: "search",
+			showImages: true,
+			showEmptyFilters: true,
+			resetStyles: true,
+		},
+		indexing: {
+			rootSelector: "#content",
+			verbose: false,
+		},
+	}),
+);
 
 export default site;

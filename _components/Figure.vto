@@ -1,0 +1,73 @@
+{{# 
+
+    Takes the following inputs:
+
+    image_url,
+	image_alt,
+	image_caption,
+    show_caption,
+	image_attribution,
+	attribution_link,
+	heading,
+	blurb
+
+ #}}
+
+{{> const uuid = crypto.randomUUID() }}
+
+<div class="figure-{{ uuid }}">
+	<figure data-type="image">
+		<img src="{{image_url}}"{{ if image_alt }} alt="{{image_alt}}"{{ /if }} class="cover" loading="lazy">
+		<figcaption>
+			{{ if image_caption }}
+				{{ image_caption |> md }}
+			{{ else }}
+				{{ image_alt |> md }}
+			{{ /if }}
+			{{ if image_attribution }}
+				<span class="attribution">
+					Image by 
+					{{ if attribution_link }}
+					<a href="{{ attribution_link |> url }}">
+					{{ /if }}
+						{{ image_attribution }}
+					{{ if attribution_link }}
+					</a>
+					{{ /if }}
+				</span>
+			{{ /if }}
+		</figcaption>
+	</figure>
+
+	{{ if heading }}
+		<h2>{{ heading }}</h2>
+	{{ /if }}
+
+	{{ if blurb }}
+		{{ blurb |> md }}
+	{{ else if image_caption }}
+		<div class="caption">{{ image_caption |> md }}</div>
+	{{ /if }}
+</div>
+
+<style>
+	.figure-{{ uuid }} {
+		width: 100%;
+
+		img {
+			width: 100%;
+		}
+
+        {{ if show_caption == false }}
+        figcaption:not(img.lightbox + figcaption) {
+            display: none;
+        }
+        {{ /if }}
+
+		.caption {
+			font-size: var(--font-small);
+			font-style: italic;
+			color: var(--color-primary-fainter);
+		}
+	}
+</style>
