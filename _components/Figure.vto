@@ -5,7 +5,6 @@
     image_url,
 	image_alt,
 	image_caption,
-    show_caption,
 	image_attribution,
 	attribution_link,
 	heading,
@@ -53,16 +52,21 @@
 <style>
 	.figure-{{ uuid }} {
 		width: 100%;
+        margin-top: var(--component-spacing);
+        margin-bottom: var(--component-spacing);
+
+        figure {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
 
 		img {
 			width: 100%;
 		}
 
-        {{ if show_caption == false }}
         figcaption:not(img.lightbox + figcaption) {
             display: none;
         }
-        {{ /if }}
 
 		.caption {
 			font-size: var(--font-small);
