@@ -1,95 +1,96 @@
 {
-    "layout": "layout.vto",
-    "website": {
-        "title": "Lex Feathers",
-        "show_transients": true,
+	"layout": "layout.vto",
+	"website": {
+		"title": "Lex Feathers",
+		"show_transients": true,
+		"show_recent_posts": false,
 		"logo": {
-			"image_darkmode" : "/assets/images/Lex Feathers Logo_ff993a_small.png",
-			"image_lightmode" : "/assets/images/Lex Feathers Logo_a90060_small.png",
-			"width" : "32px",
-			"alt" : "Lex Feathers"
+			"image_darkmode": "/assets/images/Lex Feathers Logo_ff993a_small.png",
+			"image_lightmode": "/assets/images/Lex Feathers Logo_a90060_small.png",
+			"width": "32px",
+			"alt": "Lex Feathers"
 		},
-		"nav_menu" : [
+		"nav_menu": [
 			{
-				"title" : "home",
-				"url" : "/"
+				"title": "home",
+				"url": "/"
 			},
 			{
-				"title" : "portfolio",
-				"url" : "/portfolio"
+				"title": "portfolio",
+				"url": "/portfolio"
 			},
 			{
-				"title" : "blog",
-				"url" : "/pages/directory"
+				"title": "blog",
+				"url": "/pages/directory"
 			},
 			{
-				"title" : "about",
-				"url" : "/pages/about"
+				"title": "about",
+				"url": "/pages/about"
 			},
 			{
-				"title" : "tags",
-				"url" : "/pages/tags"
+				"title": "tags",
+				"url": "/pages/tags"
 			},
-            {
-                "title" : "search",
-                "url" : "/pages/search"
-            },
 			{
-				"title" : "contact",
-				"url" : "/pages/contact"
+				"title": "search",
+				"url": "/pages/search"
+			},
+			{
+				"title": "contact",
+				"url": "/pages/contact"
 			}
 		]
-    },
-    "metas": {
-        "site": "Lex Feathers",
-        "title": "=website.title =title",
-        "lang": "en",
-        "color": "#141414",
-        "author": "Lex Feathers",
-        "fediverse": "@lexfeathers@tenforward.social",
-        "icon": "/assets/favicon.ico",
-        "image": "=image",
-        "description": "=description || =excerpt",
-        "twitter:card": "=image",
-        "twitter:title": "=site_title =title",
-        "twitter:description": "=excerpt",
-        "twitter:label2": "by",
-        "twitter:data1": "=author",
-        "keywords": [
-            "music",
-            "lex feathers",
-            "game audio",
-            "electronic music",
-            "waxlimbs",
-            "void femmes"
-        ]
-    },
-    "social_links": [
-        {
-            "title": "Bsky",
-            "url": "https://bsky.app/profile/lexfeathers.ca"
-        },
-        {
-            "title": "Mastodon",
-            "url": "https://tenforward.social/@lexfeathers"
-        }
-    ],
-    "music_links": [
-        {
-            "title": "Void Femmes",
-            "url": "https://voidfemmes.bandcamp.com"
-        },
-        {
-            "title": "Waxlimbs",
-            "url": "https://waxlimbs.bandcamp.com"
-        },
-        {
-            "title" : "Game music",
-            "url" : "https://music.lexfeathers.ca"
-        },
-        {
-            "title": "Feyla",
-            "url": "https://feyla.bandcamp.com"
-        }
-    ]
+	},
+	"metas": {
+		"site": "Lex Feathers",
+		"title": "=website.title =title",
+		"lang": "en",
+		"color": "#141414",
+		"author": "Lex Feathers",
+		"fediverse": "@lexfeathers@tenforward.social",
+		"icon": "/assets/favicon.ico",
+		"image": "=image",
+		"description": "=description || =excerpt",
+		"twitter:card": "=image",
+		"twitter:title": "=site_title =title",
+		"twitter:description": "=excerpt",
+		"twitter:label2": "by",
+		"twitter:data1": "=author",
+		"keywords": [
+			"music",
+			"lex feathers",
+			"game audio",
+			"electronic music",
+			"waxlimbs",
+			"void femmes"
+		]
+	},
+	"social_links": [
+		{
+			"title": "Bsky",
+			"url": "https://bsky.app/profile/lexfeathers.ca"
+		},
+		{
+			"title": "Mastodon",
+			"url": "https://tenforward.social/@lexfeathers"
+		}
+	],
+	"music_links": [
+		{
+			"title": "Void Femmes",
+			"url": "https://voidfemmes.bandcamp.com"
+		},
+		{
+			"title": "Waxlimbs",
+			"url": "https://waxlimbs.bandcamp.com"
+		},
+		{
+			"title": "Game music",
+			"url": "https://music.lexfeathers.ca"
+		},
+		{
+			"title": "Feyla",
+			"url": "https://feyla.bandcamp.com"
+		}
+	]
 }
