@@ -342,7 +342,7 @@ a {
 	--color-secondary: var(--color-tertiary);
 }
 
-article:not(.homepage-excerpt) a {
+article:not(.latest-posts-container) a {
 	text-decoration: underline;
 }
 
@@ -570,17 +570,17 @@ a.footnote-backref {
 }
 
 /* Removed because I don't think I'm using this anywhere anymore??? */
-/* article:has(.homepage-excerpt) {
+/* article:has(.latest-posts-container) {
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
 } */
 
-article.homepage-excerpt {
+article.latest-posts-container {
 	min-height: 100%;
 }
 
-.homepage-excerpt {
+.latest-posts-container {
 	display: flex;
 	flex-direction: column;
 	flex: 1 0 auto;
@@ -607,11 +607,11 @@ select option {
 	height: 2rem;
 }
 
-.homepage-excerpt h3 {
+.latest-posts-container h3 {
 	margin: 0 0 1rem 0;
 }
 
-.homepage-excerpt-date {
+.latest-posts-container-date {
 	color: var(--color-secondary);
 	font-size: var(--text-small);
 }
@@ -656,7 +656,7 @@ select option {
 		display: inline-flex;
 		flex-grow: 1;
 		margin: 0;
-		padding: 1rem;
+		/* padding: 1rem; */
 		background-color: var(--color-lighter-background);
 		border: 1px solid var(--color-primary-faded);
 		border-radius: calc(var(--radius) * 2);
@@ -675,8 +675,9 @@ select option {
 		}
 
 		.directory-card__link {
+			text-decoration: none;
 			width: 100%;
-			padding-left: 1rem;
+			padding: 1rem 1rem;
 
 			&:hover {
 				text-decoration: none;
@@ -697,9 +698,9 @@ select option {
 			justify-content: center;
 			align-items: center;
 			max-width: 150px;
-			height: 150px;
+			aspect-ratio: 1/1;
 			overflow: hidden;
-			margin: auto 0;
+			margin: 1rem 0 1rem 1rem;
 			border-radius: calc(var(--radius) * 1.5);
 
 			.card-image {
@@ -857,7 +858,7 @@ select option {
 	flex: 3 1 auto;
 
 	/* Do not apply bottom padding to the homepage */
-	article:not(.homepage-excerpt) {
+	article:not(.latest-posts-container) {
 		padding: 0 0 2rem 0;
 	}
 }
@@ -1519,11 +1520,20 @@ iframe[src*="bandcamp.com"] {
 		.card-excerpt {
 			margin: 0.25rem 0 0;
 		}
-		.card-image__link {
-			min-width: 100%;
-			border-radius: calc(var(--radius) * 1.5);
+		div {
+			.directory-card__link {
+				padding: 0 1rem 1rem;
+			}
+			.card-image__link {
+				min-width: 100%;
+				padding: 1rem;
+				margin: auto;
+				border-radius: calc(var(--radius) * 1.5);
+			}
 		}
 		.card-image {
+			max-height: 100%;
+			min-width: 100%;
 			border-radius: calc(var(--radius) * 2);
 			max-width: none !important;
 		}
