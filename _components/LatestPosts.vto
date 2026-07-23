@@ -1,0 +1,22 @@
+<div class="latest-posts-container">
+    <div class="latest-posts" style="margin-top: 2rem">
+        <h2 class="spread">
+        <span>Latest posts:</span><a href="/pages/directory">View all</a>
+        </h2>
+
+        {{ set latestPosts = search.pages("type=post draft=false", "published=desc", count) }}
+
+        <ul class="directory">
+        {{ for post of latestPosts }}
+            {{ include "partials/directory-card.vto" { post } }}
+        {{ /for }}
+        </ul>
+    </div>
+
+    {{# Temporarily disable bridgy #}}
+    <span class="h-card visually-hidden">
+        {{# <a class="u-url" rel="me" href="/">Lex Feathers</a>
+        <img class="u-photo" src="/uploads/vfheadshot_crop.jpg" /> #}}
+        <span>#nobridge</span>
+    </span>
+</div>

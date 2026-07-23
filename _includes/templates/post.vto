@@ -64,4 +64,8 @@ layout: /layout.vto
     <script defer src="https://comments.friendsofeggbug.org/comentario.js"></script>
     <comentario-comments css-override="/assets/styles/commentario.css" no-fonts="true" live-update="false"></comentario-comments>
   {{ /if }}
+
+  {{ await comp.latestPosts({
+    count: 3
+  })}}
 </article>
