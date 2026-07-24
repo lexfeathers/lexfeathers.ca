@@ -5,6 +5,7 @@ image: /uploads/vfheadshot_crop.jpg
 order: 4
 draft: false
 ---
+
 <h1>Lex Feathers <span class="faded pronouns">(she/her)</span></h1>
 
 <figure class="headshot" transform-images="">
@@ -12,20 +13,23 @@ draft: false
   <!-- <figcaption>Add stuff I guess!</figcaption> -->
 </figure>
 
-## Sound designer and composer for [games](https://lexfeathers.ca/portfolio) 
-I've been writing music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing aural detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. 
+## Sound designer and composer for [games](https://lexfeathers.ca/portfolio)
+
+I've been writing music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing aural detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. More recently, I've started contributing code to game projects as a junior gameplay programmer!
 
 Looking to work together, or just have a question? Feel free to [get in touch!](/pages/contact)
 
 ## listen to my music
+
 - [Waxlimbs (my band)](https://waxlimbs.bandcamp.com/)
 - [Void Femmes (my solo electronic music)](https://voidfemmes.bandcamp.com/)
 
 ## find me online
+
 - [My portfolio](https://lexfeathers.ca/portfolio)
 - [Bsky](https://bsky.app/profile/lexfeathers.ca)
 - [Mastodon](https://tenforward.social/@lexfeathers)
-- [My tiny fallback website](https://tiny.lexfeathers.ca 'A single-page HTML doc for the days I get hung up on trying to fix my SSG setup. Rarely updated.')
+- [My tiny fallback website](https://tiny.lexfeathers.ca "A single-page HTML doc for the days I get hung up on trying to fix my SSG setup. Rarely updated.")
 
 <style>
   /* Figures */
@@ -85,6 +89,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
 </style>
 
 {# Uses list #}
+
 <details class="uses">
   <summary>/uses</summary>
   <p>Here's a non-exhaustive list of tools I use.</p>
@@ -300,6 +305,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
       src="/uploads/lexfeathers_lightmode_88x31.gif" />
   </div>
 
-  <textarea name="buttoncode" class="center" spellcheck="false" aria-label="Button code" onclick="this.select()"
+<textarea name="buttoncode" class="center" spellcheck="false" aria-label="Button code" onclick="this.select()"
     style="width: 100%; height: 100px; resize: none;"><a href="https://lexfeathers.ca" target="_blank"><img width="88" height="31" alt="Lex Feathers" title="Lex Feathers" src="https://lexfeathers.ca/uploads/lexfeathers88x31.gif" style="image-rendering:pixelated;"/></a></textarea>
+
 </div>
