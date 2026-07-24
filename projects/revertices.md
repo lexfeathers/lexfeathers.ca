@@ -13,11 +13,12 @@ image_alt:
 video_link: https://www.youtube.com/watch?v=PkCjzetDvd4
 work_type: Music, Sound Design
 ---
+
 > Revertices is a 2D sidescrolling action combat game where you must choose a lone survivor! However, the chosen must fight the corrupted remains of their two beloved friends. You will witness different facets of the story, gameplay, and character relationships in each route.
 >
 > <cite><a href="https://revertices.com/">- revertices.com</a></cite>
 
-I've had the pleasure of scoring the game while also handling sound design and implementation via FMOD. 
+I've had the pleasure of scoring the game while also handling sound design and implementation via FMOD and C# in Unity.
 
 Check out the trailer below:
 
@@ -26,5 +27,6 @@ Check out the trailer below:
 Revertices is currently mid-development and will be released on Windows through Steam and Itch.io
 
 Wishlist Revertices:
+
 - [Steam](https://store.steampowered.com/app/3236560/Revertices/)
 - [Itch.io](https://fuzzyvoidco.itch.io/revertices)
