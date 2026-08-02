@@ -2,7 +2,7 @@
 title: Revertices
 author: Fuzzy Void co.
 client_link: https://revertices.com/
-published: 2025-10-30T04:00
+published: 2026-07-31T04:00
 status: in development
 excerpt: A game where you fight as fucked up little shape guys.
 draft: false
@@ -11,7 +11,7 @@ image: /uploads/revertices-verticalcapsule.webp
 image_caption: Revertices
 image_alt:
 video_link: https://www.youtube.com/watch?v=PkCjzetDvd4
-work_type: Music, Sound Design
+work_type: Music, Sound Design, Gameplay Programming
 ---
 
 > Revertices is a 2D sidescrolling action combat game where you must choose a lone survivor! However, the chosen must fight the corrupted remains of their two beloved friends. You will witness different facets of the story, gameplay, and character relationships in each route.
