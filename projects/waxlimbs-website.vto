@@ -1,0 +1,95 @@
+---
+title: Waxlimbs.com
+author: Waxlimbs
+status: released
+client_link: https://waxlimbs.com
+published: 2026-07-31T12:00
+excerpt: Official website for the band Waxlimbs.
+draft: false
+thumbnail: /uploads/WaxlimbsWebsite/Waxlimbs_thumbnail.png
+image: /uploads/WaxlimbsWebsite/waxlimbs_homepage.png
+image_caption: The Waxlimbs homepage, featuring a left sidebar layout with a white-and-yellow-on-grey colour scheme.
+image_alt:
+video_link:
+work_type: Web Development
+---
+
+<p>
+    My band Waxlimbs has had a variety of web presences over the years, but the time finally came for <a href="{{ client_link }}">a fully custom website.</a> I decided to take a fun approach to the layout, while designing a site which would be useful for press personnel who need a quick reference resource, and rich enough for fans of the band to dig into. The aesthetic would be minimal, making use of a simplistic, high-contrast colour scheme.
+</p>
+
+<p>
+    The website had to serve two purposes. For one, it needed to make sense at a glance with live gigs, contact and newsletter pages immediately apparent, but it also needed to be deep enough to allow for some playful and ongoing worldbuilding, and I needed to be able to fill it with easter eggs (see inspiration like Iglooghost’s <a href="https://exoportal.xyz/">exoportal.xyz</a>). I also wanted to be thorough in usage of alt text, and to design the site to be keyboard navigable for those using screen readers.
+</p>
+
+<p>
+    I once again opted for <a href="https://lume.land">Lume,</a> a small static site generator paired with <a href="https://vento.js.org">Vento</a> as the templating language. I’ve used Lume extensively at this point (including for this website right here!) and wanted to tap into its array of plugins and direct support via their Discord server. It also works pretty seamlessly with TypeScript via the esbuild plugin, which came in handy for things like the lightboxes on the site. One particularly nice Lume feature I took advantage of was Lume’s ability to run server-side JS with the built-in <code>process()</code> method in the _config.ts file. This allowed me to do things like mark all external links with an arrow indicator and set up social icons in the footer, without needing to bog down clients on page-load.
+</p>
+
+{{ await comp.ImageWithText({
+    image_url: "/uploads/WaxlimbsWebsite/waxlimbs_sidebarmenu.gif",
+	image_alt: "The sidebar nav menu, which features a bright yellow background and angled pink right-edge on hover",
+	image_caption: "The nav menu on desktop",
+    image_orientation: "left",
+    heading: "The nav menu",
+    blurb: `
+        The sidebar nav menu was a really fun part of designing the site, because I got to play with more exciting and over-the-top hover and focus styles than I normally would on a client project. 
+        
+        Chiefly among my favourite design flairs on the project, I made use of a linear-gradient to get the pink angle shape on the right side of each menu item on hover. I had originally planned to try a complicated SVG mask, but it became clear that in this case, simpler was better.
+
+        I also got to mess around with animations a bit by adjusting the letter spacing and left margin of the link on focus and hover.
+
+        For a lot of web development work, I try to keep hover and focus animations relatively calm, but this project was one where we wanted to play up some of the more fun and goofy affordances of web technologies. 
+    `
+})}}
+
+{{ await comp.Figure({
+    image_url: "/uploads/WaxlimbsWebsite/waxlimbs_musicpage.png",
+	image_alt: "The Music page with a hero image and caption, followed by a list of releases with images, release dates, and purchasing links.",
+	image_caption: "The Music page"
+})}}
+
+<p>
+    I took the approach of storing the site’s global data and settings in a <em>data.json</em> file, leveraging Lume’s ability to parse it in any Vento file. This was really handy for setting up basic variables like sidebar and logo width, a list of social links, and a huge array of our releases as JSON objects. I’ve wanted a “source of truth” for all our releases for a long time now, so this was very satisfying to build out. I’ve stored release dates, cover art with alt text descriptions, and purchase links, which is so handy to have as an artist with a somewhat lengthy discography, who often needs to pull this data from <em>somewhere</em> for marketing purposes.
+</p>
+
+<p>
+    Probably the most complex design work happened on the <a href="https://waxlimbs.com/pages/press">Press</a> page. We wanted to stop using downloadable PDFs for our EPK (Electronic Press Kit), so I used some of the components I built for <a href="/projects/design-by-nicole/">Nicole Calzavara’s website</a> to lay out the page content. I mostly made use of the Image With Text component, and the Image Grid. For the latter, it felt pertinent to add arrow-key navigation between grid images with TypeScript, considering our plan to include a lot of live performance photos in grids.
+</p>
+
+<p>Speaking of grids...</p>
+
+{{ await comp.ImageGrid({
+    columns: 2,
+    grid: [
+        {
+            image_url: "/uploads/WaxlimbsWebsite/waxlimbs_presspage1.png",
+            image_alt: "The press page, featuring a Table Of Contents and a hero image showing Olivia singing on stage."
+        },
+        {
+            image_url: "/uploads/WaxlimbsWebsite/waxlimbs_presspage2.png",
+            image_alt: "The EPK heading, with a byline and blurb followed by an Image With Text component."
+        },
+        {
+            image_url: "/uploads/WaxlimbsWebsite/waxlimbs_presspage3.png",
+            image_alt: "A three-column gallery layout of images taken by Emily Thuro."
+        },
+        {
+            image_url: "/uploads/WaxlimbsWebsite/waxlimbs_presspage4.png",
+            image_alt: "A lightbox showing one of the images from the grid, with attribution to Emily Thuro. The image shows Will playing guitar, lit from behind in red."
+        }
+    ]
+})}}
+
+<p>
+    One last fun and notable thing was the table of contents which appears on specific pages (Press) and all posts. An npm markdown plugin which generates a table of contents (TOC) based on DOM headers existed already, but I was building page layouts in Vento, and required something that could construct a TOC from raw HTML while ignoring markdown post-processing. <a href="https://knivesforcats.online">Noé Charron</a> helped me write a script which loops through all of the titles on a page and spits out HTML based on each title's heading level, and I took it to <a href="https://github.com/oscarotero">Óscar Otero</a> (the developer behind Lume), who then wrote an officially supported plugin which the site now uses.
+</p>
+
+<p>
+    In closing, it is so freeing to finally have a website completely owned and built <em>by us</em> after spending so many years on large platforms with rigid site builders. This project has ignited our fervor for fun little easter eggs and the web as a form of play, adding another evolving project to the Waxlimbs catalog.
+</p>
+
+{{ await comp.Figure({
+    image_url: "/uploads/WaxlimbsWebsite/waxlimbs_footer.png",
+    image_alt: "The footer, which reads 'Made from scratch with love, by Waxlimbs', followed by a heart and a list of social icons."
+})}}
