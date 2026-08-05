@@ -62,7 +62,7 @@ layout: /layout.vto
   <!-- Comments -->
   {{ if comments == true }}
     <script defer src="https://comments.friendsofeggbug.org/comentario.js"></script>
-    <comentario-comments css-override="/assets/styles/commentario.css" no-fonts="true" live-update="false"></comentario-comments>
+    <comentario-comments css-override="/assets/styles/commentario.css" no-fonts="true"></comentario-comments>
   {{ /if }}
 
   {{ await comp.latestPosts({
