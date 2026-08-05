@@ -205,6 +205,9 @@
 .center {
 	margin: auto;
 }
+.center-text {
+    text-align: center;
+}
 .right {
 	margin-left: auto;
 }
@@ -284,7 +287,7 @@ body {
 	font-family: var(--family-sans);
 	font-weight: 300;
 	line-height: 1.6;
-	background-color: var(--color-background);
+	background: var(--color-background);
 	color: var(--color-primary);
 	min-height: 100vh;
 	display: flex;
@@ -336,6 +339,10 @@ a {
 	em {
 		color: var(--color-secondary);
 	}
+}
+
+b {
+    font-weight: 600 !important;
 }
 
 #content {

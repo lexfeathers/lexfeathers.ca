@@ -18,6 +18,11 @@ work_type: Web Development
     My friend Nicole Calzavara commissioned <a href="{{ client_link }}">a portfolio website</a> from me with a catch: it needed to have modular blocks for laying out pages, and be responsive and well-documented so she could easily add content and build layouts on the fly.
 </p>
 
+{{ await comp.Figure({
+    image_url: "/uploads/DesignByNicole/DesignByNicole_ImageWithText.png",
+    image_caption: "An Image-With-Text component showing a heading, blurb and an image",
+})}}
+
 {{ await comp.ImageGrid({
     columns: 2,
     grid: [
@@ -30,11 +35,6 @@ work_type: Web Development
             image_alt: "A page from Nicole Calzavara's website shown in light mode"
         }
     ]
-})}}
-
-{{ await comp.Figure({
-    image_url: "/uploads/DesignByNicole/DesignByNicole_ImageWithText.png",
-    image_caption: "An Image-With-Text component showing a heading, blurb and an image",
 })}}
 
 <p>

@@ -1,17 +1,39 @@
 <div class="image-with-text">
   <div class="text">
     <h2>{{ heading }}</h2>
-    <p>{{ blurb }}</p>
+    <p>{{ blurb |> md }}</p>
   </div>
   <div class="image">
-    <img src="{{ image_url}}" alt="{{ image_alt }}">
+    <figure data-type="image">
+        <img src="{{ image_url}}" alt="{{ image_alt }}">
+		<figcaption>
+			{{ if image_caption }}
+				{{ image_caption |> md }}
+			{{ else }}
+				{{ image_alt |> md }}
+			{{ /if }}
+			{{ if image_attribution }}
+				<span class="attribution">
+					Image by 
+					{{ if attribution_link }}
+					<a href="{{ attribution_link |> url }}">
+					{{ /if }}
+						{{ image_attribution }}
+					{{ if attribution_link }}
+					</a>
+					{{ /if }}
+				</span>
+			{{ /if }}
+		</figcaption>
+    </figure>
   </div>
 </div>
 
 <style>
 	.image-with-text {
 		display: flex;
-		margin: 1rem 0;
+		margin-top: var(--component-spacing);
+		margin-bottom: var(--component-spacing);
 		{{ if image_orientation == 'left' || image_orientation == 'Left'}}
 			flex-direction: row-reverse
 		{{ /if }};
@@ -38,6 +60,10 @@
 			object-fit: contain;
 			}
 		}
+
+        figcaption:not(img.lightbox + figcaption) {
+            display: none;
+        }
 	}
 
 	@media screen and (max-width: 400px) {
