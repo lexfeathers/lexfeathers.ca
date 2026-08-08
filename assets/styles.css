@@ -656,7 +656,7 @@ select option {
 
 	a,
 	.date {
-		background-color: inherit;
+		/* background-color: inherit; */
 
 		.icon-letter {
 			margin-left: -3px;
