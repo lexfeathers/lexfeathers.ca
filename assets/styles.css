@@ -113,7 +113,7 @@
 			var(--color-background),
 			var(--color-primary) 20%
 		);
-		background-color: var(--color-background);
+		/* background-color: var(--color-background); */
 		color: var(--color-primary);
 		font-weight: 600;
 		:not(.name) {
@@ -288,6 +288,10 @@ body {
 	font-weight: 300;
 	line-height: 1.6;
 	background: var(--color-background);
+    background-image: radial-gradient(var(--color-primary-faded) .5px, transparent 0);
+    background-size: 9px 9px;
+    background-repeat: repeat;
+    background-attachment: fixed;
 	color: var(--color-primary);
 	min-height: 100vh;
 	display: flex;
@@ -1177,6 +1181,7 @@ details.content-warnings {
 		font-size: 18pt;
 		color: var(--color-cw-text);
 		border: none;
+        box-shadow: unset;
 
 		&::marker {
 			content: none;
