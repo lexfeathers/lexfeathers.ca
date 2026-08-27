@@ -15,7 +15,7 @@ draft: false
 
 ## Sound designer and composer for [games](https://lexfeathers.ca/portfolio)
 
-I've been writing music for over 14 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing aural detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. More recently, I've started contributing code to game projects as a junior gameplay programmer!
+I've been writing music for over 15 years, and have been working in games as both composer and sound designer for nearly a decade. I love bringing aural detail and depth to virtual worlds. Most of my work has taken place within the Toronto indie game scene. More recently, I've started contributing code to game projects as a junior gameplay programmer!
 
 Looking to work together, or just have a question? Feel free to [get in touch!](/pages/contact)
 
@@ -154,8 +154,8 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
         </ul>
         <h3>Languages</h3>
         <ul>
-            <li>JavaScript</li>
-            <li>C#</li>
+            <li>JavaScript / TypeScript</li>
+            <li>Unity C#</li>
             <li>HTML</li>
             <li>CSS</li>
         </ul>
