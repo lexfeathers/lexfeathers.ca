@@ -110,7 +110,7 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
       </ul>
       <h3>Instruments:</h3>
         <ul>
-          <li>Dingwall NG2 bass guitar - Ducati Pearl White</li>
+          <li>Dingwall NG3 5-string bass guitar</li>
           <li>Strandberg Salen NX6</li>
           <li>EVH Wolfgang Special Stealth</li>
           <ul>
@@ -118,46 +118,29 @@ Looking to work together, or just have a question? Feel free to [get in touch!](
             <li>Bridge: Dimarzio X2N</li>
             <li>Mods: Dual coil split</li>
           </ul>
-          <li>Ibanez S561, pink</li>
           <li>Squire Classic Vibe Starcaster, Sunburst</li>
           <li>Moog Sub 37 Tribute</li>
           <li>Expressive E Osmose</li>
           <li>Arturia Minibrute</li>
           <li>Teengage Engineering PO-12</li>
-          <li>Modular synthesizer</li>
-            <ul>
-              <li>...too much flux to keep track.</li>
-            </ul>
           <li><a href="/posts/voidfemmes-sixninehaus-2024/">Remington Remette (March 1939)</a></li>
         </ul>
       <h2>Other</h2>
-      <h3>Peripherals:</h3>
-        <ul>
-          <li>Keyboard: Mode Sonnet (r1)</li>
-          <ul>
-            <li>Switches: lubed ergo clears</li>
-            <li>Caps: Toshi Industrial GSA Retro High-light Legendless</li>
-            <li>Top: crema</li>
-            <li>Bottom: white</li>
-            <li>Accent: black</li>
-            <li>Setup: stack-mount</li>
-          </ul>
-          <li>Mouse: Logitech MX Vertical</li>
-        </ul>
-      <h3>Misc software:</h3>
-        <ul>
-          <li>VSCodium</li>
-          <li>zsh</li>
-          <li>Obsidian</li>
-          <li>Firefox Developer Edition</li>
-          <li>Static site generator: <a href="https://lume.land" target="_blank">Lume</a> (this site)</li>
-        </ul>
         <h3>Languages</h3>
         <ul>
             <li>JavaScript / TypeScript</li>
             <li>Unity C#</li>
             <li>HTML</li>
             <li>CSS</li>
+        </ul>
+        <h3>Misc software:</h3>
+        <ul>
+          <li>zsh</li>
+          <li>VSCodium</li>
+          <li>Obsidian</li>
+          <li>Affinity Photo</li>
+          <li>Firefox</li>
+          <li>Static site generator: <a href="https://lume.land" target="_blank">Lume</a> (this site)</li>
         </ul>
     </ul>
   </div>
