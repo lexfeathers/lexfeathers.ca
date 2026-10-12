@@ -316,7 +316,7 @@ body {
 		min-height: 100%;
 		z-index: 9999;
 
-		filter: url(noise.svg#grainy);
+		filter: url(/assets/noise.svg#grainy);
 		opacity: 20%;
 	}
 }
