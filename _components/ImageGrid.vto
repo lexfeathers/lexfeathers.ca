@@ -14,7 +14,7 @@
 
  #}}
 
-{{> const uuid = crypto.randomUUID() }}
+{{> const uuid = uuidv4() }}
 
 <div class="section image-grid-{{ uuid }}" data-type="image-grid">
     {{# Loop through each provided grid-item in the grid array #}}

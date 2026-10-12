@@ -1,4 +1,6 @@
-<div class="project-overview">
+{{> const uuid = uuidv4() }}
+
+<div class="project-overview-{{ uuid }}">
   <div class="project-details">
     <div class="headings">
       <a href="{{ url |> url }}">
@@ -34,7 +36,7 @@
 </div>
 
 <style>
-  .project-overview {
+  .project-overview-{{ uuid }} {
     background-color: var(--color-background);
     display: flex;
     flex-direction: column;
@@ -90,7 +92,7 @@
   }
 
   @media screen and (max-width: 484px) {
-    .project-overview {
+    .project-overview-{{ uuid }} {
       & .project-details .headings a {
         flex-direction: column;
       }
