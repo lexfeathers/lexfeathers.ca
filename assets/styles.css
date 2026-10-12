@@ -288,7 +288,7 @@ body {
 	font-weight: 300;
 	line-height: 1.6;
 	background: var(--color-background);
-    background-image: radial-gradient(var(--color-primary-faded) .5px, transparent 0);
+    /* background-image: radial-gradient(var(--color-primary-faded) .5px, transparent 0); */
     background-size: 9px 9px;
     background-repeat: repeat;
     background-attachment: fixed;
