@@ -17,7 +17,7 @@ excerpt: >-
     On the production process behind the latest single from Waxlimbs
 ---
 
-We're back with another song after what feels like an extremely productive few months. [I wrote a bit about it on the Waxlimbs website](https://waxlimbs.com/posts/firestorm-in-evening-released/), but thought to write something more personal here. This single is the first from our upcoming (and untitled) album.
+We're back with another song after what feels like an extremely productive few months. [I wrote a bit about it on the Waxlimbs website](https://waxlimbs.com/posts/firestorm-in-evening-released/), but thought to write something more personal here. This single is the first from our upcoming (and as of yet untitled) album.
 
 <iframe style="border: 0; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1551379514/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://waxlimbs.bandcamp.com/track/firestorm-in-evening">Firestorm In Evening by Waxlimbs</a></iframe>
 
