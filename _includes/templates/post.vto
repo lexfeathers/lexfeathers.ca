@@ -65,7 +65,8 @@ layout: /layout.vto
     <comentario-comments css-override="/assets/styles/commentario.css" no-fonts="true"></comentario-comments>
   {{ /if }}
 
-  {{ await comp.latestPosts({
-    count: 3
-  })}}
+    {{ await comp.latestPosts({
+        count: 3,
+        url: url
+    })}}
 </article>

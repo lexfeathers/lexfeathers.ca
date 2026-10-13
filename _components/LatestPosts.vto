@@ -4,7 +4,7 @@
         <span>Latest posts:</span><a href="/pages/directory">View all</a>
         </h2>
 
-        {{ set latestPosts = search.pages("type=post draft=false", "published=desc", count) }}
+        {{ set latestPosts = search.pages(`type=post url!=${url} draft=false`, "published=desc", count) }}
 
         <ul class="directory">
         {{ for post of latestPosts }}
