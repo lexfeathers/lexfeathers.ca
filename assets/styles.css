@@ -392,6 +392,9 @@ blockquote {
 	font-style: italic;
 	font-size: var(--text-medium);
 	font-family: var(--family-serif);
+	border-left: 2px solid var(--color-primary-faded);
+	margin-left: 0;
+	padding-left: 2ch;
 }
 
 /* Markdown Alerts */
@@ -578,7 +581,7 @@ audio {
 	border: 2px solid var(--color-primary-highlight);
 	border-radius: var(--radius);
 	padding-right: 1rem;
-	margin-top: 2rem;
+	margin-top: 4rem;
 }
 .footnotes-list {
 	font-size: var(--text-small);
