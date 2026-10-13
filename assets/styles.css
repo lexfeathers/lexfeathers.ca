@@ -314,7 +314,7 @@ body {
 		content: "";
 		min-width: 100%;
 		min-height: 100%;
-		z-index: 9999;
+		z-index: 998;
 
 		filter: url(/assets/noise.svg#grainy);
 		opacity: 20%;
@@ -1442,6 +1442,8 @@ button:focus-visible {
 
 iframe[title="YouTube video player"],
 iframe[src*="bandcamp.com"] {
+	position: relative;
+	z-index: 999;
 	display: block;
 	margin: 0 auto;
 	width: 100%;
