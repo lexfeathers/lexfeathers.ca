@@ -206,7 +206,7 @@
 	margin: auto;
 }
 .center-text {
-    text-align: center;
+	text-align: center;
 }
 .right {
 	margin-left: auto;
@@ -283,23 +283,42 @@
 }
 /* End tooltips */
 
+html,
 body {
-	font-family: var(--family-sans);
-	font-weight: 300;
-	line-height: 1.6;
-	background: var(--color-background);
-    /* background-image: radial-gradient(var(--color-primary-faded) .5px, transparent 0); */
-    background-size: 9px 9px;
-    background-repeat: repeat;
-    background-attachment: fixed;
-	color: var(--color-primary);
-	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	font-size: var(--text-small);
-	max-width: var(--page-width);
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	flex-grow: 1;
 	margin: auto;
 	padding: 0 2rem;
+	font-family: var(--family-sans);
+	font-weight: 300;
+	font-size: var(--text-small);
+	line-height: 1.6;
+	color: var(--color-primary);
+	background: var(--color-background);
+
+	&::after {
+		pointer-events: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: "";
+		min-width: 100%;
+		min-height: 100%;
+		z-index: 998;
+
+		filter: url(/assets/noise.svg#grainy);
+		opacity: 20%;
+	}
 }
 
 h1,
@@ -346,7 +365,7 @@ a {
 }
 
 b {
-    font-weight: 600 !important;
+	font-weight: 600 !important;
 }
 
 #content {
@@ -373,6 +392,9 @@ blockquote {
 	font-style: italic;
 	font-size: var(--text-medium);
 	font-family: var(--family-serif);
+	border-left: 2px solid var(--color-primary-faded);
+	margin-left: 0;
+	padding-left: 2ch;
 }
 
 /* Markdown Alerts */
@@ -491,9 +513,8 @@ blockquote {
 /* This is where the page content and the sidebar go. */
 main {
 	display: flex;
-	/* flex-direction: row; */
+	max-width: var(--page-width);
 	column-gap: 1rem;
-	/* margin: 0 0 2rem 0; */
 	flex: 1 0 auto;
 	border: var(--color-primary);
 
@@ -560,7 +581,7 @@ audio {
 	border: 2px solid var(--color-primary-highlight);
 	border-radius: var(--radius);
 	padding-right: 1rem;
-	margin-top: 2rem;
+	margin-top: 4rem;
 }
 .footnotes-list {
 	font-size: var(--text-small);
@@ -1181,7 +1202,7 @@ details.content-warnings {
 		font-size: 18pt;
 		color: var(--color-cw-text);
 		border: none;
-        box-shadow: unset;
+		box-shadow: unset;
 
 		&::marker {
 			content: none;
@@ -1260,6 +1281,13 @@ pre > code {
 	text-overflow: "...";
 	padding-left: 0;
 	margin: 0;
+}
+
+header,
+main,
+.footer-container {
+	width: 100%;
+	max-width: var(--page-width);
 }
 
 /* Header styles */
@@ -1414,6 +1442,8 @@ button:focus-visible {
 
 iframe[title="YouTube video player"],
 iframe[src*="bandcamp.com"] {
+	position: relative;
+	z-index: 999;
 	display: block;
 	margin: 0 auto;
 	width: 100%;

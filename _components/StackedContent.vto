@@ -1,4 +1,6 @@
-<div class="stacked-content">
+{{> const uuid = uuidv4() }}
+
+<div class="stacked-content-{{ uuid }}">
 {{ for item of content }}
   <div class="stacked-content__item">
     <h3>{{ item.heading }}</h3>
@@ -10,7 +12,7 @@
 </div>
 
 <style>
-    .stacked-content {
+    .stacked-content-{{ uuid }} {
         width: 100%;
         display: flex;
         &>* {
@@ -18,7 +20,7 @@
         }
     }
     @media screen and (max-width: 839px) {
-        .stacked-content {
+        .stacked-content-{{ uuid }} {
             flex-direction: column;
             &>* {
                 width: 100%;

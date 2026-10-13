@@ -1,4 +1,6 @@
-<div class="image-with-text">
+{{> const uuid = uuidv4() }}
+
+<div class="image-with-text-{{ uuid }}">
   <div class="text">
     <h2>{{ heading }}</h2>
     <p>{{ blurb |> md }}</p>
@@ -30,55 +32,55 @@
 </div>
 
 <style>
-	.image-with-text {
-		display: flex;
-		margin-top: var(--component-spacing);
-		margin-bottom: var(--component-spacing);
-		{{ if image_orientation == 'left' || image_orientation == 'Left'}}
-			flex-direction: row-reverse
-		{{ /if }};
-		gap: 2rem;
-		min-height:  
-			{{ if section_height_min }}
-				{{ section_height_min }}
-			{{ else }}
-				150px
-			{{ /if }}
-		;
+.image-with-text-{{ uuid }} {
+    display: flex;
+    margin-top: var(--component-spacing);
+    margin-bottom: var(--component-spacing);
+    {{ if image_orientation == 'left' || image_orientation == 'Left'}}
+        flex-direction: row-reverse
+    {{ /if }};
+    gap: 2rem;
+    min-height:  
+        {{ if section_height_min }}
+            {{ section_height_min }}
+        {{ else }}
+            150px
+        {{ /if }}
+    ;
 
-		& .text {
-			width: 60%;
-		}
+    & .text {
+        width: 60%;
+    }
 
-		& .image {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			width: 40%;
-			& img {
-			width: 100%;
-			object-fit: contain;
-			}
-		}
-
-        figcaption:not(img.lightbox + figcaption) {
-            display: none;
+    & .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        & img {
+        width: 100%;
+        object-fit: contain;
         }
-	}
+    }
 
-	@media screen and (max-width: 400px) {
-		.image-with-text {
-			flex-direction: 
-				{{ if image_orientation == 'left' || image_orientation == 'Left'}}
-					column-reverse
-				{{ else }}
-					column
-				{{ /if }}
-			;
+    figcaption:not(img.lightbox + figcaption) {
+        display: none;
+    }
+}
 
-			& .text, .image {
-				width: 100%;
-			}
-		}
-	}
+@media screen and (max-width: 400px) {
+    .image-with-text-{{ uuid }} {
+        flex-direction: 
+            {{ if image_orientation == 'left' || image_orientation == 'Left'}}
+                column-reverse
+            {{ else }}
+                column
+            {{ /if }}
+        ;
+
+        & .text, .image {
+            width: 100%;
+        }
+    }
+}
 </style>

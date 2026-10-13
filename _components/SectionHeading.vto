@@ -3,7 +3,9 @@
     {{ await comp.SectionHeading({heading: "Welcome!", blurb: "This is a section heading's blurb"}) }} 
 #}}
 
-<div class="section-heading">
+{{> const uuid = uuidv4() }}
+
+<div class="section-heading-{{ uuid }}">
   {{ if heading }}
     <h2>{{ heading }}</h2>
   {{ /if }}
@@ -15,7 +17,7 @@
 </div>
 
 <style>
-  .section-heading {
+  .section-heading-{{ uuid }} {
     display: flex;
     align-items: center;
     width: 100%;
@@ -25,7 +27,7 @@
     }
   }
   @media screen and (max-width: 1279px) {
-    .section-heading {
+    .section-heading-{{ uuid }} {
       flex-direction: column;
       justify-content: flex-start;
 

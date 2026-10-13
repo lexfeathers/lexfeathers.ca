@@ -1,4 +1,6 @@
-<div class="horizontal-gallery">
+{{> const uuid = uuidv4() }}
+
+<div class="horizontal-gallery-{{ uuid }}">
   {{# Loop through each provided card in the cards array #}}
   {{ for card of cards }}
     <a href="{{card.card_url}}" class="card-link grid-item shadow-hover">
@@ -16,7 +18,7 @@
 </div>
 
 <style>
-  .horizontal-gallery {
+  .horizontal-gallery-{{ uuid }} {
     display: grid;
     grid-template-columns: repeat({{cards.length}}, 1fr);
 
@@ -46,7 +48,7 @@
     }
   }
   @media screen and (max-width: 839px) {
-    .horizontal-gallery {
+    .horizontal-gallery-{{ uuid }} {
       grid-template-columns: auto;
       grid-template-rows: auto;
       gap: 1rem;

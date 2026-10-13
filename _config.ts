@@ -1,7 +1,6 @@
 import lume from "lume/mod.ts";
 import esbuild from "lume/plugins/esbuild.ts";
 import postcss from "lume/plugins/postcss.ts";
-// import nunjucks from "lume/plugins/nunjucks.ts";
 import favicon from "lume/plugins/favicon.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import date from "lume/plugins/date.ts";
@@ -18,6 +17,7 @@ import icons from "lume/plugins/icons.ts";
 // import transformImages from "lume/plugins/transform_images.ts";
 import googleFonts from "lume/plugins/google_fonts.ts";
 import { alert } from "npm:@mdit/plugin-alert@0.8.0";
+import { v4 as uuidv4 } from "npm:uuid@14.0.3";
 
 // Pass options to markdown-it plugins
 const markdown = {
@@ -51,6 +51,9 @@ const site = lume(
 	},
 );
 
+site.data("uuidv4", function () {
+	return uuidv4();
+});
 site.add([".css"]);
 site.add("/assets/"); // Include assets in the build
 site.add("/uploads/"); // Include uploads in the build
