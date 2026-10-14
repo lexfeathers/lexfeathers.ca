@@ -5,7 +5,7 @@
                 <a href="{{ pagination.previous }}" rel="prev"><-</a>
             </li>
             <li class="pagination-page">
-                page {{ pagination.page }} of {{ pagination.totalPages }}
+                {{ pagination.page }} of {{ pagination.totalPages }}
             </li>
             <li class="pagination-next" {{ if pagination.next >= 0 }} style="visibility: hidden;" {{ /if }}>
                 <a href="{{ pagination.next }}" rel="next">-></a>
