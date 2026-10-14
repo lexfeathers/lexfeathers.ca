@@ -58,5 +58,11 @@
 		<script src="/assets/scripts/theme-selector.js"></script>
 		<!-- Set Markdown Alert marker icons -->
         {{ include "partials/markdown-alerts.vto" }}
+        <style>
+            :root {
+                --icon-envelope: url({{ "envelope-simple:duotone" |> icon("phosphor") }});
+                --icon-person: url({{ "user:duotone" |> icon("phosphor") }});
+            }
+        </style>
 	</body>
 </html>
