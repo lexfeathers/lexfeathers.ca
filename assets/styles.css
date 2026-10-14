@@ -536,7 +536,10 @@ main {
 	opacity: 0.69;
 }
 
-.date {
+.date,
+.author {
+    display: inline-flex;
+    align-items: center;
 	font-size: var(--text-small);
 }
 
@@ -596,17 +599,9 @@ a.footnote-backref {
 	text-decoration: none;
 }
 .footnote-item > p > img {
-	/* border: 1px solid var(--color-primary-faded); */
 	box-shadow: var(--shadow);
 	border-radius: var(--radius);
 }
-
-/* Removed because I don't think I'm using this anywhere anymore??? */
-/* article:has(.latest-posts-container) {
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-} */
 
 article.latest-posts-container {
 	min-height: 100%;
@@ -675,16 +670,7 @@ select option {
 		margin-bottom: 0;
 	}
 
-	a,
-	.date {
-		/* background-color: inherit; */
-
-		.icon-letter {
-			margin-left: -3px;
-		}
-	}
-
-	div {
+	.directory-card__container {
 		display: inline-flex;
 		flex-grow: 1;
 		margin: 0;
@@ -888,11 +874,6 @@ select option {
 
 #content {
 	flex: 3 1 auto;
-
-	/* Do not apply bottom padding to the homepage */
-	article:not(.latest-posts-container) {
-		padding: 0 0 2rem 0;
-	}
 }
 
 a {
@@ -910,15 +891,32 @@ a {
 	}
 }
 
+/* Icons */
+
 .icon {
-	align-items: center;
-	font-family: var(--family-code) !important;
-	display: inline-flex;
-	height: 24px;
-	justify-content: center;
-	line-height: 0;
-	width: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--family-code) !important;
+    line-height: 0;
+    mask-repeat: no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
 }
+
+.icon-letter {
+    background-color: var(--color-tertiary);
+    mask: var(--icon-envelope);
+}
+
+.icon-person {
+    background-color: var(--color-tertiary);
+    mask: var(--icon-person);
+}
+
+/* End icons */
+
 
 .excerpt {
 	padding-bottom: 1rem;
@@ -1067,17 +1065,15 @@ a {
 		}
 
 		.grid-item__client {
+            display: inline-flex;
+            align-items: center;
 			padding-bottom: 0.5rem;
 			margin-bottom: 0.5rem;
 			border-bottom: 1px solid var(--color-primary-faded);
 			font-size: calc(var(--text-small) / 1.15) !important;
 
 			.icon {
-				border: 1px solid var(--color-tertiary);
-				border-radius: var(--radius);
-				box-shadow: inset 0px 4px 2px var(--color-dark-background);
-				margin-right: 0.25rem;
-				padding: 1px;
+				margin-right: 0.5rem;
 			}
 		}
 

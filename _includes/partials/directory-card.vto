@@ -1,5 +1,5 @@
 <li class="directory-card">
-  <div>
+  <div class="directory-card__container">
     <a
       class="card-image__link{{ if !post.image }} card-image__link____noimage{{ /if }}"
       href="{{ post.url }}"
@@ -24,7 +24,7 @@
         {{ post.title }}
       </span><br>
       <span class="faded date">
-        <span aria-hidden="true" class="icon icon-letter">&#9993;</span>
+        <div aria-hidden="true" class="icon icon-letter"></div>
         {{ include "partials/date.vto" }}
       </span>
       <br>
