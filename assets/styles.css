@@ -1550,14 +1550,14 @@ iframe[src*="bandcamp.com"] {
 		.card-excerpt {
 			margin: 0.25rem 0 0;
 		}
-		div {
+		.directory-card__container {
 			.directory-card__link {
 				padding: 0 1rem 1rem;
 			}
 			.card-image__link {
 				min-width: 100%;
 				padding: 1rem;
-				margin: auto;
+				margin: 0;
 				border-radius: calc(var(--radius) * 1.5);
 			}
 		}
