@@ -551,13 +551,11 @@ main {
 	flex-direction: column;
 	border-radius: calc(var(--radius) * 2);
 	box-shadow: var(--shadow);
-	/* filter: hue-rotate(35deg) saturate(50%); */
 
 	img {
 		width: 100%;
 		vertical-align: middle;
 		height: auto;
-		/* filter: sepia(1); */
 	}
 }
 
@@ -572,7 +570,6 @@ audio {
 	margin: 2rem auto;
 	width: 100%;
 	border-radius: var(--radius);
-	/* filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%); */
 	max-width: 90%;
 }
 
@@ -740,10 +737,6 @@ select option {
 	content: none;
 }
 /* End directory */
-
-/* .date:not(.excerpt-date)::before {
-	content: " - ";
-} */
 
 #sidebar,
 #content,
