@@ -13,10 +13,10 @@ description: Composer, Sound Designer and Webdev.
     Here are the projects I've been involved in:
 </p>
 
+{{ include "partials/pagination.vto" }}
+
 <div class="grid">
   {{ for item of results }}
     {{ include "partials/grid-item.vto" { item } }}
   {{ /for }}
 </div>
-
-{{ include "partials/pagination.vto" }}
