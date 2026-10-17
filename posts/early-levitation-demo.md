@@ -46,7 +46,7 @@ Something about sitting on the floor and playing with simple musical ideas feels
 
 I was lucky enough to grow up in a house with a fireplace, and when we'd have fires around this time of year, I'd see the flicker of the firelight in that tiny space under the door and I'd feel safe. Maybe that's what I'm trying to reconnect with. I like to think this demo captures a little bit of that firelight.
 
-And there you have it, a smaller, less-serious post to the blog. I want to do more stuff like this and show some unreleased music off, so maybe we'll see some more updates before the year is out! ;)
+And there you have it, a smaller, less-serious post for the blog. I want to do more stuff like this and show off some unreleased music, so maybe we'll see some more updates before the year is out! ;)
 
 I hope you're warm and well <3
 
