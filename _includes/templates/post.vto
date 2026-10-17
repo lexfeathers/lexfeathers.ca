@@ -2,70 +2,80 @@
 layout: /layout.vto
 ---
 <div data-pagefind-ignore>
-  <a href="/pages/directory" alt="Back to directory" class="button"><- directory</a>
-  <h1>{{ title }}</h1>
-  <hr class="faded">
+	<a href="/pages/directory" alt="Back to directory" class="button"><- directory</a>
+	<h1>{{ title }}</h1>
+	<hr class="faded">
 
-  {{ if author }}
-    <h3 class="faded author">
-      <div aria-hidden="true" class="icon icon-letter"></div> 
-      {{ author }}
-      <span class="faded date">&nbsp;- {{ published |> date('HUMAN_DATE') }}</span>
-    </h3>
-  {{ /if }}
+	{{ if author }}
+		<h3 class="faded author">
+		<div aria-hidden="true" class="icon icon-letter"></div> 
+		{{ author }}
+		<span class="faded date">&nbsp;- {{ published |> date('HUMAN_DATE') }}</span>
+		</h3>
+	{{ /if }}
 </div>
 
 <article class="post" transform-images="webp gif 1000@2">
-  {{ if content_warnings?.length >= 1 }}
-	<details class="content-warnings" open="">
-      <summary>Content warning{{ if content_warnings?.length >= 2 }}s{{/if}}</summary>
-      <ul>
-        {{ for cw of content_warnings }}
-          <li>{{ cw }}</li>
-        {{ /for }}
-      </ul>
-    </details>
-  {{ /if }}
+	{{ if content_warnings?.length >= 1 }}
+		<details class="content-warnings" open="">
+		<summary>Content warning{{ if content_warnings?.length >= 2 }}s{{/if}}</summary>
+		<ul>
+			{{ for cw of content_warnings }}
+			<li>{{ cw }}</li>
+			{{ /for }}
+		</ul>
+		</details>
+	{{ /if }}
 
-  <h1 class="visually-hidden" aria-hidden="true">{{ title }}</h1>
+	<h1 class="visually-hidden" aria-hidden="true">{{ title }}</h1>
 
-  {{ if image }}
-    <figure class="hero-img" transform-images="" data-type="image">
-      {{# <a href="{{ image }}"> #}}
-        <img 
-          src="{{ image }}" 
-          title="{{ if image_alt }}{{ image_alt }}{{ else }}{{ image_caption }}{{ /if }}"
-          alt="{{ if image_alt }}{{ image_alt }}{{ else }}{{ image_caption }}{{ /if }}" 
-          loading="lazy"
-        >
-      {{# </a> #}}
-      {{ if image_caption }}
-        <figcaption>{{ image_caption }}</figcaption>
-      {{ /if }}
-    </figure>
-  {{ /if }}
+	{{ if image }}
+		<figure class="hero-img" transform-images="" data-type="image">
+			<img 
+			src="{{ image }}" 
+			title="{{ if image_alt }}{{ image_alt }}{{ else }}{{ image_caption }}{{ /if }}"
+			alt="{{ if image_alt }}{{ image_alt }}{{ else }}{{ image_caption }}{{ /if }}" 
+			loading="lazy"
+			>
+		{{ if image_caption }}
+			<figcaption>{{ image_caption }}</figcaption>
+		{{ /if }}
+		</figure>
+	{{ /if }}
 
-  {{ content |> safe }}
+	{{ content |> safe }}
 
-  {{# Loop through tags and display them inline, if there are any #}}
-  {{ if tags }}
-    <div class="tags">
-      <h3>Tags:</h3>
-      <ul class="taglist">
-        {{ for tag of tags }}
-          <li><a href="../../tag/{{tag}}">{{ tag }}</a></li>
-        {{ /for }}
-      </ul>
-    </div>
-  {{ /if }}
+	<hr class="faded" style="margin: 2rem 0;">
 
-  <br>
+	{{# Loop through tags and display them inline, if there are any #}}
+	{{ if tags }}
+		<div class="tags">
+			<h3>Tags:</h3>
+			<ul class="taglist">
+				{{ for tag of tags }}
+				<li><a href="../../tag/{{ tag }}">{{ tag }}</a></li>
+				{{ /for }}
+			</ul>
+		</div>
+	{{ /if }}
 
-  <!-- Comments -->
-  {{ if comments == true }}
-    <script defer src="https://comments.friendsofeggbug.org/comentario.js"></script>
-    <comentario-comments css-override="/assets/styles/commentario.css" no-fonts="true"></comentario-comments>
-  {{ /if }}
+	{{ if lately?.length }}
+		<div class="lately">
+			<h3>Lately:</h3>
+			<ul class="lately">
+				{{ for item of lately }}
+					<li>{{item |> md}}</li>		
+				{{ /for }}
+			</ul>
+		</div>
+	{{ /if }}
+
+	<br>
+
+	{{ if comments == true }}
+		<script defer src="https://comments.friendsofeggbug.org/comentario.js"></script>
+		<comentario-comments css-override="/assets/styles/commentario.css" no-fonts="true"></comentario-comments>
+	{{ /if }}
 
     {{ await comp.latestPosts({
         count: 3,
