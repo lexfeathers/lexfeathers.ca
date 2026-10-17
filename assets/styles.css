@@ -364,7 +364,7 @@ a {
 	}
 }
 
-b {
+b, strong {
 	font-weight: 600 !important;
 }
 
@@ -565,6 +565,55 @@ article img:not(.banner > img, .cool-links img) {
 	width: 100%;
 }
 
+/* Tags block at the bottom of posts */
+.tags {
+    padding: 1rem;
+    border: 2px solid var(--color-primary-highlight);
+    border-radius: var(--radius);
+    font-size: var(--text-small);
+
+    h3 {
+        margin: 0;
+    }
+
+	ul.taglist {
+		padding-left: 0px;
+		list-style: none;
+		margin-bottom: 0;
+
+		li {
+			display: inline;
+
+			&:not(:last-child)::after {
+				content: ",";
+			}
+		}
+	}
+}
+/* End tags */
+
+/* "Lately" block that appears at the bottom of posts */
+div.lately {
+    margin: 1rem 0;
+    border: 2px solid var(--color-primary-highlight);
+    border-radius: var(--radius);
+    padding: 1rem;
+
+    h3 {
+        margin: 0;
+    }
+}
+
+ul.lately {
+    list-style-type: '⟣  ';
+    padding-left: 3rem;
+
+    p {
+        margin: 0.5rem 0;
+    }
+}
+/* End lately */
+
 audio {
 	display: block;
 	margin: 2rem auto;
@@ -581,7 +630,7 @@ audio {
 	border: 2px solid var(--color-primary-highlight);
 	border-radius: var(--radius);
 	padding-right: 1rem;
-	margin-top: 4rem;
+	margin-top: 2rem;
 }
 .footnotes-list {
 	font-size: var(--text-small);
@@ -1090,14 +1139,14 @@ a {
 /* Generic <details> styling */
 details {
 	&:not(.content-warnings) {
-		padding: 1rem;
-		border: 2px solid var(--color-secondary);
+        border: 2px solid var(--color-secondary);
 		border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 1rem;
 	}
-
+    
 	summary {
-		cursor: pointer;
-		box-shadow: var(--shadow);
+        cursor: pointer;
 
 		&.stylish-summary {
 			font-size: 20pt;
@@ -1261,6 +1310,7 @@ pre > code {
 	background-color: var(--color-background);
 	padding-left: 0;
 	padding-right: 0;
+    text-wrap: auto;
 }
 
 .directory {
@@ -1313,26 +1363,6 @@ header {
 		/* Do not display the header nav on desktop 
 		because we have the menu in the sidebar */
 		display: none;
-	}
-}
-
-/* Tag list that appears at the bottom of a post */
-div.tags {
-	margin-top: 4rem;
-	font-size: var(--text-small);
-
-	ul.taglist {
-		padding-left: 0px;
-		list-style: none;
-		margin-bottom: 0;
-
-		li {
-			display: inline;
-
-			&:not(:last-child)::after {
-				content: ",";
-			}
-		}
 	}
 }
 
