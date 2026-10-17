@@ -10,7 +10,7 @@ thumbnail: /uploads/revertices-verticalcapsule.webp
 image: /uploads/revertices-verticalcapsule.webp
 image_caption: Revertices
 image_alt:
-video_link: https://www.youtube.com/watch?v=PkCjzetDvd4
+video_link: https://www.youtube.com/watch?v=IL7qi6vdp8k
 work_type: Music, Sound Design, Gameplay Programming
 ---
 
