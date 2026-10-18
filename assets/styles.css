@@ -447,7 +447,7 @@ blockquote {
 		}
 	}
 	&.markdown-alert-important {
-		--color-secondary: magenta;
+		--color-secondary: #e0007f;
 		.markdown-alert-title::before {
 			content: "";
 			background-color: var(--color-secondary);
