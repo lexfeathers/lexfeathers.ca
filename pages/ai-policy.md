@@ -26,3 +26,5 @@ A lot has been written in [better words](https://tante.cc/2026/04/21/ai-as-a-fas
 It is fascist technology, and to use it is to take part in a fascist vision for the world.
 
 [^1]: Wordpress the software, not Wordpress the hosting company. I am well-aware of how they conduct themselves.
+
+_Last updated October 18th, 2026_
