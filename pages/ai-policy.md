@@ -27,4 +27,8 @@ It is fascist technology, and to use it is to take part in a fascist vision for 
 
 [^1]: Wordpress the software, not Wordpress the hosting company. I am well-aware of how they conduct themselves.
 
-_Last updated October 18th, 2026_
+<small>
+    <p class="faded" style="font-style: italic;">
+        Last updated October 18th, 2026
+    </p>
+</small>
