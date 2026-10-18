@@ -4,13 +4,19 @@ layout: /layout.vto
 <div data-pagefind-ignore>
 	<a href="/pages/directory" alt="Back to directory" class="button"><- directory</a>
 	<h1>{{ title }}</h1>
+    {{ if subheading }}
+        <p class="faded subtitle">
+            {{ subheading }}
+        </p>
+    {{ /if }}
+
 	<hr class="faded">
 
 	{{ if author }}
 		<h3 class="faded author">
-		<div aria-hidden="true" class="icon icon-letter"></div> 
-		{{ author }}
-		<span class="faded date">&nbsp;- {{ published |> date('HUMAN_DATE') }}</span>
+            <div aria-hidden="true" class="icon icon-letter"></div> 
+            {{ author }}
+            <span class="faded date">&nbsp;- {{ published |> date('HUMAN_DATE') }}</span>
 		</h3>
 	{{ /if }}
 </div>
@@ -18,12 +24,12 @@ layout: /layout.vto
 <article class="post" transform-images="webp gif 1000@2">
 	{{ if content_warnings?.length >= 1 }}
 		<details class="content-warnings" open="">
-		<summary>Content warning{{ if content_warnings?.length >= 2 }}s{{/if}}</summary>
-		<ul>
-			{{ for cw of content_warnings }}
-			<li>{{ cw }}</li>
-			{{ /for }}
-		</ul>
+            <summary>Content warning{{ if content_warnings?.length >= 2 }}s{{/if}}</summary>
+            <ul>
+                {{ for cw of content_warnings }}
+                    <li>{{ cw }}</li>
+                {{ /for }}
+            </ul>
 		</details>
 	{{ /if }}
 
@@ -32,10 +38,10 @@ layout: /layout.vto
 	{{ if image }}
 		<figure class="hero-img" transform-images="" data-type="image">
 			<img 
-			src="{{ image }}" 
-			title="{{ if image_alt }}{{ image_alt }}{{ else }}{{ image_caption }}{{ /if }}"
-			alt="{{ if image_alt }}{{ image_alt }}{{ else }}{{ image_caption }}{{ /if }}" 
-			loading="lazy"
+                src="{{ image }}" 
+                title="{{ if image_alt }}{{ image_alt }}{{ else }}{{ image_caption }}{{ /if }}"
+                alt="{{ if image_alt }}{{ image_alt }}{{ else }}{{ image_caption }}{{ /if }}" 
+                loading="lazy"
 			>
 		{{ if image_caption }}
 			<figcaption>{{ image_caption }}</figcaption>
@@ -53,7 +59,7 @@ layout: /layout.vto
 			<h3>Tags:</h3>
 			<ul class="taglist">
 				{{ for tag of tags }}
-				<li><a href="../../tag/{{ tag }}">{{ tag }}</a></li>
+                    <li><a href="../../tag/{{ tag }}">{{ tag }}</a></li>
 				{{ /for }}
 			</ul>
 		</div>
@@ -76,9 +82,9 @@ layout: /layout.vto
 		<script defer src="https://comments.friendsofeggbug.org/comentario.js"></script>
 		<comentario-comments css-override="/assets/styles/commentario.css" no-fonts="true"></comentario-comments>
 	{{ /if }}
-
-    {{ await comp.latestPosts({
-        count: 3,
-        url: url
-    })}}
 </article>
+
+{{ await comp.latestPosts({
+    count: 3,
+    url: url
+})}}

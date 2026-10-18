@@ -13,6 +13,7 @@ excerpt: >
   I'll start by posting a demo I wrote when I was house-sitting for my partner
   when she was out of town:
 image_caption: An old weather-stained plank with bright spots of lichen on it
+subheading: A short demo made with my partner's piano
 ---
 I'll start by posting a demo I wrote when I was house-sitting for my partner when she was out of town:
 
