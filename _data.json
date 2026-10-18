@@ -43,7 +43,7 @@
 	},
 	"metas": {
 		"site": "Lex Feathers",
-		"title": "=website.title =title",
+		"title": "=title",
 		"lang": "en",
 		"color": "#141414",
 		"author": "Lex Feathers",
