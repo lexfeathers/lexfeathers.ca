@@ -1,7 +1,7 @@
 export const layout = "/templates/portfolio.vto";
 
 export default function* ({ search, paginate }) {
-  const projects = search.pages("type=project", "published=desc");
+  const projects = search.pages("type=project draft=false", "published=desc");
   const options = {
     url: (n: number) => n == 1 ? `/portfolio/` : `/portfolio/${n}/`, // Óscar's suggestion
     size: 6,
