@@ -15,7 +15,7 @@ This umbrella includes LLMs, stable diffusion models for image generation, and t
 
 If I wanted to offload the work of designing and building a website, I would use a WYSIWYG site builder like Wordpress[^1] with a premade theme, or I would simply pay another developer to build a website for me.
 
-Believe it or not, I find writing code and solving problems manually _fun,_ most of the time. I started building this site in the wake of [Cohost](/posts/cohost) shutting down, fueled by an intense passion for self-determination and creativity in building a "place" I could call my own. I have learned so much from undertaking this and other development projects, and I would never farm that out to the slop machine.
+Believe it or not, most of the time I find writing code and solving problems manually _fun._ I started building this site in the wake of [Cohost](/posts/cohost) shutting down, fueled by an intense passion for self-determination and creativity in building a "place" I could call my own. I have learned so much from undertaking this and other development projects, and I would never farm that out to the slop machine.
 
 > I think we should shed the idea that AI is a technological artifact with political features and recognize it as a political artifact through and through. AI is an ideological project to shift authority and autonomy away from individuals, towards centralized structures of power. Projects that claim to “democratize” AI routinely conflate “democratization” with “commodification”. Even open-source AI projects often borrow from libertarian ideologies to help manufacture little fiefdoms.
 > 
