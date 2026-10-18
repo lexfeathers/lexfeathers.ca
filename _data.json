@@ -2,7 +2,7 @@
 	"layout": "layout.vto",
 	"website": {
 		"title": "Lex Feathers",
-		"show_transients": true,
+		"show_transients": false,
 		"show_recent_posts": false,
 		"logo": {
 			"image_darkmode": "/assets/images/Lex Feathers Logo_ff993a_small.png",
