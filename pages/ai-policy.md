@@ -9,7 +9,7 @@ draft: false
 
 ## I strongly oppose the use of generative AI
 
-This umbrella includes LLMs, stable diffusion models for image-generation, and their associated technologies. I am not referring to the general field of machine-learning, which has long predated our contemporary _marketed_ understanding of "AI".
+This umbrella includes LLMs, stable diffusion models for image generation, and their associated technologies. I am not referring to the general field of machine-learning, which has long predated our contemporary _marketed_ understanding of "AI".
 
 ### This website is 100% human-made
 
@@ -21,7 +21,7 @@ Believe it or not, I find writing code and solving problems manually _fun,_ most
 > 
 > [Ali Alkhatib, "Defining AI"](https://ali-alkhatib.com/blog/defining-ai)
 
-A lot has been written in [better words](https://tante.cc/2026/04/21/ai-as-a-fascist-artifact/) than I could state myself, about the disastrous effects of generative AI on our environment, critical thinking ability, mass-theft of intellectual property, readability of existing codebases, the cost and availability of consumer PC parts, labour rights, and the concentration of power into fascist hands. My position is that there can be no "neutral" use case for generative AI, as taking part in the ecosystem means directly contributing to all of the aformentioned problems.
+A lot has been written in [better words](https://tante.cc/2026/04/21/ai-as-a-fascist-artifact/) than I could state myself, about the disastrous effects of generative AI on our environment and critical thinking ability, the mass-theft of intellectual property, the readability of existing codebases, the cost and availability of consumer PC parts, labour rights, and the concentration of power into fascist hands. My position is that there can be no "neutral" use case for generative AI, as taking part in the ecosystem means directly contributing to all of the aformentioned problems.
 
 It is fascist technology, and to use it is to take part in a fascist vision for the world.
 
