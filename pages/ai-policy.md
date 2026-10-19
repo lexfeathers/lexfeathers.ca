@@ -1,7 +1,7 @@
 ---
 title: AI policy
 description: My stance on AI and how that factors into this website
-image: /assets/images/banner.png
+image: /uploads/halftone_banner.jpg
 draft: false
 ---
 > [!IMPORTANT]
@@ -18,7 +18,7 @@ If I wanted to offload the work of designing and building a website, I would use
 Believe it or not, most of the time I find writing code and solving problems manually _fun._ I started building this site in the wake of [Cohost](/posts/cohost) shutting down, fueled by an intense passion for self-determination and creativity in building a "place" I could call my own. I have learned so much from undertaking this and other development projects, and I would never farm that out to the slop machine.
 
 > I think we should shed the idea that AI is a technological artifact with political features and recognize it as a political artifact through and through. AI is an ideological project to shift authority and autonomy away from individuals, towards centralized structures of power. Projects that claim to “democratize” AI routinely conflate “democratization” with “commodification”. Even open-source AI projects often borrow from libertarian ideologies to help manufacture little fiefdoms.
-> 
+>
 > [Ali Alkhatib, "Defining AI"](https://ali-alkhatib.com/blog/defining-ai)
 
 A lot has been written in [better words](https://tante.cc/2026/04/21/ai-as-a-fascist-artifact/) than I could state myself, about the disastrous effects of generative AI on our environment and critical thinking ability, the mass-theft of intellectual property, the readability of existing codebases, the cost and availability of consumer PC parts, labour rights, and the concentration of power into fascist hands. My position is that there can be no "neutral" use case for generative AI, as taking part in the ecosystem means directly contributing to all of the aformentioned problems.
