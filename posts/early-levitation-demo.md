@@ -16,11 +16,12 @@ excerpt: >-
 subheading: >-
     A short demo and some thoughts on pushing through creative withdrawal
 lately:
-    - "**Listening**: [Apparat - Little Feet](https://apparat-music.bandcamp.com/track/littl-feet 'I fucking love Apparat. Please check out Apparat!')"
+    - "**Listening**: [Apparat - Little Feet](https://apparat-music.bandcamp.com/track/little-feet 'I fucking love Apparat. Please check out Apparat!')"
     - "**Reading**: Haruki Murakami - Colorless Tsukuru Tazaki And His Years Of Pilgrimage"
     - "**Playing**: Final Fantasy X"
 content_warnings: []
 ---
+
 I've been a bit in the pits lately,[^1] and have been playing a lot of guitar to self-soothe. Much of the time when I'm in this kind of mood I don't come up with anything that gets me excited, but it's important to do this thing that I do to keep myself focused on sound, and on my hands. It's grounding.
 
 [Noé](https://knivesforcats.online) suggested to me that I record more of my noodlings in case something pops out at me when I'm feeling more creative, so I've been making recordings with my phone's voice notes app.
