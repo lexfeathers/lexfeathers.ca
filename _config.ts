@@ -17,8 +17,6 @@ import googleFonts from "@lumeland/plugin-google-fonts";
 import { alert } from "@mdit/plugin-alert";
 import { v4 as uuidv4 } from "uuid";
 
-// Pass options to markdown-it plugins
-
 const site = lume(
 	{
 		location: new URL("https://lexfeathers.ca"),
