@@ -22,8 +22,6 @@ import { v4 as uuidv4 } from "uuid";
 const site = lume(
 	{
 		location: new URL("https://lexfeathers.ca"),
-		cssFile: "/style.css",
-		jsFile: "/script.js",
 	},
 	{
 		markdown: {
