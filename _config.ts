@@ -52,6 +52,7 @@ const site = lume(
 site.data("uuidv4", function () {
 	return uuidv4();
 });
+
 site.add([".css"]);
 site.add("/assets/"); // Include assets in the build
 site.add("/uploads/"); // Include uploads in the build
