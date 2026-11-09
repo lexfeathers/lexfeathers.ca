@@ -1,23 +1,21 @@
-import lume from "lume/mod.ts";
-import esbuild from "lume/plugins/esbuild.ts";
-import postcss from "lume/plugins/postcss.ts";
-import favicon from "lume/plugins/favicon.ts";
-import sitemap from "lume/plugins/sitemap.ts";
-import date from "lume/plugins/date.ts";
-import metas from "lume/plugins/metas.ts";
-import feed from "lume/plugins/feed.ts";
-import pagefind from "lume/plugins/pagefind.ts";
-import footnote from "npm:markdown-it-footnote@4.0.0";
-import implicitFigures from "npm:markdown-it-image-figures@2.1.1";
-import extractDate from "lume/plugins/extract_date.ts";
-import codeHighlight from "lume/plugins/code_highlight.ts";
-import inline from "lume/plugins/inline.ts";
-import icons from "lume/plugins/icons.ts";
-// import picture from "lume/plugins/picture.ts";
-// import transformImages from "lume/plugins/transform_images.ts";
-import googleFonts from "lume/plugins/google_fonts.ts";
-import { alert } from "npm:@mdit/plugin-alert@0.8.0";
-import { v4 as uuidv4 } from "npm:uuid@14.0.3";
+import lume from "@lumeland/lume";
+import esbuild from "@lumeland/plugin-esbuild";
+import postcss from "@lumeland/plugin-postcss";
+import favicon from "@lumeland/plugin-favicon";
+import sitemap from "@lumeland/plugin-sitemap";
+import date from "@lumeland/plugin-date";
+import metas from "@lumeland/plugin-metas";
+import feed from "@lumeland/plugin-feed";
+import pagefind from "@lumeland/plugin-pagefind";
+import footnote from "markdown-it-footnote";
+import implicitFigures from "markdown-it-implicit-figures";
+import extractDate from "@lumeland/plugin-extract-date";
+import codeHighlight from "@lumeland/plugin-code-highlight";
+import inline from "@lumeland/plugin-inline";
+import icons from "@lumeland/plugin-icons";
+import googleFonts from "@lumeland/plugin-google-fonts";
+import { alert } from "@mdit/plugin-alert";
+import { v4 as uuidv4 } from "uuid";
 
 // Pass options to markdown-it plugins
 const markdown = {
@@ -45,10 +43,10 @@ const markdown = {
 const site = lume(
 	{
 		location: new URL("https://lexfeathers.ca"),
+		cssFile: "/style.css",
+		jsFile: "/script.js",
 	},
-	{
-		markdown,
-	},
+	{ markdown },
 );
 
 site.data("uuidv4", function () {
@@ -163,17 +161,11 @@ site.use(
 		},
 	}),
 );
-// site.use(picture());
-// site.use(transformImages({
-//   extensions: [".gif", ".jpg", ".jpeg", ".png", ".webp"]
-// }));
 site.use(
 	pagefind({
-		ui: {
-			containerId: "search",
-			showImages: true,
-			showEmptyFilters: true,
-			resetStyles: true,
+		componentUI: {
+			cssFile: "/assets/search-styles.css",
+			jsFile: "/assets/search-scripts.js",
 		},
 		indexing: {
 			rootSelector: "#content",

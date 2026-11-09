@@ -2,9 +2,11 @@
 // with help from Sage Fennel (https://wavebeem.com)
 
 // Get current theme
-let theme = localStorage.getItem("theme") || (globalThis.matchMedia("(prefers-color-scheme: dark)").matches
-	? "dark"
-	: "light");
+let theme =
+	localStorage.getItem("theme") ||
+	(globalThis.matchMedia("(prefers-color-scheme: dark)").matches
+		? "dark"
+		: "light");
 document.documentElement.dataset.theme = theme;
 
 // Change the theme
@@ -14,12 +16,19 @@ function changeTheme() {
 	document.documentElement.dataset.theme = theme;
 }
 
+function setSearchTheme() {
+	document
+		.getElementById("search-bar")
+		?.setAttribute("data-pf-theme", localStorage.getItem(theme));
+}
+
 // Set the theme when the theme selector button's [aria-pressed] changes
-for (const button of document.querySelectorAll(".theme-selector-button",)) {
+for (const button of document.querySelectorAll(".theme-selector-button")) {
 	button.addEventListener("click", (event) => {
 		const pressedState =
 			event.currentTarget.getAttribute("aria-pressed") === "true";
-			event.currentTarget.setAttribute("aria-pressed", String(!pressedState));
-			changeTheme();
+		event.currentTarget.setAttribute("aria-pressed", String(!pressedState));
+		changeTheme();
+		setSearchTheme();
 	});
-};
+}
