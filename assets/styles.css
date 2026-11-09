@@ -491,32 +491,6 @@ blockquote {
 		width: 100%;
 	}
 }
-/* #search {
-	margin-top: 2rem;
-}
-.pagefind-ui__search-input,
-.pagefind-ui__result-title {
-	font-weight: 300 !important;
-	background-color: var(--color-light-background);
-}
-.pagefind-ui__result {
-	background-color: var(--color-background);
-	border: var(--pagefind-ui-border-width) solid var(--color-primary-faded) !important;
-	border-radius: var(--radius);
-	margin: 1rem 0;
-}
-.pagefind-ui__result-inner {
-	margin: auto 2rem;
-}
-.pagefind-ui__result-image {
-	padding: 0.25rem;
-	margin: auto 1.5rem;
-}
-.pagefind-ui__result mark {
-	background-color: var(--color-primary-highlight);
-	color: var(--color-primary);
-	padding: 2px;
-} */
 /* Pagefind end */
 
 /* This is where the page content and the sidebar go. */
