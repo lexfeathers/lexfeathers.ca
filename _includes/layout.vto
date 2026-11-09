@@ -4,8 +4,9 @@
 		<meta charset="UTF-8">
 		<title>{{ website.title }} - {{ title }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="/assets/styles.css" />
+		<link rel="stylesheet" href="/assets/search-styles.css" />
 		<link rel="stylesheet" href="/code-styles.css" />
+		<link rel="stylesheet" href="/assets/styles.css" />
 		<meta name="color-scheme" content="dark light">
 		<meta name="robots" content="noai, noimageai">
 		<link rel="favicon" href="/assets/favicon.ico" />
@@ -56,6 +57,8 @@
         <script src="/assets/scripts/lightbox.js"></script>
         <!-- Load theme selector -->
 		<script src="/assets/scripts/theme-selector.js"></script>
+		<!-- Load search scripts -->
+		<script src="/assets/search-scripts.js" type="module"></script>
 		<!-- Set Markdown Alert marker icons -->
         {{ include "partials/markdown-alerts.vto" }}
         <style>
