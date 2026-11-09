@@ -7,7 +7,9 @@ import date from "@lumeland/plugin-date";
 import metas from "@lumeland/plugin-metas";
 import feed from "@lumeland/plugin-feed";
 import pagefind from "@lumeland/plugin-pagefind";
+// @ts-expect-error no types in markdown-it-footnote
 import footnote from "markdown-it-footnote";
+// @ts-expect-error no types in markdown-it-implicit-figures
 import implicitFigures from "markdown-it-implicit-figures";
 import extractDate from "@lumeland/plugin-extract-date";
 import codeHighlight from "@lumeland/plugin-code-highlight";
