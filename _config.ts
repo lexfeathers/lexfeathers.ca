@@ -18,27 +18,6 @@ import { alert } from "@mdit/plugin-alert";
 import { v4 as uuidv4 } from "uuid";
 
 // Pass options to markdown-it plugins
-const markdown = {
-	plugins: [
-		footnote,
-		[
-			alert,
-			{
-				deep: true,
-			},
-		],
-		[
-			implicitFigures,
-			{
-				dataType: true,
-				lazy: true,
-				async: true,
-				figcaption: "alt",
-				link: false,
-			},
-		],
-	],
-};
 
 const site = lume(
 	{
@@ -46,7 +25,29 @@ const site = lume(
 		cssFile: "/style.css",
 		jsFile: "/script.js",
 	},
-	{ markdown },
+	{
+		markdown: {
+			plugins: [
+				footnote,
+				[
+					alert,
+					{
+						deep: true,
+					},
+				],
+				[
+					implicitFigures,
+					{
+						dataType: true,
+						lazy: true,
+						async: true,
+						figcaption: "alt",
+						link: false,
+					},
+				],
+			],
+		},
+	},
 );
 
 site.data("uuidv4", function () {
