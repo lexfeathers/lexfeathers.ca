@@ -74,19 +74,6 @@
 	--text-small: 14pt;
 	--text-medium: 16pt;
 	--text-large: 24pt;
-
-	/* Pagefind search bar styles */
-	--pagefind-ui-scale: 0.8;
-	--pagefind-ui-primary: var(--color-secondary);
-	--pagefind-ui-text: var(--color-primary);
-	--pagefind-ui-background: var(--color-light-background);
-	--pagefind-ui-border: var(--color-primary-faded);
-	--pagefind-ui-tag: var(--color-primary);
-	--pagefind-ui-border-width: 1px;
-	--pagefind-ui-border-radius: 4px;
-	--pagefind-ui-image-border-radius: 4px;
-	--pagefind-ui-image-box-ratio: 3 / 2;
-	--pagefind-ui-font: "Fira Code", monospace;
 }
 
 /* Initialize the logos as hidden so that the browser has to wait for 
@@ -127,7 +114,7 @@
 		}
 		audio {
 			filter: hue-rotate(150deg)
-				drop-shadow(0px 6px 8px var(--color-primary));
+				drop-shadow(var(--shadow));
 		}
 		#banner {
 			filter: sepia(100%) saturate(150%) brightness(80%)
@@ -157,7 +144,7 @@
 		}
 		audio {
 			filter: hue-rotate(200deg) contrast(80%)
-				drop-shadow(0px 6px 8px var(--color-background));
+				drop-shadow(var(--shadow));
 		}
 		#banner {
 			filter: none;
@@ -483,16 +470,6 @@ blockquote {
 }
 /* End Markdown Alerts */
 
-/* Pagefind search box */
-#search-bar {
-	margin-top: 2rem;
-
-	pagefind-modal-trigger {
-		width: 100%;
-	}
-}
-/* Pagefind end */
-
 /* This is where the page content and the sidebar go. */
 main {
 	display: flex;
@@ -601,7 +578,6 @@ audio {
 	display: block;
 	margin: 2rem auto;
 	width: 100%;
-	border-radius: var(--radius);
 	max-width: 90%;
 }
 
@@ -1642,9 +1618,5 @@ iframe[src*="bandcamp.com"] {
 			width: 88px;
 			height: 31px;
 		}
-	}
-
-	.pagefind-ui__result-image {
-		padding: 0rem;
 	}
 }
