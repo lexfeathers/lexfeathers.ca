@@ -1213,10 +1213,13 @@ details.content-warnings {
 /* End content warnings */
 
 /* Image handling */
+figure:not(.grid-item) {
+    /* Do not override radius on grid items */
+    border-radius: calc(var(--radius) * 2); 
+}
 figure {
 	/* Controls the width of figures in posts. */
 	margin: 2rem auto 3rem;
-	border-radius: calc(var(--radius) * 2);
 
 	figcaption {
 		opacity: 0.6;
