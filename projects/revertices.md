@@ -20,7 +20,7 @@ work_type: Music, Sound Design, Gameplay Programming
 
 I've had the pleasure of scoring Revertices while also handling sound design and implementation via FMOD and C# in Unity.
 
-I was asked for an aggressive and quirky game score reminiscent of my [All Fours EP](../all-fours), and we ended up with a musical accompaniment for the game that I think took the stranger parts of that project and added a unique mix of grit, slime and humour to the game. My favourite parts of the scoring process have continuously been the moments where we decide to lean into ridiculous and over-the-top aesthetic musical ideas.
+I was asked for an aggressive and quirky game score reminiscent of my [All Fours EP](../all-fours), and we ended up with a musical accompaniment for the game which took the stranger parts of that project, and added a unique mix of grit, slime and humour. My favourite parts of the scoring process have continuously been the moments where we decided to lean into ridiculous and over-the-top musical ideas.
 
 The sound design for Revertices has been a fun whirlwind of playing to the absurd and eerie feel of the game world, accentuated by lots of gooey and noisy textures to accompany the perturbed characters and ominous narrative.
 
