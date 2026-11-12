@@ -92,8 +92,7 @@
 		font-weight: 300 !important;
 	}
 	audio {
-		filter: hue-rotate(200deg) contrast(80%)
-			drop-shadow(0px 6px 8px var(--color-background));
+		filter: hue-rotate(200deg) contrast(80%) drop-shadow(var(--shadow));
 	}
 	#banner {
 		filter: none;
@@ -128,8 +127,7 @@
 			font-weight: 350 !important;
 		}
 		audio {
-			filter: hue-rotate(150deg)
-				drop-shadow(0px 6px 8px var(--color-primary));
+			filter: hue-rotate(150deg) drop-shadow(var(--shadow));
 		}
 		#banner {
 			filter: sepia(100%) saturate(150%) brightness(80%)
@@ -164,8 +162,7 @@
 			font-weight: 350 !important;
 		}
 		audio {
-			filter: hue-rotate(150deg)
-				drop-shadow(0px 6px 8px var(--color-primary));
+			filter: hue-rotate(150deg) drop-shadow(var(--shadow));
 		}
 		#banner {
 			filter: sepia(100%) saturate(150%) brightness(80%)
@@ -1237,7 +1234,11 @@ details.content-warnings {
 figure {
 	/* Controls the width of figures in posts. */
 	margin: 2rem auto 3rem;
-	border-radius: calc(var(--radius) * 2);
+
+	&:not(.grid-item) {
+		/* Do not override grid item radii */
+		border-radius: calc(var(--radius) * 2);
+	}
 
 	figcaption {
 		opacity: 0.6;
