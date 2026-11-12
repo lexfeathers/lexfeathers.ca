@@ -7,6 +7,9 @@ let theme =
 	(globalThis.matchMedia("(prefers-color-scheme: dark)").matches
 		? "dark"
 		: "light");
+// if (localStorage.getItem("theme") == null) {
+// 	theme = "system";
+// }
 document.documentElement.dataset.theme = theme;
 
 // Change the theme
