@@ -21,7 +21,7 @@
     {{ for item of grid }}
     <figure data-type="image" class="grid-item shadow-hover">
     
-    <img src="{{ item.image_url }}" alt="{{ item.image_alt }}">
+    <img src="{{ item.image_url }}" alt="{{ item.image_alt }}" loading="lazy">
 
     <figcaption>
         {{ if item.image_caption }}
