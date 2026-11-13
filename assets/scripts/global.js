@@ -6,6 +6,7 @@ if (document.readyState === "loading") {
 }
 
 document.documentElement.classList.remove("no-js");
+document.documentElement.classList.add("js");
 
 /**
  * Get all links on the site and add the "external" css class
