@@ -3,6 +3,7 @@
   id="theme-selector"
   class="theme-selector-button"
   aria-pressed="false"
+  title="Change theme"
 >
   <span aria-hidden="true" class="icon">
     <div class="theme-selector-icon icon icon-contrast"></div>
@@ -11,11 +12,31 @@
 
 <style>
   /* Theme selector button basic styling */
-  :root[data-theme="system"] {
-    #theme-selector .icon {
-      rotate: 45deg;
+  :root {
+    .theme-selector-icon {
+      -webkit-mask: var(--icon-desktop) no-repeat center / contain;
+      mask: var(--icon-desktop) no-repeat center / contain; 
     }
   }
+  :root[data-theme="dark"] {
+    .theme-selector-icon {
+      -webkit-mask: var(--icon-moon) no-repeat center / contain;
+      mask: var(--icon-moon) no-repeat center / contain;    
+    }
+  }
+  :root[data-theme="light"] {
+    .theme-selector-icon {
+      -webkit-mask: var(--icon-sun) no-repeat center / contain;
+      mask: var(--icon-sun) no-repeat center / contain;    
+    }
+  }
+
+  :root.no-js {
+    #theme-selector {
+      display: none;
+    }
+  }
+
   #theme-selector {
     background: none;
     border: none;
@@ -23,7 +44,7 @@
     padding: 0px;
 
     &[aria-pressed="true"] .icon {
-      rotate: 270deg;
+      rotate: 180deg;
     }
 
     & .icon {
@@ -32,9 +53,6 @@
       transition: ease-out 400ms;
 
       & .theme-selector-icon {
-        -webkit-mask: url(/assets/images/icons/contrast.svg) no-repeat center /
-          contain;
-        mask: url(/assets/images/icons/contrast.svg) no-repeat center / contain;
         background-color: var(--color-secondary);
         margin: 0; /* Remove any margins so it spins cleanly */
       }

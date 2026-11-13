@@ -103,38 +103,40 @@
 /* Theme selection */
 :root {
 	/* Browser preference */
-	@media (prefers-color-scheme: light) {
-		--color-background: var(--color-background-lightmode);
-		--color-primary: var(--color-primary-lightmode);
-		--color-secondary: var(--color-secondary-lightmode);
-		--color-tertiary: var(--color-tertiary-lightmode);
-		--color-cw-text: var(--color-primary);
-		--color-shadow: color-mix(
-			in srgb,
-			var(--color-background),
-			var(--color-primary) 20%
-		);
-		/* background-color: var(--color-background); */
-		color: var(--color-primary);
-		font-weight: 600;
-		:not(.name) {
-			font-weight: 350;
-		}
-		a:not(:has(.name)) {
-			font-weight: 400;
-		}
-		article.post p {
-			font-weight: 350 !important;
-		}
-		audio {
-			filter: hue-rotate(150deg) drop-shadow(var(--shadow));
-		}
-		#banner {
-			filter: sepia(100%) saturate(150%) brightness(80%)
-				hue-rotate(160deg);
-		}
-		.logo {
-			content: url("/assets/images/Lex Feathers Logo_a90060_small.png");
+	&[data-theme="system"] {
+		@media (prefers-color-scheme: light) {
+			--color-background: var(--color-background-lightmode);
+			--color-primary: var(--color-primary-lightmode);
+			--color-secondary: var(--color-secondary-lightmode);
+			--color-tertiary: var(--color-tertiary-lightmode);
+			--color-cw-text: var(--color-primary);
+			--color-shadow: color-mix(
+				in srgb,
+				var(--color-background),
+				var(--color-primary) 20%
+			);
+			/* background-color: var(--color-background); */
+			color: var(--color-primary);
+			font-weight: 600;
+			:not(.name) {
+				font-weight: 350;
+			}
+			a:not(:has(.name)) {
+				font-weight: 400;
+			}
+			article.post p {
+				font-weight: 350 !important;
+			}
+			audio {
+				filter: hue-rotate(150deg) drop-shadow(var(--shadow));
+			}
+			#banner {
+				filter: sepia(100%) saturate(150%) brightness(80%)
+					hue-rotate(160deg);
+			}
+			.logo {
+				content: url("/assets/images/Lex Feathers Logo_a90060_small.png");
+			}
 		}
 	}
 	/* Theme selector settings */
