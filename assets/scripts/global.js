@@ -5,6 +5,8 @@ if (document.readyState === "loading") {
 	getLinks();
 }
 
+document.documentElement.classList.remove("no-js");
+
 /**
  * Get all links on the site and add the "external" css class
  * if they point outside of the site.
