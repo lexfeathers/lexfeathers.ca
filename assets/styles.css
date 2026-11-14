@@ -911,6 +911,16 @@ a {
 		opacity: 0.4;
 	}
 }
+@media (prefers-color-scheme: light) {
+	.lightbox-caption a.external:not(a:has(img))::after {
+		color: var(--color-background);
+	}
+}
+[data-theme="light"] {
+	.lightbox-caption a.external:not(a:has(img))::after {
+		color: var(--color-background);
+	}
+}
 
 /* Icons */
 

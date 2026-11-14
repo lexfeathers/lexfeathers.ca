@@ -23,7 +23,7 @@
     
     <img src="{{ item.image_url }}" alt="{{ item.image_alt }}" loading="lazy">
 
-    <figcaption>
+    <figcaption class="lightbox-caption">
         {{ if item.image_caption }}
             {{ item.image_caption |> md }}
         {{ else if item.image_alt }}
