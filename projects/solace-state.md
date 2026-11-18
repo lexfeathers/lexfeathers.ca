@@ -16,7 +16,7 @@ work_type: Music, Sound Design
 
 > Play as Chloe, a gifted hacker who is searching for her missing friend Rebecka while a biotech crackdown embroils the city of Abraxa. As the political climate heats up and the corporate-sponsored militia threaten lives in unusually cruel ways, Chloe is faced with leveraging her relationships and friendships to help her navigate unrest, protect the communities she cares about, and heal herself in the process.
 >
-> [- Solace State](https://store.steampowered.com/app/928000/Solace_State_Emotional_Cyberpunk_Stories/)
+> [- Solace State Steam page](https://store.steampowered.com/app/928000/Solace_State_Emotional_Cyberpunk_Stories/)
 
 My role on the Solace State team was that of a Composer and Sound Designer. I was excited to be a part of such a vibrant and unique team, and to be able to bring the sonic universe of the game together.
 
