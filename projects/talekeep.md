@@ -68,7 +68,7 @@ For non-terrain surfaces (floors, tables, shelves, etc), I made a simple Surface
 
 ### Splashing
 
-An interesting problem that needed solving was items and characters making a splash sound when they hit a body of water. The approach I took was to add a script to ocean chunks which detects collisions with characters and items. If the velocity of the incoming collider is greater than some threshold, we play a splash FMOD event loaded from one of the character/item's components at the location of the collision. I took this aproach to sourcing the splash from the colliding object because it allows us to play different splashes depending on its size. For example, we wouldn't want a rabbit to make the same splash sound as a heavier full-sized human.
+An interesting problem that needed solving was items and characters making a splash sound when they hit a body of water. The approach I took was to add a script to ocean chunks which detects collisions with characters and items. If the velocity of the incoming collider is greater than some threshold, we play a splash FMOD event loaded from one of the character/item's components at the position of the collision. I took this aproach to sourcing the splash from the colliding object because it allows us to play different splashes depending on its size. For example, we wouldn't want a rabbit to make the same splash sound as a heavier full-sized human.
 
 ## UI
 
