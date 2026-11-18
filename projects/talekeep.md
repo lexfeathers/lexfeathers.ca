@@ -72,4 +72,4 @@ An interesting problem that needed solving was items and characters making a spl
 
 ## UI
 
-The game has a "storybook" element to how it is played, so I took a paper-and-pen aesthetic approach. All of the UI sounds, camera movements, and narrative events were made based on a library of quills, paper, and hardcover book handling sounds I recorded for the project. The idea was to give the player the sense that they were writing the game's story, and the audio should back that up.
+The game has a "storybook" element to how it is played, so I took a paper-and-pen aesthetic approach. All of the UI sounds, camera movements, and narrative events were constructed with a library of quills, paper, and hardcover book handling sounds I recorded for the project. The idea was to give the player the sense that they were writing the game's story, and the audio should back that up.
