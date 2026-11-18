@@ -22,6 +22,6 @@ My role on the Solace State team was that of a Composer and Sound Designer. I wa
 
 For sound design, we used Unity's internal audio system with custom tooling to play events based on [Articy](https://www.articy.com/en/) nodes. Being a game with a branching narrative, it was imperative that we had a high-level overview of the audio implementation. The dev team created loop, start, stop, and fade in/out controls which allowed me to drop sounds on-to a node with basic shaping functionality.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4slCY65yHRs?si=nS44luSCr6M9Pmw7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 To learn more about the game, [check it out on Steam.](https://store.steampowered.com/app/928000/Solace_State_Emotional_Cyberpunk_Stories/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4slCY65yHRs?si=nS44luSCr6M9Pmw7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
